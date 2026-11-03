@@ -344,7 +344,7 @@ D written 2 December 1834; proved February term 1836(?)
 +E Emeline
 +E Adaline
 +E Anthony
-@4|pp.132-4|Thomas Burges
+@4|p.132-4|Thomas Burges
 -R Peter
 -R Jacob
 -R Primus
@@ -552,3 +552,127 @@ D written 25 February 1838; proved May 1838
 +E Margaret Ann
 @4|p.170|William W. Thorn
 OK
+@4|p.171|Lumford Smith
+OK
+@4|p.172|Samuel Thorne
++R William W. Thorne (son)
+@4|p.173|Carter Arrington
+-R Mariah
+-R Diley
+-B Mariah (children) |
+-B Diley (children) |
++E Isham
++E Sally
++E Mariah
++E Diley
++E Peter
+@4|p.173|John Powell
+-R Wiley
+-R Emily
+-B Wiley (children) |
+-B Emily (children) |
++E Mary
++E Wiley
++E Emily
+@4|p.175|Mary Purnell
+-R John Purnell
+-B John Purnell (daughter) |
++R Mary M. Purnell (daughter of John Purnell, Jr.)
++R William D. Purnell (nephew)
+-E Archie
++E Eliza
++E Bray
++E Essex
+@4|p.178-80|Joshua Cole
+-R Mary
+-B Mary (servant) |
++R William Cole
+-E Wm
+-E Williams
++E Abigail
++E Caroline
+@4|pp.181-2|Dancy Adams
++R Caroline Adams (heir of George Adams)
++R John D. Adams (heir of George Adams)
+@4|p.183|Allen Whitehead
+OK
+@4|p.185|Thomas
+T Thomas Warren
+-R Thomas Henry Warren's
++R Thomas Henry Warren (son)
++E Sucky
++E Ned
+@4|p.188|Jane Johnston
+OK
+@4|p.190|Jeremiah Brinkley
+OK
+@4|p.192|Nancy Bradley
+-R Willie
+-B Willie (son) |
++E Polly
++E Willie
+@4|p.193|Thomas Harris
+-R Martha Young
++R Martha Young
++E Viney
+@4|p.194|Temperance Barnes
+-R Quiliany
+-R Wade
+-B Quiliany (children) |
+-B Wade (children) |
++E Quiliany
++E Wade
++E Dick
++E Bob
++E Alfred
++E Henry
++E Davie
++E Willie
++E Kinchen
++E John
++E Ben
++E Godfrey
++E Junius
++E Liberty
++E Crese
++E Suky
++E Hamill
++E Eliza
++E Easter
++E Fanny
++E Malvina
++E Laura
++E William
+@4|p.195|George Powell
++R William Zachara Powell (grandchildren)
+@4|p.197|Martha Wamack
+OK
+@4|p.198|Benjamin Crawley
+OK
+@4|p.200|Eleanor Green
++R John Thomas Webb
++R Martha Ann Webb
+@4|p.201|Mary Gray
++E Jesse
+@4|p.202|(name not captured)
+T Thomas Burtin
+D written 29 July 1840; proved February Court 1842
+N The abstract begins partway into the will, so the opening is not given.
+@4|p.209|Patrick McDaniel
+OK
+@4|p.210|Amos Worrell
+OK
+@4|p.211|Eliza Emeline Nicholson
++E Caroline
+@4|p.212|Margaret Evans
+-E Ana
+-E Amanda
+-E Martha
+-E Ann
++E Ana Amanda
++E Martha Ann
++R Mary B. Armstead
++R Peyton R. Atkinson
++R William P.R.M. Atkinson
+@4|p.216|John Lee
+D 2 August 1839

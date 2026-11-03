@@ -20,6 +20,7 @@ def surname(full):
     return toks[-1] if toks else ""
 
 REV = {}
+USED = set()
 _cur = None
 if os.path.exists(os.path.join(here, "reviews.txt")):
     for _l in open(os.path.join(here, "reviews.txt"), encoding="utf-8"):
@@ -31,7 +32,7 @@ if os.path.exists(os.path.join(here, "reviews.txt")):
 
 def apply_review(key, testator, date, recips, ens, notes):
     """returns testator, date, recips, ens, notes, alias, extras, drops"""
-    ds = REV[key]; rl = [x.strip() for x in recips.split(";") if x.strip()]; el = [x.strip() for x in ens.split(";") if x.strip()]
+    USED.add(key); ds = REV[key]; rl = [x.strip() for x in recips.split(";") if x.strip()]; el = [x.strip() for x in ens.split(";") if x.strip()]
     extras, drops, t0 = [], [], testator
     for d in ds:
         op, _, arg = d.partition(" "); arg = arg.strip()
@@ -165,6 +166,7 @@ for line in _lines():
     cnames = [cur["recipients"][i]["written"] for i in cands]
     cands = [i for i in cands if not any(cur["recipients"][i]["written"] != n and re.search(r"(?<![A-Za-z])" + re.escape(cur["recipients"][i]["written"]) + r"(?![A-Za-z])", n) for n in cnames)]
     cur["bequests"].append(dict(who=who, verb=verb, what=what, cond=cond, ens=sorted(linked), rec=cands))
+print("UNUSED review keys:", [k for k in REV if k not in USED])
 missing = [w for w in wills if not w["bequests"]]
 print("unmatched bequest headers:", unmatched)
 print("wills without bequests:", [(w["vol"], w["pages"], w["testator"]) for w in missing])
