@@ -676,3 +676,251 @@ OK
 +R William P.R.M. Atkinson
 @4|p.216|John Lee
 D 2 August 1839
+@4|p.218|Nancy Weldon
++E Penny
++E Chany
++E Bob
++E Edy
++E Luiza
++E Peter
++E Polly
++E Adam
++E Amy
++E Rhoda
++E Fanny
+@4|p.219|Edward King
+OK
+@4|p.220|Lucy Scurlock
+-R Blake Lewis
+-B Blake Lewis (wife) |
++R Blake Lewis (husband of niece Eliza Lewis)
++R William Branch (nephew)
+@4|p.221|Matilda Daniel
+-R Penny
+-R Winny
+-B Penny (children) |
+-B Winny (children) |
++E Charlotte
++E Penny
++E Winny
+@4|p.222|Mourning Etheridge
+D written 13 January 1843; proved May Court 1843
+-R David M. Etheridge Julia
+-R Sarah F. Debrule Old Lettuce
+-B David M. Etheridge Julia (children) |
+-B Sarah F. Debrule Old Lettuce (daughter) |
++R David M. Etheridge (son)
++B Sarah Frances Debrule (daughter) | GIVES | Old Lettuce & Ishmael |
+-E Lettuce
++E Little Lettuce
++E Old Lettuce
++E Ishmael
+@4|p.223|Lucy Riggin
+OK
+@4|p.224|Ann K. Slatter
+OK
+@4|p.225|Nathan Baker
++R German Baker
++R John C. Baker
++R William Baker
++R Rebecca Dobbins
+@4|p.226|John Alston
+-R John Crawley
+N The will refers to negroes held by the children of John Crawley, which are to be sold if necessary.
+@4|p.227|William D. Purnell
+OK
+@4|p.228|James R. Binford
+OK
+@4|p.228|Asa Powell
+OK
+@4|p.229|Mary Cotton
+-R B.
++E Cynthia
++E Nancy
++E Arthur
++E Matilda
++E Tamer
+@4|p.230|Bolin Bishop
+OK
+@4|p.232|Charles Shield
++R William Henry (children)
++R Felicia Ann (children)
++R Charles E. (children)
++R Olivia Jane (children)
++R James G. (children)
++E Peter
++E Austin
++E Antoinette
++E Marina
+@4|p.233|James G. Jones
+OK
+@4|pp.234-6|(name not captured)
+T Harriet Ponton
+D written 21 February 1844; codicil 11 March 1844; proved August Court 1844
+N The will directs that named slaves be emancipated and sent to Liberia. A codicil cancels this if it would burden the estate, but still wishes emancipation if it can be done without expense.
+-R Thomas
+-R Jennett
+-R Mack
+-B Thomas (children) |
+-B Jennett (children) |
+-B Mack (children) |
++E Francis
++E Joe
++E Mary
++E Hardy
++E Jack
++E David
++E Luke
++E Dicey
++E Sarah
++E Chloe
++E Phill
++E Maria
++E Bash
++E Margaret
++E Thomas
++E Jennett
++E Mack
+@4|p.237|Thomas Tillory
++R William (children)
++R Wade Hampton (children)
+@4|p.238|Sally Avent
+-R Amy
+-R Edward
+-R Robin
+-R George
+-B Amy (children) |
+-B Edward (children) |
+-B Robin (children) |
+-B George (children) |
++E Amy
++E Edward
++E Robin
++E George
+@4|p.239|Albrittian Jones
+OK
+@4|p.240|Absolum B. Whitaker
+-R Oliff
+-B Oliff (children) |
+-E Florida
++E Ben
++E Tom
++E Mingo
++E James
++E Willis
++E Amy
++E Oliff
+@4|p.242|Edward R. Pierce
+OK
+@4|p.244-6|Wm R. Smith, Senr
+-R Milly
+-R Sam
+-R Barcia
+-R Mary
+-R Fanny
+-R Cleareah
+-R Richard
+-R Livy
+-R Rachel
+-R Peggy
+-R Leah
+-R Cely
+-R Sabry
+-R James
+-B Milly (wife) |
+-B Sam (children) |
+-B Barcia (children) |
+-B Mary (wife) |
+-B Fanny (son) |
+-B Cleareah (son) |
+-B Richard (sons) |
+-B Livy (wife) |
+-B Rachel (wife) |
+-B Peggy (wife) |
+-B Leah (wife) |
+-B Cely (wife) |
+-B Sabry (wife) |
+-B James (son) |
++R William R. Smith (son)
++E Starlin
++E Milly
++E Clarisa
++E Tom Webb
++E Henry
++E Ned
++E George
++E Sophia
++E Sam
++E Barcia
++E Rodey
++E Buck
++E Mary
++E Miner
++E Harry
++E Daniel
++E Sall
++E Anekey
++E Davy
++E Fanny
++E Colus
++E Charles
++E Cleareah
++E Livy
++E Jess
++E Mourning
++E Jacob
++E Rachel
++E Ging
++E Peggy
++E Demsey
++E Leah
++E Caroline
++E Peter
++E Cely
++E Peney
++E Abram
++E Sabry
++E Agness
++E Washington
++E Louisa
+@4|p.249|Leah W. Shearin
++E Julius
++E Betty
++E Major
+@4|p.250|Mary Hardee
+-R Wade W. West
+-R Burgess Bowser
+-B Wade W. West (son) |
+-B Burgess Bowser (husband) |
++R William M. West (son of Wade W. West, deceased, relation to testator not stated)
++R Burgess Bowser (husband of Samyra, a free African American)
++E Samyra
+@4|pp.252-3|(name not captured)
+T Micah Shearin
+D written 21 September 1846; proved November Court 1846
++E Bill
+@4|p.253|Elizabeth Joyner
+OK
+@4|p.256|Turner Whitehead
+-R Turner Bass
++R Turner Bass
++R Sarah Threewits
++R Polly Pully
++R Bess (child of Turner Bass, surname not stated)
++E Winny
++E Nelson
++E Fed
+@4|p.256|Joseph Alston
+OK
+@4|p.257|Penelope Cawley
+D 17 June 1846; proved May Court 1847
+N The will directs that the named enslaved people be emancipated and taken to a free state.
++E Rebecca
++E Stephen
++E Rosetta
++E Mary
++E Elizabeth
++E Sarah
++E Celey
++E Henny
++E John
