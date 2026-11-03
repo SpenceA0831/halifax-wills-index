@@ -1766,3 +1766,297 @@ T Elizabeth Thornton
 D written 2 September 1748; proved 5 September 1751
 +E Caesar
 +E Bess
+@KG1|p.3|(name not captured)
+T (first name missing) Turner
+D proved 2 June 1752
+N The left side of the page is missing, so the testator's first name and some words are lost.
+-R Thomas Turner's
+-R Charles Turner
++R Charles Turner (nephew, son of the testator's brother Thomas Turner)
+@KG1|pp.5-8|Samuel Skinker
+-E Stocks
++R William (son)
+@KG1|pp.10-11|John Jones
+OK
+@KG1|p.15|William Rose
+-R Purchase
+-R Dies
++R William (son)
+@KG1|p.16|John Wren
++R John (son)
+@KG1|pp.17-8|Francis Settle
++R Francis (son)
+@KG1|pp.18-21|Jeremiah Murdock
+OK
+@KG1|p.27|Hugh McLain
+N A clause naming Angus McCloade and Nicholas Feneley is unclear in the abstract.
+@KG1|pp.29-30|John Howell
++R William (son)
+@KG1|pp.32-3|William Doggin
++R William (children)
++R Alomon (children)
+@KG1|pp.34-5|Charles Bruce
++R Margaret Bruce (daughters)
++R William (son)
+@KG1|pp.36-7|John Baxter
+OK
+@KG1|pp.38-9|Henry Carryer
+T James Butler
+D 6 July 1754; proved 8 November 1754
+N A nuncupative (spoken) will. Henry Carryer and Ann Sullivant swore that James Butler gave these directions.
++R Mary Butler (wife)
++E Joe
+@KG1|pp.41-3|Thomas Richardson
+OK
+@KG1|pp.46-7|William Ammandale
+D 15 March 1755; proved 6 June 1755
++R William Meath
+@KG1|pp.47-8|Mary Edington
++R William (son)
++E George
+@KG1|pp.49-50|Margaret
+T Margaret White
+@KG1|pp.53-5|John Courtany, Senr
++R William (son)
+@KG1|pp.58-61|James Peed
+OK
+@KG1|pp.63-4|Grace Berry
+OK
+@KG1|pp.65-8|Christopher Threlkeld
+-R James Payton
+-R Cornelius
+-B James Payton (wife) |
+-B Cornelius (wife) |
++R James Payton (husband of daughter Susan)
++R Cornelius (husband of Mary Vaughan, surname not stated)
++E Hannah
+@KG1|pp.70-4|John Tyler
+-R Ben
+-R Young James
+-R Pricella
+-B Ben (son) |
+-B Young James (grandson) |
+-B Pricella (sister) |
++R William Waugh (grandson)
++E Nan
++E Ben
++E Betty
++E Hannah
++E Charity
++E Harry
++E Young James
++E Dick
++E Young Harry
+@KG1|p.76|James Kerby Chisreldine
++R William (son)
+@KG1|pp.80-1|Mark Talbot
+N The will sells three unnamed Negroes along with the rest of his estate.
++R Gulielmus Hillard
++R Nancy Hillard (daughter of Gulielmus Hillard)
+@KG1|pp.82-8|Thomas Turner
+T Thomas Turner
+D written 19 February 1757; codicil undated; proved 4 May 1758
+-R H.
+-E Stocks
+-E Carpenter
++R Edward Dixon (son-in-law)
++R Sally Turner (granddaughter)
++R Thomas Jett
++R Ann Wren (niece)
++E Will
++E Fanny
++E Betty
+@KG1|p.93|George Tankersley
+-E Personal
++R Mary (wife)
++R John (children)
+@KG1|pp.98-100|Thomas Randall
+-E Girle
++E Will
+@KG1|pp.102-3|John Reeds
++R Joseph Crouch
++R John Crouch, Junr
+@KG1|pp.105-6|Lincfield Sharpe
++R Benjamin (sons)
++R Frances Daniel (daughters)
+@KG1|pp.107-8|Frances Newgent
+OK
+@KG1|pp.109-10|John Moore
+OK
+@KG1|pp.110-11|Isabella Triplett
+-E Girle
+-E Personal
++R Isabella Nichols (granddaughter)
++R Susannah Triplett (granddaughter)
+@KG1|pp.112-3|(name not captured)
+T Thomas Smith
+D written 9 October 1759; proved 6 March 1760
++R William (son)
++R Small Smith
++E Harry
+@KG1|pp.115-8|Rebecca Moore
++R William Moore (son)
+@KG1|pp.123-4|John Hackley
+OK
+@KG1|pp.125-6|Anderson Doniphan
+-R Thomas Monteerth's
+-B Thomas Monteerth's (father) |
++R Lucretia (children)
++R Thomas Monteerth (father of the testator's wife Magdaline)
++E Will
+@KG1|pp.128-9|William Johnstone
+OK
+@KG1|pp.130-1|Robert Johnstone
+OK
+@KG1|p.135|George Strother
+-E Molatto
+-E Betty
+-E Jordan
++E Betty Jordan
+@KG1|pp.136-7|Richard Strother
++R John Strother
++R William Strother
+@KG1|pp.137-8|Ann
+T Ann White
++R Ann (daughter)
+@KG1|pp.138-40|William Jett
+T William Jett
++R William (son)
++E David
++E Moll
++E Moses
++E Ben
++E Will
++E Sue
++E Milly
++E Frank
+@KG1|pp.145-6|William Porch
++R Benjamin Berry (nephew)
++R William Berry (nephew)
++R William Kitchen (nephew)
++R James Kitchen
+@KG1|pp.146-8|Daniel McDonald
+-E Daughter
+@KG1|pp.152-4|Joseph Strother
+OK
+@KG1|pp.154-7|John Champe
+-E Stocks
+-R Judah
+-B Judah (wife) |
++R William (son)
++E Nell
++E Daffney
++E Prince
++E Ralph
++E Benn
++E Bess
++E Cloe
++E Agie
++E Dick
++E Judah
++E Sam
+@KG1|pp.159-60|Richard Owens Senr
+OK
+@KG1|pp.161-3|Esdres Theador Edzard
++E Janney
++E Fener
+@KG1|pp.163-5|James Hewitt
+-E Stocks
+@KG1|pp.166-7|Enoch Berry
+-E Women
+@KG1|pp.169-210|Charles Carter
+-R Banks
+-R Chloe
+-B Banks (sister) |
+-B Chloe (wife) |
+-E Purchas'd
+-E Saw
+-E Benjamin
+-E Boyd
++R Carolina Carter (daughter)
++R William Churchill (son-in-law)
++R Charles Carter of Corotoman (son-in-law)
++E Benjamin Boyd
++E Betty
++E Portia
++E Pallow
++E Carthegena
++E Robin Mingo
++E Peter
++E Mingo
++E Danbo
++E Sawny
++E Frank
++E Putney
++E Winney
++E Sue
++E Jenney
++E Hagar
++E Lucy
++E Osmyn
++E Joe
++E Jemmy
++E Mucco
++E Prince
++E Dinah
++E Sarah
++E Isham
++E Sam
++E Chloe
+@KG1|pp.210-4|(name not captured)
+T James Jones
+D written 9 May 1762; proved 5 May 1764
+-R James Jones
++R James Jones (son)
++R Benjamin Ballard
++R Mary Jones (daughter of Evan Jones)
++R Hannah Jones (daughter of James Jones)
++E Elizabeth
++E Mary
++E Jeffry
++E Jane
+@KG1|p.217|Sarah Drake
+N This entry joins two wills: Sarah Drake, and William Pates (p.218), who lends two Negro men to his wife Catherine.
++R John Drake (child)
++R William Pates (maker of the second will in this entry)
++E Peter
++E Evan
+@KG1|pp.221-4|George Morton
++R George Morton (son)
+@KG1|pp.224-6|William Threlkeld
+-R Bare
+-B Bare (children) |
++R William (son)
+@KG1|pp.228-9|Joseph Strother
+-R Davy
+-B Davy (son) |
++R Dorothy Walker (daughter)
++E Davy
+@KG1|pp.230-1|(name not captured)
+T Thomas Hord
+D written 28 January 1766; proved 4 September 1766
+-E Personable
++R Bettey Hord (granddaughter)
++R Thomas (son)
++E Britten
+@KG1|pp.232-3|Francis Jett
+-E Girle
+-E Cal'd
++E Ginty
+@KG1|pp.234-5|William Wren
++E Sall
+@KG1|pp.237-9|William Fourlong
+-R Ann Wharton
+-R Susanna Calvin
+-R John
+-B Ann Wharton (son) |
+-B Susanna Calvin (son) |
+-B John (son) |
++R John Wharton (son of Ann Wharton)
++R William Calvin (son of Susanna Calvin)
++R William Boon (son of John)
++B John Wharton (son of Ann Wharton) | GIVES | a Negro girl named Jenny |
++B William Calvin (son of Susanna Calvin) | GIVES | a Negro boy named Frank and a Negro boy named Bristol |
++B William Boon (son of John) | GIVES | the Negro man Harry, who is to have his freedom paying four pounds a year, and four Negroes Judy, Fanny, Morgan and John forever |
+@KG1|pp.241-3|Francis Triplet
++R William Triplett (son)
