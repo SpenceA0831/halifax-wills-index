@@ -2060,3 +2060,296 @@ D written 28 January 1766; proved 4 September 1766
 +B William Boon (son of John) | GIVES | the Negro man Harry, who is to have his freedom paying four pounds a year, and four Negroes Judy, Fanny, Morgan and John forever |
 @KG1|pp.241-3|Francis Triplet
 +R William Triplett (son)
+@KG1|p.244|Charles Wharton
++R Delilah Wharton
++R Reuben Wharton
++R Nanne Wharton
++R Caty Wharton
+@KG1|pp.245-6|James Glendenning
+-R John Glendenning Sarah
+-B John Glendenning Sarah (son) |
++R John Glendenning (son)
++B John Glendenning (son) | GIVES | Sarah and her increase, and the black stallion |
++E Sarah
+@KG1|p.247-50|Jane Champe
+T Jane Champe
+D written 25 July 1766; codicil 4 October 1766; proved 2 April 1767
+-R Ralf
+-R Sarah Chloes Daughter
+-R Aggy
+-R Bess
+-B Ralf (daughter) |
+-B Sarah Chloes Daughter (daughter) |
+-B Aggy (daughter) |
+-B Bess (daughter) |
+-E Nanny's
+-E Daughter
++R William (son)
++B John (son) | GIVES | my negroe woman Aggy and her increase, and my Negroe Man Dick |
++E Ralf
++E Bob
++E Prince
++E Ralph
++E Ben
++E Bess
++E Mary
++E Narry
++E Winny
++E Primer
++E Sarah
++E Kate
++E Hary
++E Jinny
++E Sampson
++E Harry
++E Nanny
+@KG1|pp.251-2|Samuel Owens
+OK
+@KG1|pp.253-8|Michael Wallace
+OK
+@KG1|pp.262-4|Francis Thornton
+-R Dower
+@KG1|pp.266-7|George Green
+-E Stocks
+@KG1|pp.267-9|James Turnbull
+OK
+@KG1|pp.272-4|John Herndon
+OK
+@KG1|pp.278-82|Dekar Thompson
+-R Guilelma Hilliard
+-B Guilelma Hilliard (daughter) |
++R Guilelma Hilliard (mother of the testator's natural daughter Ann)
+@KG1|pp.284-5|John James
++R Mary Douglas
++R Isabell Jett
++R James Triplett
++E Will
++E Jude
+@KG1|pp.288-90|John Steward
++E Peter
++E Coffee
++E Dinah
++E Luce
+@KG1|pp.295-7|Martha Putt
+OK
+@KG1|pp.298-300|Mary Doone
+N This entry combines six wills: Mary Doone (written June 1769, proved 5 April 1770), John Morton Jorden (pp.303a-f, 6 June 1771), Francis Martin Senr (pp.304a-305a, 30 May 1770), Samuel Skinker (pp.305a-7, 7 July 1770), Daniel White (pp.307a-9a, 14 July 1770) and Birkett Jett (p.319a, 30 December 1770).
+-R Ben
+-R Mary
+-R George
+-B Ben (son) |
++R Mary (daughter)
++R George (son)
++R George Martin (grandson)
++R William (grandson)
+-E Elder
+-E Excepting
+-E Raises
++E Peter
++E John
++E Will
++E Bess
++E Bristol
++E Nelly
++E Dinah
+@KG1|pp.320-1|Robert Peck
+N This entry combines two wills: Robert Peck (written 13 August 1771, proved 3 October 1771) and William Underwood (21 November 1771, proved 5 March 1772).
++R William Peck (grandson)
++R Robert Peck (grandson)
++R Reuben Berrey
++E Rose
++E Hannah
+@KG1|pp.324-5|Frances Edzard
+T Frances Edzard
++R William Hewit (godson)
++E Nancy
+@KG1|pp.325-7|Thomas Hungarford
+N This entry combines three wills: Thomas Hungarford (1 November 1771), William Stone (16 November 1771) and Sarah Wharton (1 November 1771).
++R George Payne
++R William Scanrell Stone (grandchild)
++E Charles
++E Blander
++E Jane
++E Joe
++E Milly Hillard
++E Lucy Hillard
++E Daniel Hillard
+@KG1|pp.330-2|Stephen Hansford
++R William Hansford (grandson)
++E Harry
++E Daphney
++E Phillis
++E Joe
+@KG1|pp.341-2|David Bronaugh
+N Parts of the will are too faint to read.
+@KG1|pp.345-6|James Courtney Senr
++R Enos (sons)
++R William (sons)
++R Joseph (sons)
++R Beverley (sons)
++R Daniel (sons)
++R William Butler (son-in-law)
+@KG1|pp.346-8|Jno Champe
+T John Champe
++E Diana
++E Sydney
++E Rob
++E George
++E Patt
++E Levinia
++E Peter
++E Petida
++E Cheshire
++E Davy
++E Polly
++E Anthony
++E Milford
++E London
++E Robert
++E Jane
++E Susan
++E Rachel
++E Ruth
++E Lydia
++E Patience
++E Agathy
++E Cate
++E David
++E Harry
++E Violet
+@KG1|pp.354-7|William Rowley
+-R Winny
+-R Betty
+-R Nan
+-R Charles
+-R Susannah
+-R Hanna
+-R Martin
+-R Jack
+-R Daniel
+-R Milly
+-R Harry
+-R Reuben
+-R Gerard
+-R Ben
+-R Jane
+-R Lydia
+-R Docia
+-R Baldwin
+-R Tom
+-R Sucky
+-R Esther
+-R Aaron
+-R Solomon
+-R Juley
+-R David
+-R Thomas
+-R Bett
+-R Richard Owens
+-R Nell
+-R Cheshire
+-B Winny (children) |
+-B Betty (children) |
+-B Nan (children) |
+-B Charles (children) |
+-B Susannah (children) |
+-B Hanna (children) |
+-B Martin (children) |
+-B Jack (children) |
+-B Daniel (children) |
+-B Milly (children) |
+-B Harry (children) |
+-B Reuben (children) |
+-B Gerard (children) |
+-B Ben (children) |
+-B Jane (children) |
+-B Lydia (children) |
+-B Docia (children) |
+-B Baldwin (children) |
+-B Tom (children) |
+-B Sucky (children) |
+-B Esther (children) |
+-B Aaron (children) |
+-B Solomon (children) |
+-B Juley (children) |
+-B David (children) |
+-B Thomas (wife) |
+-B Bett (daughter) |
+-B Richard Owens (wife) |
+-B Nell (son) |
+-B Cheshire (grandchildren) |
++R James Armstrong
++R George Armstrong
++R Elizabeth Armstrong (wife of Thomas Armstrong)
++R William Armstrong
++R Samuel Marders
++R Aaron Marders
++R Moses Marders
++R Jane Owens (wife of Richard Owens)
++R James Davis
++R Mary Florence
++R Letice Wishart
++R Catherine Taylor (wife of Capt Richard Taylor)
++E Prince
++E Dinah
++E Winny
++E Betty
++E Nan
++E Ned
++E Charles
++E Susannah
++E Sarah
++E Jockey
++E Lucy
++E Hanna
++E Nell
++E Bett
++E Jude
++E George
++E Grace
++E Martin
++E Jack
++E Daniel
++E Milly
++E Reuben
++E Gerard
++E Ben
++E Jane
++E Lydia
++E Tamar
++E Scipio
++E Rose
++E Docia
++E Peter
++E Rachel
++E Baldwin
++E Glasgow
++E Jenny
++E Sucky
++E Esther
++E Aaron
++E Solomon
++E Juley
++E David
++E Will
++E Frank
++E Cheshire
++E Sinah
+@KG1|pp.358-9|(name not captured)
+T John Wishart
+D written 1774; proved November 1774
++R William (son)
+@KG1|pp.360-400|(name not captured)
+N The source says this entry is too faint to read, so no names could be taken from it.
+@KG1|pp.406-410|(name not captured)
+N The source says this entry is too faint to read, so no names could be taken from it.
+@KG1|pp.413-414|(name not captured)
+N The source says this entry is too faint to read, so no names could be taken from it.
+@KG1|pp.416-7|(name not captured)
+N The source says this entry is too faint to read, so no names could be taken from it.
+@KG1|pp.401-2|Gl
+T Gladis Jett (first name unclear)
+@KG1|pp.403-4|Thomas Ficklin
+OK
+@KG1|p.405|John Jordan
+OK
