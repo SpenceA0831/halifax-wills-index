@@ -2752,3 +2752,293 @@ N The will directs that Mingo and Jack be freed.
 T William Bunbury
 D written 13 February 1804; proved 6 December 1804
 +R William (son)
+@KG3|p.1|Mary Smith
++E Hannah
++E Caroline
+@KG3|pp.6-8|Catharine Stuart
++R Jane Stuart Park (daughter of niece Sally Park)
+@KG3|pp.8-10|Polly Stuart
+-R Jacob
+-B Jacob (son) |
+-E John
+-E Waggon
++E Waggon John
++E Jacob
++E Fanny
+@KG3|pp.11-2|John Wilkerson
+OK
+@KG3|pp.13-17|Sarah Hooe
+-R George
+-R Matilda
+-R Joe
+-R Anna
+-R Milly
+-R Pompey
+-R Sarah Barnes Mason Frank
+-R James
+-R Burdett
+-B George (children) |
+-B Matilda (children) |
+-B Joe (children) |
+-B Anna (children) |
+-B Milly (children) |
+-B Pompey (children) |
+-B Sarah Barnes Mason Frank (daughter) |
+-B James (sons) |
+-B Burdett (son) |
++R Sarah Barnes Mason (daughter)
+-E Carpenter
+-E Tom
++E Carpenter Tom
++E Jenny
++E Guss
++E Sam
++E Aaron
++E Moses
++E Jack
++E Kate
++E Burdett
++E Nutly
++E John
++E Will
++E Bettey
++E Sarah
++E Harry
++E Letty
++E Anthony
++E Phil
++E Philis
++E James
++E Matilda
++E Jeremy
++E Frank
++E Polly
++E Joe
++E Anna
++E Milly
++E Pompey
++E George
+@KG3|pp.22-3|John Acred
+OK
+@KG3|pp.25-7|Robert Massey
+N The will frees Batley at the testator's death, and frees Lucy after the death of his wife.
+-R Martha
+-R Nelly Mastin's
+-R Townshend Stuart Dade Dick
+-B Martha (son) |
+-B Nelly Mastin's (sister) |
++R Martha (wife)
++R Townshend Stuart Dade Dick (son of Martha)
++R Caroline Mastin (niece)
++R Betsey Yates (niece)
++E James
+@KG3|pp.28-9|Richard Wingfield Hooe
++R William Hooe Winter (nephew)
+@KG3|pp.30-4|Henry Alex
+T Henry Ashton
+-R Peggy
+-R Jane
+-R Violetta
+-R Frances
+-R Tom
+-R Elisah
+-R Eliza
+-R Hago
+-R George
+-R Anna
+-R Sukey
+-R Congo
+-R Cloe
+-R Jerry
+-R Clarissa
+-B Peggy (children) |
+-B Jane (children) |
+-B Violetta (children) |
+-B Frances (children) |
+-B Tom (children) |
+-B Elisah (children) |
+-B Eliza (children) |
+-B Hago (children) |
+-B George (children) |
+-B Anna (children) |
+-B Sukey (children) |
+-B Congo (children) |
+-B Cloe (children) |
+-B Jerry (children) |
+-B Clarissa (children) |
++E Jane
++E Rosalin
++E Peggy
++E Violetta
++E Tom
++E Jack
++E Grace
++E Elisah
++E Eliza
++E Hago
++E Charles
++E Nancy
++E Elisha
++E John
++E George
++E Anna
++E Harriot
++E Naney
++E Nan
++E Molly
++E Flora
++E Sukey
++E Congo
++E Cloe
++E Ealsy
++E Jerry
++E Clarissa
++E Thornton
++E Jacob
++E Aaron
++E Daniel
++E Jesse
++E Ben
+@KG3|pp.34-5|Thomas Wilkerson
+OK
+@KG3|pp.39-40|Townshend Dade
+T Townshend Dade
+D written 30 December 1806; proved 7 May 1807
++R Sarah Park (daughter)
++R Susannah Winston (daughter)
++R Elizabeth Fendall (daughter)
++R Sarah B. Fitzhugh (daughter)
++E Braxter
++E Lettice
+@KG3|pp.44-5|Peter Jett
+D written 29 June 1807; proved 3 December 1807
+@KG3|pp.48-9|Nathan Smith
+N The will sets Scirsa free at his death.
+@KG3|pp.50-1|Charles Stuart
++R James Edmonds (son-in-law)
+@KG3|pp.57-8|James Dishman
+-R Jacob
+-R Sue
+-R Nance
+-B Jacob (nephew) |
+-B Sue (mother) |
+-B Nance (son) |
++R William Dishman (nephew)
++R William Bryan Wallis (nephew)
++R Jane Dishman (niece)
++R Mary Weadon Baker
++R James Grayer
++R Ann Monroe Massey
++R Mildred Rallings
++E Kezia
++E William
++E Richard
++E Jacob
++E Judah
++E Hannah
++E Sue
++E Moses
++E Lucy
++E Nance
++E Matilda
+@KG3|pp.59-64|John Alexander Stuart
+OK
+@KG3|pp.67-8|James Davis
++R Reuben Bullard (grandchildren)
++R Mary Rowley (grandchildren)
++R Joel Thompson Doniphan (grandchildren)
++R George Doniphan (grandchildren)
++R Alexander Doniphan (grandchildren)
++R Mott Doniphan (grandchildren)
++R Mary Doniphan (grandchildren)
+@KG3|pp.69-70|Ann Stith
+-R Colonel Charles Stuart
+-R Lidia
+-R George Wray Peter
+-R Mary Washington Stuart Lidia
+-B Colonel Charles Stuart (daughter) |
+-B Lidia (daughter) |
+-B George Wray Peter (nephew) |
+-B Mary Washington Stuart Lidia (niece) |
++R Elizabeth Stuart (daughter of Colonel Charles Stuart)
++R Helen Wray Stuart (daughter of Colonel Charles Stuart)
++R Mary Washington Stuart (niece)
++R George Wray (nephew)
++E Sarah
++E Esther
++E Lidia
++E Peter
++E John
+@KG3|pp.71-3|William Hooe
++E General
++E Felda
++E Charlotte
+@KG3|pp.74-5|Lawrence Washington, Jr
+OK
+@KG3|pp.77-8|Elizabeth Bunbury
+-R Deborough
+-B Deborough (daughters) |
++R Frances C. Dade (relation)
++E Mary
++E Betsy
+@KG3|pp.83-4|Anne Jett
+-R Nancy Lett Daughter Stephen Jett
+-B Nancy Lett Daughter Stephen Jett (niece) |
++R Nancy Lett (niece, daughter of Stephen Jett)
+@KG3|pp.86-7|William Dishman
++R Susanna Greer (niece)
++R Kitty D. Greer (niece)
++R Nancy Jane Greer (niece)
++R Ann Monroe Massey (niece)
+@KG3|pp.87-8|Mary Thomas
+OK
+@KG3|pp.89-92|Archdell Cash
+OK
+@KG3|pp.95-102|Landon Carter
+-R Beck
+-R Betty
+-R Jack
+-R Nelly
+-R Absalom
+-R Christian
+-R Eliza Fanny
+-B Beck (wife) |
+-B Betty (wife) |
+-B Jack (children) |
+-B Nelly (children) |
+-B Absalom (children) |
+-B Christian (children) |
++E General
++E Beck
++E Harry
++E Betty
++E Judy
++E Jack
++E Nelly
++E Absalom
++E Christian
++E Alfred
++E Lewis
++E Sam
++E Winey
++E Betty Lambert
++E Charlotte
++E Kesiah
++E Clarissa
++E Celia
++E James
+@KG3|pp.106-8|Laurence Ashton
+OK
+@KG3|pp.109-11|Susannah Coode
+-R Benjamin
+-R Bob
+-R Melia
+-B Benjamin (son) |
+-B Bob (children) |
+-B Melia (children) |
++R William Rogers (brother-in-law)
++R Benjamin Rogers (son of brother-in-law William Rogers)
++R Langford Harrison
++E Bob
++E Melia
++E Gray
