@@ -1,0 +1,1700 @@
+{
+ "about": "King George Co., VA, Will Book 2: AI second-pass review of all 77 wills against the original abstract text, replacing the earlier lighter review (missing enslaved names and bequest rows). Each record fully replaces the automatic extraction for the will matched by key [vol, pages, auto_testator] in src/auto_wills.txt. Same conventions as kg-3.json.",
+ "records": [
+  {
+   "key": [
+    "KG2",
+    "pp.1-3",
+    "Francis Thornton"
+   ],
+   "vol": "KG2",
+   "pages": "pp.1-3",
+   "auto_testator": "Francis Thornton",
+   "testator": "Francis Thornton",
+   "date": "2 October 1780 (not signed); proved 7 December 1780",
+   "notes": "",
+   "recipients": [
+    "Francis Thornton (nephew)",
+    "Sukey Courts (niece)",
+    "Elizabeth Thornton (niece)",
+    "Ann Thornton (niece)"
+   ],
+   "enslaved": [
+    "Daniel"
+   ],
+   "bequests": [
+    {
+     "recipient": "Francis Thornton (nephew)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on; his negro waiting man Daniel",
+     "condition": ""
+    },
+    {
+     "recipient": "Francis Thornton, Sukey Courts, Elizabeth Thornton and Ann Thornton (nephew and nieces)",
+     "verb": "GIVES",
+     "what": "the rest of his negroes, equally",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.9-12",
+    "Andrew Grant"
+   ],
+   "vol": "KG2",
+   "pages": "pp.9-12",
+   "auto_testator": "Andrew Grant",
+   "testator": "Andrew Grant",
+   "date": "22 January 1781; proved 5 July 1781",
+   "notes": "Betty, Packer, Daphne and Aaron were the surviving slaves of his father Andrew Grant. Nan and Syla were born after his father's death to women his father owned.",
+   "recipients": [
+    "Mary Grant (sister)",
+    "Ann Mary Grant (sister)",
+    "~his wife (not named)"
+   ],
+   "enslaved": [
+    "Betty",
+    "Packer",
+    "Daphne",
+    "Aaron",
+    "Nann",
+    "Syla",
+    "Rachel",
+    "Jack"
+   ],
+   "bequests": [
+    {
+     "recipient": "Mary Grant (sister)",
+     "verb": "GIVES",
+     "what": "Betty, Packer, and Daphne with her son Aaron (Daphne is Packer's or Betty's daughter as the abstract reads)",
+     "condition": ""
+    },
+    {
+     "recipient": "Ann Mary Grant (sister)",
+     "verb": "GIVES",
+     "what": "girl Nann (daughter of Daphne); girl Syla (daughter of Rachel, who is dead); a yellow boy Jack, bought from William Scott",
+     "condition": ""
+    },
+    {
+     "recipient": "his wife",
+     "verb": "GIVES",
+     "what": "all his other slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "the person each mother is left to",
+     "verb": "GIVES",
+     "what": "any child born to these women before his death goes with its mother",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.14",
+    "Benjamin Thomas"
+   ],
+   "vol": "KG2",
+   "pages": "p.14",
+   "auto_testator": "Benjamin Thomas",
+   "testator": "Benjamin Thomas",
+   "date": "16 June 1781; proved 5 July 1781",
+   "notes": "",
+   "recipients": [
+    "Catherine (wife)",
+    "~his children (not named)"
+   ],
+   "enslaved": [
+    "Jude"
+   ],
+   "bequests": [
+    {
+     "recipient": "Catherine (wife)",
+     "verb": "GIVES",
+     "what": "girl Jude and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "his children",
+     "verb": "GIVES",
+     "what": "the rest of his negroes, equally",
+     "condition": "when the youngest comes of age"
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.19-21",
+    "James Cash"
+   ],
+   "vol": "KG2",
+   "pages": "pp.19-21",
+   "auto_testator": "James Cash",
+   "testator": "James Cash",
+   "date": "1 October 1780; proved 7 February 1782",
+   "notes": "",
+   "recipients": [
+    "John (son)",
+    "James (son)",
+    "Archibald (son)",
+    "Margaret Rawlins (daughter)",
+    "Mary Johnson (daughter)",
+    "Margaret Stone (granddaughter)",
+    "~his wife (not named)",
+    "~his children"
+   ],
+   "enslaved": [
+    "Patrick",
+    "Ann",
+    "Solomon",
+    "Elijah",
+    "Harry",
+    "Moses",
+    "Rachel",
+    "Winny",
+    "Phebee",
+    "Mary",
+    "Phillis",
+    "Charlote",
+    "Caroline",
+    "Judith",
+    "Benjamin",
+    "Dublin"
+   ],
+   "bequests": [
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "a tract of land; Patrick, Ann, Solomon and Elijah",
+     "condition": ""
+    },
+    {
+     "recipient": "James (son)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on; Harry, Moses, Rachel, and Winny and her child",
+     "condition": ""
+    },
+    {
+     "recipient": "Archibald (son)",
+     "verb": "GIVES",
+     "what": "his land in Prince William County; Phebee and her children, and Mary",
+     "condition": ""
+    },
+    {
+     "recipient": "Margaret Rawlins (daughter)",
+     "verb": "GIVES",
+     "what": "Phillis and Charlote with their present and future increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Mary Johnson (daughter)",
+     "verb": "GIVES",
+     "what": "a tract of land; Caroline and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Margaret Stone (granddaughter)",
+     "verb": "GIVES",
+     "what": "girl Judith",
+     "condition": ""
+    },
+    {
+     "recipient": "his wife",
+     "verb": "LENDS",
+     "what": "Benjamin and Dublin",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "Benjamin and Dublin",
+     "verb": "SOLD",
+     "what": "Benjamin and Dublin to be sold after the wife's death, the money divided equally among his children",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.22",
+    "Horatio Dade"
+   ],
+   "vol": "KG2",
+   "pages": "p.22",
+   "auto_testator": "Horatio Dade",
+   "testator": "Horatio Dade",
+   "date": "8 October 1781; proved 4 April 1782",
+   "notes": "",
+   "recipients": [
+    "Robert Townsd Dade (son)",
+    "Mary (wife)"
+   ],
+   "enslaved": [
+    "Bomeco",
+    "Cawdery",
+    "Rose",
+    "Charity"
+   ],
+   "bequests": [
+    {
+     "recipient": "Robert Townsd Dade (son)",
+     "verb": "GIVES",
+     "what": "Bomeco, and Cawdery with her two children Rose and Charity; a feather bed and furniture; two cows; a horse or mare",
+     "condition": ""
+    },
+    {
+     "recipient": "Mary (wife)",
+     "verb": "GIVES",
+     "what": "the rest of his estate, real and personal",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.25-6",
+    "John Washington"
+   ],
+   "vol": "KG2",
+   "pages": "pp.25-6",
+   "auto_testator": "John Washington",
+   "testator": "John Washington",
+   "date": "1 October 1779; proved 5 September 1782",
+   "notes": "The list of children names John twice.",
+   "recipients": [
+    "~his wife (not named)",
+    "Harry (son)",
+    "Henry (son)",
+    "Betty (child)",
+    "Ann (child)",
+    "Nathaniel (child)",
+    "Mary (child)",
+    "John (child)",
+    "Baily (child)",
+    "Laurance (child)",
+    "Butler (child)",
+    "Mildred (child)",
+    "William (child)"
+   ],
+   "enslaved": [
+    "Willis",
+    "Will"
+   ],
+   "bequests": [
+    {
+     "recipient": "his wife",
+     "verb": "GIVES",
+     "what": "his riding chair and harness and the two roan horses; use of Willis for her life, over and above her dower",
+     "condition": ""
+    },
+    {
+     "recipient": "Harry (son)",
+     "verb": "GIVES",
+     "what": "Willis",
+     "condition": "after the wife's death"
+    },
+    {
+     "recipient": "Henry (son)",
+     "verb": "GIVES",
+     "what": "all the land he lives on; old fellow Will, a carpenter, to be in Henry's share, \"that he use him well\"",
+     "condition": ""
+    },
+    {
+     "recipient": "Betty, Ann, Henry, Nathaniel, Mary, John, Baily, Laurance, Butler, Mildred and William (children)",
+     "verb": "GIVES",
+     "what": "the rest of his estate, equally, as they come of age; after the wife's death her dower slaves, equally among the surviving children",
+     "condition": ""
+    },
+    {
+     "recipient": "Henry (son)",
+     "verb": "GIVES",
+     "what": "the slaves allotted to Betty and their increase",
+     "condition": "if Betty dies unmarried"
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.27",
+    "Mary Tankersly"
+   ],
+   "vol": "KG2",
+   "pages": "pp.27",
+   "auto_testator": "Mary Tankersly",
+   "testator": "Mary Tankersly",
+   "date": "1 May 1773; proved 7 October 1782",
+   "notes": "The source notes pp.28-9 were not photocopied.",
+   "recipients": [
+    "George (son)",
+    "John (son)",
+    "Dorcas (daughter)",
+    "Sarah (granddaughter, child of Dorcas)",
+    "Sarah McWilliams (daughter)",
+    "Mary McWilliams (granddaughter)",
+    "Jane Murdock (granddaughter)"
+   ],
+   "enslaved": [
+    "Milly",
+    "Ben",
+    "Lucy",
+    "Rachel",
+    "Clary",
+    "Venus",
+    "Bob"
+   ],
+   "bequests": [
+    {
+     "recipient": "George (son)",
+     "verb": "GIVES",
+     "what": "wench Milly",
+     "condition": ""
+    },
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "boy Ben and girl Lucy; a feather bed, bolster, pillows, blankets and quilt",
+     "condition": ""
+    },
+    {
+     "recipient": "Dorcas (daughter)",
+     "verb": "GIVES",
+     "what": "wench Rachel",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah (granddaughter)",
+     "verb": "GIVES",
+     "what": "girl Clary",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah McWilliams (daughter)",
+     "verb": "LENDS",
+     "what": "use of girl Venus",
+     "condition": "until her daughter Mary McWilliams comes of age or marries"
+    },
+    {
+     "recipient": "Mary McWilliams (granddaughter)",
+     "verb": "GIVES",
+     "what": "girl Venus",
+     "condition": "when she comes of age or marries"
+    },
+    {
+     "recipient": "Jane Murdock (granddaughter)",
+     "verb": "GIVES",
+     "what": "boy Bob",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.31",
+    "George Jones"
+   ],
+   "vol": "KG2",
+   "pages": "p.31",
+   "auto_testator": "George Jones",
+   "testator": "George Jones",
+   "date": "14 January 1768; proved 6 March 1783",
+   "notes": "",
+   "recipients": [
+    "Margaret (wife)",
+    "John (son)",
+    "George Jones (son)",
+    "James (child)",
+    "Thomas (child)",
+    "Richard (child)",
+    "Edward (child)",
+    "Mary (child)",
+    "Catherine (child)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Margaret (wife)",
+     "verb": "LENDS",
+     "what": "his whole estate",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "John and George Jones (sons)",
+     "verb": "GIVES",
+     "what": "the land he lives on, equally",
+     "condition": "after the wife's death"
+    },
+    {
+     "recipient": "James, Thomas, Richard, Edward, Mary and Catherine",
+     "verb": "GIVES",
+     "what": "his household goods and negro or negroes",
+     "condition": "after the wife's death"
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.32-6",
+    "Seymour Hooe"
+   ],
+   "vol": "KG2",
+   "pages": "pp.32-6",
+   "auto_testator": "Seymour Hooe",
+   "testator": "Seymour Hooe",
+   "date": "4 January 1783; proved 3 April 1783",
+   "notes": "",
+   "recipients": [
+    "Alexander Seymour Hooe (son)",
+    "Lucy Thornton Hooe (daughter)",
+    "~the child his wife is carrying",
+    "~his wife (not named)",
+    "Gerrard Hooe (brother, surname assumed)",
+    "John Storke (nephew)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Alexander Seymour Hooe (son) and the child his wife is carrying",
+     "verb": "GIVES",
+     "what": "his land, equally",
+     "condition": "after the youngest son turns 21, if the unborn child is a boy"
+    },
+    {
+     "recipient": "Alexander Seymour Hooe and Lucy Thornton Hooe (son and daughter) and the child his wife is carrying",
+     "verb": "GIVES",
+     "what": "his slaves, equally, subject to his wife's dower; the dower slaves after her death; his horses, cattle, sheep and hogs",
+     "condition": ""
+    },
+    {
+     "recipient": "Gerrard Hooe and John Storke (brother and nephew)",
+     "verb": "GIVES",
+     "what": "the slaves he received from his father's estate and their increase",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.37-41",
+    "William Bernard"
+   ],
+   "vol": "KG2",
+   "pages": "pp.37-41",
+   "auto_testator": "William Bernard",
+   "testator": "William Bernard",
+   "date": "12 March 1782; proved 4 May 1738 (probably 1783)",
+   "notes": "The source gives the proved date as 4 May 1738, probably a misprint for 1783.",
+   "recipients": [
+    "~his wife (not named)",
+    "Richard (son)",
+    "William (son)",
+    "Sally Ecls (relationship not stated)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "his wife",
+     "verb": "LENDS",
+     "what": "use of the mansion house, yards, gardens and 40 acres; firewood; his cattle and sheep; all household and kitchen furniture; four slaves of her choice and two girls of her choice until they are 14, replaced if they die or turn 14 (but not house servants used by his children)",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "Richard (son)",
+     "verb": "GIVES",
+     "what": "all the negroes that came by his mother, and half of those the testator holds in his own right; he must bring into the division the negroes already given him",
+     "condition": ""
+    },
+    {
+     "recipient": "William (son)",
+     "verb": "GIVES",
+     "what": "all the negroes that came by his mother, and the other half of those the testator holds in his own right",
+     "condition": ""
+    },
+    {
+     "recipient": "Sally Ecls",
+     "verb": "GIVES",
+     "what": "at least five pounds a year for life, more if needed, for nursing his son's brother in his last sickness",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.41-3",
+    "Thomas Hodge"
+   ],
+   "vol": "KG2",
+   "pages": "pp.41-3",
+   "auto_testator": "Thomas Hodge",
+   "testator": "Thomas Hodge",
+   "date": "13 April 1774; proved 4 May 1783",
+   "notes": "",
+   "recipients": [
+    "Charles Alexander (son)",
+    "Thomas (son)",
+    "Robert Rose Hodge (son, surname assumed)",
+    "Alexander Hodge (son)",
+    "Molley (wife)",
+    "~his daughters (not named)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "his daughters",
+     "verb": "GIVES",
+     "what": "their fortunes, paid first",
+     "condition": ""
+    },
+    {
+     "recipient": "Charles Alexander, Thomas, Robert Rose Hodge and Alexander Hodge (sons)",
+     "verb": "GIVES",
+     "what": "the rest of his estate in Virginia, equally",
+     "condition": "after his wife's death"
+    },
+    {
+     "recipient": "Molley (wife)",
+     "verb": "GIVES",
+     "what": "her consent is needed for the executors to sell his land, slaves or other property and buy others",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.44-7",
+    "Henry Fitzhugh"
+   ],
+   "vol": "KG2",
+   "pages": "pp.44-7",
+   "auto_testator": "Henry Fitzhugh",
+   "testator": "Henry Fitzhugh",
+   "date": "25 June 1782; proved 5 June 1783",
+   "notes": "Each of the twelve legatees (nine sons, the grandson and two daughters) takes a twelfth of the slaves and personal estate, counting slaves given before at their value then.",
+   "recipients": [
+    "~his wife (not named)",
+    "John Battaile Fitzhugh (son)",
+    "William (son)",
+    "George (son)",
+    "Thomas (son)",
+    "Nicholas (son)",
+    "Richard (son)",
+    "Mordecai (son)",
+    "Battaile (son)",
+    "Giles (son)",
+    "~his grandson, heir of Henry Fitzhugh (not named)",
+    "Susannah Dade (daughter)",
+    "Mary Stuart (daughter)"
+   ],
+   "enslaved": [
+    "Willis",
+    "Daphne",
+    "Jonathan"
+   ],
+   "bequests": [
+    {
+     "recipient": "his wife",
+     "verb": "LENDS",
+     "what": "use of his manor plantation and adjoining lands; a third of his other lands and a third of his slaves (including those he holds in her right), chosen as she likes; a third of his personal estate forever",
+     "condition": "during widowhood; only if she releases her claims to his estate"
+    },
+    {
+     "recipient": "John Battaile Fitzhugh (son)",
+     "verb": "GIVES",
+     "what": "all his lands and his wife's land in Caroline and Orange Counties",
+     "condition": ""
+    },
+    {
+     "recipient": "William (son)",
+     "verb": "GIVES",
+     "what": "the tract in Fauquier County William holds",
+     "condition": ""
+    },
+    {
+     "recipient": "George (son)",
+     "verb": "GIVES",
+     "what": "the tract in Fauquier George holds",
+     "condition": ""
+    },
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "an 800-acre tract in Fauquier",
+     "condition": ""
+    },
+    {
+     "recipient": "Nicholas, Richard, Mordecai, Battaile and Giles (five youngest sons)",
+     "verb": "GIVES",
+     "what": "his lands in Fairfax County",
+     "condition": ""
+    },
+    {
+     "recipient": "his grandson, heir of Henry Fitzhugh",
+     "verb": "GIVES",
+     "what": "all his lands in King George and Stafford Counties; a twelfth of the slaves and personal estate, Willis, Daphne and Jonathan being part of it",
+     "condition": ""
+    },
+    {
+     "recipient": "John Battaile Fitzhugh, William, George, Thomas, Nicholas, Richard, Mordecai, Battaile, Giles, Susannah Dade and Mary Stuart",
+     "verb": "GIVES",
+     "what": "a twelfth each of his slaves and personal estate (except the wife's third)",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.49-54",
+    "Charles Ashton"
+   ],
+   "vol": "KG2",
+   "pages": "pp.49-54",
+   "auto_testator": "Charles Ashton",
+   "testator": "Charles Ashton",
+   "date": "10 May 1778; proved 7 August 1783",
+   "notes": "Two enslaved men named Tom and two named George appear in the gift to Charles Augustine.",
+   "recipients": [
+    "Burdit Ashton (son)",
+    "Charles Augustine Ashton (grandson, son of Burdit)",
+    "Charles Ashton (grandson, son of John Ashton)",
+    "Henry Ashton (grandson, son of John)",
+    "Laurence Ashton (son)"
+   ],
+   "enslaved": [
+    "George",
+    "Tom",
+    "Scylla",
+    "Jane",
+    "Lettice",
+    "Suke",
+    "Davy",
+    "Peter",
+    "Jacob",
+    "Cary",
+    "Frank",
+    "Lydia",
+    "Adam",
+    "Nance",
+    "Joan",
+    "Easter",
+    "Kate",
+    "Jonathan",
+    "Charity",
+    "Martin",
+    "James",
+    "Mary",
+    "Winny",
+    "Ben",
+    "Isaac",
+    "Rachel",
+    "Sarah"
+   ],
+   "bequests": [
+    {
+     "recipient": "Burdit Ashton (son)",
+     "verb": "GIVES",
+     "what": "the plantation he lives on; man George, already in his possession",
+     "condition": ""
+    },
+    {
+     "recipient": "Charles Augustine Ashton (grandson)",
+     "verb": "GIVES",
+     "what": "the plantation he lives on; Tom, Tom, Scylla, Jane, Lettice, Suke, Davy, George, Peter, Jacob, Cary and Frank; the furniture and stock on that plantation",
+     "condition": ""
+    },
+    {
+     "recipient": "Lydia",
+     "verb": "CHOICE",
+     "what": "Lydia stays on the plantation, held by the executors, to care for the young negroes, house and garden until Charles Augustine is 18; then she may choose a master and mistress for life among his children and grandchildren; her children born before then go to Charles Augustine",
+     "condition": ""
+    },
+    {
+     "recipient": "Charles Ashton (grandson, son of John Ashton)",
+     "verb": "GIVES",
+     "what": "Adam, Nance, Joan, Easter, Kate, Jonathan, Charity, Martin, James and Mary",
+     "condition": ""
+    },
+    {
+     "recipient": "Henry Ashton (grandson)",
+     "verb": "GIVES",
+     "what": "Winny, already held by his father",
+     "condition": ""
+    },
+    {
+     "recipient": "Laurence Ashton (son)",
+     "verb": "GIVES",
+     "what": "the slaves and estate given him before, with their increase; Ben, Isaac, and Rachel and her daughter Sarah",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.55-6",
+    "(name not captured)"
+   ],
+   "vol": "KG2",
+   "pages": "pp.55-6",
+   "auto_testator": "(name not captured)",
+   "testator": "(name not given)",
+   "date": "14 August 1782; proved 4 September 1783",
+   "notes": "The abstract begins partway into the will, so the testator's name is not given.",
+   "recipients": [
+    "Virlinda (wife)",
+    "Langhorn (son)",
+    "Sarah Taliaferro (daughter)",
+    "Ann Stith (daughter)",
+    "Behethelem Birch (daughter)",
+    "Jane Yates (daughter)",
+    "Elizabeth (daughter)",
+    "Baldwin (son)",
+    "Townshend (son)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Virlinda (wife)",
+     "verb": "LENDS",
+     "what": "all his estate, real and personal",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "Langhorn (son)",
+     "verb": "GIVES",
+     "what": "the land he lives on",
+     "condition": "after the wife's death"
+    },
+    {
+     "recipient": "Sarah Taliaferro and Ann Stith (daughters)",
+     "verb": "GIVES",
+     "what": "the negroes they already have",
+     "condition": ""
+    },
+    {
+     "recipient": "Behethelem Birch and Jane Yates (daughters)",
+     "verb": "GIVES",
+     "what": "two young negroes each, chosen and delivered by his wife",
+     "condition": ""
+    },
+    {
+     "recipient": "Elizabeth (daughter)",
+     "verb": "GIVES",
+     "what": "four negroes, on the same terms",
+     "condition": ""
+    },
+    {
+     "recipient": "Langhorn (son)",
+     "verb": "GIVES",
+     "what": "five negroes, on the same terms",
+     "condition": ""
+    },
+    {
+     "recipient": "Baldwin and Townshend (sons)",
+     "verb": "GIVES",
+     "what": "the rest of his slaves, equally, on the same terms",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.57-8",
+    "Philip Thornton Alexander"
+   ],
+   "vol": "KG2",
+   "pages": "pp.57-8",
+   "auto_testator": "Philip Thornton Alexander",
+   "testator": "Philip Thornton Alexander",
+   "date": "6 March 1783; proved 4 December 1783",
+   "notes": "The abstract does not say who receives the slaves and stock on the manor and Fauquier plantations (probably son John Lewis Alexander).",
+   "recipients": [
+    "Lucy (wife)",
+    "John Lewis Alexander (son)",
+    "~the child his wife is carrying, if a son"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Lucy (wife)",
+     "verb": "LENDS",
+     "what": "a third of his estate",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "John Lewis Alexander (son)",
+     "verb": "GIVES",
+     "what": "all his lands in King George and Stafford Counties; apparently the slaves and stock on his manor plantation and on the Fauquier plantation",
+     "condition": ""
+    },
+    {
+     "recipient": "the child his wife is carrying",
+     "verb": "GIVES",
+     "what": "the slaves and stock on his plantation in Stafford County",
+     "condition": "if the child is a son"
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.60-1",
+    "Francis Thornton"
+   ],
+   "vol": "KG2",
+   "pages": "pp.60-1",
+   "auto_testator": "Francis Thornton",
+   "testator": "Francis Thornton",
+   "date": "8 August 1782; proved 2 September 1784",
+   "notes": "",
+   "recipients": [
+    "John (son)",
+    "William (son)",
+    "~his wife (not named)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on",
+     "condition": ""
+    },
+    {
+     "recipient": "William (son)",
+     "verb": "GIVES",
+     "what": "the tract of land in the Neck",
+     "condition": ""
+    },
+    {
+     "recipient": "John and William (sons)",
+     "verb": "GIVES",
+     "what": "all his negroes, stock and household furniture, equally",
+     "condition": ""
+    },
+    {
+     "recipient": "his wife",
+     "verb": "GIVES",
+     "what": "from the executors: a chair, two horses, a servant, a maid to wait on her, and 6,000 pounds of tobacco a year",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.63-4",
+    "Margaret Wren"
+   ],
+   "vol": "KG2",
+   "pages": "pp.63-4",
+   "auto_testator": "Margaret Wren",
+   "testator": "Margaret Wren",
+   "date": "16 December 1780; proved 2 May 1782",
+   "notes": "",
+   "recipients": [
+    "Sally Wren (her little child, to be christened Sally, surname assumed)"
+   ],
+   "enslaved": [
+    "Randal"
+   ],
+   "bequests": [
+    {
+     "recipient": "Sally Wren (her little child)",
+     "verb": "GIVES",
+     "what": "boy Randal and all the rest of her estate",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.66-7",
+    "Samuel"
+   ],
+   "vol": "KG2",
+   "pages": "pp.66-7",
+   "auto_testator": "Samuel",
+   "testator": "Samuel White",
+   "date": "20 June 1783; proved 4 December 1783",
+   "notes": "",
+   "recipients": [
+    "Charles (son)",
+    "Linney (daughter)",
+    "Hannah (daughter)",
+    "~his wife (not named)",
+    "~all his children"
+   ],
+   "enslaved": [
+    "James",
+    "Dinah",
+    "Jack",
+    "Ben",
+    "Keziah"
+   ],
+   "bequests": [
+    {
+     "recipient": "Charles (son)",
+     "verb": "GIVES",
+     "what": "all his land; boy James; mare colt Parrot, saddle and bridle; a feather bed and furniture",
+     "condition": "after his mother's death"
+    },
+    {
+     "recipient": "Linney (daughter)",
+     "verb": "GIVES",
+     "what": "two young negroes Dinah and Jack; mare colt Pleasure; a feather bed and furniture",
+     "condition": ""
+    },
+    {
+     "recipient": "Hannah (daughter)",
+     "verb": "GIVES",
+     "what": "two young negroes Ben and Keziah; mare colt Bonny; a feather bed and furniture",
+     "condition": ""
+    },
+    {
+     "recipient": "his wife",
+     "verb": "LENDS",
+     "what": "the rest of his estate",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "all his children",
+     "verb": "GIVES",
+     "what": "the rest of his estate, equally; any negro above who dies before delivery is made good first",
+     "condition": "after the wife's death"
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.68-9",
+    "Thomas Bunbury"
+   ],
+   "vol": "KG2",
+   "pages": "pp.68-9",
+   "auto_testator": "Thomas Bunbury",
+   "testator": "Thomas Bunbury",
+   "date": "6 October 1780; proved 4 December 1783",
+   "notes": "David was in the possession of Ann Fowke. Some names (Winny, Bob, Ben) appear more than once and may be different people.",
+   "recipients": [
+    "Dulley Owens (daughter, wife of John Owens)",
+    "Dulley Berry (granddaughter, daughter of Dulley Owens)",
+    "Sarah Berry (granddaughter)",
+    "Ann Conway (granddaughter)",
+    "John Conway (grandson)",
+    "Caty (daughter)",
+    "Jane (daughter)",
+    "Sarah (daughter)",
+    "Francis Scott (grandson)",
+    "John Bunbury (grandson)",
+    "Henry Bunbury (grandson)",
+    "Thomas Bunbury (grandson)",
+    "William Bunbury (grandson)"
+   ],
+   "enslaved": [
+    "Suck",
+    "Millia",
+    "Agga",
+    "Moses",
+    "Harry",
+    "Tillace",
+    "David",
+    "Winny",
+    "Charles",
+    "Tom",
+    "Dick",
+    "Will",
+    "Fander",
+    "Bob",
+    "Phill",
+    "Peter",
+    "Beck",
+    "Daniel",
+    "Scillah",
+    "Bett",
+    "Judy",
+    "Daphnee",
+    "Ann",
+    "Ben",
+    "Milley",
+    "Sarah"
+   ],
+   "bequests": [
+    {
+     "recipient": "Dulley Owens (daughter)",
+     "verb": "GIVES",
+     "what": "Suck, Millia, Agga and Moses",
+     "condition": ""
+    },
+    {
+     "recipient": "Dulley Berry (granddaughter)",
+     "verb": "GIVES",
+     "what": "Harry and Tillace",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Berry (granddaughter)",
+     "verb": "GIVES",
+     "what": "David and Winny",
+     "condition": ""
+    },
+    {
+     "recipient": "Ann Conway (granddaughter)",
+     "verb": "GIVES",
+     "what": "Charles and Tom",
+     "condition": ""
+    },
+    {
+     "recipient": "John Conway (grandson)",
+     "verb": "GIVES",
+     "what": "Dick and Will",
+     "condition": ""
+    },
+    {
+     "recipient": "Caty, Jane and Sarah (daughters)",
+     "verb": "GIVES",
+     "what": "David (in the possession of Ann Fowke), Tillace and Winny, equally",
+     "condition": ""
+    },
+    {
+     "recipient": "Francis Scott (grandson)",
+     "verb": "GIVES",
+     "what": "wench Fander and her former and future increase",
+     "condition": ""
+    },
+    {
+     "recipient": "John Bunbury, Henry Bunbury and Thomas Bunbury (grandsons)",
+     "verb": "GIVES",
+     "what": "Bob, Phill, Peter, Beck, Daniel, Scillah, Bett, Winny, Judy, Daphnee and Ann, equally",
+     "condition": ""
+    },
+    {
+     "recipient": "William Bunbury (grandson)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on; Ben, Charles, Bob, Milley, Sarah and Ben; all household furniture and stock",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.70",
+    "William Tyler"
+   ],
+   "vol": "KG2",
+   "pages": "p.70",
+   "auto_testator": "William Tyler",
+   "testator": "William Tyler",
+   "date": "11 August 1783; proved 1 April 1784",
+   "notes": "",
+   "recipients": [
+    "Sarah (wife)",
+    "Elizabeth Gray Dudley (daughter of Elizabeth Pittman Dudley)"
+   ],
+   "enslaved": [
+    "Bob",
+    "Nell",
+    "Harry",
+    "Sarah",
+    "Sue",
+    "Joseph"
+   ],
+   "bequests": [
+    {
+     "recipient": "Sarah (wife)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on; Bob, Nell, Harry, Sarah and Sue; the rest of his estate",
+     "condition": ""
+    },
+    {
+     "recipient": "Elizabeth Gray Dudley",
+     "verb": "GIVES",
+     "what": "boy Joseph",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.77-8",
+    "Peter Jett"
+   ],
+   "vol": "KG2",
+   "pages": "pp.77-8",
+   "auto_testator": "Peter Jett",
+   "testator": "Peter Jett",
+   "date": "2 May 1784; proved 5 August 1784",
+   "notes": "",
+   "recipients": [
+    "Mary Hemstead (daughter)",
+    "Ann Conely (daughter)"
+   ],
+   "enslaved": [
+    "Rose"
+   ],
+   "bequests": [
+    {
+     "recipient": "Mary Hemstead and Ann Conely (daughters)",
+     "verb": "GIVES",
+     "what": "woman Rose; the lease of the 100 acres he lives on; his two horses",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.80-1",
+    "Richard Bernard"
+   ],
+   "vol": "KG2",
+   "pages": "pp.80-1",
+   "auto_testator": "Richard Bernard",
+   "testator": "Richard Bernard",
+   "date": "15 October 1783; proved 3 March 1785",
+   "notes": "",
+   "recipients": [
+    "Ann (wife)",
+    "~his two sons (not named)",
+    "William Suttles (son of Sarah Suttles)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Ann (wife)",
+     "verb": "GIVES",
+     "what": "the plantation where his mother-in-law lives and the plantation his grandfather bought of Robert Washington; eight working hands, plus the house servants; horses, cattle, hogs and sheep; any two servants she chooses",
+     "condition": ""
+    },
+    {
+     "recipient": "his two sons",
+     "verb": "GIVES",
+     "what": "all his mulattoes and negroes, stock and personal estate, kept together and divided equally",
+     "condition": ""
+    },
+    {
+     "recipient": "William Suttles (son of Sarah Suttles)",
+     "verb": "GIVES",
+     "what": "two young negroes, a boy and a girl, bought or chosen from his negroes by the executors",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.83-4",
+    "Mr. Thomas Oliver"
+   ],
+   "vol": "KG2",
+   "pages": "pp.83-4",
+   "auto_testator": "Mr. Thomas Oliver",
+   "testator": "Thomas Oliver",
+   "date": "2 September 1777; proved 4 August 1785",
+   "notes": "Thomas Oliver was of Marlsborough, Stafford County.",
+   "recipients": [
+    "Elizabeth (wife)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Elizabeth (wife)",
+     "verb": "GIVES",
+     "what": "everything he owns: land, houses, slaves, stock, cash and grain",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.85",
+    "Thomas Wilkerson"
+   ],
+   "vol": "KG2",
+   "pages": "p.85",
+   "auto_testator": "Thomas Wilkerson",
+   "testator": "Thomas Wilkerson",
+   "date": "6 April 1785; proved 5 May 1785",
+   "notes": "",
+   "recipients": [
+    "Thomas (son)",
+    "Suttle (son)",
+    "Augustine (son)",
+    "Jemima Wilkerson (daughter)",
+    "Bernett Wilkerson (grandson, son of Jemima, surname assumed)",
+    "Catherine (daughter)",
+    "Judith Suttles (daughter)",
+    "Linney Sullivan (daughter)"
+   ],
+   "enslaved": [
+    "Jacob",
+    "Rachel",
+    "Anna",
+    "Syrus",
+    "Charles",
+    "Hannah"
+   ],
+   "bequests": [
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "100 acres; Jacob",
+     "condition": ""
+    },
+    {
+     "recipient": "Suttle (son)",
+     "verb": "GIVES",
+     "what": "105 acres; girl Rachel",
+     "condition": ""
+    },
+    {
+     "recipient": "Augustine (son)",
+     "verb": "GIVES",
+     "what": "105 acres; girl Anna",
+     "condition": ""
+    },
+    {
+     "recipient": "Jemima Wilkerson (daughter)",
+     "verb": "GIVES",
+     "what": "Syrus; a feather bed and furniture",
+     "condition": "Syrus to her son Bernett after her death"
+    },
+    {
+     "recipient": "Bernett Wilkerson (grandson)",
+     "verb": "GIVES",
+     "what": "Syrus after his mother's death; a gray mare called Mouse",
+     "condition": ""
+    },
+    {
+     "recipient": "Catherine (daughter)",
+     "verb": "GIVES",
+     "what": "boy Charles; a feather bed and furniture",
+     "condition": ""
+    },
+    {
+     "recipient": "Judith Suttles (daughter)",
+     "verb": "GIVES",
+     "what": "woman Hannah",
+     "condition": ""
+    },
+    {
+     "recipient": "Linney Sullivan (daughter)",
+     "verb": "GIVES",
+     "what": "30 pounds cash",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.87-9",
+    "George Marshall"
+   ],
+   "vol": "KG2",
+   "pages": "pp.87-9",
+   "auto_testator": "George Marshall",
+   "testator": "George Marshall",
+   "date": "20 October 1784; proved 6 October 1785",
+   "notes": "The daughter who receives Scipio, Ben, Darkas and Matt the younger is not named; it may be Bettey Ford. There are two enslaved people named Matt (one \"the younger\").",
+   "recipients": [
+    "Ann (wife)",
+    "George (son)",
+    "James (son)",
+    "~his daughter (not named)",
+    "Bettey Ford (daughter)",
+    "Mary Guy (daughter)"
+   ],
+   "enslaved": [
+    "Matt",
+    "Leah",
+    "Solomon",
+    "Rodger",
+    "Bett",
+    "Scipio",
+    "Ben",
+    "Darkas",
+    "Celia",
+    "Alice",
+    "Joe",
+    "Aaron",
+    "Lydia",
+    "Lucy",
+    "Dick",
+    "Isaac",
+    "Reuben",
+    "Jacob",
+    "Harry"
+   ],
+   "bequests": [
+    {
+     "recipient": "Ann (wife)",
+     "verb": "LENDS",
+     "what": "use of the plantation he lives on; Matt, Leah, Solomon, Rodger and Bett",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "George (son)",
+     "verb": "GIVES",
+     "what": "the plantation he lives on",
+     "condition": "after the wife's death"
+    },
+    {
+     "recipient": "James and George (sons)",
+     "verb": "GIVES",
+     "what": "Matt, Leah, Solomon, Rodger and Bett with their increase, equally",
+     "condition": "after the wife's death"
+    },
+    {
+     "recipient": "his daughter",
+     "verb": "GIVES",
+     "what": "Scipio, Ben, Darkas and Matt the younger; use of girl Celia for life",
+     "condition": ""
+    },
+    {
+     "recipient": "Bettey Ford (daughter)",
+     "verb": "GIVES",
+     "what": "Celia and her increase",
+     "condition": "after the other daughter's death"
+    },
+    {
+     "recipient": "Mary Guy (daughter)",
+     "verb": "GIVES",
+     "what": "Alice, Joe, Aaron, Lydia and Lucy",
+     "condition": ""
+    },
+    {
+     "recipient": "James (son)",
+     "verb": "GIVES",
+     "what": "all his other lands and the grist mill; man Dick; the blacksmith's tools; Jacob and Harry, already in his possession",
+     "condition": ""
+    },
+    {
+     "recipient": "George (son)",
+     "verb": "GIVES",
+     "what": "Isaac and Reuben",
+     "condition": ""
+    },
+    {
+     "recipient": "James and George (sons)",
+     "verb": "GIVES",
+     "what": "the rest of his estate, equally",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.92",
+    "James Rawlins"
+   ],
+   "vol": "KG2",
+   "pages": "p.92",
+   "auto_testator": "James Rawlins",
+   "testator": "James Rawlins",
+   "date": "14 October 1785; proved 3 November 1785",
+   "notes": "",
+   "recipients": [
+    "Margaret (wife)",
+    "~his surviving brothers (not named)",
+    "Joseph (father)",
+    "~his father and mother"
+   ],
+   "enslaved": [
+    "Jane",
+    "Winny",
+    "Judy",
+    "Frank",
+    "Reubin"
+   ],
+   "bequests": [
+    {
+     "recipient": "Margaret (wife)",
+     "verb": "LENDS",
+     "what": "woman Jane and girl Winny",
+     "condition": "for her life; then they and their increase go to his surviving brothers"
+    },
+    {
+     "recipient": "Margaret (wife)",
+     "verb": "GIVES",
+     "what": "all his household furniture; cattle, hogs and sheep; his two horses Thomson and Fearnothing",
+     "condition": ""
+    },
+    {
+     "recipient": "his father and mother",
+     "verb": "LENDS",
+     "what": "Judy, Frank, Reubin and Jane",
+     "condition": "for their lives; then to his surviving brothers"
+    },
+    {
+     "recipient": "his surviving brothers",
+     "verb": "GIVES",
+     "what": "Jane, Winny, Judy, Frank and Reubin with their increase",
+     "condition": "after the deaths of his wife and parents"
+    },
+    {
+     "recipient": "Joseph (father)",
+     "verb": "GIVES",
+     "what": "his two horses Ball and Lady",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.95-6",
+    "William Chapman"
+   ],
+   "vol": "KG2",
+   "pages": "pp.95-6",
+   "auto_testator": "William Chapman",
+   "testator": "William Chapman",
+   "date": "23 September 1773; proved 7 October 1773; further proved 7 September 1786",
+   "notes": "",
+   "recipients": [
+    "Joseph (brother)"
+   ],
+   "enslaved": [
+    "Tom"
+   ],
+   "bequests": [
+    {
+     "recipient": "Joseph (brother)",
+     "verb": "GIVES",
+     "what": "negro fellow Tom",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.98-100",
+    "John Ashton"
+   ],
+   "vol": "KG2",
+   "pages": "pp.98-100",
+   "auto_testator": "John Ashton",
+   "testator": "John Ashton",
+   "date": "13 October 1787; proved 7 February 1788",
+   "notes": "\"Charles\" is named both among the slaves lent to the wife and as the boy given to son John; they may be different people.",
+   "recipients": [
+    "~his wife (not named)",
+    "Mary Walls Ashton (daughter)",
+    "Sarah Washington (daughter)",
+    "Peggy (daughter)",
+    "Hannah (daughter)",
+    "Henry (son)",
+    "Richard Watts Ashton (son)",
+    "Laurence (son)",
+    "West (son)",
+    "John (son)",
+    "~his eight children"
+   ],
+   "enslaved": [
+    "Charles",
+    "Will",
+    "Williams",
+    "Milly",
+    "Frank",
+    "Linney",
+    "Paris",
+    "George",
+    "Charity",
+    "Nancy",
+    "Charlotte",
+    "Lydia",
+    "Sarah",
+    "Ben",
+    "James Cox",
+    "Edmund",
+    "Tom Peyton"
+   ],
+   "bequests": [
+    {
+     "recipient": "his wife",
+     "verb": "LENDS",
+     "what": "use of the plantation he lives on, with Charles, Will, Williams, Milly, little Frank, Linney, Paris, George and Charity; use of the stock, plow horses and crop tools there; his chariot and chariot horses forever",
+     "condition": "until her death or marriage"
+    },
+    {
+     "recipient": "Mary Walls Ashton (daughter)",
+     "verb": "GIVES",
+     "what": "girl Nancy and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Washington (daughter)",
+     "verb": "GIVES",
+     "what": "girl Charlotte and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Peggy (daughter)",
+     "verb": "GIVES",
+     "what": "girl Lydia and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Hannah (daughter)",
+     "verb": "GIVES",
+     "what": "girl Sarah and her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Henry (son)",
+     "verb": "GIVES",
+     "what": "boy Ben",
+     "condition": ""
+    },
+    {
+     "recipient": "Richard Watts Ashton (son)",
+     "verb": "GIVES",
+     "what": "boy James Cox",
+     "condition": ""
+    },
+    {
+     "recipient": "Laurence (son)",
+     "verb": "GIVES",
+     "what": "boy Edmund",
+     "condition": ""
+    },
+    {
+     "recipient": "West (son)",
+     "verb": "GIVES",
+     "what": "boy Tom Peyton",
+     "condition": ""
+    },
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "the plantation he lives on; boy Charles",
+     "condition": ""
+    },
+    {
+     "recipient": "his eight children",
+     "verb": "GIVES",
+     "what": "the rest of his slaves and estate, equally; the negroes, stock and furniture lent to his wife, at her death or marriage",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "p.101",
+    "Mary Grant"
+   ],
+   "vol": "KG2",
+   "pages": "p.101",
+   "auto_testator": "Mary Grant",
+   "testator": "Mary Grant",
+   "date": "18 June 1785; proved 7 February 1788",
+   "notes": "",
+   "recipients": [
+    "John Matthews (brother)",
+    "Ann Short (niece)",
+    "Mary Matthews (niece, daughter of John Matthews)"
+   ],
+   "enslaved": [
+    "Winney",
+    "Venus"
+   ],
+   "bequests": [
+    {
+     "recipient": "John Matthews (brother)",
+     "verb": "GIVES",
+     "what": "her mansion house, plantation and land, given her by her late husband Andrew Grant",
+     "condition": ""
+    },
+    {
+     "recipient": "Ann Short (niece)",
+     "verb": "GIVES",
+     "what": "girl Winney, daughter of Venus, and her increase; a feather bed and furniture; six silver teaspoons",
+     "condition": ""
+    },
+    {
+     "recipient": "Mary Matthews (niece)",
+     "verb": "GIVES",
+     "what": "a mahogany desk, tea table and gold watch",
+     "condition": ""
+    },
+    {
+     "recipient": "John Matthews and Mary Matthews (brother and niece)",
+     "verb": "GIVES",
+     "what": "all her other slaves and their increase",
+     "condition": ""
+    }
+   ]
+  },
+  {
+   "key": [
+    "KG2",
+    "pp.102-4",
+    "Anne Short"
+   ],
+   "vol": "KG2",
+   "pages": "pp.102-4",
+   "auto_testator": "Anne Short",
+   "testator": "Anne Short",
+   "date": "22 October 1787; proved 7 February 1788",
+   "notes": "",
+   "recipients": [
+    "Thomas Short (nephew, son of brother Thomas)",
+    "Margret Mattews (sister)",
+    "Sarah Bunbury (niece, daughter of Elizabeth Bunbury)",
+    "Anne Bunbury (niece)"
+   ],
+   "enslaved": [
+    "Ben",
+    "Lucy",
+    "Winneford",
+    "Tom",
+    "Doll"
+   ],
+   "bequests": [
+    {
+     "recipient": "Thomas Short (nephew)",
+     "verb": "GIVES",
+     "what": "man Ben",
+     "condition": ""
+    },
+    {
+     "recipient": "Margret Mattews (sister)",
+     "verb": "GIVES",
+     "what": "wench Lucy; 1,000 pounds of tobacco",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Bunbury (niece)",
+     "verb": "GIVES",
+     "what": "girl Winneford",
+     "condition": ""
+    },
+    {
+     "recipient": "Anne Bunbury (niece)",
+     "verb": "GIVES",
+     "what": "lad Tom and girl Doll; six silver teaspoons",
+     "condition": ""
+    }
+   ]
+  }
+ ]
+}
