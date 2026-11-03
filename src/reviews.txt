@@ -924,3 +924,381 @@ N The will directs that the named enslaved people be emancipated and taken to a 
 +E Celey
 +E Henny
 +E John
+@4|p.259|Isham Matthews
+-R Alesey
+-B Alesey (wife) |
+-E Women
+-E Miller
+-E George
++E Miller George
++E Alesey
++E Jack
++E Wiatt
+@4|p.260|Turner Brewer
+N The source prints the proved date as November 1747, probably a misprint for 1847.
+@4|p.264|Elizabeth Nelms
+D written 2 August 1834; proved August session 1848
++R Virginia Steptoe (granddaughter)
+@4|p.266|George Green
+-R James
+-R Mason
+-B James (children) |
+-B Mason (children) |
++R George Green (son)
++E James
++E Mason
+@4|p.270|John Young
+-R John P. Savage
+-R John P.
+-B John P. Savage (wife) |
+-B John P. (son) |
++R John P. Savage (husband of Julia Savage)
++R Julia Savage (wife of John P. Savage)
++R John Young Savage (child of John P. and Julia Savage)
++R Molly Carey Savage (child of John P. and Julia Savage)
++R Victoria Savage (child of John P. and Julia Savage)
++R Benjamin Savage (child of John P. and Julia Savage)
++B Julia Savage (wife of John P. Savage) | GIVES | through my executors in trust, the negroes Milly, Mommia, Romeo and Jim |
++B John Young Savage (child of John P. and Julia Savage) | GIVES | land and negro boys Andrew & Hampton |
++B Molly Carey Savage (child of John P. and Julia Savage) | GIVES | Negro Emma |
++B Victoria Savage (child of John P. and Julia Savage) | GIVES | Negro Virginia |
++B Benjamin Savage (child of John P. and Julia Savage) | GIVES | Negro boy Stuart |
++E Bounaparte
++E Carey
++E Harry
++E Peggy
++E Charlotte
++E Soock
++E Virginia
+@4|p.271|Henry Sledge
+OK
+@4|p.272|William Harper
+OK
+@4|p.273|Winefred Nicholson
++E Pherebe
++E William
+@4|p.274|Mary A. Lewis
++R Martha L. Savage
++R Mary Ann Whitehead
+@4|p.275|Martha Wilcox
+-R Armey
+-R Hardy
+-B Armey (daughter) |
+-B Hardy (children) |
++R John Hudson
++R Elizabeth R. Ponton
++E Mariah
++E Armey
++E Wiatt
++E Richard
++E Combbrush
++E William
++E Hardy
++E Nancy
+@4|p.276|Sugar Davis
+D 1 March 1849; a jury found it was not his will and that he died intestate
+-R Jack Aaron
+-R Leach
+-R Haly
+-R Albert
+-R John
+-R Dennis
+-R Harmey
+-R Jane
+-R Henry
+-R Chaney
+-B Jack Aaron (children) |
+-B Leach (children) |
+-B Haly (children) |
+-B Albert (children) |
+-B John (children) |
+-B Dennis (children) |
+-B Harmey (children) |
+-B Jane (children) |
+-B Henry (children) |
+-B Chaney (children) |
++E Blake
++E Tom
++E Netty
++E Winny
++E Pris
++E Maria
++E Fanny
++E Gideon
++E Aggy
++E Ginny
++E Hasty
++E Charity
++E Peasett
++E Betsy
++E Aaron
++E Leach
++E Bill
++E Reuben
++E Anthony
++E Ned
++E Sarah
++E Pink
++E Penny
++E Margaret
++E Peter
++E Shack
++E George
++E Anaca
++E Eaton
++E Haly
++E Albert
++E John
++E Dennis
++E Harmey
++E Patience
++E Rose
++E Pegg
++E Mary
++E Joe
++E Jane
++E Henry
++E Chaney
++E Lucinda
+@4|p.278|Thomas Allen
+-R Eliza
+-B Eliza (wife) |
+-E Martha
+-E Sarah
++E Martha Sarah
++E Kitty
++E Caroline
+@4|p.279|Dolly M. Cotton
+-R Charity Tootle
+-B Charity Tootle (daughter) |
++R Charity Tootle (a free African American, mother of Sally and Lafayette)
++R Sally (child of Charity Tootle, surname not stated)
++R Lafayette (child of Charity Tootle, surname not stated)
++B Sally (child of Charity Tootle, surname not stated) | GIVES | one bed and furniture and $100 |
++B Lafayette (child of Charity Tootle, surname not stated) | GIVES | $100 |
+@4|p.280|(name not captured)
+T Margaret Davis
+D 8 March 1848; proved August Term 1849
+-R Susan
+-R Albert
+-R Isaac
+-R Priscilla
+-R Louis
+-R Adelade
+-R Nancy
+-R Lucinda
+-B Susan (children) |
+-B Albert (children) |
+-B Isaac (children) |
+-B Priscilla (children) |
+-B Louis (children) |
+-B Adelade (children) |
+-B Nancy (children) |
+-B Lucinda (children) |
++R Eliza Skelton
++R Amanda Batchelor
++E Susan
++E Albert
++E Granderson
++E John
++E Diana
++E Milbry
++E Isaac
++E Priscilla
++E Fanny
++E Adelia
++E Rosetta
++E Louis
++E Adelade
++E Nancy
++E Lucinda
++E Margaret
+@4|p.282|Martha B. Turner
+-R Cyprian Cross
+-B Cyprian Cross (daughter) |
++R Cyprian Cross (son-in-law, husband of Martha)
+@4|p.283|Dolly Applewhite
++R Kinchen H. Webb (trustee)
++E Jack
++E Wilson
++E Jane
+@4|p.284|Randolph Rawls
+OK
+@4|pp.285-7|Elijah Pope
+-E Albt
+-E David
+-E Pope
++R Benjamin Critchens (grandchildren)
++R Adeline Critchens (grandchildren)
++R Albert E. Pope (son)
++R David A. Pope (son)
++E Chany
++E Fany
++E Clarisa
++E Jim
+@4|pp.287-8|Richard H. Mosby
+OK
+@4|pp.288-9|Edward Davis
+N The will directs that Fanny and Rose and their living issue be emancipated and sent to a free state or country.
+@4|p.290|Stephen Pepper
+OK
+@4|p.291|Benjamin Davis
+-R Molly
+-R Emily
+-R Charity
+-R Minerva
+-R Nelson
+-R Amanda
+-R Frances
+-R Betsey
+-R David
+-R Da Napthali
+-B Molly (wife) |
+-B Emily (daughters) |
+-B Charity (daughters) |
+-B Minerva (wife) |
+-B Nelson (children) |
+-B Amanda (children) |
+-B Frances (children) |
+-B Betsey (children) |
+-B David (children) |
+-B Da Napthali (children) |
++R Josephine Webb
++R Ann N. Dupree
++R Wilson Dupree
++E Molly
++E Emily
++E Charity
++E Caroline
++E Peter
++E Minerva
++E Nelson
++E William
++E Amanda
++E Frances
++E Betsey
++E David
++E Da Napthali
++E Robert
++E Virgil
++E Fanny
+@4|p.292|Solomon Slatter
+-R Thos. B. Nichols
+-R John H. Anthony
+-R Nancy's
+-B Thos. B. Nichols (wife) |
+-B John H. Anthony (wife) |
+-B Nancy's (sister) |
++R Martha W. Nichols (wife of Thos. B. Nichols)
++R Lucy Anthony (wife of John H. Anthony)
++B Martha W. Nichols (wife of Thos. B. Nichols) | LENDS | twenty nine negroes and their increase |
++B Lucy Anthony (wife of John H. Anthony) | LENDS | four negroes Luke, Homer & Hester, with the right to dispose of them to her children |
++E Nancy
++E Abraham
++E Emily
++E David
++E Dempsey
++E Dobyzham
++E Benjamin
++E Tom
++E Cambridge
++E Edward
++E Nelson
++E John
++E Peter
++E Reuben
++E Henry
++E Virgil
++E Harry
++E Sterling
+@4|p.296|James W. Batchelor
++E Henry
++E Riah
+@4|p.301|Warwick Hockaday
++R William Hockaday (son)
++R Tempy (daughters)
++E Anthony
++E Enoch
++E Charlotte
++E Betty
+@4|p.302|Thomas Pritchett
+OK
+@4|p.303|Frederick Pittman
+OK
+@4|pp.304-6|Wilson C. Whitaker
+-R Quining
+-R Judge
+-R Mahala
+-B Quining (children) |
+-B Judge (children) |
+-B Mahala (children) |
++E Dick
++E Alfred
++E Nancy
++E Rachel
++E Delha
++E Mary
++E Sally
++E Laura
++E Haywood
++E Daniel
++E Essix
++E Turner
++E John Anthony
++E William
++E Quining
++E Judge
++E Mahala
++E Sylvester
++E Benja
++E Elias
++E Eli
++E Minerva
++E David
++E Martha
++E Rhoda
++E Temp
++E Jonas
++E Adaline
++E Fransina
++E Emma
++E Nelly
++E Isabella
++E Jo
++E George
++E Ellison
++E Don
++E Barrach
++E Cato
+@4|p.308|Elizabeth Jones
+-R Elizabeth
+-R Fanny
+-R Joseph
+-R Mary
+-R Augustus
+-R Alice
+-R Rebecca
+-R Cornelius
+-B Elizabeth (children) |
+-B Fanny (children) |
+-B Joseph (children) |
+-B Mary (children) |
+-B Augustus (children) |
+-B Alice (children) |
+-B Rebecca (children) |
+-B Cornelius (children) |
+-E Mary
+-E Ann
++E Mary Ann
++E Elizabeth
++E Fanny
++E Joseph
++E Mary
++E Augustus
++E Julia
++E Alice
++E Rebecca
++E Cornelius
++E Peter
+@4|p.309|Wade J. Crawley
+OK
