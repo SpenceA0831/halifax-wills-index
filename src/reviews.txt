@@ -1302,3 +1302,59 @@ OK
 +E Peter
 @4|p.309|Wade J. Crawley
 OK
+@4|p.313|Whitmel H. Anthony
+-R Nancy
+-B Nancy (wife) |
++E Titus
++E Nancy
++E Antoinette
++E Annabele
++E Caroline
++E Margaret
++E Sam
++E Alonzo
+@4|p.315|Jesse R. Clanton
+OK
+@4|pp.316|Francis Jones
++E Caroline
+@4|p.317-8|Thomas Watson
+-R Mary F. Harrell
+-R Eliza
++R Mary F. Harrell (daughter)
++R William F. Watson (son)
++R Eliza (wife of son John)
+@4|pp.320-4|James Moore
+D written 1 October 1840 (with later codicils); proved February Court 1852
++R Thomas G. Moore
++E Solomon
++E Bet
+@4|p.324-5|Pompey Jones
+D 6 May 1850; proved February Court 1852
+N The source says Pompey Jones was a free African American.
+-R L.
++R B.R. Wilkins (friend and neighbor)
++R Sally Wilkins (servant)
+@4|p.327|James Raper
+-R Arabella
+-R Lurretta
+-B Arabella (children) |
+-B Lurretta (children) |
++R William C. Roper (brother)
++E Mariah
++E Arabella
++E Lurretta
+@4|p.328|Asail Joliff
+OK
+@4|p.329|Tabitha Bridges
+D written 12 January 1847 (with a later codicil); proved May Court 1852
+-E Don
+-E Quixotte
++E Don Quixotte
+@4|p.330|Willis Webb
++E Tamer
+@4|p.331|Lazarus Lewis
+D 9 February 1838; proved August 1852
+@4|p.367|Joseph Green
+OK
+@4|p.369|John W. Pierce
+OK
