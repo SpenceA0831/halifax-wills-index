@@ -274,3 +274,281 @@ OK
 +E Caroline
 +E Sook
 +E Molly
+@4|p.116|Joel H. McLemane
++E Austin Senr
++E Synthia
++E Emanuel
++E Daniel
++E Chaney
+@4|p.117|Priscilla Harris
+-R John Harris
+-R John Henry Harris
++R John Harris (grandson, son of Kinchen Harris)
++R John Henry Harris (grandson, son of Kinchen Harris)
++R Winnefred Harris (granddaughter, daughter of Kinchen Harris)
++E Alfred
++E Milly
+@4|p.119|Milly S. Dicksan
+T Milly S. Dicksan
+-R Nancy
+-R Prissy
+-B Nancy (children) |
+-B Prissy (children) |
++R William (son)
++E General
++E Jacob
++E Creasey
++E Harriet
++E Ben
++E Treazy
++E Mary
++E Nancy
++E Fanny
++E Hannah
++E Ned
++E Ishmael
++E Washington
++E Molly
+@4|p.124|Sarah Thrower
+D written 2 December 1834; proved February term 1836(?)
+-E Brandy
+-E John
+-E Sturdivant
+@4|p.126|Thomas Shield
++E Jack
++E Short
++E Charles
++E Phillis
++E Tince
+@4|p.130|Shadrack Merritt
+-R Austin
+-R Penny
+-R Eliza
+-R Emeline
+-R Rachel
+-B Austin (children) |
+-B Penny (children) |
+-B Eliza (children) |
+-B Emeline (children) |
+-B Rachel (children) |
++R Shadrack Merritt (grandson)
++R Rachel (child of one of his daughters, surname not stated)
++B Rachel & Bethany (children of his two daughters) | GIVES | one negro woman Patience and all her children except Arnold, to be equally divided |
++E Bob
++E Lettice
++E Austin
++E Penny
++E Essex
++E Sarah
++E Eliza
++E Emeline
++E Adaline
++E Anthony
+@4|pp.132-4|Thomas Burges
+-R Peter
+-R Jacob
+-R Primus
+-R Simon
+-R Caty
+-R Jack
+-B Peter (children) |
+-B Jacob (children) |
+-B Primus (children) |
+-B Simon (children) |
+-B Caty (children) |
+-B Jack (son) |
+-E Doct
+-E Miles
+-E Allen
+-E Carter
++E Doct Miles
++E Allen Carter
++E Maria
++E Hery Hannon
++E Peter
++E Jacob
++E Primus
++E Simon
++E Caty
++E Jack
++E Betty
+@4|pp.135-6|James Simmons
+OK
+@4|p.140|John Dew
+-E Demps..to
+-E Vise
+-E Whitehead
++E Demps
++R Sally Alsobrook
++R Vise Whitehead
+@4|p.141|Martha E. Mantford
+-R James
+-B James (brother) |
++R James Munford (brother)
++R William Munford (nephew)
++R Edward Alexander Taylor
++R Susannah Taylor
++R Martha Taylor
++B James Munford (brother) | GIVES | negroes Chance, Andrew, Edinborough and Suckey | and he is asked to indulge Chance
+@4|pp.142-3|John Shield
++E Nelson
+@4|pp.143-5|Guilford Nicholson
+-R Charlot
+-R Sarah Ann Hardiman Martha M. Yelloly Thomas N. Nicholson
+-B Charlot (children) |
+-B Sarah Ann Hardiman Martha M. Yelloly Thomas N. Nicholson (grandchildren) |
++R Thomas N. Nicholson (grandson)
++B Sarah Ann Hardiman & Martha M. Yelloly (daughters) | GIVES | all the negroes I sent a few weeks past to Mississippi, nine in number, to be equally divided |
++E George
++E Ceasar
++E Henry
++E Charlot
++E Gundy
++E Caroline
+@4|pp.149-50|Willis Alstons
+T Willis Alston
+-R Kibley
+-R Milly
+-R Sally
+-B Kibley (son) |
+-B Milly (son) |
+-B Sally (daughter) |
++E Peggy
++E Lucy
++E Milly
++E Philis
++E Penny
++E Tom
++E Georgia
++E Albert
++E George
++E Rhemus
++E Cassious
++E Dinah
++E Fanny
++E Mary
++E Dicey
++E Amy
++E Tempy
++E Kibly
++E Lizza
++E Martha
++E Ann
++E Edmond
++E Jeff
++E Jacob
++E Washington
++E Arther
++E Adam
++E Romulous
++E Austin
++E Davy
++E Synthia
++E Charity
++E Becky
++E Emily
++E Mary Jane
++E Nancy
++E Kinchen
++E Aaron
++E Bob
++E John Gee
++E Shadrac
++E Ezechal
++E Cary
++E Julian
++E Aggy
++E Brittania
++E Jane
++E Eliza
++E Harriet
++E Charlott
++E Jesse
++E William
++E Sterling
++E Major
++E Isaac
++E Solomon
++E John
++E Phil
++E Nelson
++E Toff
++E Warde
++E Scilla
++E Maria
++E Ned
++E Zechal
++E Locky
++E Cornelius
++E William Edwards
+@4|pp.151-2|Sally Higgs
+-R Preston
+-R Nancy
+-R Polly
+-R Sally
+-B Preston (children) |
+-B Nancy (children) |
++E Winney
++E Preston
++E Nancy
++E Charles
+@4|p.153|Arthur Pittman, Senr
+OK
+@4|p.155|Mary Allen
++R Marcus A. Allen
++R Mason G. Allen
++R James Allen
++R Evaline Johnston
++B Marcus A. Allen | GIVES | a negro boy Dick |
++B Mason G. Allen | GIVES | a negro boy Nat |
++B James Allen | GIVES | a negro man Bob |
++B Evaline Johnston | GIVES | one negro boy Peter and a negro girl Siller, also the four hundred dollars that I have paid for her land |
++E Dick
++E Nat
++E Bob
++E Peter
++E Siller
+@4|p.156|Robert Grimmer
+OK
+@4|p.157|Joel Atkinson
+OK
+@4|p.158|Abigail Crawley
+-R Robert
+-B Robert (nephews) |
++R Robert Hines (nephews)
++R Mary Lancaster
++R William S. Bradley (son)
++B Robert Hines & James Hines (nephews) | GIVES | one half of one fifth of my property |
+@4|p.161|Mary Powell
+OK
+@4|pp.163-4|Wood Jones Hamlin
+OK
+@4|pp.165-7|Fanny Hamlin
+D written 25 February 1838; proved May 1838
+-R John
+-R Ussa
+-R Randolph
+-B John (servant) |
+-B Ussa (wife) |
+-B Randolph (son) |
++R William A. Hamlin (son)
++R Eliza Jane Williamson (daughter)
++R James S. Pearson
++R Robert Hamlin
++E Henry
++E Caroline
++E Linda
++E Sandy
++E Betsy
++E Norman
++E Polly
++E Emanuel
++E Ussa
++E Randolph
++E Amette
++E Lucy
+@4|p.168|Richard Smith
++E Caroline
++E Margaret Ann
+@4|p.170|William W. Thorn
+OK
