@@ -132,6 +132,9 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .tab.first::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #d39a1c; margin-right: 8px; vertical-align: 2px; }
 .tab.first[aria-selected="true"] { color: var(--ink); }
 [hidden] { display: none !important; }
+/* Phones: filters scroll away with the page instead of pinning a tall block; a floating button brings them back */
+@media (max-width: 700px) { .controls, .az-controls { position: static; } }
+.totop { position: fixed; right: max(16px, env(safe-area-inset-right, 0px)); bottom: max(16px, env(safe-area-inset-bottom, 0px)); z-index: 20; font-family: var(--f-ui); font-size: 16px; font-weight: 600; padding: 11px 16px; border-radius: 999px; border: 0; background: var(--accent); color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.18); cursor: pointer; }
 
 /* Read this first */
 .readfirst { background: var(--sheet); border: 1px solid var(--rule); border-top: 0; border-radius: 0 0 10px 10px; padding: 26px 28px 30px; font-size: 17.5px; }
@@ -317,6 +320,7 @@ ul.azlist li:first-child { border-top: 0; }
     <div class="az-head" id="azhead"></div>
     <div id="azbody"></div>
   </section>
+  <button class="totop" id="totop" type="button" hidden>&uarr; Search</button>
 </div>
 
 <script>
@@ -492,6 +496,22 @@ $("#more").addEventListener("click", () => { shown += PAGE; render(toks($("#q").
 const nT = ROWS.filter(r => r.role === "Testator").length, nR = ROWS.filter(r => r.role === "Recipient").length, nE = ROWS.filter(r => r.role === "Enslaved person named").length;
 $("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}</b> recipients</span><span><b>${nE}</b> enslaved people named</span><span>${new Set(WILLS.map(w => w.county)).size} counties, 1721&ndash;1901</span>`;
 
+// ---- Floating back-to-filters button (phones, where filters are not pinned) ----
+const narrow = window.matchMedia("(max-width: 700px)");
+function updTop() {
+  const tab = !$("#panel-search").hidden ? "search" : !$("#panel-az").hidden ? "az" : "";
+  const ctl = tab === "search" ? $(".controls") : tab === "az" ? $(".az-controls") : null;
+  const show = !!ctl && narrow.matches && ctl.getBoundingClientRect().bottom < 0;
+  $("#totop").hidden = !show;
+  if (show) $("#totop").innerHTML = tab === "az" ? "&uarr; Letters" : "&uarr; Search";
+}
+window.addEventListener("scroll", updTop, { passive: true });
+narrow.addEventListener?.("change", updTop);
+$("#totop").addEventListener("click", () => {
+  const az = !$("#panel-az").hidden;
+  (az ? $(".az-controls") : $(".controls")).scrollIntoView({ block: "start" });
+});
+
 // ---- Progress (Read this first) ----
 const nChecked = WILLS.filter(w => !w.auto).length;
 $("#progress").innerHTML = `<div><b>${nChecked}</b> of <b>${WILLS.length}</b> wills AI-reviewed so far; <b>${WILLS.length - nChecked}</b> auto-extracted only. None has been verified by a person.</div><div class="bar" aria-hidden="true"><span style="width:${(100 * nChecked / WILLS.length).toFixed(1)}%"></span></div>`;
@@ -507,6 +527,7 @@ function showTab(name, focusPanel) {
     $("#t-" + t).tabIndex = t === name ? 0 : -1;
   }
   if (name === "az" && !azBuilt) { azBuilt = true; buildAz(); }
+  if (typeof updTop === "function") updTop();
   try { localStorage.setItem("hw-seen", "1"); } catch {}
   if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
 }
