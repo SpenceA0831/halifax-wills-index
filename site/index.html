@@ -138,9 +138,9 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 @media (max-width: 520px) { .readfirst { padding: 20px 18px 24px; } }
 .readfirst h2 { font-family: var(--f-display); font-weight: 400; font-size: 29px; line-height: 1.2; margin: 30px 0 10px; }
 .readfirst h2:first-child { margin-top: 0; }
-.readfirst p, .readfirst li { max-width: 68ch; }
 .readfirst ul, .readfirst ol { padding-left: 22px; }
 .readfirst li { margin-bottom: 8px; }
+.readfirst .intro { margin-top: 0; }
 .readfirst a { color: var(--accent); text-underline-offset: 3px; }
 .caution { border: 1.5px solid #e2c27a; background: #fdf8ea; border-radius: 10px; padding: 16px 20px; margin: 4px 0 6px; }
 .caution h2 { margin-top: 0 !important; font-size: 25px !important; }
@@ -150,7 +150,7 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .bar span { display: block; height: 100%; background: #3f7d5a; }
 .legend { display: grid; gap: 10px; margin: 12px 0 0; padding: 0; list-style: none; }
 .legend li { display: flex; gap: 12px; align-items: baseline; margin: 0; }
-.legend .flag { flex: none; }
+.legend .flag { flex: none; min-width: 9.5em; text-align: center; }
 .startbtn { font-family: var(--f-ui); font-size: 17px; font-weight: 600; padding: 11px 20px; border-radius: 8px; border: 0; background: var(--accent); color: #fff; cursor: pointer; margin: 8px 10px 0 0; }
 .startbtn.alt { background: var(--sheet); color: var(--accent); border: 1.5px solid var(--accent); }
 
@@ -186,21 +186,23 @@ ul.azlist li:first-child { border-top: 0; }
 <div class="wrap">
   <header>
     <h1>Halifax &amp; King George Wills <em>name index</em></h1>
-    <p class="lede">Search everyone named in the Halifax County, North Carolina and King George County, Virginia will abstracts on
-      <a href="https://freeafricanamericans.com/halifax.htm" target="_blank" rel="noopener">freeafricanamericans.com</a>:
-      the person making each will, every person given or lent something, and the enslaved people the wills name.
-      Each result shows its will book, page and date, the original wording of the entry, and a link back to the entry in the source.</p>
-    <div class="stats" id="stats"></div>
+   <div class="stats" id="stats"></div>
   </header>
 
   <nav class="tabs" role="tablist" aria-label="Sections">
-    <button class="tab first" role="tab" id="t-read" aria-controls="read" aria-selected="false" data-tab="read">Read this first</button>
-    <button class="tab" role="tab" id="t-search" aria-controls="search" aria-selected="true" data-tab="search">Search names</button>
-    <button class="tab" role="tab" id="t-az" aria-controls="az" aria-selected="false" data-tab="az">A&ndash;Z index</button>
+    <button class="tab first" role="tab" id="t-read" aria-controls="panel-read" aria-selected="false" data-tab="read">Read this first</button>
+    <button class="tab" role="tab" id="t-search" aria-controls="panel-search" aria-selected="true" data-tab="search">Search names</button>
+    <button class="tab" role="tab" id="t-az" aria-controls="panel-az" aria-selected="false" data-tab="az">A&ndash;Z index</button>
   </nav>
 
-  <section id="read" role="tabpanel" aria-labelledby="t-read" hidden>
+  <section id="panel-read" role="tabpanel" aria-labelledby="t-read" hidden>
     <div class="readfirst">
+      <h2>What this is</h2>
+      <p class="intro">Search everyone named in the Halifax County, North Carolina and King George County, Virginia will abstracts on
+      <a href="https://freeafricanamericans.com/halifax.htm" target="_blank" rel="noopener">freeafricanamericans.com</a>:
+      the person making each will, every person given or lent something, and the enslaved people the wills name.
+      Each result shows its will book, page and date, the original wording of the entry, and a link back to the entry in the source.</p>
+
       <div class="caution" id="accuracy">
         <h2>Please check the original before relying on any name</h2>
         <p>This is a finding aid, not a transcription of the wills. It indexes abstracts (short summaries) that another researcher made of the will books, and the names were then picked out of those abstracts, partly by a computer program. Names, relationships and gifts can be missing, misread or attached to the wrong person. Every record shows the abstract's exact wording and a link to the source page, so you can confirm what it says. For anything important, go on to the will book itself.</p>
@@ -242,7 +244,7 @@ ul.azlist li:first-child { border-top: 0; }
     </div>
   </section>
 
-  <section id="search" role="tabpanel" aria-labelledby="t-search">
+  <section id="panel-search" role="tabpanel" aria-labelledby="t-search">
   <div class="controls" role="search">
     <div class="searchrow">
       <input id="q" type="search" placeholder="Search a name, e.g. Whitehead, Mingo, Sarah Davis" autocomplete="off" aria-label="Search names">
@@ -282,7 +284,7 @@ ul.azlist li:first-child { border-top: 0; }
   <button class="more" id="more" hidden>Show more</button>
   </section>
 
-  <section id="az" role="tabpanel" aria-labelledby="t-az" hidden>
+  <section id="panel-az" role="tabpanel" aria-labelledby="t-az" hidden>
     <div class="az-controls">
       <div class="filters">
         <div class="chips" role="group" aria-label="Index">
@@ -499,7 +501,7 @@ let azBuilt = false;
 function showTab(name, focusPanel) {
   if (!TABS.includes(name)) name = "search";
   for (const t of TABS) {
-    $("#" + t).hidden = t !== name;
+    $("#panel-" + t).hidden = t !== name;
     $("#t-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
     $("#t-" + t).tabIndex = t === name ? 0 : -1;
   }
@@ -594,7 +596,6 @@ search();
 let seen = false; try { seen = !!localStorage.getItem("hw-seen"); } catch {}
 const h0 = location.hash.slice(1);
 showTab(h0 === "accuracy" ? "read" : h0 || (seen ? "search" : "read"));
-if (TABS.includes(h0)) requestAnimationFrame(() => window.scrollTo(0, 0));
 </script>
 
 </body>
