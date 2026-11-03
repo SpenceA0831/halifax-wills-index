@@ -1,0 +1,1452 @@
+# AI review of King George Co. VA wills (full replacement of the automatic extraction for each will listed).
+# Append AFTER src/reviews.txt: a later header for the same will replaces the earlier review of it.
+@KG3|pp.112-4|Ann Stewart
+D 21 August 1812; proved 1 October 1812
+-R Mildred
+-R Ann
+-R John
+-R Burditt
+-R Wesley
++R Mildred (daughter)
++R Ann (daughter)
++R John (son)
++R William (son)
++R Burditt (son)
++R Wesley (son)
++R Henry (son)
+-E Winney
++E Winney
++E Armstead
++E Patsey
++E Ann
++E Everliny
+-B |
++B Mildred and Ann (daughters) | GIVES | use of half the house she lives in, and liberty to work their negroes on any part of her land | while they remain single
++B Ann (daughter) | GIVES | Winney (bought of John L. Alexander with tobacco) and her children Armstead, Patsey, Ann and Everliny, with future increase; two feather beds and furniture; the rest of the household and kitchen furniture; all live stock | 
++B John, William, Burditt, Wesley, Mildred, Ann and Henry (children) | GIVES | the rest of the negroes, divided between them | 
+@KG3|pp.116-7|James Diggs Dishman
+D 2 April 1813; codicil 8 April 1813; proved 6 May 1813
+-R Winney
++R Polly Reynolds (relationship not stated)
+-E Winney
++E Winney
++E Ben
+-B |
++B Polly Reynolds | LENDS | the hire of all the slaves he dies possessed of | for her life
++B all his slaves | FREED | emancipated after Polly Reynolds's death; executors to pay what is needed to move them to another state if the law will not let them stay | after Polly Reynolds's death
++B Winney (servant) | GIVES | Winney to have comfortable food and clothing for life out of the slaves' hire | codicil
++B Ben and his wife Winney | GIVES | Ben and his wife Winney to be placed comfortably when Ben can no longer support himself | codicil
++B each of his slaves | GIVES | $10 a year each out of their hires | codicil
+@KG3|p.119|Samuel Baker
+D 10 March 1813; proved 6 May 1813
+-R James Baker
+-R Mary Baker
++R James Baker (son)
++R Mary Baker (daughter)
+-E Milly
+-E George
++E Milly
++E Caroline
++E George
+-B |
++B James Baker (son) | GIVES | all his land and a grist mill | 
++B Mary Baker (daughter) | GIVES | woman Milly, girl Caroline and boy George | 
+@KG3|pp.121-2|Benjamin Suttle
+D 8 January 1811; proved 1 July 1813
+-R Priscilla
+-R Sarah Suttle
++R Priscilla (sister)
++R Sarah Suttle (sister)
+-E Edward
+-E Matilda
+-E Martha
+-E George
+-E Lucy
++E Edward
++E Matilda
++E Martha
++E George
++E Lucy
+-B |
++B Priscilla and Sarah Suttle (sisters) | GIVES | his five negroes Edward, Matilda, Martha, George and Lucy; all household furniture; three horses; the rest of his stock | 
+@KG3|pp.127-8|Sarah Stuart
+D 9 November 1811; codicil undated; proved 7 October 1813
+-R Catherine Stuart
+-R Jane Foote
+-R Townshend Stuart Dade
+-R Sally Park
+-R Helen Gibbons Foote
+-R Ann
+-R Daphne
++R ~children of her sister Jane Foote of Fauquier
++R William Stuart (brother)
++R Henry Foote (relationship not stated)
++R Townshend Stuart Dade (nephew)
++R Jane Park (daughter of niece Sally Park)
++R Ann Eliza Stuart (niece, daughter of brother William)
++R Catharine Matilda Stuart (niece)
++R Sally Jane Stuart (niece, eldest daughter of brother William)
++R ~children of her sister Helen Gibbons Foote
++R Ann Mason (niece, daughter of sister Ann)
+-E Joe
+-E Betty
+-E Nelly
++E Bob
++E Joe
++E Betty
++E Emma
++E Daphne
++E Nelly
+-B |
++B children of her sister Jane Foote of Fauquier | GIVES | all the negroes she holds under the will of her late sister Catherine Stuart, except Bob | 
++B William Stuart (brother) | GIVES | Bob | 
++B Henry Foote | GIVES | a negro boy aged four to ten, chosen by the executors | in place of Bob
++B Townshend Stuart Dade (nephew) | GIVES | boy Joe | 
++B Jane Park (daughter of niece Sally Park) | GIVES | Betty | 
++B Ann Eliza Stuart (niece) | GIVES | four negroes, Emma to be one of them if living | 
++B Catharine Matilda Stuart (niece) | GIVES | three negroes | 
++B Sally Jane Stuart (niece) | GIVES | one negro girl | 
++B children of her sister Helen Gibbons Foote | GIVES | all the rest of her negroes, including Daphne | 
++B Ann Mason (niece) | GIVES | girl Nelly, daughter of Daphne | codicil
+@KG3|pp.133-4|William Chadwell
+D 10 September 1813; proved 6 January 1814
+-R George Chadwell's
+-R Anne Duff Chadwell
++R Anne Duff Chadwell (granddaughter, daughter of son George Chadwell)
+-E Delphia
++E Delphia
+-B |
++B Anne Duff Chadwell (granddaughter) | GIVES | girl Delphia | 
+@KG3|pp.141-2|Robert Laing
+D 22 June 1814; proved 1 December 1814
+-R Lucy
++R Mildred Bruce (relationship not stated)
++R Lucy (wife)
+-E Salley
+-E Increas
++E Salley
++E Deborah
++E Kertenah
++E Hethey
++E Abraham
++E Tarasa
++E Metolda
++E Philip
++E George
++E Rose
+-B |
++B Mildred Bruce | GIVES | girl Salley and her increase | 
++B Lucy (wife) | GIVES | the rest of his estate: Deborah, Kertenah, Hethey, Abraham, Tarasa, Metolda, Philip, George and Rose with their increase; household furniture; horses, cattle and hogs | 
+@KG3|pp.142-6|Michael Wallace
+D 24 September 1813; no probate date given
+N The abstract is fragmentary, so who receives Rachael is not clear. Fenton is described as the daughter of Fanny Skidmore and reputed child of his son Gustavus. His brothers William B., John and Thomas Wallace are to value the slaves.
+-R Nan
+-R Fanny Skidmore
+-R Gustavus
+-R Rose
+-R John Wallace
+-R Gustavus B. Wallace
++R Caroline Wallace (relationship not stated)
++R Fenton (relationship not stated, daughter of Fanny Skidmore, reputed child of son Gustavus)
++R Gustavus B. Wallace (son)
++R Michael Wallace (son)
++E Lett
++E Nan
++E Rachael
++E Rose
+-B |
++B Caroline Wallace | GIVES | girl Lett, daughter of Nan | 
++B Fenton | GIVES | (abstract cut short) apparently girl Rachael, daughter of Rose | 
++B Gustavus B. Wallace and Michael Wallace (sons) | GIVES | enough of his slaves to give each an equal share, on top of slaves given earlier | slaves to be valued by his brothers
+@KG3|pp.146-7|(name not captured)
+T John Carver
+D 30 January 1815; proved 2 March 1815
+N The abstract starts "152, I John Carver"; the first recipient (of Isaac and Soky) is not named, probably his wife.
+-R Sally Jones
+-R Elzy Thornton Carver
++R Sally Jones (daughter)
++R Elzy Thornton Carver (son)
+-E Isaac
+-E Soky
+-E Benjamin
+-E John
+-E George
++E Isaac
++E Soky
++E Sharlot
++E Thacker
++E Amy
++E Benjamin
++E John
++E George
+-B |
++B (recipient not named) | GIVES | Isaac and Soky; a feather bed and furniture; two cows | 
++B Sally Jones (daughter) | GIVES | Sharlot, Thacker and Amy | 
++B Elzy Thornton Carver (son) | GIVES | all his lands; Benjamin, John and George | estate not divided until the son is educated or of age
++B two daughters and son Elzy Thornton Carver | GIVES | the profits of the estate, divided between them | after the son's schooling
+@KG3|pp.155-7|John S. Massey
+D 11 February 1815; proved 4 May 1815
++R ~wife (not named)
++R ~children (not named)
+-B |
++B wife and children | GIVES | his negroes and personal estate, kept together and then divided | when the children come of age or marry
+@KG3|pp.166-9|Mary Matthews
+D 6 July 1809; codicil undated; proved 1 December 1814
+N Frees all her slaves in Virginia and Maryland, saying slavery is "incompatible with Justice & humanity".
+-R Camilla
++R Thomas Matthews (relationship not stated)
++R ~her house maids (not named)
+-E Hendley
+-E Sarah
+-E Camilla
++E Hendley
++E Sarah
++E Clarissa
++E Camilla
+-B |
++B Thomas Matthews | GIVES | land in Charles County, Maryland | 
++B all her slaves in Virginia and Maryland | FREED | emancipated as soon as possible after her death; children bound out until 21 (boys) or 18 (girls) if their mothers cannot support them; the old and infirm supported by the estate; moved to another state at the estate's cost if they cannot stay | 
++B Hendley, Sarah and Clarissa | GIVES | $50 each to Hendley, Sarah and Clarissa | 
++B her house maids | GIVES | her inferior clothing | codicil
++B Camilla (maid servant) | GIVES | $50 to Camilla | codicil
+@KG3|pp.170-1|Lewis Waugh
+D 8 February 1808; proved 1 September 1808
+-R Clarissa
+-R John Waugh's
++R Emilly (relationship not stated, daughter of Clarissa)
++R ~his two daughters (not named)
++R ~children of his brother John Waugh
+-E Clarissa
++E Clarissa
+-B |
++B Clarissa | FREED | emancipated by the executors, who pay her $50 | 
++B Emilly (daughter of Clarissa) | GIVES | $100, paid as the executors see fit | 
++B his two daughters | GIVES | the residue of his estate, equally | 
++B children of his brother John Waugh | GIVES | the negroes whose dower rights he bought from his brother's widow and her second husband | 
+@KG3|pp.178-9|Sally Dade
+D 25 February 1814; proved 6 February 1817
+-R John B. Aserton
+-R Lawrence Aserton
++R William Dade (brother)
++R Ellen Aserton (grand-niece)
++R John B. Aserton (nephew)
++R Lawrence Aserton (nephew)
+-E George
+-E Johnson
+-E Henry
+-E James
+-E Mima
+-E Matilda
++E George
++E Johnson
++E Betty
++E Matilda
++E Hotha
++E Harry
++E Henry
++E James
++E Mima
+-B |
++B William Dade (brother) | GIVES | negro fellow George | 
++B Ellen Aserton (grand-niece) | GIVES | five young negroes Johnson, Betty, Matilda, Hotha(?) and Harry; a bed, blankets, sheets, counterpanes and pillow cases; her bureau and dressing glass; her small pearl bracelets | 
++B John B. Aserton (nephew) | GIVES | boy Henry; her bed table | 
++B Lawrence Aserton (nephew) | GIVES | boy James; her bedstead | 
++B Mima and Matilda | GIVES | $10 a year each to Mima and Matilda, for their faithful service | 
+@KG3|p.180|Mary Flemming
+D n.d.; proved 24 January 1815 in the District of Columbia; recorded 1 May 1817 in King George County
+N Mary Flemming was of the Town of Alexandria, District of Columbia.
+-R Lewis
+-R Sam
+-R Theophilus Bowie
++R William D. Simmons (son)
++R William Alexander Otto Bowie (relationship not stated)
++R Pearcey Bowie (son of Theophilus Bowie)
++R Theophilus Lewis Simmons Bowie (relationship not stated)
+-E Mary
+-E Clessor
+-E Lawson
++E Charlotte
++E Lewis
++E Sam
++E Dennis
++E Mary
++E Treace
++E Clessor
++E Harriott
++E Lawson
+-B |
++B William D. Simmons (son) | GIVES | woman Charlotte, her sons Lewis and Sam, and a small boy to be called Dennis | 
++B William Alexander Otto Bowie | GIVES | girls Mary and Treace | 
++B Pearcey Bowie | GIVES | woman Clessor(?) and her child Harriott | 
++B Theophilus Lewis Simmons Bowie | GIVES | man Lawson | 
+@KG3|p.182|Butler Washington
+D 17 February 1816; proved 1 May 1817
+-E Amika
++E Amika
++E William
+-B |
++B Amika | FREED | freed; the executors to give her $1,000 from the estate when she is freed | 
++B William | FREED | a boy owned by Mary Loman(?) of Caroline County, to be bought and freed if he costs no more than $250 | 
+@KG3|p.183|Samuel Dishman
+D 17 March 1817; proved 5 June 1817
+N Two different enslaved people named George appear (one given to John, one a child of Lydia).
+-R John
+-R Hannah
+-R Polly F. Blackburn
+-R Eliza
+-R Eletha
+-R Dick
+-R Rheuben
+-R Gabriel
+-R George
+-R Anny
++R John (son)
++R Ann E. Dishman (daughter-in-law, wife of son John)
++R Polly F. Blackburn (daughter)
+-E Moses
+-E Anthony
+-E George
+-E Chrssiah
+-E Hannah
+-E Nutty
+-E Sal
+-E Sampson
+-E Lydia
++E Moses
++E Anthony
++E George
++E Chrssiah
++E Hannah
++E Nutty
++E Mary Ann
++E Sal
++E Sampson
++E Lydia
++E Eliza
++E Eletha
++E Dick
++E Rheuben
++E Gabriel
++E Anny
++E Emmalina
++E Patience
+-B |
++B John (son) | GIVES | Moses, Anthony, George, Chrssiah, Hannah and Nutty(?) | 
++B Ann E. Dishman (wife of son John) | GIVES | Mary Ann, daughter of Hannah | 
++B Polly F. Blackburn (daughter) | GIVES | Sal, Sampson, and Lydia with her children Eliza, Eletha, Dick, Rheuben, Gabriel, George, Anny and Emmalina; also Patience; with their increase; his chamber bed and furniture, dressing glass and table | 
+@KG3|pp.184-5|David Jones, Senr
+D 1 June 1817; proved 7 August 1817
+-R Mary
+-R David
+-R Milly
+-R Susan
++R Mary (wife)
++R David (son)
++R Milly (daughter)
++R Susan (daughter)
++R Sally (daughter)
++E Sam
+-B |
++B Mary (wife) | LENDS | the 225 acres he lives on, all stock, household furniture, plantation utensils, all his slaves except Sam, and 1,050 silver dollars | for her life
++B Sam | SOLD | negro man Sam to be sold | 
++B Mary, David, Milly, Susan and Sally (wife, son and daughters) | GIVES | the money from the sale of Sam, divided between them | 
++B David (son) | GIVES | first choice of his slaves | after the wife's death (the abstract is cut before saying who gets the rest)
+@KG3|p.186|Susannah Dade
+D 17 May 1817; proved 2 October 1817
+N Widow of Townshend Dade. "Fanny" among the three single daughters is taken to be Frances T. Dade.
+-R Mary T. Dade
+-R Frances T. Dade
+-R Carter
+-R Milly
+-R Mary
+-R Cadwallader J. Dade
+-R Cadwallader
+-R Langhorne
++R Mary T. Dade (daughter)
++R Frances T. Dade (daughter)
++R Milly (daughter)
++R Cadwallader J. Dade (son)
++R Langhorne (son)
+-E Dianna
+-E Carter
++E Dianna
++E Carter
++E Rachel
++E Betsy
++E Amanda
++E William
+-B |
++B Mary T. Dade (daughter) | GIVES | woman Dianna | 
++B Frances T. Dade (daughter) | GIVES | the rest of her negroes except Carter and Rachel: Betsy, Amanda and William | 
++B Milly, Mary T. Dade and Frances T. Dade (single daughters) | GIVES | her carriage horses and servant Carter | while they remain single
++B Cadwallader J. Dade (son) | GIVES | the carriage horses and servant Carter | after the daughters marry
++B Cadwallader J. Dade, Langhorne and the single daughters | GIVES | cattle, sheep, horses, furniture and plantation utensils, equally | 
++B Rachel | CHOICE | Rachel may choose her master or mistress among the three daughters or son Langhorne | 
+@KG3|pp.187-8|Thomas Pearson
+D 14 October 1817; proved 4 December 1817
+-R Sarah
+-R Harriot Byron Pearson Mason
+-R Ann Pearson Sedwick
+-R Harriot B. P. Mason
++R Sarah (wife)
++R Harriot Byron Pearson Mason (daughter)
++R William Alexander (son)
++R ~three children of his late eldest daughter Ann Pearson Sedwick
+-E John
+-E Shanklin
+-E Lions
++E Milly
++E John Shanklin
++E Peggy
++E John Lions
++E Ben
+-B |
++B Sarah (wife) | LENDS | her full thirds of his estate; woman Milly, aged 55 | for her life
++B Harriot Byron Pearson Mason (daughter) | GIVES | Milly | after the wife's death
++B William Alexander (son) | GIVES | man John Shanklin, aged 52; girl Peggy, aged 12; his choice of man John Lions or boy Ben; a best feather bed; the cattle he holds; choice of two milch cows and one horse; cart and four steers | 
++B children of his late eldest daughter Ann Pearson Sedwick | GIVES | half of the rest of his personal estate, equally | 
++B Harriot Byron Pearson Mason (youngest daughter) | GIVES | the other half of the rest of his personal estate | 
+@KG3|pp.189-90|(name not captured)
+T Cadwallader J. Dade
+D 22 August 1814 (also dated 3 January 1816); proved 4 December 1817
+N The abstract begins partway into the will; it is signed "Cadw: J. Dade".
+-R Langhorne Dade
+-R John B. Dade
++R Langhorne Dade (brother)
++R John B. Dade (brother)
++E Loyd
+-B |
++B Langhorne Dade (brother) | GIVES | all his right in the estate called Albion, where their mother lives | 
++B John B. Dade (brother) | GIVES | the rest of his possessions: the land bought of Massey and his negroes | 
++B Langhorne Dade (brother) | SOLD | wish that Langhorne buy Loyd(?) of Jack, as Loyd may not want to go to Culpeper | 
+@KG3|pp.194-6|Margaret Pratt
+D 11 April 1818; proved 3 December 1818
+N The clause about Agnes, Thomas, Milly and Nelly is unclear in the abstract: Charlotte and Anne seem to be given in place of them, as they were given earlier to Lucy Lewis.
+-R Elizabeth Quisenberry
+-R Bryan
+-R Thomas
+-R Lucy Lewis
+-R Ellen G. Ashton
+-R Feilding Lewis
++R Elizabeth Quisenberry (granddaughter)
++R Lucy Lewis (granddaughter)
++R Ellen G. Ashton (great-granddaughter)
++R Feilding Lewis (great-grandson)
+-E Nancy
+-E Lucy
++E Nancy
++E Bryan
++E Charlotte
++E Anne
++E Agnes
++E Thomas
++E Milly
++E Nelly
++E Lucy
++E James
+-B |
++B Elizabeth Quisenberry (granddaughter) | GIVES | Nancy and her son Bryan (already sold, sale confirmed); Charlotte and Anne | Charlotte and Anne in place of Agnes, her son Thomas, Milly and Nelly
++B Lucy Lewis (granddaughter) | GIVES | Agnes, her son Thomas, Milly and Nelly (given earlier) | 
++B Ellen G. Ashton (great-granddaughter) | GIVES | girl Lucy | 
++B Feilding Lewis (great-grandson) | GIVES | James, a child of Agnes | 
+@KG3|pp.199-200|Thomas Pursley
+D 25 December 1818; proved 4 February 1819
+-R Leanna Pursley
+-R Martha S. Pursley
++R Leanna Pursley (daughter)
++R Martha S. Pursley (infant daughter)
+-E Cairey
+-E Lucy
++E Cairey
++E Lucy
+-B |
++B Leanna Pursley (daughter) | GIVES | woman Cairey; a feather bed and furniture | 
++B Martha S. Pursley (infant daughter) | GIVES | girl Lucy | 
+@KG3|pp.204-5|Mary Edrington
+D 11 December 1813; proved 7 September 1820
+-R Edmond G. Edrington
++R Edmond G. Edrington (grandson)
+-E Winny
++E Winny
+-B |
++B Edmond G. Edrington (grandson) | GIVES | girl Winny and her increase; all her stock; household and kitchen furniture; her bonds and all other property | 
+@KG3|pp.207-9|Aaron Thornley
+D 12 February 1820; proved 3 August 1821
+-R Thomas Berry Thornley
+-R Lucy Monroe
+-R Mary Matilda Riding
++R William (son)
++R Thomas Berry Thornley (son)
++R ~his wife (not named)
++R Lucy Monroe (daughter)
++R Clarissa Greer (relationship not stated)
++R Louisa Thornley (relationship not stated)
++R Helena White (relationship not stated)
++R Mary Matilda Riding (daughter)
+-E Malinda
+-E Amy
+-E Simon
+-E Solomon
+-E Sampson
++E Tom
++E Milly
++E Mary
++E Suckey
++E Dinah
++E Malinda
++E Amy
++E Simon
++E Solomon
++E Sampson
+-B |
++B William (son) | GIVES | the upper or back part of his land, including the land where William lately lived | 
++B Thomas Berry Thornley (son) | GIVES | all the rest of his land; blacksmith Tom and his tools; Milly and her children; a small bay mare | 
++B his wife | LENDS | 390 acres bought of William Boon; the gig and harness she drives; a loom; a third of the live stock, furniture and plantation utensils at Poplar Grove; a third of his negroes, including those in their marriage contract | for her life, in place of dower
++B Lucy Monroe (daughter) | GIVES | woman Mary, already in her possession | 
++B Clarissa Greer | GIVES | woman Suckey | 
++B Louisa Thornley | GIVES | girl Dinah | 
++B Helena White | GIVES | girl Malinda | 
++B Mary Matilda Riding (daughter) | GIVES | girl Amy, boy Simon, and men Solomon and Sampson | 
+@KG3|pp.210-1|Francis Fitzhugh
+D 22 October 1798; codicil 10 February 1817; proved 5 April 1821
+N Nasey is called Clarissa's son in one clause and Charity's son in the next. "Old Bristol" in the codicil is probably Bristol Senr.
+-R Lucy
+-R Dundie
+-R Clarissa
+-R Nasey
+-R Lucy Fitzhugh
+-R Thomas
+-R Edwin
++R Lucy (wife)
++R John Taliaferro, Junr (relationship not stated)
++R Lucy Fitzhugh (niece, daughter of brother Thomas)
++R Edwin Conway (relationship not stated)
++R Alexr Seyr Hooe (relationship not stated)
+-E Moses
+-E Ralph
+-E Aaron
++E Moses
++E Ralph
++E Aaron
++E Dundie
++E Dinah
++E Cate
++E Bristol
++E Milly
++E Clarissa
++E Nasey
++E Charity
++E Iverson
++E Limus
++E Tom
++E Peter
++E Richard
++E Edmond
++E Jenny
++E Edwin
+-B |
++B Lucy (wife) | GIVES | the slaves that were hers when they married, plus Moses, Ralph, Aaron and his wife Dundie, Dinah and her children, and Cate | 
++B Lucy (wife) | LENDS | Bristol Senr, Milly and her children, Clarissa and her son Nasey | for her life
++B Bristol Senr and Milly | FREED | Bristol Senr and Milly to be emancipated | after the wife's death
++B John Taliaferro, Junr | GIVES | Milly's children and their increase | after the wife's death
++B Lucy Fitzhugh (niece) | GIVES | Charity and her son Nasey | after the wife's death
++B Edwin Conway | GIVES | Iverson and Limus | at the wife's death (codicil)
++B Alexr Seyr Hooe | GIVES | Tom, Peter, Richard and Edmond, which he asks his wife to give at her death or sooner | codicil
++B old Bristol, little Jenny and her son Edwin | FREED | to be emancipated at the wife's death if it can be done in a way satisfactory to them; any who stay enslaved by choice may choose a master or mistress, who pays nothing for them | codicil
+@KG3|p.215|James Holaday
+D 4 June 1821; proved 2 August 1821
+-R Nancy Randal Jack
++R ~his mother (not named)
++R Lucy Randal (relationship not stated)
++R Nancy Randal (sister)
++E Ned
++E Jeaney
++E Jack
++E George
+-B |
++B his mother | LENDS | all his estate | for her life
++B Lucy Randal | GIVES | Ned, and Jeaney with her increase | after his mother's death
++B Nancy Randal (sister) | GIVES | Jack and George, to do with as she pleases | after his mother's death
+@KG3|p.216|William Hudson
+D 7 April 1821; proved 2 August 1821
+-R George Stork Hudson
++R George Stork Hudson (son)
++E William Henry
+-B |
++B George Stork Hudson (son) | GIVES | all his lands; boy William Henry; a bed, bedstead and furniture; a desk and bookcase; a horse, saddle and bridle | 
+@KG3|pp.224-6|Laurence Berry
+D 13 September 1814; proved 5 September 1822
++R ~trustees, for the support of his wife and children (not named)
+-B |
++B trustees, for his wife and children | GIVES | his whole estate, for the support of his wife and children; the trustees may sell or change slaves, land and other property if the family needs it | 
+@KG3|pp.228-9|George Lewis
+D 19 March 1819; proved 6 February 1823
+-R Samuel
+-R Dangerfield
+-R Mary W. Willis
++R Samuel (son)
++R Dangerfield (son)
++R Mary W. Willis (daughter)
+-B |
++B Samuel (son) | GIVES | a third of his Western land; a third of all his negroes, counting those already given him | 
++B Dangerfield (son) | GIVES | a third of his Western land; a third of all his negroes, counting those already given him | negroes after his mother's death
++B Mary W. Willis (daughter) | GIVES | a third of his land in the Western country; a third of all his negroes, counting those already given her | land at his death, negroes at her mother's death
+@KG3|pp.332-4|McCartey Fitzhugh
+D 13 April 1823; proved 5 June 1823
+N The page reference p.332-4 is as given in the source (probably pp.232-4).
+-R John Thornton
+-R Francis
++R ~his five children (not all named)
++R John Thornton Fitzhugh (child, surname assumed)
++R Francis (child)
+-B |
++B his five children | GIVES | all his negroes, equally | 
++B John Thornton Fitzhugh and Francis (children) | GIVES | their shares of the negroes | at age 21
+@KG3|p.236|John Ashton
+D 11 August 1810; proved 5 June 1823
+-R John W. Ashton
+-R Charles
+-R Burdett
++R John W. Ashton (son)
++R Burdett (son)
++E Mildred
++E Nell
++E Charles
+-B |
++B John W. Ashton (son) | GIVES | the negroes he already has; Mildred and her children; Charles, son of Nell | 
++B Burdett (son) | GIVES | the rest of his negroes; horses, hogs, cattle and sheep; plantation utensils and furniture | 
+@KG3|pp.237-9|Richard Potts, Senr
+D 15 April 1823; proved 7 August 1823
+N Two enslaved girls named Hannah appear (Lucy's daughter, and Nelly's child). Rose and Thornton had been lent to daughter Fanny when she married Joseph Enover(?) of Stafford.
+-R Richard
+-R Travis
+-R Lucys
+-R James
+-R George C.
+-R Lucy
+-R Hezekiah
+-R Nelly
+-R Winifred Owens
+-R Patty
+-R Elizabeth Johnston
+-R Fanny
+-R Fanny's
+-R Ann Barrett
++R Richard (son)
++R George C. Potts (son)
++R Hezekiah (youngest son)
++R ~children of his daughter Winifred Owens
++R ~children of his late daughter Elizabeth Johnston
++R ~his children
++R Ann Barrett (sister)
+-E Sriva
+-E Ben
+-E Lucy's
+-E Randall
+-E Ginta
+-E Hulda
+-E Limus
+-E Jack
+-E Rose
+-E Thornton
+-E Lucy
+-E Sophia
+-E Sally
++E Sriva
++E Travis
++E Lucy
++E James
++E Osmond
++E Hannah
++E Daphne
++E Ben
++E Nelly
++E Milly
++E Randall
++E Patty
++E Grace
++E Ginta
++E Hulda
++E Limus
++E Jack
++E William Washington
++E Rose
++E Thornton
++E Sophia
++E Sally
+-B |
++B Richard (son) | GIVES | Sriva(?) and her children Travis and James (Lucy's son); his surveying instruments | 
++B George C. Potts (son) | GIVES | a tract of land; his bed, bedstead and furniture; a horse, a cow and calf, 3 sheep, half his hogs and half the crop; Osmond, and Lucy's daughters Hannah and Daphne | 
++B Hezekiah (youngest son) | GIVES | his mansion house and the land with it; household and kitchen furniture; plantation utensils; horses, cattle, sheep and hogs; half the crop; Ben, Lucy's daughter Nelly and her child Hannah, and Milly, with their increase | 
++B children of his daughter Winifred Owens | GIVES | man Randall, to be divided among them with Patty and Grace, given earlier to their mother | 
++B children of his late daughter Elizabeth Johnston | GIVES | Ginta, Hulda, Limus, Jack and William Washington | 
++B his children | GIVES | Rose and Thornton (lent earlier to daughter Fanny), divided equally | 
++B Ann Barrett (sister) | LENDS | Lucy, and Sophia and her child Sally; an upstairs room in the mansion house; one acre of land; firewood; a cow and calf | for her life
+@KG3|pp.240-4|James Edwards
+D 22 February 1823; proved 4 September 1823
+N Some enslaved people's names recur (Lewis, Henry, George) and may be different people. The wife's life interest covers the slaves given to the children "after the death of my wife".
+-R John
+-R Enoch Edwards
+-R Elizabeth
+-R Lucy Deatley
+-R Rosy Jones
+-R Susan
+-R Joseph E. Moxly
+-R Lucy Moxley
+-R Rosy
++R John A. Edwards (son)
++R Enoch Edwards (son)
++R Elizabeth A. Baker (daughter)
++R Lucy Deatley (daughter)
++R Rosy Jones (daughter)
++R Susan A. Jones (daughter)
++R Joseph E. Moxly (grandson)
++R Lucy Moxley (granddaughter)
++R Rosy (wife)
+-E Willoughby
+-E Thomas
+-E Isaac
+-E Benjamin
+-E Ann
+-E Jacob
+-E Charles
+-E Lewis
+-E Rachel
+-E Burdett
+-E Christopher
+-E Eliza
+-E Lucy
+-E Mary
+-E Ned
+-E Milly
+-E James
+-E Nelly
+-E John
+-E George
+-E Burditt
++E Willoughby
++E Thomas
++E Isaac
++E Benjamin
++E Ann
++E Jacob
++E Charles
++E Lewis
++E Rachel
++E Burdett
++E Christopher
++E Eliza
++E Lucy
++E Simon
++E Henry
++E Betty
++E Patty
++E Moses
++E Spinar
++E Mary
++E Ned
++E Matilda
++E Thornton
++E George
++E William
++E Alia
++E James
++E Milly
++E Nelly
++E John
+-B |
++B John A. Edwards (son) | GIVES | a tract of land; boys Willoughby, Thomas and Isaac; man Benjamin and girl Ann after the wife's death | 
++B Enoch Edwards (son) | GIVES | a tract of land; man Jacob, boys Charles and Lewis, girl Rachel; men Burdett and Christopher after the wife's death | 
++B Elizabeth A. Baker, in trust through her brothers John A. Edwards and Enoch Edwards | GIVES | Eliza, and Lucy and her children Lewis, Simon and Henry, with their future increase (already in her possession) | in trust for Elizabeth A. Baker
++B Lucy Deatley, in trust through her brothers John A. Edwards and Enoch Edwards | GIVES | girls Betty and Patty, boys Moses and Spinar; girl Mary and boy Ned after the wife's death | in trust for Lucy Deatley
++B Rosy Jones, in trust through her brothers John A. Edwards and Enoch Edwards | GIVES | girl Matilda, boys Thornton and George; Lewis and woman Milly after the wife's death | in trust for Rosy Jones
++B Susan A. Jones, in trust through her brothers John A. Edwards and Enoch Edwards | GIVES | boy William, girl Alia, boy Henry; man James and woman Nelly after the wife's death | in trust for Susan A. Jones
++B Joseph E. Moxly (grandson) | GIVES | half a tract of land; boy John; a horse, saddle and bridle | 
++B Lucy Moxley (granddaughter) | GIVES | the other half of the tract; boy George (Nelly's son); a bed and furniture; a cow and calf | 
++B Rosy (wife) | LENDS | Lewis and Milly, Benjamin and Ann, Burdett and Christopher, Mary and Ned, James and Nelly | for her life
+@KG3|pp.249-50|John Dishman
+D 28 May 1824; proved 7 October 1824
++R William J. Dishman (relationship not stated)
++R John Dishman, Jr. (relationship not stated)
+-E Winny
+-E Harry
+-E Ralph
+-E Emanuel
+-E Milly
++E Winny
++E Harry
++E Ralph
++E Emanuel
++E Milly
++E Fanny
+-B |
++B William J. Dishman | GIVES | all his land in King George County; Old Winny, Harry, Ralph and Emanuel; six sheep and two cows; twelve barrels of corn left on the plantation to feed his negroes | 
++B John Dishman, Jr. | GIVES | woman Milly | 
++B William J. Dishman | GIVES | his old cook woman Fanny, asking that he treat her humanely and keep her as long as she lives | 
+@KG3|pp.255-7|Theodosius Hansford
+D 2 May 1824; proved 2 December 1824
+-R Jefferson Hansford
+-R Edwing
+-R Laura Hansford
++R Jefferson Hansford (son)
++R Edwing (son)
++R June Hansford (daughter)
++R Laura Hansford (daughter)
+-E Peter
+-E Varle's
+-E Polly
+-E Squire
+-E Charles
+-E Evelina
+-E Gabriel
+-E Fanny
++E Peter
++E Polly
++E Squire
++E Charles
++E Evelina
++E Gabriel
++E Fanny
++E Thornton
+-B |
++B Jefferson Hansford (son) | GIVES | man Peter; Varle's map of the United States; a marble slab; six silver tablespoons; an old gun | 
++B Edwing (son) | GIVES | woman Polly and mulatto boy Squire; a bed, bedstead and furniture; a short gun; a silver watch; six silver spoons | 
++B June Hansford (daughter) | GIVES | man Charles and mulatto girl Evelina; a bed, bedstead and furniture | 
++B Laura Hansford (daughter) | GIVES | man Gabriel; a bed, bedstead and furniture | 
++B (by the administrator) | SOLD | woman Fanny and her youngest child Thornton, with the rest of the estate | 
+@KG3|pp.259-60|Meriwether Taliaferro
+D 1 December 1818; proved 7 July 1825
+N He says a "cruel law of this state" may force those he frees to leave Virginia. Benjamin Franklin, a son of Sally, had already been freed by him.
+-R Sally
+-R Ben
++R Sally (servant, freed by the will)
++R Benjamin Franklin (son of Sally, already freed)
++R ~a child living with his overseer, whom he recognizes as his child by Ann Truslow
+-E Sally
+-E Ben
++E Sally
++E Ben
+-B |
++B Sally and her children | FREED | freedom at his death, if he has not freed them before | 
++B Sally and her children | GIVES | $2,000; two mules or horses; a yoke of oxen; a milch cow; two beds and furniture with all his blankets; all the meat on hand | executors may move them to a more friendly place
++B Benjamin Franklin (son of Sally) | GIVES | $500; his choice of any one of the negroes; a mule or horse | 
++B a child living with his overseer (his child by Ann Truslow) | GIVES | the residue of his estate | 
++B Ben (old man servant) | FREED | freedom at his death and $50 | 
+@KG3|pp.261-2|George C. Potts
+D 10 February 1825; proved 4 August 1825
+-R Richard Potts
+-R Richard
+-R Jane Potts
+-R Hezekiah
+-R Frances Jane
++R Richard Potts (brother)
++R Jane Potts (niece, daughter of brother Richard)
++R Hezekiah (brother)
++R Frances Jane Potts (niece, daughter of brother Hezekiah, surname assumed)
+-E Daphne
+-E Orsmond
++E Daphne
++E Orsmond
++E Hannah
++E Lucy
+-B |
++B Richard Potts (brother) | GIVES | the land next to him; Daphne and Orsmond in trust | Daphne and Orsmond held in trust until his daughter Jane comes of age
++B Jane Potts (niece) | GIVES | Daphne and Orsmond | when she comes of age; not to be sold, so they stay with their families
++B Hezekiah (brother) | GIVES | the land their father left the testator; Hannah and Lucy in trust | Hannah and Lucy held in trust until his daughter Frances Jane comes of age
++B Frances Jane Potts (niece) | GIVES | Hannah and Lucy | when she comes of age; not to be sold, so they stay with their families
+@KG3|pp.263-4|Augustine Wilkerson
+D 4 April 1824; proved 1 September 1825
+N This abstract runs two wills together: Augustine Wilkerson's (4 April 1824, proved 1 September 1825) and William Sebastian's (24 July 1824, his mark, proved 6 October 1825). Bequests from the Sebastian will are marked; it should be split into its own entry.
+-R Jane
+-R Mariah
+-R Luisa
+-R Samuel Attwell
+-R Bernit Wilkerson's
+-R Robert Wilkerson
+-R John
+-R Betsey
+-R Joanna Catharine
+-R Ann Weedon
+-R Rachel
++R Jane (wife)
++R Mariah Jones (child of Benjamin Jones)
++R Luisa Jones (child of Benjamin Jones)
++R Benjamin Jones (child of Benjamin Jones)
++R Samuel Attwell (nephew)
++R Robert Wilkerson (son of nephew Bernit Wilkerson)
++R William Sebastian (son of William Sebastian)
++R John Sebastian (son of William Sebastian, surname assumed)
++R Betsey Sebastian (daughter of William Sebastian, surname assumed)
++R Joanna Catharine Sebastian (daughter of William Sebastian, surname assumed)
++R Ann Weedon (daughter of William Sebastian)
+-E Joe
+-E Andrew
+-E Rachel
+-E Nancy
+-E Anman
++E James
++E Fanney
++E Daniel
++E Matilda
++E Betty
++E Anny
++E Dinar
++E Abriham
++E Charles
++E Joe
++E Andrew
++E Aaron
++E Rachel
++E Nancy
++E Anman
++E Julia
++E Harriot
+-B |
++B Jane (wife) | LENDS | his whole estate | while she lives unmarried
++B Jane (wife) | GIVES | choice of beds and furniture; James, Fanney, Daniel and Matilda with their increase, to dispose of as she pleases | 
++B Mariah Jones, Luisa Jones and Benjamin Jones (children of Benjamin Jones) | GIVES | Betty and Anny | at the wife's death
++B Samuel Attwell (nephew) | GIVES | the plantation he lives on; Dinar, Abriham and Charles | after the wife's death, on paying $150 to Robert Wilkerson
++B Robert Wilkerson | GIVES | $150, paid by Samuel Attwell | 
++B William Sebastian (son) | GIVES | man Joe, about 25, and boy Andrew, about 12; two horses, an ox cart, a pair of oxen, a cow and calf, six hogs, two ewes; plantation utensils; his bed, two chests and chair | William Sebastian's will
++B William Sebastian (son), in trust for John Sebastian | GIVES | man Aaron | William Sebastian's will; in trust for son John
++B Betsey Sebastian (daughter) | GIVES | woman Rachel; a bed and furniture | William Sebastian's will
++B Joanna Catharine Sebastian (daughter) | GIVES | girl Nancy, about 10; a bed and furniture | William Sebastian's will
++B Ann Weedon (daughter) | GIVES | girl Anman, about 8; a bed and furniture | William Sebastian's will
++B Julia and Harriot (daughters of Rachel) | FREED | two mulatto children to be emancipated; at age 15 son William is to take them to a state where they can be free, with $50 set aside for the journey | William Sebastian's will
+@KG3|pp.267-8|John Jackson
+D 8 November 1825; proved 5 January 1826
+-R Francis
+-R Susan B. Dishman
++R Mary N. Settles (relationship not stated)
++R William J. Dishman (nephew)
++R Francis A. Harvey (niece)
++R Susan B. Dishman (niece)
+-E Winny
++E Winny
+-B |
++B Mary N. Settles | GIVES | all the lands deeded to him | 
++B William J. Dishman, Francis A. Harvey and Susan B. Dishman (nephew and nieces) | GIVES | the rest of his property, equally | the negroes to be divided without selling any
++B Winny | CHOICE | left out of the division; free to live with whom she pleases, supported from his estate | 
+@KG3|p.269|Patsey Coghill
+D 10 November 1825; proved 5 January 1826
+-R Thomas Sorrel
++R Thomas Sorrel (nephew)
++R Mary W. Suttles (relationship not stated)
++R Betsey Dixon (niece)
+-E Dudley
+-E Henry
+-E Daniel
+-E Aromith
+-E Phil
+-E Dangerfield
+-E Cecilia
+-E Nan
+-E Albert
++E Dudley
++E Henry
++E Daniel
++E Aromith
++E Phil
++E Dangerfield
++E Cecilia
++E Nan
++E Albert
+-B |
++B Thomas Sorrel (nephew) | GIVES | Dudley, Henry, Daniel, Aromith, Phil and Dangerfield; a feather bed and all her bed clothing | 
++B Mary W. Suttles | GIVES | woman Cecilia and her youngest child | 
++B Betsey Dixon (niece) | GIVES | Nan and her child Albert | 
+@KG3|pp.271-2|Burditt Ashton
+D 1 October 1824; proved 6 April 1826
+-R John W. Ashton
+-R Charles Henry Ashton
++R John W. Ashton (brother)
++R Charles Henry Ashton (brother)
++E Eleanor
++E Matilda
+-B |
++B John W. Ashton (brother) | GIVES | half his land in King George; Eleanor and all her children, and Matilda; half his horses and a third of his other stock; half his beds and furniture; all his plate; a mahogany dressing table and glass | 
++B Charles Henry Ashton (brother) | GIVES | the rest of his negroes, live stock, furniture and farming utensils, and the horses counted as his | 
+@KG3|p.273|Langhorne Dade
+D 1 March 1826; proved 7 April 1826
+-R John B. Dade
++R John B. Dade (brother)
+-B |
++B John B. Dade (brother) | GIVES | the estate called Albion where he lives, and all other property | 
+@KG3|p.275|Elizabeth Price
+D 11 November 1825; proved 6 July 1826
+-R Alexander G. Price
+-R Alexander
+-R Thornton
++R Alexander G. Price (son)
++R Thornton A. Price (son)
++E William
++E Barnett
+-B |
++B Alexander G. Price (son) | GIVES | William and Barnett; a small colt | William for Alexander's life only
++B Thornton A. Price (son) | GIVES | man William; her cattle; a small pair of drawers; a feather bed and furniture | William after Alexander's death
+@KG3|pp.276-7|Mary W. Stuart
+D 1 September 1824; proved 6 July 1826
+N Widow of John A. Stuart. "Frances W. Stuart" and "Frances Maria W. Stuart" are taken to be the same daughter. She inherited a fifth of her late son William G. Stuart's estate, and gave up her interest in his slaves so that she could dispose of Milly, Winny and Sibby.
+-R John Stuart
+-R John
+-R Frances W. Stuart
+-R Jacob W. Stuart
+-R Frances Maria W. Stuart
++R John Stuart (son)
++R Frances Maria W. Stuart (daughter)
++R Jacob W. Stuart (nephew)
+-E Father's
+-E Milly
+-E Winny
+-E Sibby
++E Milly
++E Winny
++E Sibby
+-B |
++B John Stuart and Frances Maria W. Stuart (son and daughter) | GIVES | confirms John's sale of slaves of his father's estate, the slaves he bought with the money, and the recent division of that estate between them | 
++B Jacob W. Stuart (nephew) | GIVES | Winny and Sibby with their present and future increase | 
++B John Stuart, for the use of his sister Frances Maria W. Stuart | GIVES | woman Milly and her increase | for the use of his sister Frances Maria W. Stuart
+@KG3|p.278|John Brown
+D 13 July 1826; proved 3 August 1826
+-R Anthony
++R Anthony (son)
+-E Lauvinda
++E Lauvinda
+-B |
++B Anthony (son) | GIVES | girl Lauvinda(?) | 
+@KG3|pp.279-81|William M. Rogers
+D 16 October 1824; proved 5 October 1826
+N He directs his friends (executors) to sell his estate and use the money to buy and free members of the Rogers family held by Mrs. Sarah Thornton (estate of Edward Oldham, deceased).
++R ~his friends, the executors (not named)
+-E Kizzy
++E William Rogers
++E Betsy Rogers
++E Correll Rogers
++E Peyton Rogers
++E Jane Rogers
++E Ludwell Rogers
++E Thacker W. Rogers
++E Kizzy
+-B |
++B his friends (executors) | SOLD | all his lands, houses, tenements and ferry, and his perishable estate | 
++B William Rogers, Betsy Rogers, Correll Rogers, Peyton Rogers, Jane Rogers, Ludwell Rogers and Thacker W. Rogers | FREED | to be bought from Mrs. Sarah Thornton with the estate's money (hired out up to five years if needed to buy them all); boys bound to humane masters in trades of their choice until 21, girls to mistresses until 18; then taken safely to a non-slaveholding state of their choice | 
++B the Rogers family members bought and freed | GIVES | any surplus of his estate after buying them, equally | 
++B Kizzy | GIVES | for Kizzy's use for life: his household and kitchen furniture; his house with the field around it and timber; a cow and calf; a sow and fattening hogs; three barrels of corn | for her life; then sold and the money sent to the freed Rogers family members who can be found within 18 months
+@KG3|pp.284-6|William S. Quisenberry
+D n.d.; proved 7 June 1827
++R ~his wife (not named)
+-E Sharlotte
+-E Anna
+-E Tom
++E Sharlotte
++E Anna
++E Tom
+-B |
++B his wife | GIVES | servants Sharlotte, and Anna and her child Tom | 
+@KG3|pp.286-8|Elizabeth Skinker
+D 18 June 1822; codicil 21 July 1823; proved 3 January 1828
+N Elizabeth Skinker was of Caroline County.
+-R Mildred Skinker
++R Mildred Skinker (daughter)
+-E Guy
++E Guy
+-B |
++B Mildred Skinker (daughter) | GIVES | 100 pounds for the loss of a negro fellow called Guy | 
+@KG3|pp.291-2|Joanna Sebastian
+D 9 April 1828 (nuncupative will); proved 5 June 1828
+N A nuncupative (spoken) will.
+-R Catharine Sebastian
+-R John
++R Catharine Sebastian (daughter)
++R John Sebastian (son)
++R William Sebastian (son)
+-E Ann
++E Ann
+-B |
++B Catharine Sebastian (daughter) | GIVES | a bed and furniture; enough money to buy out her other children's interest in girl Ann | 
++B John Sebastian and William Sebastian (sons) | GIVES | all her sheep | 
+@KG3|pp.293-304|John Tayloe
+D 21 July 1824; codicil December 1827; proved 14 March 1828 in the District of Columbia; 5 June 1828 in King George County
+N John Tayloe was of Washington, formerly of Mount Airy, Richmond County. The abstract once spells Benjamin's surname "Taylor".
+-R Anne
+-R Benjamin Ogle Taylor
+-R Edward Thornton Tayloe
+-R Henry Augustine Tayloe
+-R Charles
+-R John Tayloe Junior
+-R Benjamin Ogle Tayloe
+-R Benjamin O.
+-R Benj. Ogle
+-R Archy
+-R George Plater Tayloe
++R Anne (wife)
++R Benjamin Ogle Tayloe (son)
++R William Henry Tayloe (son)
++R Edward Thornton Tayloe (son)
++R Henry Augustine Tayloe (son)
++R Charles Tayloe (son)
++R John Tayloe Junior (grandson)
++R George Plater Tayloe (son)
+-E Archy
++E Alfred
++E Emanuel
++E Martha
++E Becky
++E George
++E Archy
+-B |
++B Anne (wife) | LENDS | her legal share of the estate plus $2,000; twelve house servants of her choosing; her books; the coach and travelling carriage; their house in Washington; use of the Petsworth farm with its stock and slaves | for her life
++B Benjamin Ogle Tayloe (son) | GIVES | the Nanjemoy plantations in Lewis's Neck, Charles County, Maryland; Windsor, South Hill and Society Hill in King George County with their slaves and stock (William Henry Tayloe to give up his rights there and surrender the slaves he was let have); 100 acres of woodland at Wellington; his vessel at Neabsco on the Potomac with her tackle and hands | 
++B William Henry Tayloe (son) | GIVES | Mount Airy plantation and house in Richmond County, with its outbuildings and lands | 
++B Edward Thornton Tayloe (son) | GIVES | the Hop Yard plantation in King George County, with the Dogue adjoining | 
++B Henry Augustine Tayloe (son) | GIVES | Oakenbrow in King George County and enough Washington lots to equal Charles's share | the codicil lets him choose Gwynnfield instead
++B Charles Tayloe (son) | GIVES | Neabsco, Deep Hole and the Farm in Prince William County | 
++B John Tayloe Junior (grandson) | GIVES | Wellington and Waterloo in Charles County, Maryland (less 100 acres of woodland), with twenty working hands and five children from there, in place of the children Alfred, Emanuel, Martha, Becky and George at Mount Airy given him earlier, because of his "aversion to separate families of slaves" | 
++B all his sons | GIVES | each plantation with the stock, slaves, tools, furniture and plate used on it; jointly, the Brunswick and Clover Dale estates in Botetourt County with the iron works and slaves; all his tradesmen and mechanics (smiths, carpenters, joiners, wheelwrights, ship carpenters, masons, shoemakers), divided in lots chosen by seniority; millers go with their mills | 
++B executors | SOLD | Middlebrook, Menokin, his property at Occoquan, his Washington houses and lots (the dwelling after his wife's death) and their furniture, and the Petsworth farm with its stock and slaves, to pay debts and legacies | 
++B Archy (body servant) | FREED | freed, with $100 a year for life, for his long fidelity and because he once saved the testator's life | 
++B George Plater Tayloe (son) | GIVES | the Gwynfield plantation with its stock and slaves, or, as he asked, the Clover Dale estate with the furnace and the Madison tract and their slaves, paying the difference in value in yearly installments | codicil
+@KG3|pp.318-9|Matthew King
+D 8 October 1828; proved 4 December 1828
+N "Vergin Willis" may be one person or two (Vergin and Willis).
+-R Winifred
+-R Eleanor
+-R Mildred
+-R George
+-R Ellen
+-R Fanny
+-R Martha
+-R Lucinda
++R Winifred (daughter)
++R Eleanor (daughter)
++R Mildred (daughter)
++R Mary (daughter)
++R Martha (daughter)
++R Lucinda (daughter)
++R Elizabeth Alice King (daughter, surname assumed)
++R ~all his children
+-E Winny
+-E Milly
+-E Vergin
+-E Willis
+-E Bob
+-E Maria
++E Winny
++E Milly
++E George
++E Ellen
++E Fanny
++E Vergin
++E Willis
++E Bob
++E Maria
+-B |
++B Winifred, Eleanor, Mildred and Mary (four eldest daughters) | GIVES | the land he lives on, equally; Winny, and Milly and all her children; George, and Ellen the daughter of Fanny | 
++B Martha, Lucinda and Elizabeth Alice King (daughters) | GIVES | servants Vergin Willis, Bob and Maria and their increase | 
++B all his children | GIVES | household and kitchen furniture, horses, cattle, sheep, hogs and farming utensils, equally | 
+@KG3|pp.329-32|William Potts
+D 20 July 1829; proved 5 November 1829
+-R Bailey B. Potts
+-R Polly Lunsford
++R William (son)
++R Bailey B. Potts (son)
++R Polly Lunsford (granddaughter)
+-E Eliza
++E Eliza
+-B |
++B William (son) | GIVES | the land he lives on; half the negroes | 
++B Bailey B. Potts (son), through the executors in trust | GIVES | the rest of his land; half the negroes; half the horses, cattle, sheep and hogs; all household and kitchen furniture and plantation utensils | held in trust by the executors
++B Polly Lunsford (granddaughter) | GIVES | woman Eliza | held in trust for son William, as the abstract reads
+@KG3|pp.340-1|Nehemiah H. Mason
+D 19 November 1828; proved 6 May 1830
+-R Eleanor Massey
+-R Jane Ellen
+-R Jane E. Mason
++R Eleanor Massey (mother)
++R Jane Ellen Mason (wife)
+-E Ann
+-E Elizabeth
++E Ann Elizabeth
+-B |
++B Eleanor Massey (mother) | LENDS | a child called Ann Elizabeth; the furniture in her room; a cow and calf; a horse | for her life
++B Jane Ellen Mason (wife) | GIVES | everything real and personal, including the slaves he holds in Maryland in her right | 
+@KG3|pp.343-8|Lucy Fitzhugh
+D 16 November 1827; proved 1 July 1830
+N Sarah Ann Beverley is called both her adopted daughter and her niece. Daphney and Betsey each appear more than once and may be different people. Charles was bought of Moor Lintey.
+-R David
+-R Letty
+-R Alice Mary Ann
+-R John
+-R Betsey
+-R Sarah Ann Beverley
+-R Ann Maria
+-R Matilda
+-R Joe
+-R Billey
+-R S.
+-R Harriott
+-R Emmilay
+-R Big Jenny
++R Sarah Ann Beverley (adopted daughter, also called niece)
++R Lucy Maria Beverley (daughter of Sarah Ann Beverley)
++R Ellen A. S. Beverley (daughter of Sarah Ann Beverley)
++R A. S. Hooe (nephew)
++R William C. Posey (nephew)
++R Henry M. P. Beverley (son of Sarah Ann Beverley)
+-E Moor
+-E Lintey
+-E Latitia
+-E Daphney
+-E Peter
+-E Richard
+-E Edmund
+-E Fanny
+-E Gerard
+-E Betsey
+-E Parker
+-E Tom
+-E Juddy
+-E Milley
+-E James
+-E Limus
+-E Sarah
+-E Ann
+-E Frank
++E Jupiter
++E Dundes
++E George
++E Moses
++E Bob
++E Hannah
++E Violett
++E Rose
++E David
++E Letty
++E Alice Mary Ann
++E John
++E Betsey
++E Charles
++E Latitia
++E Ann Maria
++E Matilda
++E Joe
++E Billey
++E Daphney
++E Harriott
++E Emmilay
++E Big Jenny
++E Winny
++E Peter
++E Richard
++E Edmund
++E Fanny
++E Gerard
++E Parker
++E Tom Parker
++E Juddy
++E Milley
++E James
++E Limus
++E Sarah Ann
++E Frank
+-B |
++B executors | SOLD | crops, and household and kitchen furniture except beds, bed clothing and silver plate; and if needed to pay debts, Jupiter, Dundes and George | 
++B Sarah Ann Beverley (adopted daughter) | LENDS | Moses, Bob, Hannah, Violett, and Rose with her children David, Letty, Alice Mary Ann, John and Betsey; Charles, a servant bought of Moor Lintey; her beds, bed clothing and silver plate; furniture of her choice | for her life
++B Lucy Maria Beverley | GIVES | Latitia and her children Ann Maria, Matilda, Joe, Billey and Daphney, with their future increase | 
++B Ellen A. S. Beverley | GIVES | Daphney and her two children Harriott and Emmilay; Big Jenny(?); Winny and Daphney; with their increase | 
++B A. S. Hooe (nephew) | GIVES | Peter, Richard and Edmund | 
++B William C. Posey (nephew) | GIVES | Fanny and Gerard | 
++B Henry M. P. Beverley | GIVES | Betsey, Parker, Tom Parker, Juddy, Milley, James, Limus, Sarah Ann and Frank | 
+@KG3|pp.349-53|William F. Grymes
+D 31 May 1830; proved August term 1830
+N The executors are to borrow money to pay a debt to Nathaniel H. Hooe, who holds a lien on his land and negroes. Two enslaved men named George may appear (Charles's father, and Betsey's son).
+-R Robert C. N. Grymes
+-R George
+-R Richard Montgomery Grymes
+-R Eliza
+-R Betsey
++R Robert C. N. Grymes (son)
++R Virginia Washington (daughter)
++R Richard Montgomery Grymes (son)
+-E Henry
+-E Daniel
+-E Delila
+-E Tom
++E Henry
++E Daniel
++E Delila
++E Patsey
++E Kett
++E Ben Kett
++E Charles
++E George
++E Lucy
++E William
++E Tom
++E Eliza
++E Betsey
+-B |
++B Robert C. N. Grymes (son) | GIVES | Henry, Daniel and Delila at Christmas next, counted at their value in the final division; if any die first, his choice of others of similar value | 
++B Virginia Washington (daughter) | GIVES | Patsey, Kett, Ben Kett, Charles (son of George), and Lucy and her infant son William; two mules and a yoke of oxen already in their possession; counted at present value in the final division | 
++B Richard Montgomery Grymes (son) | GIVES | boys Tom (son of Eliza) and George (son of Betsey), counted at their value in the final division | 
+@KG3|pp.356-8|Henry Fitzhugh
+D 12 August 1825; proved 2 September 1830
+-R Elizabeth C. Fitzhugh
+-R Louisa
+-R Sally Battaile
++R Elizabeth C. Fitzhugh (wife)
++R Henry S. Fitzhugh (probably son)
++R Francis C. Fitzhugh (probably son)
++R Louisa (daughter)
++R Sally Battaile Fitzhugh (daughter, surname assumed)
++R Ann May Fitzhugh (daughter, surname assumed)
++R ~all his children
+-B |
++B Elizabeth C. Fitzhugh (wife) | LENDS | all his land north of the main road from Hooe's Ferry to Hamstead, with its negroes and stock; the carriage and horses; household and kitchen furniture | during her widowhood
++B Henry S. Fitzhugh | GIVES | the part of his south-side land that he now holds, with its negroes and stock; a man, a woman, a boy of 12, two girls of 12 or 13, and four oxen | the negroes counted at the division at the wife's death or marriage
++B Francis C. Fitzhugh | GIVES | the north part of the south-side land, with the same number of negroes and stock | 
++B Louisa, Sally Battaile Fitzhugh and Ann May Fitzhugh (daughters) | GIVES | all his lands in Stafford County; four negroes (a man, a woman and two children under 12) and a maid of their choosing under 13 | when they come of age or marry
++B all his children | GIVES | all the negroes, stock, household and kitchen furniture and plantation utensils, equally | at the wife's death
+@KG3|pp.361-4|Frances Hooe
+D 9 May 1827; codicil undated; proved 7 October 1830
+-R Ann Frances Hansbrough
+-R Elizabeth Bernard
+-R Fanny Margaret Bernard
+-R N. H. Hooe
++R Ann Frances Hansbrough (daughter)
++R William Hansbrough (grandson)
++R Elizabeth Bernard (daughter)
++R Fanny Margaret Bernard (granddaughter)
+-E George
+-E Charlotte
++E George
++E Charlotte
+-B |
++B Ann Frances Hansbrough (daughter) | LENDS | half the negroes she holds as dower and half of those left her by her son William; two tracts of land | for her life
++B William Hansbrough (grandson) | GIVES | confirms his right to boy George, already in his possession | 
++B Elizabeth Bernard (daughter) | LENDS | half the negroes she holds as dower and half of those left her by her son William; the plantation she lives on | for her life
++B Fanny Margaret Bernard (granddaughter) | GIVES | girl Charlotte, apart from her mother's share | 
++B Ann Frances Hansbrough and Elizabeth Bernard (daughters) | GIVES | half each of the dower negroes her son William bought from his brother N. H. Hooe | codicil
+@KG3|pp.376-7|Henry Mustin
+D 25 March 1828; proved 2 February 1831
+-R Lucy
++R Lucy (wife)
+-B |
++B Lucy (wife) | GIVES | his whole estate: land, slaves, stock, household and kitchen furniture and all other property | 
+@KG3|pp.379-80|Benjamin
+T Benjamin White
+D 10 June 1830; proved 2 August 1832
+-R Margarett
+-R Elizabeth
+-R Tabitha M.
++R Margarett (wife)
++R Elizabeth (daughter)
++R Tabitha M. White (daughter)
++R ~his three daughters (one not named)
+-B |
++B Margarett (wife) | LENDS | all his estate | for her life
++B his three daughters | GIVES | his lands, divided between them | at the wife's death
++B Elizabeth (daughter) | GIVES | her choice of any one of his slaves | 
++B Tabitha M. White (daughter) | GIVES | her choice of one of the remaining slaves | 
++B his three daughters | GIVES | the residue of his estate, equally | after the wife's death
+@KG3|pp.384-5|William Brown
+D 4 September 1826; proved 4 December 1832
+-R Ruthy Kendall
+-R Sally Bullock
+-R Alixe B. Quisenberry
+-R James S. Quisenberry
+-R Sarah Ann Quisenberry
+-R George
+-R Charles
+-R John S. Quisenberry
++R Ruthy Kendall (daughter)
++R Sally Bullock (daughter)
++R Alixe B. Quisenberry (granddaughter)
++R James S. Quisenberry (grandson)
++R Sarah Ann Quisenberry (granddaughter)
++R John S. Quisenberry (grandson)
+-E Billy
+-E Maria
+-E Thornton
+-E Charlotte
+-E Henry
+-E Phillis
+-E Simon
++E Billy
++E Maria
++E Thornton
++E Charlotte
++E Henry
++E Phillis
++E George
++E Charles
++E Robinson
++E Simon
+-B |
++B Ruthy Kendall (daughter) | GIVES | man Billy, girl Maria and boy Thornton | if she pays $50 to her sister Sally Bullock
++B Sally Bullock (daughter) | GIVES | $50, paid by Ruthy Kendall | 
++B Alixe B. Quisenberry (granddaughter) | GIVES | woman Charlotte with her children and future increase; a bay mare called "fellis" | 
++B James S. Quisenberry (grandson) | GIVES | boy Henry | 
++B Sarah Ann Quisenberry (granddaughter) | GIVES | woman Phillis and her sons George, Charles and Robinson | 
++B John S. Quisenberry (grandson) | GIVES | boy Simon | 
+@KG3|pp.389-90|Frances Turner
+D 13 March 1832; proved 6 November 1834
+-R Jery
+-R Betsey
+-R Courtney
+-R Martha
++R William Watkins Turner (son)
++R Betsey (daughter)
++R ~her children
+-E Susan
+-E Richard
++E Betsey
++E Jery
++E William
++E Susan
++E Courtney
++E Martha
++E Mary Jane
++E Lucy
++E Richard
+-B |
++B William Watkins Turner (son) | GIVES | woman Betsey and her two children Jery and William | 
++B Betsey (daughter) | GIVES | woman Susan and her children Courtney, Martha and Mary Jane; old woman Lucy, a faithful servant whom she commends to her daughter | 
++B Richard | SOLD | man Richard, sold to the highest bidder, the money divided between her children | 
+@KG3|pp.391-4|Richard Stuart
+D 4 September 1834; proved 2 April 1835
+N The abstract does not make clear who receives the Green Hill estate and the Hitton land bought of Dr. Benjamin Johnson. Two enslaved people named Nacy appear (a cook and a carpenter).
+-R Richard
+-R Margaret Roberson Lomax
+-R Margaret
+-R Roberta G. Lomax
+-R Richard Stuart Lomax
++R Richard (son)
++R Margaret Roberson Lomax (daughter)
++R Roberta G. Lomax (granddaughter)
++R Richard Stuart Lomax (grandson)
++E Nacy
++E Phil
++E Thornton
++E William Junr
++E Sucky
++E Brenda
++E Sarah Ann
++E Bill
++E Absolum
++E Henry
++E Cupid
++E Scott
++E Billy Senr
++E Willice
++E Mingo
++E Henson West
++E Jem
+-B |
++B Richard (son) | GIVES | lands in King George County | 
++B Margaret Roberson Lomax (daughter) | GIVES | use of the old mansion house Cedar Grove, shared with her brother | 
++B Richard and Margaret Roberson Lomax (son and daughter) | GIVES | all his personal property, equally | 
++B Margaret Roberson Lomax (daughter) | GIVES | in her share: cook Nacy, coachman Phil, Thornton, gardener William Junr, seamstresses Sucky, Brenda and Sarah Ann, blacksmith Bill, and carpenters Nacy, Absolum and Henry | as common servants only
++B Richard (son) | GIVES | in his share: cook Cupid, Scott, gardener Billy Senr, blacksmith Willice, carpenters Mingo and Henson West, and little apprentice Jem | as common servants only
++B Roberta G. Lomax (granddaughter) | GIVES | her mother's choice of a servant girl; a bed and furniture | 
++B Richard Stuart Lomax (grandson) | GIVES | his mother's choice of a servant boy | 
