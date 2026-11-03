@@ -1905,19 +1905,14 @@
    "auto_testator": "Augustine Wilkerson",
    "testator": "Augustine Wilkerson",
    "date": "4 April 1824; proved 1 September 1825",
-   "notes": "This abstract runs two wills together: Augustine Wilkerson's (4 April 1824, proved 1 September 1825) and William Sebastian's (24 July 1824, his mark, proved 6 October 1825). Bequests from the Sebastian will are marked; it should be split into its own entry.",
+   "notes": "The abstract runs two wills together; William Sebastian's will (24 July 1824, proved 6 October 1825) is indexed separately as the next entry.",
    "recipients": [
     "Jane (wife)",
     "Mariah Jones (child of Benjamin Jones)",
     "Luisa Jones (child of Benjamin Jones)",
     "Benjamin Jones (child of Benjamin Jones)",
     "Samuel Attwell (nephew)",
-    "Robert Wilkerson (son of nephew Bernit Wilkerson)",
-    "William Sebastian (son of William Sebastian)",
-    "John Sebastian (son of William Sebastian, surname assumed)",
-    "Betsey Sebastian (daughter of William Sebastian, surname assumed)",
-    "Joanna Catharine Sebastian (daughter of William Sebastian, surname assumed)",
-    "Ann Weedon (daughter of William Sebastian)"
+    "Robert Wilkerson (son of nephew Bernit Wilkerson)"
    ],
    "enslaved": [
     "James",
@@ -1928,15 +1923,7 @@
     "Anny",
     "Dinar",
     "Abriham",
-    "Charles",
-    "Joe",
-    "Andrew",
-    "Aaron",
-    "Rachel",
-    "Nancy",
-    "Anman",
-    "Julia",
-    "Harriot"
+    "Charles"
    ],
    "bequests": [
     {
@@ -1968,44 +1955,78 @@
      "verb": "GIVES",
      "what": "$150, paid by Samuel Attwell",
      "condition": ""
-    },
+    }
+   ]
+  },
+  {
+   "split_from": [
+    "KG3",
+    "pp.263-4",
+    "Augustine Wilkerson"
+   ],
+   "new_will": true,
+   "vol": "KG3",
+   "pages": "pp.263-4",
+   "auto_testator": null,
+   "testator": "William Sebastian",
+   "date": "24 July 1824 (his mark); proved 6 October 1825",
+   "recipients": [
+    "William (son)",
+    "John (son)",
+    "Betsey (daughter)",
+    "Joanna Catharine (daughter)",
+    "Ann Weedon (daughter)"
+   ],
+   "enslaved": [
+    "Joe",
+    "Andrew",
+    "Aaron",
+    "Rachel",
+    "Nancy",
+    "Anman",
+    "Julia",
+    "Harriot"
+   ],
+   "bequests": [
     {
-     "recipient": "William Sebastian (son)",
+     "recipient": "William (son)",
      "verb": "GIVES",
      "what": "man Joe, about 25, and boy Andrew, about 12; two horses, an ox cart, a pair of oxen, a cow and calf, six hogs, two ewes; plantation utensils; his bed, two chests and chair",
-     "condition": "William Sebastian's will"
+     "condition": ""
     },
     {
-     "recipient": "William Sebastian (son), in trust for John Sebastian",
+     "recipient": "William (son), in trust for John",
      "verb": "GIVES",
      "what": "man Aaron",
-     "condition": "William Sebastian's will; in trust for son John"
+     "condition": "in trust for son John"
     },
     {
-     "recipient": "Betsey Sebastian (daughter)",
+     "recipient": "Betsey (daughter)",
      "verb": "GIVES",
      "what": "woman Rachel; a bed and furniture",
-     "condition": "William Sebastian's will"
+     "condition": ""
     },
     {
-     "recipient": "Joanna Catharine Sebastian (daughter)",
+     "recipient": "Joanna Catharine (daughter)",
      "verb": "GIVES",
      "what": "girl Nancy, about 10; a bed and furniture",
-     "condition": "William Sebastian's will"
+     "condition": ""
     },
     {
      "recipient": "Ann Weedon (daughter)",
      "verb": "GIVES",
      "what": "girl Anman, about 8; a bed and furniture",
-     "condition": "William Sebastian's will"
+     "condition": ""
     },
     {
      "recipient": "Julia and Harriot (daughters of Rachel)",
      "verb": "FREED",
      "what": "two mulatto children to be emancipated; at age 15 son William is to take them to a state where they can be free, with $50 set aside for the journey",
-     "condition": "William Sebastian's will"
+     "condition": ""
     }
-   ]
+   ],
+   "notes": "Abstracted together with Augustine Wilkerson's will in the source (Will Book 3, pp.263-4).",
+   "orig": "I William Sebastian...son William a negro man Joe aged about 25 years and a negro boy named Andrew about 12 years old...2 horses an Oxe cart a pair of oxen a cow & Calf six hogs, two Ewes & all my plantation utensils also the bed I sleep on bedstead & furniture my two chests and my chair...to my son William a negro man named Aaron in trust for the use and benefit of my son John...daughter Betsey a negro woman named Rachel also one bed & furniture...daughter Joanna Catharine a negro girl named Nancy about ten years old also one bed & furniture...daughter Ann Weedon a negro girl named Anman about 8 years old also one bed & furniture...Julia and Harriot two mulatto children daughters of Rachel be emancipated and in as much as it cannot be conveniently done in this state, I request my son William whom I appoint executor that when both of them shall have attained the age of fifteen years he convey them to some state in the union where they can receive & enjoy this blessing and for the more effectual securing it to them I hereby appropriate $50 to remain in the hands of my executor for the expences of their transportation...24 July 1824. (his mark). 6 October 1825."
   },
   {
    "key": [
