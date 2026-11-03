@@ -21,6 +21,7 @@ def surname(full):
 
 REV = {}
 USED = set()
+USEDJ = set()
 _cur = None
 if os.path.exists(os.path.join(here, "reviews.txt")):
     for _l in open(os.path.join(here, "reviews.txt"), encoding="utf-8"):
@@ -51,6 +52,15 @@ ALIAS = {}
 EXTRA = {}
 DROP = {}
 
+import glob as _glob
+JREV = {}; JNEW = []
+for _f in sorted(_glob.glob(os.path.join(here, "..", "review", "*.json"))):
+    for _r in _j.load(open(_f, encoding="utf-8"))["records"]:
+        if _r.get("new_will"): JNEW.append(_r)
+        else: JREV[tuple(_r["key"])] = _r
+def _jfields(r):
+    return (r["testator"], r["date"], "; ".join(r["recipients"]), "; ".join(r["enslaved"]), r.get("notes", ""))
+
 def load(fname, origs, auto):
     k = 0
     for line in open(os.path.join(here, fname), encoding="utf-8"):
@@ -62,7 +72,9 @@ def load(fname, origs, auto):
         vol, pages, date, testator, recips, ens, notes = [p.strip() for p in parts]
         orig = origs[k]; k += 1
         key0 = (vol, pages, testator); reviewed = auto and key0 in REV
-        if reviewed:
+        if auto and key0 in JREV:
+            testator, date, recips, ens, notes = _jfields(JREV[key0]); auto = False; USEDJ.add(key0)
+        elif reviewed:
             testator, date, recips, ens, notes, t0, ex, dr = apply_review(key0, testator, date, recips, ens, notes)
             ALIAS[key0] = (vol, pages, testator); EXTRA[key0] = ex; DROP[key0] = dr; auto = False
         wid = len(wills) + 1
@@ -81,6 +93,12 @@ def firstpage(p):
 raw = []
 raw += list(load("wills.txt", _j.load(open(os.path.join(here, "orig_curated.json"), encoding="utf-8")), False))
 raw += list(load("auto_wills.txt", _j.load(open(os.path.join(here, "orig_auto.json"), encoding="utf-8")), True))
+for _r in JNEW:
+    _t, _d, _rc, _en, _nt = _jfields(_r)
+    _w = dict(id=0, vol=_r["vol"], county="King George County, VA", book=BOOKS[_r["vol"]], pages=_r["pages"],
+              citation=f"{BOOKS[_r['vol']]}, {_r['pages']}", date=_d, testator=_t, notes=_nt,
+              link=SRC + "#:~:text=" + urllib.parse.quote(_t), orig=_r["orig"], auto=False, recipients=[], unnamed=[], enslaved=[])
+    wills.append(_w); raw.append((_w, _rc, _en))
 # order by book, then page, then file order (stable); renumber ids
 order = sorted(range(len(raw)), key=lambda i: (ORDER.index(raw[i][0]["vol"]), firstpage(raw[i][0]["pages"]), i))
 raw = [raw[i] for i in order]; wills[:] = [r[0] for r in raw]
@@ -120,11 +138,21 @@ def _lines():
     for l in open(os.path.join(here, "auto_bequests.txt"), encoding="utf-8"):
         if l.startswith("@"):
             if key in EXTRA: yield from (x + "\n" for x in EXTRA[key])
-            key = tuple(x.strip() for x in l[1:].rstrip("\n").split("|")); yield l; continue
+            key = tuple(x.strip() for x in l[1:].rstrip("\n").split("|"))
+            if key not in JREV: yield l
+            continue
+        if key in JREV: continue
         if key in DROP and any(d in l for d in DROP[key]): continue
         yield l
     if key in EXTRA: yield from (x + "\n" for x in EXTRA[key])
-for line in _lines():
+def _jlines():
+    for r in list(JREV.values()) + JNEW:
+        yield f"@{r['vol']}|{r['pages']}|{r['testator']}\n"
+        for b in r["bequests"]:
+            yield " | ".join(str(b.get(k, "")).replace("|", "/").replace("\n", " ") for k in ("recipient", "verb", "what", "condition")) + "\n"
+def _all():
+    yield from _lines(); yield from _jlines()
+for line in _all():
     line = line.rstrip("\n")
     if not line.strip() or line.startswith("#"):
         continue
@@ -166,7 +194,7 @@ for line in _lines():
     cnames = [cur["recipients"][i]["written"] for i in cands]
     cands = [i for i in cands if not any(cur["recipients"][i]["written"] != n and re.search(r"(?<![A-Za-z])" + re.escape(cur["recipients"][i]["written"]) + r"(?![A-Za-z])", n) for n in cnames)]
     cur["bequests"].append(dict(who=who, verb=verb, what=what, cond=cond, ens=sorted(linked), rec=cands))
-print("UNUSED review keys:", [k for k in REV if k not in USED])
+print("UNUSED review keys:", [k for k in REV if k not in USED and k not in JREV]); print("UNUSED json keys:", [k for k in JREV if k not in USEDJ])
 missing = [w for w in wills if not w["bequests"]]
 print("unmatched bequest headers:", unmatched)
 print("wills without bequests:", [(w["vol"], w["pages"], w["testator"]) for w in missing])
