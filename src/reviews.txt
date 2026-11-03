@@ -1,0 +1,276 @@
+
+@4|p.49|Martha Davis
+OK
+@4|p.51|William Purnell
+OK
+@4|p.53|Mary Moore
+OK
+@4|p.54|David
+T David Day
++R William H. Day (son)
+@4|p.55|David Clark
+-R James C. Johnston
+-R Gavin Hogg
+-R Colin Clark
++R William M. Clark (brother, named executor and guardian)
++R James C. Johnston (friend, named executor and guardian)
++R Gavin Hogg (friend, named executor and guardian)
++R Colin Clark (nephew, named executor and guardian)
++E Ned
+@4|p.60|William Gary
+-R Mary
+-R Peter
+-R Alley
+-B Mary (children) |
+-B Peter (children) |
+-B Alley (children) |
++E Cynthia
++E Nelson
++E Hark
++E Jinney
++E Adam
++E Mary
++E Peter
++E Alley
+@4|p.62-3|Arthur Green
++E Harriet
++E Polly
+@4|p.63-4|Ann Pitts
+-R Hannah
+-R Willis
+-R Edey
+-B Hannah (children) |
+-B Willis (children) |
+-B Edey (children) |
+-R Silvia Lanes
++R Silvia Lanes (daughter, the gift is to her three children)
++E Fanny
++E Amy
++E Charlotte
++E Dorcas
++E Sandy
++E Hannah
++E Willis
++E Edey
++E Haywood
++E Prince
++E Frank
++E Simon
++E Mariah
++E Sally
+@4|p.66|John Gary
+OK
+@4|p.66|Ezra Pryor
+OK
+@4|p.69-70|Elizabeth Long
+OK
+@4|pp.70-2|(name not captured)
+T Benjamin Whitehead
+D written 17 August 1826 (codicils 17 August 1826 and 19 January 1829); proved February 1831
+-R Nelson Sessums
+-B Nelson Sessums (wife) |
++B William, Nancy, Benjamin, Turner & Charlotte (children) | GIVES | all my negroes to be equally divided among my children Phereby, Joseph, Faithly, Edward, William, Mary, Nancy, Benjamin, Turner & Charlotte |
++B Nelson Sessums (son-in-law, husband of Mary) | LISTED | named as the husband of the testator's daughter Mary |
++R Nelson Sessums (son-in-law, husband of Mary)
++R William (children)
++R Nancy (children)
++R Benjamin (children)
++R Turner (children)
++R Charlotte (children)
+@4|p.73|Martha Shearin
++R William Creth Shearin (son)
+@4|pp.74-5|Mary Fenner
+-R John
+-R Dixie C. Fenner
++R John (son)
++R Dixie C. Fenner (son)
++R Robert Fenner of Tennessee (son)
+-B Robert Fenner (son) |
++B Robert Fenner of Tennessee (son) | GIVES | one third part of my negroes not heretofore bequeathed, held in trust for my son Robert Fenner of the state of Tennessee | held in trust
+@4|p.77|Josiah Brinkley
+N The will reads "Mourning Tom", which may be two people, Mourning and Tom.
++E Mourning Tom
++E Rena
++E Bradford
++E Caroline
++E Jacob
++E Henry
++E Amanda
++E Adeline
++E Permelia
++E Lucy
+@4|p.78-80|Gideon Alston
++E Easter
++E Belinda
++E Aggy
++E Eady
++E Isaac
++E Minerva
++E Bob
++E Bridget
++E Lucy
++E Eupphama
++E George
+-R Gideon Alston Harris
+-R Stephen Bobbitt
++R Gideon Alston Harris (grandson, son of the late Temperance)
++R Stephen Bobbitt (grandson, son of the late Temperance)
+@4|p.80|Wade W. West
++E Surry
++E Len
+@4|p.82|Richard Hamlet
+OK
+@4|p.82|Sarah Shield
+-B (recipient not identified) |
+-R Littleberry
+-R Sally
+-B Littleberry (sons) |
+-B Sally (grandchildren) |
++R William Abbington (son)
++R Littleberry Abbington (son)
++R Hardaman Abbington (son)
++R William (grandchild, surname not stated)
++R Sally (grandchild, surname not stated)
++R Clarinda (grandchild, surname not stated)
++B William Abbington, Littleberry Abbington & Hardaman Abbington (sons) | GIVES | one fourth part of my property including one negro man Jack, one boy named Short, one woman Phillis and four children, to be equally divided | with her three grandchildren
++B William, Sally & Clarinda (grandchild, surname not stated) | GIVES | one fourth part of my property including one negro man Jack, one boy named Short, one woman Phillis and four children, to be equally divided | shared with her three sons
+@4|p.84|James Hunter, Senr
+-R Pat
+-R Amy
+-R Bitha
+-R Halli
+-B Pat (wife) |
+-B Amy (wife) |
+-B Bitha (children) |
+-B Halli (children) |
++R William Hunter (son)
++E Will
++E Dick
++E Pat
++E Zach
++E Jeffrey
++E Amy
++E Bitha
++E Halli
++E Scrunly
++E George
++E Malissa
++E Emily
++E Maria
++E Sein
+@4|p.86|George Peebles
++R William (son)
++E Clary
++E Jacob
++E Davie
++E Creecy
+@4|p.87|Benjamin Nevell
+-R Mourning
+-B Mourning (daughter) |
+-E Gig
++E Mourning
+@4|p.88|Jeremiah Vaughan
++R Elisa I. Vaughan (daughters)
++E William
++E Harriet
++E Henderson
++E Mary Ann
++E Anthony
+@4|p.91|Richard Doggett
+OK
+@4|p.94|Joseph
+T Joseph Jno. Williams
+-R Mary
+-R Pol
+-R Easter
+-R Tom
+-R Salina
+-B Mary (wife) |
+-B Pol (wife) |
+-B Easter (wife) |
+-B Tom (children) |
+-B Salina (wife) |
++R Thomas Calvin Williams (children)
++E Harry
++E Pol
++E Turner
++E Easter
++E Tom
++E Salina
++E Amarillus
+@4|p.95|Margaret Harper
+OK
+@4|p.97|Marcus Bishop
+OK
+@4|p.98|Dolly Hawkins
+D written November 1831, codicil 6 May 1833, proved May term 1833
+N The will names Black Becky and White Becky as separate enslaved women. "Elijah Cobb" may be one person or two (Elijah and Cobb).
+-R Betsy
+-B Betsy (daughter) |
++R Polly Cotton (sister)
++R Ann E. Peete (daughter of Dr. Thomas Peete)
++R Mary T. Peete (daughter of Dr. Thomas Peete)
+-E Becky
+-E Elijah
+-E Cobb
++E Elijah Cobb
++E Black Becky
++E White Becky
++E Betsy
+@4|p.100|Henry Bradford
++E Sam
++E Mary
+@4|p.101|Joseph Whitehead, Jr
+-E Mahala
+-E Beckwith
++E Mahala Beckwith
++R Willey (sons)
+@4|p.102|Thomas W. Lassiter
++E Davy
++E Abram
++E Luke
++E Sary
++E Clary
+@4|p.105|John Knight
++E Lemuel
++E Rincher
+@4|p.106|Edmund Myrick
+D February Term 1834
++E Amos
++E Pherbe
++E Chloe
++E Easter
++E Caroline
+@4|p.108|(name not captured)
+T Betsy Alston
+D 18 February 1833; proved February term 1834
+N A nuncupative (spoken) will, set down after a jury found that she made it.
++R Amerilla
++R Gideon Harris
++R Amerillus
++R Frances
++R Erasmus
++B Amerilla | GIVES | Belinda (pointed her finger to a little negro) |
++B Gideon Harris | GIVES | Fed |
++B Amerillus & Frances | GIVES | my carriage & horses |
++B Erasmus | LISTED | she wanted everything she had to support Erasmus in genteel style |
++E Belinda
++E Fed
+@4|p.109|Ann Zollicoffer
+OK
+@4|p.109-10|William Perkins
+OK
+@4|p.112|Jacob Pope
+OK
+@4|p.113-4|Blount Joyner
++E Edy
++E Phereboe
++E Maria
++E Mourning
++E Penny
++E Alfred
++E Fanny
++E Jack
++E Caroline
++E Sook
++E Molly

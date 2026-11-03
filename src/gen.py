@@ -9,7 +9,7 @@ BOOKS = {"1": HAL + "Will Book Vol. 1 (1758-1774)", "2": HAL + "Will Book Vol. 2
          "KG4": KG + "Will Book 4 (1847-1901)"}
 ORDER = list(BOOKS)
 import json as _j
-FAMILY = re.compile(r"\b(son|daughter|wife|brother|sister|grandson|granddaughter|grandchild|mother|father|nephew|child)\b", re.I)
+FAMILY = re.compile(r"\b(son|daughter|wife|brother|sister|grandson|granddaughter|grandchild|grandchildren|mother|father|nephew|niece|child|children|sons|daughters)\b", re.I)
 SUFFIX = {"senr", "jnr", "junr", "senior", "sr", "jr", "junior"}
 
 here = os.path.dirname(os.path.abspath(__file__))
@@ -18,6 +18,37 @@ wills, names = [], []
 def surname(full):
     toks = [t for t in re.split(r"\s+", full.strip()) if t.strip(".").lower() not in SUFFIX]
     return toks[-1] if toks else ""
+
+REV = {}
+_cur = None
+if os.path.exists(os.path.join(here, "reviews.txt")):
+    for _l in open(os.path.join(here, "reviews.txt"), encoding="utf-8"):
+        _l = _l.rstrip("\n")
+        if not _l.strip() or _l.startswith("#"): continue
+        if _l.startswith("@"):
+            _cur = tuple(x.strip() for x in _l[1:].split("|")); REV[_cur] = []
+        else: REV[_cur].append(_l.strip())
+
+def apply_review(key, testator, date, recips, ens, notes):
+    """returns testator, date, recips, ens, notes, alias, extras, drops"""
+    ds = REV[key]; rl = [x.strip() for x in recips.split(";") if x.strip()]; el = [x.strip() for x in ens.split(";") if x.strip()]
+    extras, drops, t0 = [], [], testator
+    for d in ds:
+        op, _, arg = d.partition(" "); arg = arg.strip()
+        if op == "T": testator = arg
+        elif op == "D": date = arg
+        elif op == "N": notes = arg
+        elif op == "-R": rl = [x for x in rl if (x.lower() if "(" in arg else re.sub(r"\s*\(.*$", "", x).lower()) != arg.lower()]
+        elif op == "+R": rl.append(arg)
+        elif op == "-E": el = [x for x in el if x.lower() != arg.lower()]
+        elif op == "+E": el.append(arg)
+        elif op == "+B": extras.append(arg)
+        elif op == "-B": drops.append(arg)
+    return testator, date, "; ".join(rl), "; ".join(el), notes, t0, extras, drops
+
+ALIAS = {}
+EXTRA = {}
+DROP = {}
 
 def load(fname, origs, auto):
     k = 0
@@ -29,6 +60,10 @@ def load(fname, origs, auto):
         assert len(parts) == 7, line
         vol, pages, date, testator, recips, ens, notes = [p.strip() for p in parts]
         orig = origs[k]; k += 1
+        key0 = (vol, pages, testator); reviewed = auto and key0 in REV
+        if reviewed:
+            testator, date, recips, ens, notes, t0, ex, dr = apply_review(key0, testator, date, recips, ens, notes)
+            ALIAS[key0] = (vol, pages, testator); EXTRA[key0] = ex; DROP[key0] = dr; auto = False
         wid = len(wills) + 1
         cite = f"{BOOKS[vol]}, {pages}"
         q = (testator if not auto else orig.split("...")[0][:60]).replace("...", "").strip()
@@ -38,6 +73,7 @@ def load(fname, origs, auto):
                  testator=testator, notes=notes, link=link, orig=orig, auto=auto, recipients=[], unnamed=[], enslaved=[])
         wills.append(w)
         yield w, recips, ens
+        auto = fname.startswith("auto")
 
 def firstpage(p):
     m = re.search(r"\d+", p); return int(m.group()) if m else 0
@@ -73,11 +109,20 @@ keyq = defaultdict(deque)
 for w in wills:
     w["bequests"] = []
     keyq[(w["vol"], w["pages"], w["testator"])].append(w)
+for _k0, _k1 in ALIAS.items():
+    if _k0 != _k1: keyq[_k0] = keyq[_k1]
 cur = None
 unmatched = []
 def _lines():
-    for fn in ("bequests.txt", "auto_bequests.txt"):
-        yield from open(os.path.join(here, fn), encoding="utf-8")
+    yield from open(os.path.join(here, "bequests.txt"), encoding="utf-8")
+    key = None
+    for l in open(os.path.join(here, "auto_bequests.txt"), encoding="utf-8"):
+        if l.startswith("@"):
+            if key in EXTRA: yield from (x + "\n" for x in EXTRA[key])
+            key = tuple(x.strip() for x in l[1:].rstrip("\n").split("|")); yield l; continue
+        if key in DROP and any(d in l for d in DROP[key]): continue
+        yield l
+    if key in EXTRA: yield from (x + "\n" for x in EXTRA[key])
 for line in _lines():
     line = line.rstrip("\n")
     if not line.strip() or line.startswith("#"):
