@@ -109,8 +109,9 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .verb.SOLD { background: #f6e3e1; color: #8a2e24; }
 .verb.FREED { background: var(--t-enslaved-bg); color: var(--t-enslaved); }
 .ledger-h { font-family: var(--f-ui); font-size: 14px; font-weight: 600; color: var(--ink-soft); margin: 4px 0 2px; }
-.ens { font: inherit; background: none; border: 0; padding: 0; cursor: pointer; color: var(--t-enslaved); font-weight: 600; text-decoration: underline; text-decoration-color: #d6c3df; text-underline-offset: 3px; }
-.ens.hit { background: var(--mark); color: var(--ink); border-radius: 3px; padding: 0 2px; }
+.ens { font: inherit; font-weight: 600; cursor: pointer; color: var(--t-enslaved); background: var(--t-enslaved-bg); border: 1px solid #dccbe5; border-radius: 999px; padding: 0 9px; margin: 1px 0; line-height: 1.5; }
+.ens:hover { background: #e5d6ed; border-color: var(--t-enslaved); }
+.ens.hit { background: var(--t-enslaved); color: #fff; border-color: var(--t-enslaved); }
 @media (max-width: 560px) { .beq { grid-template-columns: 1fr; } }
 </style>
 
