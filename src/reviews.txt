@@ -2353,3 +2353,278 @@ T Gladis Jett (first name unclear)
 OK
 @KG1|p.405|John Jordan
 OK
+@KG2|pp.1-3|Francis Thornton
++R Francis Thornton (nephew)
++R Ann Thornton (nieces)
++E Daniel
+@KG2|pp.9-12|Andrew Grant
+-R Rachel
+-B Rachel (daughter) |
+-E Daughter
++E Aaron
++E Jack
++E Rachel
+@KG2|p.14|Benjamin Thomas
+OK
+@KG2|pp.19-21|James Cash
++E Patrick
++E Ann
++E Solomon
++E Elijah
++E Phillis
++E Charlotte
++E Caroline
+@KG2|p.22|Horatio Dade
+-R Rose
+-R Charity
+-B Rose (children) |
+-B Charity (children) |
++E Rose
++E Charity
+@KG2|pp.25-6|John Washington
++R William (children)
++E Willis
++E Will
+@KG2|pp.27|Mary Tankersly
++E Rachel
++E Bob
+@KG2|p.31|George Jones
++R George Jones (son)
++R James (children)
++R Thomas (children)
++R Richard (children)
++R Edward (children)
++R Mary (children)
++R Catherine (children)
+@KG2|pp.32-6|Seymour Hooe
+OK
+@KG2|pp.37-41|William Bernard
+N The source gives the proved date as 4 May 1738, probably a misprint for 1783.
+-R Suffer
++R William (son)
++R Sally Ecls
+@KG2|pp.41-3|Thomas Hodge
++R Alexander Hodge (sons)
+@KG2|pp.44-7|Henry Fitzhugh
++R William (son)
++R Giles (sons)
++E Willis
++E Daphne
++E Jonathan
+@KG2|pp.49-54|Charles Ashton
+-E Father's
++E Ben
++E Isaac
++E Rachel
++E Sarah
+@KG2|pp.55-6|(name not captured)
+T (name not given)
+N The abstract begins partway into the will, so the testator's name is not given.
++R Ann Stith (daughter)
+@KG2|pp.57-8|Philip Thornton Alexander
+-E Stocks
+@KG2|pp.60-1|Francis Thornton
+-E Maid
++R William (son)
+@KG2|pp.63-4|Margaret Wren
++R Sally (child)
+@KG2|pp.66-7|Samuel
+T Samuel White
++E Dinah
++E Jack
++E Ben
++E Keziah
+@KG2|pp.68-9|Thomas Bunbury
+-R John Owens
+-B John Owens (wife) |
+-E Fowke
++R John Owens (husband of Dulley Owens)
++R Sarah (daughters)
++R Thomas (grandsons)
++R Dulley Berry (granddaughter)
++R Sarah Berry (granddaughter)
++R Ann Conway (granddaughter)
++R John Conway (grandson)
++R Francis Scott (grandson)
++R William Bunbury (grandson)
++E Suck
++E Millia
++E Agga
++E Moses
++E Harry
++E Tom
++E Dick
++E Will
+@KG2|p.70|William Tyler
++R Elizabeth Gray Dudley (granddaughter)
++E Bob
++E Nell
++E Harry
++E Sarah
++E Sue
+@KG2|pp.77-8|Peter Jett
+-E Lease
+@KG2|pp.80-1|Richard Bernard
+-R Sarah Suttles
+-B Sarah Suttles (son) |
++R Sarah Suttles
++R William Suttles (son of Sarah Suttles)
+@KG2|pp.83-4|Mr. Thomas Oliver
+T Thomas Oliver
+-E Stocks
+@KG2|p.85|Thomas Wilkerson
+OK
+@KG2|pp.87-9|George Marshall
+-R Ben
+-B Ben (daughter) |
++E Leah
++E Solomon
++E Rodger
++E Bett
+@KG2|p.92|James Rawlins
+-E Girle
++E Judy
++E Frank
++E Reubin
+@KG2|pp.95-6|William Chapman
+OK
+@KG2|pp.98-100|John Ashton
+-E Stocks
+-E Cox
+-E Peyton
+-E James
+-E Tom
++E James Cox
++E Tom Peyton
++E Will
++E Williams
++E Milly
++E Frank
++E Linney
++E Paris
++E George
++E Charity
+@KG2|p.101|Mary Grant
+-R Venus
+-R Mary Matthews Daughter
+-R Mary
+-R Ann
+-B Venus (daughter) |
+-B Mary (daughter) |
+-B Mary Matthews Daughter (niece) |
+-B Ann (niece) |
++R Ann Short (niece)
++R Mary Matthews (niece, daughter of John Matthews)
++E Venus
+@KG2|pp.102-4|Anne Short
+-R Sarah Bunbury Daughter
+-B Sarah Bunbury Daughter (niece) |
++R Sarah Bunbury (niece, daughter of Elizabeth Bunbury)
+@KG2|pp.106-7|Susanna Alexander
++R William (sons)
++E George
++E Moses
++E Siby
++E Winney
++E Nancy
++E Louisa
+@KG2|pp.108-9|Thomas Jordan
+-R Milly
+-R Ralph
+-B Milly (children) |
+-B Ralph (children) |
++E Milly
++E Ralph
+@KG2|pp.116-7|Jariot Wilkerson
+OK
+@KG2|p.119|Tabitha Strother
++E William
++E Ben
+@KG2|p.126|Rose Berryman
+OK
+@KG2|p.128|Calvert Jones
+N The will sets free his mulatto boy John Luckus at his death. The source adds a note that this may refer to an indenture.
++E John Luckus
+@KG2|pp.129-30|Benjamin Edelen
+-R Betty
+-B Betty (wife) |
+@KG2|pp.133-40|William Fitzhugh
++R William Beverly (son)
++E Charles
+@KG2|pp.141-3|Robert Stith
+-R Stith's
+-B Stith's (aunt) |
++E Sarah
++E Nanny
++E Milly
++E Jack
+@KG2|p.144|John Bunbury
+OK
+@KG2|pp.147-8|Sigismund Massey
+OK
+@KG2|pp.149-51|Jeremiah Kirk
+-R Sarah Balthrop's
+-B Sarah Balthrop's (daughter) |
++R Sarah Balthrop (daughter, her children receive Win, Tom and Jude)
+@KG2|pp.153-4|Ann Thornley
++R Aaron Thornley
++R John Thornley
++R Epaphroditus Thornley
+@KG2|pp.159-61|Daniel Edrington
+-R Tom
+-B Tom (wife) |
++E Tom
++E Anthony
++E Jack
++E Cate
++E Jacob
+@KG2|pp.165-6|Settle Wilkerson
++R William Slaughter Wilkerson (son)
+@KG2|p.167|Joel Anchorom
+OK
+@KG2|pp.171-2|Ann Rowley
+N The will says James and Lucy are to be set free at the death of her brother William Grigsby.
++R John Minor
++R William Minor
++R William Grigsby (brother)
+@KG2|pp.174-5|Nathaniel Jones
+N The will sets James free.
++R Molley Jones (wife)
+@KG2|p.176|Price Steward
+OK
+@KG2|pp.177-8|Humphrey Francis Toye Fitzhugh
+OK
+@KG2|pp.180-1|(name not captured)
+T Stephen Bailey Junr
+D written 27 June 1794; proved 4 December 1794
++E Dick
++E Samson
+@KG2|pp.184-6|William Boon
++R William (son)
+@KG2|pp.198-200|Samuel Dishman
+-R Lidia
+-R Mary
+-R Nat
+-R Reubin
+-R Sampson
+-R George
+-R Henson
+-B Lidia (children) |
+-B Mary (children) |
+-B Nat (children) |
+-B Reubin (children) |
+-B Sampson (children) |
+-B George (children) |
+-B Henson (children) |
++R William (son)
++E Hannah
++E Lidia
++E Mary
++E Nat
++E Reubin
++E Sampson
++E Anna
++E William
++E Moses
++E George
++E Henson
