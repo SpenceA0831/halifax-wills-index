@@ -1358,3 +1358,297 @@ D 9 February 1838; proved August 1852
 OK
 @4|p.369|John W. Pierce
 OK
+@KGA|p.14|Humphrey Quisenbery
+N The will reads "the Negroe William Bets", which may be one person or two. The source notes that pp.15-22 are missing.
++E William Bets
+@KGA|pp.23|Negroes Sarah
+T John Pratt
+D written 12 October 1724; proved 1 January 1724/5
+N The abstract begins with the bequest of Sarah.
++E Sarah
+@KGA|pp.27-9|Patrick
+T Patrick White
+@KGA|pp.29-31|Charles Steward
+D written 19 June 1725; proved 6 August 1725
++R Grace (wife)
++E Kate
++E Ross
+@KGA|pp.37-8|John Jones
+OK
+@KGA|pp.40-1|William Strother, Senr
+D written 7 April 1726; proved 1 July 1726
+-R Francis
+-R Daughter Margaret
+-B Francis (sons) |
+-B Daughter Margaret (sons) |
++R Francis (son)
+@KGA|pp.42-3|William Miller
+D written 31 March 1726; proved 1 July 1726
+-R Except
+-R Philles
+-B Except (children) |
+-B Philles (children) |
+@KGA|pp.48-51|Francis Thornton
+D written 10 May 1726; proved 7 October 1726
++R George Riding (son of the testator's wife Ann)
++R Margaret Riding (daughter of the testator's wife Ann)
+@KGA|pp.51-3|Morgan Darnall
+-E Goods
+@KGA|p.55|Waugh Darnall
+OK
+@KGA|pp.56-7|(name not captured)
+T John Jones
+D written 20 June 1726; proved 5 November 1726
+N This is a different John Jones from the will at pp.37-8.
+@KGA|pp.59-60|Richard Jones
+D written 28 June 1726; proved 5 November 1726
++R John Brown (cousin)
++R Mary Herring
++R Ann Jones (mother-in-law)
++R Mark Jones
++R William Herring
++R John Coburn
+@KGA|p.62|John Spicer
++E Little Jack
+@KGA|pp.63-4|(name not captured)
+T Henry Gollop
+D written 6 April 1726; proved 6 July 1727
+-R Elizabeth
+-B Elizabeth (daughter) |
++R Mary Elkens (cousin)
++R Elizabeth (child of cousin Mary Elkens, surname not stated)
++R Anne Gollop (cousin)
++E Cill
+@KGA|pp.64-5|William Patteshall
+OK
+@KGA|p.66|John Willis
++R William Wood
+@KGA|pp.69-70|Richard Tutt
+OK
+@KGA|pp.71-6|Isaac Lee
+D written 19 November 1726; proved 8 March 1728/9
+N Isaac Lee wrote this will in Stepney parish, Middlesex, England, about property in America.
+-R Harwick Estates
+-B Harwick Estates (brothers) |
+-E Goods
+-E Chattels
+-E Effects
++R Elizabeth Lee (sister)
+@KGA|pp.77-8|John Matthews
++R Mary Taliafero (niece)
++R Elizabeth Taliafero (niece)
+@KGA|p.82|Jonathan Gibson
+D written 30 7ber (September) ; proved 5 December 1729
+-R Ned
+-R Job
+-B Ned (son) |
+-B Job (son) |
++E Ned
++E Sarah
++E Job
+@KGA|pp.87-8|Mark Jones
+-R Charles Webster
+-B Charles Webster (wife) |
++R Charles Webster (husband of aunt Barbary Webster)
++E Sambo
+@KGA|p.92|Elizabeth Gibson
++E Will
++E Frank
++E Jone
++E Vemen
++E Sarah
++E Joseph
++E Luce
++E Charles
+@KGA|p.96|Samuel Wharton
++R William (son)
++R Joseph (son)
++R Zachariah (son)
+@KGA|pp.98-9|Henry Long, Senr
++R John Wharton
+@KGA|pp.99-100|Joseph Ammon
+OK
+@KGA|p.101|William Grant
+N Jo is described as an Indian slave. The will also names a servant woman, Elizabeth Vendinancher.
+-E Indian
+-E Elizabeth
+-E Vendinancher
++R William (son)
++R Elizabeth Vendinancher (servant woman)
+@KGA|pp.114-5|Robert Strother
+D written 14 May 1735; proved 7 November 1735
+@KGA|p.115|John Naylor
+D written 30 October 1734; proved 5 December 1735
+-R Elizabeth Naylor's
+-B Elizabeth Naylor's (sister) |
++R Elizabeth Naylor (daughter)
+@KGA|pp.118-21|Richard Rosser
++R William (son)
++R Sarah (daughter)
+@KGA|pp.122-4|Daniel French
+D written 23 March 1734; proved 5 March 1735
++E Little Nan
++E Tom
+@KGA|p.132|Thomas Harper
++R Samuel (son)
+@KGA|p.133|Thomas King
+OK
+@KGA|p.135|Henry Lock
++R William Thornton
+@KGA|p.137|Joseph Minton
++R Martha Taylor
+@KGA|p.138|George
+T George White
++R George (son)
++E Will
+@KGA|p.139|Christopher Ederington
++R William (son)
+@KGA|p.141|William Dodgin
+-E Henry
+-E Head
++R Hanah Head
++R Henry Head
+@KGA|pp.144-5|Ann Glendenning
+OK
+@KGA|pp.147-9|Rowland Thornton
++R Elizabeth (daughter)
++E Casser
++E Flor
++E Nan
++E Milly
++E Ester
++E Bristol
++E Sibby
++E Jeffery
++E Harry
++E Titus
++E Mariah
++E Davy
++E Jenny
+@KGA|pp.151-2|William Robinson
++E Will
++E David
++E Sue
++E Old George
++E Ben
++E Harry
++E George
++E Vennam
++E Charles
++E Phillis
++E Jenny
++E Nell
++E Milly
++E Pender
+@KGA|pp.153-4|William Thornton
++R Frances Robinson (granddaughter)
++R William Robinson (grandson)
++R William (son)
+@KGA|pp.156-61|Augustine Washington
+-R Lawrence's
+-R Sue
+-R Judy
+-B Lawrence's (son) |
+-B Sue (daughter) |
+-B Judy (daughter) |
++E Ned
++E Jack
++E Bob
++E Sue
++E Lucy
++E Judy
++E Betty
+@KGA|p.166|Robert Doniphan
+-E Isabella
+-E Gordon
++R Isabella Gordon (white servant woman)
++E Dinah
++E Truelove
++E Edinborough
++E London
++E Kate
+@KGA|pp.167-9|William Thornton
++R Lucy (daughter)
++E Harry
++E Sarah
++E Belfast
++E Bess
++E Mingo
++E Juno
++E Pompey
+@KGA|p.174|Mary Brock
++R William Deane (grandson)
+@KGA|p.177|Sarah Stanton
+-E Men
++R William Scott (son)
+@KGA|pp.179-82|William Duff
+N The will also lends property to the Quaker monthly meeting at West River, Maryland.
++R William Duff of Virginia (kinsman)
++R John Duff of Ireland (kinsman)
++R Duff Green (kinsman)
+@KGA|p.183|George Payne
+-E John
+-E Gaddis
++R John Gaddis (servant boy)
++R William Payne (son)
++R William Jett (guardian of son William)
+@KGA|p.184|Ann Edmonds
++E Jammy
++E Pegg
++E Simon
++E Sarah
++E Mary
++E Nan
++E Bess
+@KGA|p.185|James Micou
++E Judy
+@KGA|p.186|(name not captured)
+T Giles Carter
+D written 19 November 1745; proved 7 February 1745/6
+-E Dutch
+-E Spinning
+-E Wheel
++R William Carter (son)
+@KGA|pp.187-8|Thomas Monroe
+D written June 1746; proved 3 October 1746
++R William (son)
++E Tom
++E Jemmy
++E Will
+@KGA|pp.188-9|William Wofendall
+-E James
+-E Clater
+-R John
+-R James
+-R Thomas
+-B John (sons) |
+-B James (sons) |
+-B Thomas (son) |
++R Richard Drake
++R Thomas Clater
++R John Drake (son of James Drake)
++R James Drake (son of James Drake)
++R Jane Wofendall
++R James Clater (son of Thomas and Sarah Clater)
++B Thomas Clater | GIVES | a bed and a gun |
++B Richard Drake | GIVES | my gun |
++B John Drake & James Drake (sons of James Drake) | GIVES | each of them two Negroes, if my son Jemmy dies before he comes of age |
++B Jane Wofendall | GIVES | one Negro, if my son Jemmy dies before he comes of age |
++B James Clater (son of Thomas and Sarah Clater) | GIVES | one Negro, if my son Jemmy dies before he comes of age |
+@KGA|p.190|Thomas Monteith
++E Will
+@KGA|p.191|Isaac Pitman
++R William Pitman (son)
++E Jacob Bruen
++E Will
+@KGA|pp.192-3|William Deane, Junr
+-E Male
++R Anne Deane (sister)
+@KGA|p.196|William Rosser
+OK
+@KGA|p.201|Charles Deane
+OK
+@KGA|pp.202-3|Richard Bryan
+OK
+@KGA|pp.203-4|James Hackley
++R Francis (son)
