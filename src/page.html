@@ -126,7 +126,7 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .tab.first { color: #7a5410; }
 .tab.first::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #d39a1c; margin-right: 8px; vertical-align: 2px; }
 .tab.first[aria-selected="true"] { color: var(--ink); }
-[role="tabpanel"][hidden] { display: none; }
+[hidden] { display: none !important; }
 
 /* Read this first */
 .readfirst { background: var(--sheet); border: 1px solid var(--rule); border-top: 0; border-radius: 0 0 10px 10px; padding: 26px 28px 30px; font-size: 17.5px; }
@@ -454,7 +454,7 @@ function render(qt) {
     </li>`;
   }).join("");
   $("#more").hidden = shown >= total;
-  $("#more").textContent = `Show more (${total - shown} left)`;
+  $("#more").textContent = `Show more (${Math.max(0, total - shown)} left)`;
 }
 
 function csvCell(s) { s = String(s ?? ""); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
