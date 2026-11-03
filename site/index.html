@@ -122,6 +122,62 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .ens:hover { background: #e5d6ed; border-color: var(--t-enslaved); }
 .ens.hit { background: var(--t-enslaved); color: #fff; border-color: var(--t-enslaved); }
 @media (max-width: 560px) { .beq { grid-template-columns: 1fr; } }
+
+/* Tabs */
+.tabs { display: flex; gap: 4px; margin-top: 24px; border-bottom: 1.5px solid var(--rule); font-family: var(--f-ui); overflow-x: auto; scrollbar-width: none; }
+.tab { font: inherit; font-size: 17px; font-weight: 600; padding: 11px 16px 10px; border: 1.5px solid transparent; border-bottom: 0; border-radius: 8px 8px 0 0; background: none; color: var(--ink-soft); cursor: pointer; margin-bottom: -1.5px; white-space: nowrap; }
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { background: var(--sheet); color: var(--ink); border-color: var(--rule); border-bottom: 1.5px solid var(--sheet); }
+.tab.first { color: #7a5410; }
+.tab.first::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #d39a1c; margin-right: 8px; vertical-align: 2px; }
+.tab.first[aria-selected="true"] { color: var(--ink); }
+[role="tabpanel"][hidden] { display: none; }
+
+/* Read this first */
+.readfirst { background: var(--sheet); border: 1px solid var(--rule); border-top: 0; border-radius: 0 0 10px 10px; padding: 26px 28px 30px; font-size: 17.5px; }
+@media (max-width: 520px) { .readfirst { padding: 20px 18px 24px; } }
+.readfirst h2 { font-family: var(--f-display); font-weight: 400; font-size: 29px; line-height: 1.2; margin: 30px 0 10px; }
+.readfirst h2:first-child { margin-top: 0; }
+.readfirst p, .readfirst li { max-width: 68ch; }
+.readfirst ul, .readfirst ol { padding-left: 22px; }
+.readfirst li { margin-bottom: 8px; }
+.readfirst a { color: var(--accent); text-underline-offset: 3px; }
+.caution { border: 1.5px solid #e2c27a; background: #fdf8ea; border-radius: 10px; padding: 16px 20px; margin: 4px 0 6px; }
+.caution h2 { margin-top: 0 !important; font-size: 25px !important; }
+.caution p { margin: 8px 0 0; }
+.progress { display: grid; gap: 6px; margin: 14px 0 4px; font-family: var(--f-ui); font-size: 15px; color: var(--ink-soft); }
+.bar { height: 10px; border-radius: 999px; background: #f0e2bd; overflow: hidden; }
+.bar span { display: block; height: 100%; background: #3f7d5a; }
+.legend { display: grid; gap: 10px; margin: 12px 0 0; padding: 0; list-style: none; }
+.legend li { display: flex; gap: 12px; align-items: baseline; margin: 0; }
+.legend .flag { flex: none; }
+.startbtn { font-family: var(--f-ui); font-size: 17px; font-weight: 600; padding: 11px 20px; border-radius: 8px; border: 0; background: var(--accent); color: #fff; cursor: pointer; margin: 8px 10px 0 0; }
+.startbtn.alt { background: var(--sheet); color: var(--accent); border: 1.5px solid var(--accent); }
+
+/* Per-record check indicator */
+.flag { font-family: var(--f-ui); font-size: 13px; font-weight: 600; padding: 2px 9px; border-radius: 999px; white-space: nowrap; border: 0; cursor: pointer; text-decoration: none; display: inline-block; line-height: 1.5; }
+.flag.ok { background: #e3f0e7; color: #2c6343; }
+.flag.auto { background: #fbefd6; color: #7a5410; }
+.flag:hover { text-decoration: underline; }
+.docket-line { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+
+/* A-Z index */
+.az-controls { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding-block: 16px 12px; border-bottom: 1px solid var(--rule); display: grid; gap: 12px; font-family: var(--f-ui); }
+.letters { display: flex; flex-wrap: wrap; gap: 4px; }
+.letter { font-family: var(--f-ui); font-size: 16px; font-weight: 600; min-width: 36px; height: 36px; padding: 0 6px; border-radius: 6px; border: 1px solid #c9cfcc; background: var(--sheet); color: var(--ink); cursor: pointer; }
+.letter[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.letter:disabled { color: #b6bdba; border-color: var(--rule); background: transparent; cursor: default; }
+.az-head { font-family: var(--f-ui); font-size: 15px; color: var(--ink-soft); margin: 16px 0 4px; }
+ul.azlist { list-style: none; margin: 8px 0 0; padding: 0; background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; }
+ul.azlist li { padding: 10px 18px; border-top: 1px solid var(--rule); display: grid; gap: 2px; }
+ul.azlist li:first-child { border-top: 0; }
+.azname { font: inherit; font-size: 18.5px; font-weight: 600; background: none; border: 0; padding: 0; color: var(--ink); cursor: pointer; text-align: left; text-decoration: underline; text-decoration-color: #b9c2bf; text-underline-offset: 3px; }
+.azname:hover { color: var(--accent); text-decoration-color: var(--accent); }
+.azname .cnt { font-family: var(--f-ui); font-weight: 400; font-size: 14px; color: var(--ink-soft); margin-left: 6px; }
+.azcites { font-family: var(--f-ui); font-size: 14.5px; color: var(--ink-soft); line-height: 1.7; }
+.azcite { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.azcite.auto::after { content: " *"; color: #b07a12; text-decoration: none; }
+.subgroup { font-family: var(--f-display); font-size: 24px; margin: 22px 0 0; }
 </style>
 </head>
 <body>
@@ -137,6 +193,56 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
     <div class="stats" id="stats"></div>
   </header>
 
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab first" role="tab" id="t-read" aria-controls="read" aria-selected="false" data-tab="read">Read this first</button>
+    <button class="tab" role="tab" id="t-search" aria-controls="search" aria-selected="true" data-tab="search">Search names</button>
+    <button class="tab" role="tab" id="t-az" aria-controls="az" aria-selected="false" data-tab="az">A&ndash;Z index</button>
+  </nav>
+
+  <section id="read" role="tabpanel" aria-labelledby="t-read" hidden>
+    <div class="readfirst">
+      <div class="caution" id="accuracy">
+        <h2>Please check the original before relying on any name</h2>
+        <p>This is a finding aid, not a transcription of the wills. It indexes abstracts (short summaries) that another researcher made of the will books, and the names were then picked out of those abstracts, partly by a computer program. Names, relationships and gifts can be missing, misread or attached to the wrong person. Every record shows the abstract's exact wording and a link to the source page, so you can confirm what it says. For anything important, go on to the will book itself.</p>
+        <div class="progress" id="progress"></div>
+        <ul class="legend">
+          <li><span class="flag ok">&#10003; Checked by hand</span><span>A person has read this will's abstract and checked every name, relationship and gift against it.</span></li>
+          <li><span class="flag auto">Not yet checked</span><span>The names were picked out by a program and nobody has checked them yet. Expect some names or gifts to be missing; read the original text shown with the record.</span></li>
+        </ul>
+        <p>This notice is shown once, here. Each record carries one of the two labels above instead of repeating it.</p>
+      </div>
+
+      <h2>Where the information comes from</h2>
+      <p>All entries come from the will abstracts published at <a href="https://freeafricanamericans.com/halifax.htm" target="_blank" rel="noopener">freeafricanamericans.com/halifax.htm</a>, which cover:</p>
+      <ul>
+        <li>Halifax County, North Carolina, Will Books Vol. 1 to Vol. 4 (1758 to 1854)</li>
+        <li>King George County, Virginia, Will Books A-1 and 1 to 4 (1721 to 1901)</li>
+      </ul>
+      <p>The citations (will book, page, and the dates the will was written and proved) are the abstract's own. This index is not connected with that site or its author.</p>
+
+      <h2>How the information was processed</h2>
+      <ol>
+        <li>A saved copy of the source page was split into one entry per will, and each entry's exact wording was kept. You can read it under &ldquo;Original text of this entry&rdquo; on any record.</li>
+        <li>Each entry was broken into three kinds of people: the <b>will maker</b>, each <b>recipient</b> (anyone given or lent something, with the relationship as the will states it), and each <b>enslaved person</b> the will names. Each gift was recorded as &ldquo;gives&rdquo; or &ldquo;lends&rdquo;, with what was given and any condition.</li>
+        <li>The first 200 Halifax wills (Vol. 1 to Vol. 4, page 47) were read and broken down by hand. The remaining wills were first read by a program, which in testing missed about one recipient in six and about one enslaved person in three. Those wills are being checked by hand against the original text, and the label on each record tells you whether that has happened yet.</li>
+        <li>Where a will names a child or wife by first name only (&ldquo;my son Benjamin&rdquo;), the will maker's surname was added so the person can be found by family name. Those names are marked &ldquo;surname added&rdquo;.</li>
+        <li>Spellings are kept as the abstract gives them, including its question marks for unclear readings. Notes about doubtful readings appear on the record.</li>
+      </ol>
+
+      <h2>How to use this index</h2>
+      <ul>
+        <li><b>Search names</b>: type any part of a name. Narrow by role (will maker, recipient, enslaved person) or by county and will book. &ldquo;Include spelling variants&rdquo; also finds names that sound alike, so Mathis finds Matthis and Wallace finds Wallis.</li>
+        <li><b>A&ndash;Z index</b>: browse every will maker, recipient or enslaved person alphabetically by letter. Will makers and recipients are filed by surname; enslaved people, who are usually named by first name only, are filed by that name. Click a name to see its records, or a citation to go straight to that will.</li>
+        <li>Every name in a record is clickable and searches for that person, so you can follow a family or an enslaved person from will to will. Remember that the same name in different wills is not necessarily the same person.</li>
+        <li>A will maker's record lists each gift: who received it, whether it was given or lent, and what it was. A recipient's record shows what that person received.</li>
+        <li>&ldquo;View this will in the source&rdquo; opens the source page at that entry. &ldquo;Copy these results as CSV&rdquo; copies your current search for a spreadsheet.</li>
+      </ul>
+      <p>Download the data: <a href="halifax-wills-names.csv">every name (CSV)</a>, <a href="halifax-wills-bequests.csv">every bequest (CSV)</a>, <a href="halifax-wills.csv">every will (CSV)</a>.</p>
+      <p><button class="startbtn" type="button" data-go="search">Start searching</button><button class="startbtn alt" type="button" data-go="az">Browse A&ndash;Z</button></p>
+    </div>
+  </section>
+
+  <section id="search" role="tabpanel" aria-labelledby="t-search">
   <div class="controls" role="search">
     <div class="searchrow">
       <input id="q" type="search" placeholder="Search a name, e.g. Whitehead, Mingo, Sarah Davis" autocomplete="off" aria-label="Search names">
@@ -174,17 +280,39 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 
   <ol class="results" id="results"></ol>
   <button class="more" id="more" hidden>Show more</button>
+  </section>
 
-  <section class="about">
-    <h2>How this index was made</h2>
-    <ul>
-      <li>Every will entry on the source page was read and broken into the will maker, each person given or lent something (with the relationship as the will states it), and each enslaved person named. The citation is the will book volume and page from the abstract; dates show when the will was written and when it was proved in court.</li>
-      <li>When a will names a child or wife by first name only (for example "my son Benjamin"), the index adds the will maker's surname so the person can be found by family name. These are marked "surname added".</li>
-      <li>"Include spelling variants" matches names that sound alike or differ only by doubled letters, so Mathis finds Matthis, Wallace finds Wallis and Wallice, and Bynam finds Bynum.</li>
-      <li>Unclear readings are kept with the source's own question marks, and anything ambiguous is listed under each will's notes. Open "Original text of this entry" under any result to see exactly what the source says. The "View in source" link opens the source page at that will.</li>
-      <li><b>Coverage:</b> every will entry on the source page: Halifax County, North Carolina, Will Books 1 to 4, and King George County, Virginia, Will Books A-1 and 1 to 4. The first 200 Halifax wills (Vol. 1 to Vol. 4 page 47) were read and checked by hand against the original text. The other wills were read by a program, so those entries carry a yellow "names picked out automatically" note and an exact copy of the original text, and gifts may be incomplete.</li>
-    </ul>
-    <p>Download the data: <a href="halifax-wills-names.csv">every name (CSV)</a>, <a href="halifax-wills-bequests.csv">every bequest (CSV)</a>, <a href="halifax-wills.csv">every will (CSV)</a>.</p>
+  <section id="az" role="tabpanel" aria-labelledby="t-az" hidden>
+    <div class="az-controls">
+      <div class="filters">
+        <div class="chips" role="group" aria-label="Index">
+          <button class="chip azrole" data-role="Testator" aria-pressed="true">Will makers</button>
+          <button class="chip azrole" data-role="Recipient" aria-pressed="false">Recipients</button>
+          <button class="chip azrole" data-role="Enslaved person named" aria-pressed="false">Enslaved people named</button>
+        </div>
+        <select id="azvol" aria-label="County or will book">
+        <option value="all">All counties and will books</option>
+        <optgroup label="Halifax County, NC">
+          <option value="H">All Halifax County books</option>
+          <option value="1">Vol. 1 (1758-1774)</option>
+          <option value="2">Vol. 2 (1775-1779)</option>
+          <option value="3">Vol. 3 (1781-1824)</option>
+          <option value="4">Vol. 4 (1825-1854)</option>
+        </optgroup>
+        <optgroup label="King George County, VA">
+          <option value="KG">All King George County books</option>
+          <option value="KGA">Book A-1 (1721-1752)</option>
+          <option value="KG1">Book 1 (1752-1780)</option>
+          <option value="KG2">Book 2 (1780-1804)</option>
+          <option value="KG3">Book 3 (1804-1846)</option>
+          <option value="KG4">Book 4 (1847-1901)</option>
+        </optgroup>
+        </select>
+      </div>
+      <div class="letters" id="letters" role="group" aria-label="First letter"></div>
+    </div>
+    <div class="az-head" id="azhead"></div>
+    <div id="azbody"></div>
   </section>
 </div>
 
@@ -293,6 +421,12 @@ function beqRow(b, w, mine, hitIdx) {
 }
 function ledger(w, pick, hitIdx) { return `<ol class="ledger">${w.bequests.map(b => beqRow(b, w, pick && pick(b), hitIdx)).join("")}</ol>`; }
 
+const BOILER = /^Auto-extracted entry/i;
+function flag(w) {
+  return w.auto
+    ? `<a class="flag auto" href="#accuracy" title="Names picked out by a program and not yet checked by hand. Some names or gifts may be missing. Read the original text below.">Not yet checked</a>`
+    : `<a class="flag ok" href="#accuracy" title="Names, relationships and gifts checked by hand against the abstract.">&#10003; Checked by hand</a>`;
+}
 function render(qt) {
   const list = $("#results");
   const total = current.length;
@@ -316,10 +450,10 @@ function render(qt) {
     }
     return `<li class="entry">
       <div class="hitline"><span class="hitname">${hl(r.name, qt)}</span><span class="pill ${pc}">${r.role === "Testator" ? "Will maker" : esc(r.role)}</span>${r.rel ? `<span class="rel">${esc(r.rel)}</span>` : ""}${inf}</div>
-      <div class="docket-line"><span class="cite">${esc(w.book)}, ${esc(w.pages)}</span> <span class="sep">&middot;</span> ${esc(w.date)}</div>
+      <div class="docket-line"><span><span class="cite">${esc(w.book)}, ${esc(w.pages)}</span>${w.date ? ` <span class="sep">&middot;</span> ${esc(w.date)}` : ""}</span>${flag(w)}</div>
       ${body}
       ${rest}
-      ${w.auto ? `<div class="note autonote"><b>Names picked out automatically.</b> This will was read by a program rather than by hand, so some names or gifts may be missing or wrong. Check the original text below.</div>` : (w.notes ? `<div class="note"><b>Note:</b> ${esc(w.notes)}</div>` : "")}
+      ${w.notes && !BOILER.test(w.notes) ? `<div class="note"><b>Note:</b> ${esc(w.notes)}</div>` : ""}
       <details class="orig"><summary>Original text of this entry</summary><div class="origtext"><div class="origcite">${esc(w.citation)}</div>${esc(w.orig)}</div></details>
       <div class="srcrow"><a class="src" href="${esc(w.link)}" target="_blank" rel="noopener">View this will in the source &rarr;</a></div>
     </li>`;
@@ -337,9 +471,9 @@ $("#copy").addEventListener("click", async () => {
   catch { const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); btn.textContent = `Copied ${current.length} rows`; } catch { btn.textContent = "Copy failed. Select the results by hand."; } ta.remove(); }
   setTimeout(() => btn.textContent = "Copy these results as CSV", 2500);
 });
-document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+document.querySelectorAll(".chip:not(.azrole)").forEach(b => b.addEventListener("click", () => {
   role = b.dataset.role;
-  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  document.querySelectorAll(".chip:not(.azrole)").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
   search();
 }));
 $("#results").addEventListener("click", e => {
@@ -354,7 +488,112 @@ $("#more").addEventListener("click", () => { shown += PAGE; render(toks($("#q").
 
 const nT = ROWS.filter(r => r.role === "Testator").length, nR = ROWS.filter(r => r.role === "Recipient").length, nE = ROWS.filter(r => r.role === "Enslaved person named").length;
 $("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}</b> recipients</span><span><b>${nE}</b> enslaved people named</span><span>${new Set(WILLS.map(w => w.county)).size} counties, 1721&ndash;1901</span>`;
+
+// ---- Progress (Read this first) ----
+const nChecked = WILLS.filter(w => !w.auto).length;
+$("#progress").innerHTML = `<div><b>${nChecked}</b> of <b>${WILLS.length}</b> wills checked by hand so far; <b>${WILLS.length - nChecked}</b> not yet checked.</div><div class="bar" aria-hidden="true"><span style="width:${(100 * nChecked / WILLS.length).toFixed(1)}%"></span></div>`;
+
+// ---- Tabs ----
+const TABS = ["read", "search", "az"];
+let azBuilt = false;
+function showTab(name, focusPanel) {
+  if (!TABS.includes(name)) name = "search";
+  for (const t of TABS) {
+    $("#" + t).hidden = t !== name;
+    $("#t-" + t).setAttribute("aria-selected", t === name ? "true" : "false");
+    $("#t-" + t).tabIndex = t === name ? 0 : -1;
+  }
+  if (name === "az" && !azBuilt) { azBuilt = true; buildAz(); }
+  try { localStorage.setItem("hw-seen", "1"); } catch {}
+  if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
+}
+document.querySelectorAll(".tab").forEach(b => {
+  b.addEventListener("click", () => showTab(b.dataset.tab));
+  b.addEventListener("keydown", e => {
+    const i = TABS.indexOf(b.dataset.tab), d = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+    if (!d) return; const n = TABS[(i + d + TABS.length) % TABS.length]; showTab(n); $("#t-" + n).focus();
+  });
+});
+document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => { showTab(b.dataset.go); window.scrollTo({ top: 0 }); }));
+document.addEventListener("click", e => {
+  const a = e.target.closest('a[href="#accuracy"]'); if (!a) return;
+  e.preventDefault(); showTab("read"); $("#accuracy").scrollIntoView({ block: "start" });
+});
+
+// ---- A-Z index ----
+const SUFFIX = new Set(["sr", "jr", "senr", "junr", "jnr", "senior", "junior", "esq", "esqr"]);
+const DESCR = new Set(["old", "young", "little", "big", "great", "yellow"]);
+const SHORTBOOK = { "1": "Halifax Vol. 1", "2": "Halifax Vol. 2", "3": "Halifax Vol. 3", "4": "Halifax Vol. 4",
+  KGA: "King George A-1", KG1: "King George 1", KG2: "King George 2", KG3: "King George 3", KG4: "King George 4" };
+function fileAs(name, role) {
+  // returns [display, sortKey]; sortKey "" means the name could not be filed
+  let s = name.replace(/\(\?\)/g, "").trim();
+  if (!/^[A-Za-z]/.test(s)) return [name, ""];
+  if (role === "Enslaved person named") {
+    const t = s.replace(/\([^)]*\)/g, "").trim().split(/\s+/);
+    let i = 0; while (i < t.length - 1 && DESCR.has(t[i].toLowerCase())) i++;
+    const main = t.slice(i).join(" ");
+    return [i ? `${main} (${t.slice(0, i).join(" ").toLowerCase()})` : s, main.toLowerCase()];
+  }
+  const core = s.replace(/\([^)]*\)/g, "").trim();
+  const t = core.split(/\s+/);
+  let j = t.length - 1; while (j > 0 && SUFFIX.has(t[j].replace(/\./g, "").toLowerCase())) j--;
+  if (j === 0) return [core, core.toLowerCase()];
+  const sur = t[j], given = t.slice(0, j).join(" "), suf = t.slice(j + 1).join(" ");
+  return [`${sur}, ${given}${suf ? " " + suf : ""}`, (sur + " " + given + " " + suf).toLowerCase()];
+}
+let azRole = "Testator", azLetter = "A";
+function azRows() {
+  const vol = $("#azvol").value;
+  return ROWS.filter(r => r.role === azRole && (vol === "all" || (vol === "H" ? !r.w.vol.startsWith("KG") : vol === "KG" ? r.w.vol.startsWith("KG") : r.w.vol === vol)));
+}
+function buildAz() {
+  const groups = new Map();
+  for (const r of azRows()) {
+    const [disp, key] = fileAs(r.name, azRole);
+    const L = key ? key[0].toUpperCase() : "#";
+    const gk = (key || "~" + r.name.toLowerCase()).replace(/\s+/g, " ");
+    if (!groups.has(gk)) groups.set(gk, { disp, key: gk, L, rows: [] });
+    groups.get(gk).rows.push(r);
+  }
+  const byL = new Map();
+  for (const g of groups.values()) { if (!byL.has(g.L)) byL.set(g.L, []); byL.get(g.L).push(g); }
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").concat(byL.has("#") ? ["#"] : []);
+  if (!byL.has(azLetter)) azLetter = letters.find(l => byL.has(l)) || "A";
+  $("#letters").innerHTML = letters.map(l => `<button class="letter" type="button" data-l="${l}" aria-pressed="${l === azLetter}" ${byL.has(l) ? "" : "disabled"} title="${byL.has(l) ? byL.get(l).length + " names" : "No names"}">${l}</button>`).join("");
+  const list = (byL.get(azLetter) || []).sort((a, b) => a.key.localeCompare(b.key));
+  const what = { Testator: "will makers", Recipient: "recipients", "Enslaved person named": "enslaved people named" }[azRole];
+  const nRec = list.reduce((n, g) => n + g.rows.length, 0);
+  $("#azhead").innerHTML = `${azLetter === "#" ? "Names not given in full" : "Letter " + azLetter}: <b>${list.length}</b> ${what} in <b>${nRec}</b> records${azRole === "Enslaved person named" ? ", filed by given name" : ", filed by surname"}. Citations marked * are not yet checked by hand.`;
+  $("#azbody").innerHTML = `<ul class="azlist">${list.map(g => {
+    g.rows.sort((a, b) => a.w.id - b.w.id);
+    const cites = g.rows.map(r => `<button class="azcite${r.w.auto ? " auto" : ""}" type="button" data-q="${esc(r.name)}" data-vol="${esc(r.w.vol)}" title="${azRole === "Testator" ? "" : "Will of " + esc(r.w.testator) + ", "}${esc(r.w.date)}">${esc(SHORTBOOK[r.w.vol])}, ${esc(r.w.pages)}</button>${azRole !== "Testator" ? ` <span>(will of ${esc(r.w.testator)})</span>` : ""}`).join("; ");
+    return `<li><button class="azname" type="button" data-q="${esc(g.rows[0].name)}">${esc(g.disp)}<span class="cnt">${g.rows.length} ${g.rows.length === 1 ? "record" : "records"}</span></button><div class="azcites">${cites}</div></li>`;
+  }).join("")}</ul>`;
+}
+function openSearch(q, r, vol) {
+  $("#q").value = q;
+  role = r;
+  document.querySelectorAll(".chip:not(.azrole)").forEach(x => x.setAttribute("aria-pressed", x.dataset.role === r ? "true" : "false"));
+  $("#vol").value = vol;
+  search(); showTab("search"); window.scrollTo({ top: 0 });
+}
+$("#letters").addEventListener("click", e => { const b = e.target.closest(".letter"); if (!b || b.disabled) return; azLetter = b.dataset.l; buildAz(); });
+document.querySelectorAll(".azrole").forEach(b => b.addEventListener("click", () => {
+  azRole = b.dataset.role;
+  document.querySelectorAll(".azrole").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  buildAz();
+}));
+$("#azvol").addEventListener("change", buildAz);
+$("#azbody").addEventListener("click", e => {
+  const c = e.target.closest(".azcite"); if (c) return openSearch(c.dataset.q, azRole, c.dataset.vol);
+  const n = e.target.closest(".azname"); if (n) return openSearch(n.dataset.q, azRole, $("#azvol").value);
+});
+
 search();
+let seen = false; try { seen = !!localStorage.getItem("hw-seen"); } catch {}
+const h0 = location.hash.slice(1);
+showTab(h0 === "accuracy" ? "read" : h0 || (seen ? "search" : "read"));
 </script>
 
 </body>
