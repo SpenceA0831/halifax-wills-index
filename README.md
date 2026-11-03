@@ -9,4 +9,4 @@ and every enslaved person the wills name, with the will book, page and date for 
 - `src/bequests.txt` holds each bequest: who received what, whether it was given or lent, and any condition.
 - `src/gen.py` builds the site from those two files: `python3 src/gen.py build-out && cp build-out/index.html build-out/*.csv site/`
 
-The abstracts were parsed automatically from the source page, so check the original entry before relying on a detail.
+All entries were extracted by AI (Claude); none has been verified by a person. Records marked "AI-reviewed" were read individually by Claude against the source text; "auto-extracted" records came from an automated script. Check the original entry before relying on a detail.

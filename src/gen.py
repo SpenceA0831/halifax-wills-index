@@ -181,13 +181,13 @@ with open(os.path.join(out, "halifax-wills-names.csv"), "w", newline="", encodin
     for n in names:
         w = byid[n["will"]]
         cw.writerow([n["name"], n["written"], n["role"], n["rel"], "yes" if n["inferred"] else "",
-                     w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "automatic" if w["auto"] else "checked by hand", w["notes"], w["link"]])
+                     w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "auto-extracted" if w["auto"] else "AI-reviewed", w["notes"], w["link"]])
 with open(os.path.join(out, "halifax-wills.csv"), "w", newline="", encoding="utf-8") as f:
     cw = csv.writer(f)
     cw.writerow(["testator", "county", "citation", "will_book", "pages", "date", "extraction", "recipients", "unnamed_recipients",
                  "enslaved_people_named", "notes", "original_text", "source_link"])
     for w in wills:
-        cw.writerow([w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "automatic" if w["auto"] else "checked by hand",
+        cw.writerow([w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "auto-extracted" if w["auto"] else "AI-reviewed",
                      "; ".join(f'{r["name"]} ({r["rel"]})' if r["rel"] else r["name"] for r in w["recipients"]),
                      "; ".join(w["unnamed"]), "; ".join(w["enslaved"]), w["notes"], w["orig"], w["link"]])
 with open(os.path.join(out, "halifax-wills-bequests.csv"), "w", newline="", encoding="utf-8") as f:
@@ -196,7 +196,7 @@ with open(os.path.join(out, "halifax-wills-bequests.csv"), "w", newline="", enco
     for w in wills:
         for b in w["bequests"]:
             cw.writerow([w["testator"], w["county"], b["verb"].lower(), b["who"], b["what"], b["cond"],
-                         "; ".join(w["enslaved"][i] for i in b["ens"]), w["citation"], w["date"], "automatic" if w["auto"] else "checked by hand", w["link"]])
+                         "; ".join(w["enslaved"][i] for i in b["ens"]), w["citation"], w["date"], "auto-extracted" if w["auto"] else "AI-reviewed", w["link"]])
 json.dump(wills, open(os.path.join(out, "wills.json"), "w"), ensure_ascii=False, separators=(",", ":"))
 
 tpl = open(os.path.join(here, "page.html"), encoding="utf-8").read()

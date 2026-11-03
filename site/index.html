@@ -204,12 +204,12 @@ ul.azlist li:first-child { border-top: 0; }
       Each result shows its will book, page and date, the original wording of the entry, and a link back to the entry in the source.</p>
 
       <div class="caution" id="accuracy">
-        <h2>Please check the original before relying on any name</h2>
-        <p>This is a finding aid, not a transcription of the wills. It indexes abstracts (short summaries) that another researcher made of the will books, and the names were then picked out of those abstracts, partly by a computer program. Names, relationships and gifts can be missing, misread or attached to the wrong person. Every record shows the abstract's exact wording and a link to the source page, so you can confirm what it says. For anything important, go on to the will book itself.</p>
+        <h2>No person has checked these entries</h2>
+        <p>Every entry in this index was extracted by AI (Claude) from the source abstracts. No human has verified any name, relationship or gift, so names can be missing, misread or attached to the wrong person. The abstracts are themselves another researcher's short summaries of the will books. Every record shows the abstract's exact wording and a link to the source page, so you can confirm what it says. For anything important, go on to the will book itself.</p>
         <div class="progress" id="progress"></div>
         <ul class="legend">
-          <li><span class="flag ok">&#10003; Checked by hand</span><span>A person has read this will's abstract and checked every name, relationship and gift against it.</span></li>
-          <li><span class="flag auto">Not yet checked</span><span>The names were picked out by a program and nobody has checked them yet. Expect some names or gifts to be missing; read the original text shown with the record.</span></li>
+          <li><span class="flag ok">AI-reviewed</span><span>Claude read this will's abstract on its own and checked each name, relationship and gift against the text. Not verified by a person.</span></li>
+          <li><span class="flag auto">Auto-extracted</span><span>The names were picked out by an automated script, with no individual review yet. Expect more missing names or gifts; read the original text shown with the record.</span></li>
         </ul>
         <p>This notice is shown once, here. Each record carries one of the two labels above instead of repeating it.</p>
       </div>
@@ -225,8 +225,8 @@ ul.azlist li:first-child { border-top: 0; }
       <h2>How the information was processed</h2>
       <ol>
         <li>A saved copy of the source page was split into one entry per will, and each entry's exact wording was kept. You can read it under &ldquo;Original text of this entry&rdquo; on any record.</li>
-        <li>Each entry was broken into three kinds of people: the <b>will maker</b>, each <b>recipient</b> (anyone given or lent something, with the relationship as the will states it), and each <b>enslaved person</b> the will names. Each gift was recorded as &ldquo;gives&rdquo; or &ldquo;lends&rdquo;, with what was given and any condition.</li>
-        <li>The first 200 Halifax wills (Vol. 1 to Vol. 4, page 47) were read and broken down by hand. The remaining wills were first read by a program, which in testing missed about one recipient in six and about one enslaved person in three. Those wills are being checked by hand against the original text, and the label on each record tells you whether that has happened yet.</li>
+        <li>Claude broke each entry into three kinds of people: the <b>will maker</b>, each <b>recipient</b> (anyone given or lent something, with the relationship as the will states it), and each <b>enslaved person</b> the will names. Each gift was recorded as &ldquo;gives&rdquo; or &ldquo;lends&rdquo;, with what was given and any condition.</li>
+        <li>Claude read the first 200 Halifax wills (Vol. 1 to Vol. 4, page 47) one at a time and broke each one down. The remaining wills were first extracted by an automated script, which in testing missed about one recipient in six and about one enslaved person in three. Claude is now reviewing those wills one at a time against the original text, and the label on each record says whether that has happened yet. No person has checked any of this work.</li>
         <li>Where a will names a child or wife by first name only (&ldquo;my son Benjamin&rdquo;), the will maker's surname was added so the person can be found by family name. Those names are marked &ldquo;surname added&rdquo;.</li>
         <li>Spellings are kept as the abstract gives them, including its question marks for unclear readings. Notes about doubtful readings appear on the record.</li>
       </ol>
@@ -426,8 +426,8 @@ function ledger(w, pick, hitIdx) { return `<ol class="ledger">${w.bequests.map(b
 const BOILER = /^Auto-extracted entry/i;
 function flag(w) {
   return w.auto
-    ? `<a class="flag auto" href="#accuracy" title="Names picked out by a program and not yet checked by hand. Some names or gifts may be missing. Read the original text below.">Not yet checked</a>`
-    : `<a class="flag ok" href="#accuracy" title="Names, relationships and gifts checked by hand against the abstract.">&#10003; Checked by hand</a>`;
+    ? `<a class="flag auto" href="#accuracy" title="Names picked out by an automated script, not yet reviewed individually. Not verified by a person. Some names or gifts may be missing; read the original text below.">Auto-extracted</a>`
+    : `<a class="flag ok" href="#accuracy" title="Claude reviewed this will's names, relationships and gifts against the abstract. Not verified by a person.">AI-reviewed</a>`;
 }
 function render(qt) {
   const list = $("#results");
@@ -493,7 +493,7 @@ $("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}
 
 // ---- Progress (Read this first) ----
 const nChecked = WILLS.filter(w => !w.auto).length;
-$("#progress").innerHTML = `<div><b>${nChecked}</b> of <b>${WILLS.length}</b> wills checked by hand so far; <b>${WILLS.length - nChecked}</b> not yet checked.</div><div class="bar" aria-hidden="true"><span style="width:${(100 * nChecked / WILLS.length).toFixed(1)}%"></span></div>`;
+$("#progress").innerHTML = `<div><b>${nChecked}</b> of <b>${WILLS.length}</b> wills AI-reviewed so far; <b>${WILLS.length - nChecked}</b> auto-extracted only. None has been verified by a person.</div><div class="bar" aria-hidden="true"><span style="width:${(100 * nChecked / WILLS.length).toFixed(1)}%"></span></div>`;
 
 // ---- Tabs ----
 const TABS = ["read", "search", "az"];
@@ -566,7 +566,7 @@ function buildAz() {
   const list = (byL.get(azLetter) || []).sort((a, b) => a.key.localeCompare(b.key));
   const what = { Testator: "will makers", Recipient: "recipients", "Enslaved person named": "enslaved people named" }[azRole];
   const nRec = list.reduce((n, g) => n + g.rows.length, 0);
-  $("#azhead").innerHTML = `${azLetter === "#" ? "Names not given in full" : "Letter " + azLetter}: <b>${list.length}</b> ${what} in <b>${nRec}</b> records${azRole === "Enslaved person named" ? ", filed by given name" : ", filed by surname"}. Citations marked * are not yet checked by hand.`;
+  $("#azhead").innerHTML = `${azLetter === "#" ? "Names not given in full" : "Letter " + azLetter}: <b>${list.length}</b> ${what} in <b>${nRec}</b> records${azRole === "Enslaved person named" ? ", filed by given name" : ", filed by surname"}. Citations marked * are auto-extracted and not yet AI-reviewed.`;
   $("#azbody").innerHTML = `<ul class="azlist">${list.map(g => {
     g.rows.sort((a, b) => a.w.id - b.w.id);
     const cites = g.rows.map(r => `<button class="azcite${r.w.auto ? " auto" : ""}" type="button" data-q="${esc(r.name)}" data-vol="${esc(r.w.vol)}" title="${azRole === "Testator" ? "" : "Will of " + esc(r.w.testator) + ", "}${esc(r.w.date)}">${esc(SHORTBOOK[r.w.vol])}, ${esc(r.w.pages)}</button>${azRole !== "Testator" ? ` <span>(will of ${esc(r.w.testator)})</span>` : ""}`).join("; ");
