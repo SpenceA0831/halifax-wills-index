@@ -2628,3 +2628,127 @@ D written 27 June 1794; proved 4 December 1794
 +E Moses
 +E George
 +E Henson
+@KG2|pp.209-10|William Hudson
++R William (son)
++R Mildred Wilkerson
++R Nancy Hudson
++R Senny Hudson
++E Judith
++E Isabel
+@KG2|pp.211-2|Robert G. Beverley
+OK
+@KG2|pp.213-4|Anthony Price
++R Benjamin Roach (son-in-law)
+@KG2|pp.215-6|Thomas Short
+-R Nan
+-R Abigail
+-B Nan (son) |
+-B Abigail (daughter) |
++R Frances (daughter)
++E Nan
++E Abigail
+@KG2|p.219|John Skinker
+-E Brother
++R William Skinker Junr (nephew)
++R Caty Bowie (niece)
++R Sally Bowie (niece)
++E Ben
++E Betty
++E Joe
++E Antony
+@KG2|pp.222-3|Thacker Washington
++E Tom
++E Harry
++E Davy
++E James
++E Sarah
++E Agga
++E Lydia
++E Molly
+@KG2|pp.225-8|William Stuart
++R William (son)
++R William Mason (son-in-law)
++R Richard Foote (son-in-law)
++E Will
++E Simon
++E Jacob
+@KG2|pp.230-3|Hannah Fitzhugh
+OK
+@KG2|pp.239-40|Benjamin Baber
++R Sally Bombury Baber (children)
++E Hannah
++E Sukey
++E Betty
++E Wilson
++E Frank
++E Nancy
++E John
++E Anny
++E Kitt
++E Paul
+@KG2|pp.241-3|John Cleft
++R Peggy (children)
++R John Usley (children)
++R Milly (children)
++R William Cleft (children)
++R Robert (children)
++R Hannah Carver (children)
++E Harry
+@KG2|pp.245-9|Thomas Smith
+-E Mary
+-E Ann
++E Mary Ann
+@KG2|pp.257-9|William Bennett
+-R John Bennett
+-B John Bennett (daughter) |
++R John Bennett
++R Catherine Bennett (niece, daughter of John Bennett)
++R Patty Monroe (wife's sister)
++E Rachel
+@KG2|pp.259-61|John Pollard
+-E Stocks
++R Henry Miller
+@KG2|pp.262-3|John Mifflin
+OK
+@KG2|pp.269-70|John Thornley
+OK
+@KG2|pp.271-2|James Dishman
+-R Milly
+-R Ned
+-R Frank
+-R Anthony
+-B Milly (daughter) |
+-B Ned (children) |
+-B Frank (children) |
+-B Anthony (children) |
++E Milly
++E Aaron
++E Wiet
++E Lucy
++E Ned
++E Frank
++E Anthony
++E Grace
+@KG2|pp.291-4|William G. Stuart
+OK
+@KG2|pp.297-8|John Marquess
++R Elizabeth White (daughter)
+@KG2|pp.303-7|Michael Wallace
+N This is the same will abstracted at pp.253-8 of Will Book 1. This entry records that it was proved again in 1796 and 1803.
+@KG2|p.310|Ann Fowke
++R William Beary (grandson)
++E Beet
+@KG2|pp.311-2|Benjamin Wilkerson
+OK
+@KG2|pp.313-4|(name not captured)
+T John Waugh
+D written 5 August 1801; proved 6 October 1803
+-E Indian
+-E Billy
++E Indian Billy
+@KG2|p.315|John Lewis Alexander
+N The will directs that Mingo and Jack be freed.
+@KG2|pp.348-9|(name not captured)
+T William Bunbury
+D written 13 February 1804; proved 6 December 1804
++R William (son)
