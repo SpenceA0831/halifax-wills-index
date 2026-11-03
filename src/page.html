@@ -1,0 +1,321 @@
+<title>Halifax Will Book Index</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Searchable name index of testators, recipients and enslaved people named in Halifax County, North Carolina will abstracts, 1755-1828.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: a clean reading register. Search on top, then one roomy entry per name with the citation set like a library catalog line. Light only. */
+:root {
+  --paper: #f7f8f6;
+  --sheet: #ffffff;
+  --ink: #1b1f21;
+  --ink-soft: #4f585b;
+  --rule: #dfe3e0;
+  --accent: #245a63;
+  --accent-soft: #e4eff0;
+  --t-testator: #7a4317; --t-testator-bg: #f8ebdf;
+  --t-recipient: #245a63; --t-recipient-bg: #e4eff0;
+  --t-enslaved: #5d356f; --t-enslaved-bg: #f0e7f4;
+  --mark: #fde9a6;
+  --f-display: "IM Fell English", "Iowan Old Style", Georgia, serif;
+  --f-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --f-ui: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html, body { background: var(--paper); color: var(--ink); }
+body { font-family: var(--f-body); font-size: 18px; line-height: 1.6; }
+.wrap { max-width: 860px; margin: 0 auto; padding-block: 36px 72px;
+  padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); }
+header h1 { font-family: var(--f-display); font-weight: 400; font-size: clamp(34px, 6vw, 50px); line-height: 1.08; margin: 0; text-wrap: balance; }
+header h1 em { font-style: italic; color: var(--ink-soft); }
+.lede { color: var(--ink-soft); max-width: 62ch; margin: 14px 0 0; font-size: 18px; }
+.lede a, .about a, a.src { color: var(--accent); text-underline-offset: 3px; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 16px; font-family: var(--f-ui); font-size: 15px; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); font-weight: 600; }
+
+.controls { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); padding-block: 16px 12px; margin-top: 22px; border-bottom: 1px solid var(--rule); display: grid; gap: 12px; font-family: var(--f-ui); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.searchrow { display: flex; gap: 8px; }
+#q { flex: 1; min-width: 0; font-family: var(--f-ui); font-size: 19px; padding: 13px 16px; border: 1.5px solid #c9cfcc; border-radius: 8px; background: var(--sheet); color: var(--ink); }
+#q:focus { border-color: var(--accent); }
+#q:focus-visible, button:focus-visible, select:focus-visible, input[type=checkbox]:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; font-size: 15px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 15px; padding: 6px 13px; border-radius: 999px; border: 1px solid #c9cfcc; background: var(--sheet); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+select { font: inherit; font-size: 15px; padding: 6px 10px; border-radius: 8px; border: 1px solid #c9cfcc; background: var(--sheet); color: var(--ink); }
+label.tog { display: inline-flex; gap: 7px; align-items: center; cursor: pointer; color: var(--ink-soft); }
+.count { font-size: 15px; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; align-items: center; }
+.linkbtn { font: inherit; background: none; border: 0; padding: 0; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+
+ol.results { list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 14px; }
+.entry { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 20px 22px; display: grid; gap: 10px; min-width: 0; }
+.hitline { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.hitname { font-size: 24px; font-weight: 600; line-height: 1.25; }
+.pill { font-family: var(--f-ui); font-size: 13px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.pill.Testator { color: var(--t-testator); background: var(--t-testator-bg); }
+.pill.Recipient { color: var(--t-recipient); background: var(--t-recipient-bg); }
+.pill.Enslaved { color: var(--t-enslaved); background: var(--t-enslaved-bg); }
+.hitline .rel { color: var(--ink-soft); font-style: italic; font-size: 17px; }
+.docket-line { font-family: var(--f-ui); font-size: 15px; color: var(--ink-soft); }
+.docket-line .cite { color: var(--ink); font-weight: 600; }
+.inf { font-family: var(--f-ui); font-size: 14px; color: var(--ink-soft); border-bottom: 1px dotted var(--ink-soft); cursor: help; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0; font-size: 17px; }
+.facts dt { font-family: var(--f-ui); font-size: 14px; color: var(--ink-soft); padding-top: 3px; }
+.facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.facts .cite { font-weight: 600; }
+@media (max-width: 520px) { .facts { grid-template-columns: 1fr; gap: 0; } .facts dd { margin-bottom: 8px; } }
+details { border-top: 1px solid var(--rule); padding-top: 10px; }
+details summary { cursor: pointer; color: var(--accent); font-family: var(--f-ui); font-size: 15px; font-weight: 600; }
+.will { margin-top: 12px; display: grid; gap: 14px; }
+.will h3 { font-family: var(--f-ui); font-size: 14px; font-weight: 600; color: var(--ink-soft); margin: 0 0 4px; }
+ul.people { margin: 0; padding-left: 20px; display: grid; gap: 2px; font-size: 17px; }
+ul.people .rel { color: var(--ink-soft); }
+p.names { margin: 0; font-size: 17px; line-height: 1.75; }
+.namebtn { font: inherit; background: none; border: 0; padding: 0; color: inherit; cursor: pointer; text-decoration: underline; text-decoration-color: #b9c2bf; text-underline-offset: 3px; }
+.namebtn:hover { text-decoration-color: var(--accent); color: var(--accent); }
+.note { font-size: 16px; color: var(--ink-soft); background: #f3f5f3; border-radius: 6px; padding: 8px 12px; }
+.note b { color: var(--ink); }
+.srcrow { font-family: var(--f-ui); font-size: 15px; }
+mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3px; }
+.more { margin: 20px auto 0; display: block; font-family: var(--f-ui); font-size: 16px; padding: 10px 22px; border-radius: 8px; border: 1px solid #c9cfcc; background: var(--sheet); color: var(--ink); cursor: pointer; }
+.empty { padding: 30px 0; color: var(--ink-soft); }
+.about { margin-top: 48px; border-top: 1px solid var(--rule); padding-top: 22px; font-size: 16.5px; color: var(--ink-soft); max-width: 66ch; }
+.about h2 { font-family: var(--f-display); font-weight: 400; font-size: 28px; color: var(--ink); margin: 0 0 10px; }
+.about li { margin-bottom: 8px; }
+.ledger { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.beq { display: grid; grid-template-columns: minmax(0, 15rem) minmax(0, 1fr); gap: 4px 20px; padding: 12px 0; border-top: 1px solid var(--rule); }
+.beq:first-child { border-top: 0; }
+.beq.me { background: #fbf6e3; margin: 0 -12px; padding-left: 12px; padding-right: 12px; border-radius: 6px; }
+.beq .to { display: grid; gap: 4px; align-content: start; }
+.beq .who { font-weight: 600; font-size: 17.5px; line-height: 1.3; }
+.beq .who .rel { font-weight: 400; color: var(--ink-soft); font-size: 15.5px; }
+.beq .what { font-size: 17px; line-height: 1.55; }
+.beq .cond { font-family: var(--f-ui); font-size: 14.5px; color: var(--ink-soft); margin-top: 2px; }
+.verb { justify-self: start; font-family: var(--f-ui); font-size: 12.5px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; background: #e9ece9; color: var(--ink-soft); }
+.verb.GIVES { background: var(--t-recipient-bg); color: var(--t-recipient); }
+.verb.LENDS { background: #fbefd6; color: #7a5410; }
+.verb.SOLD { background: #f6e3e1; color: #8a2e24; }
+.verb.FREED { background: var(--t-enslaved-bg); color: var(--t-enslaved); }
+.ledger-h { font-family: var(--f-ui); font-size: 14px; font-weight: 600; color: var(--ink-soft); margin: 4px 0 2px; }
+.ens { font: inherit; background: none; border: 0; padding: 0; cursor: pointer; color: var(--t-enslaved); font-weight: 600; text-decoration: underline; text-decoration-color: #d6c3df; text-underline-offset: 3px; }
+.ens.hit { background: var(--mark); color: var(--ink); border-radius: 3px; padding: 0 2px; }
+@media (max-width: 560px) { .beq { grid-template-columns: 1fr; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Halifax County Wills <em>name index</em></h1>
+    <p class="lede">Search everyone named in the Halifax County, North Carolina will abstracts on
+      <a href="https://freeafricanamericans.com/halifax.htm" target="_blank" rel="noopener">freeafricanamericans.com</a>:
+      the person making each will, every person given or lent something, and the enslaved people the wills name.
+      Each result shows its will book, page and date, with a link back to the entry in the source.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <div class="controls" role="search">
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="Search a name, e.g. Whitehead, Mingo, Sarah Davis" autocomplete="off" aria-label="Search names">
+    </div>
+    <div class="filters">
+      <div class="chips" role="group" aria-label="Role">
+        <button class="chip" data-role="all" aria-pressed="true">Everyone</button>
+        <button class="chip" data-role="Testator" aria-pressed="false">Will makers</button>
+        <button class="chip" data-role="Recipient" aria-pressed="false">Recipients</button>
+        <button class="chip" data-role="Enslaved person named" aria-pressed="false">Enslaved people named</button>
+      </div>
+      <select id="vol" aria-label="Will book">
+        <option value="0">All will books</option>
+        <option value="1">Vol. 1 (1758-1774)</option>
+        <option value="2">Vol. 2 (1775-1779)</option>
+        <option value="3">Vol. 3 (1781-1824)</option>
+        <option value="4">Vol. 4 (1825-1854)</option>
+      </select>
+      <label class="tog"><input type="checkbox" id="fuzzy" checked> Include spelling variants</label>
+    </div>
+    <div class="count"><span id="count"></span><button class="linkbtn" id="copy" type="button">Copy these results as CSV</button></div>
+  </div>
+
+  <ol class="results" id="results"></ol>
+  <button class="more" id="more" hidden>Show more</button>
+
+  <section class="about">
+    <h2>How this index was made</h2>
+    <ul>
+      <li>Every will entry on the source page was read and broken into the will maker, each person given or lent something (with the relationship as the will states it), and each enslaved person named. The citation is the will book volume and page from the abstract; dates show when the will was written and when it was proved in court.</li>
+      <li>When a will names a child or wife by first name only (for example "my son Benjamin"), the index adds the will maker's surname so the person can be found by family name. These are marked "surname added".</li>
+      <li>"Include spelling variants" matches names that sound alike or differ only by doubled letters, so Mathis finds Matthis, Wallace finds Wallis and Wallice, and Bynam finds Bynum.</li>
+      <li>Unclear readings are kept with the source's own question marks, and anything ambiguous is listed under each will's notes. The abstracts were parsed automatically, so check the original entry before relying on a detail. The "View in source" link opens the source page at that will.</li>
+      <li>The source page covers Halifax County, <b>North Carolina</b>, Will Books 1 to 4. The copy available when this index was built ends partway through Will Book 4, page 47.</li>
+    </ul>
+    <!--DOWNLOADS-->
+  </section>
+</div>
+
+<script>
+const WILLS = /*__DATA__*/[];
+const PAGE = 60;
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function norm(s) { return s.toLowerCase().replace(/[^a-z]/g, "").replace(/(.)\1+/g, "$1"); }
+function soundex(s) {
+  s = s.toLowerCase().replace(/[^a-z]/g, ""); if (!s) return "";
+  const codes = {b:1,f:1,p:1,v:1,c:2,g:2,j:2,k:2,q:2,s:2,x:2,z:2,d:3,t:3,l:4,m:5,n:5,r:6};
+  let out = s[0].toUpperCase(), last = codes[s[0]] || 0;
+  for (let i = 1; i < s.length && out.length < 4; i++) {
+    const ch = s[i], c = codes[ch] || 0;
+    if (c && c !== last) out += c;
+    if (ch !== "h" && ch !== "w") last = c;
+  }
+  return (out + "000").slice(0, 4);
+}
+const toks = (s) => s.split(/[\s.,]+/).filter(t => /[a-z]/i.test(t));
+
+// Flatten to one row per name
+const ROWS = [];
+for (const w of WILLS) {
+  ROWS.push({ w, name: w.testator, written: w.testator, role: "Testator", rel: "", inferred: false, idx: -1 });
+  w.recipients.forEach((r, i) => ROWS.push({ w, name: r.name, written: r.written, role: "Recipient", rel: r.rel, inferred: r.inferred, idx: i }));
+  w.enslaved.forEach((e, i) => ROWS.push({ w, name: e, written: e, role: "Enslaved person named", rel: "", inferred: false, idx: i }));
+}
+for (const r of ROWS) {
+  const t = toks(r.name);
+  r.n = t.map(norm); r.sx = t.map(soundex); r.full = norm(r.name);
+}
+
+let role = "all", shown = PAGE, current = [];
+
+function tokenMatch(qn, qsx, row, fuzzy) {
+  for (let i = 0; i < row.n.length; i++) {
+    if (row.n[i].startsWith(qn)) return true;
+    if (fuzzy && qn.length >= 3 && row.sx[i] === qsx) return true;
+  }
+  return false;
+}
+function search() {
+  const qRaw = $("#q").value.trim(), fuzzy = $("#fuzzy").checked, vol = +$("#vol").value;
+  const qt = toks(qRaw), qn = qt.map(norm), qsx = qt.map(soundex);
+  current = ROWS.filter(r => {
+    if (role !== "all" && r.role !== role) return false;
+    if (vol && r.w.vol !== vol) return false;
+    if (!qt.length) return role !== "all" || r.role === "Testator";
+    return qn.every((q, i) => q && tokenMatch(q, qsx[i], r, fuzzy));
+  });
+  current.sort((a, b) => a.name.localeCompare(b.name) || a.w.id - b.w.id);
+  if (!qt.length && role === "all") current.sort((a, b) => a.w.id - b.w.id);
+  shown = PAGE; render(qt);
+}
+function hl(text, qt) {
+  let h = esc(text);
+  for (const t of qt) {
+    const c = t.replace(/[^a-z]/gi, "");
+    if (c.length < 2) continue;
+    const re = new RegExp("\\b(" + c.split("").join("+") + "+[a-z]*)", "gi");
+    h = h.replace(re, "<mark>$1</mark>");
+  }
+  return h;
+}
+function nameBtn(n) { return `<button class="namebtn" type="button" data-q="${esc(n)}">${esc(n)}</button>`; }
+const VERB = { GIVES: "Gives", LENDS: "Lends", SOLD: "To be sold", FREED: "Freed", HIRED: "Hired out", CHOICE: "Choice", POWER: "Power to sell", LISTED: "Listed" };
+function reEsc(x) { return x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function whatHtml(b, w, hitIdx) {
+  // turn linked enslaved names in the bequest text into buttons
+  let text = b.what, slots = [];
+  const ens = b.ens.map(i => [i, w.enslaved[i]]).sort((x, y) => y[1].length - x[1].length);
+  for (const [i, e] of ens) {
+    const re = new RegExp("(^|[^A-Za-z])([" + e[0].toUpperCase() + e[0].toLowerCase() + "]" + reEsc(e.slice(1)) + ")(?![A-Za-z])");
+    const m = text.match(re); if (!m) continue;
+    const at = m.index + m[1].length;
+    slots.push([i, m[2]]);
+    text = text.slice(0, at) + "\u0001" + (slots.length - 1) + "\u0002" + text.slice(at + m[2].length);
+  }
+  return esc(text).replace(/\u0001(\d+)\u0002/g, (_, k) => {
+    const [i, label] = slots[+k];
+    return `<button class="ens${i === hitIdx ? " hit" : ""}" type="button" data-q="${esc(w.enslaved[i])}" title="Search for ${esc(w.enslaved[i])}">${esc(label)}</button>`;
+  });
+}
+function whoHtml(b, w) {
+  if (b.verb === "SOLD") return `<span class="who">Executors</span>`;
+  if (b.verb === "FREED" || b.verb === "CHOICE") return `<span class="who">${esc(b.who)}</span>`;
+  const m = b.who.match(/^(.*?)\s*(\(([^()]*)\))?\s*$/);
+  let name = esc(m[1]);
+  for (const i of b.rec) {
+    const r = w.recipients[i];
+    const re = new RegExp("(^|[^A-Za-z])(" + reEsc(esc(r.written.replace("(?)", ""))) + ")(?![A-Za-z])");
+    name = name.replace(re, (_, pre, nm) => `${pre}<button class="namebtn" type="button" data-q="${esc(r.name)}">${nm}</button>`);
+  }
+  return `<span class="who">${name}${m[3] ? ` <span class="rel">(${esc(m[3])})</span>` : ""}</span>`;
+}
+function beqRow(b, w, mine, hitIdx) {
+  const verb = VERB[b.verb] || b.verb;
+  return `<li class="beq${mine ? " me" : ""}">
+    <div class="to"><span class="verb ${esc(b.verb)}">${esc(verb)}${["GIVES","LENDS"].includes(b.verb) ? " to" : ""}</span>${whoHtml(b, w)}</div>
+    <div><div class="what">${whatHtml(b, w, hitIdx)}</div>${b.cond ? `<div class="cond">${esc(b.cond)}</div>` : ""}</div>
+  </li>`;
+}
+function ledger(w, pick, hitIdx) { return `<ol class="ledger">${w.bequests.map(b => beqRow(b, w, pick && pick(b), hitIdx)).join("")}</ol>`; }
+
+function render(qt) {
+  const list = $("#results");
+  const total = current.length;
+  const isBrowse = !qt.length && role === "all";
+  $("#count").textContent = isBrowse ? `Showing all ${total} wills in book and page order. Type a name to search.`
+    : `${total} ${total === 1 ? "match" : "matches"}`;
+  if (!total) { list.innerHTML = `<li class="empty">No names match. Try fewer letters, or turn on spelling variants.</li>`; $("#more").hidden = true; return; }
+  list.innerHTML = current.slice(0, shown).map(r => {
+    const w = r.w, pc = r.role.split(" ")[0];
+    const inf = r.inferred ? ` <span class="inf" title="The will gives only &quot;${esc(r.written)}&quot;. The will maker's surname was added for searching.">surname added</span>` : "";
+    let body = "", rest = "";
+    if (r.role === "Testator") {
+      body = w.bequests.length ? `<div class="ledger-h">What this will gives, and to whom</div>${ledger(w)}` : `<div class="note">The abstract does not itemize who received what.</div>`;
+    } else {
+      const pick = r.role === "Recipient" ? (b => b.rec.includes(r.idx)) : (b => b.ens.includes(r.idx));
+      const mine = w.bequests.filter(pick);
+      const head = r.role === "Recipient" ? `What ${esc(r.name)} received from ${nameBtn(w.testator)}` : `Where ${esc(r.name)} appears in the will of ${nameBtn(w.testator)}`;
+      body = mine.length ? `<div class="ledger-h">${head}</div><ol class="ledger">${mine.map(b => beqRow(b, w, false, r.role === "Recipient" ? -1 : r.idx)).join("")}</ol>`
+        : `<div class="note">Named in the will of ${nameBtn(w.testator)}, but the abstract does not say exactly what ${r.role === "Recipient" ? "they received" : "happened to them"}.</div>`;
+      if (w.bequests.length > mine.length) rest = `<details><summary>Every bequest in this will (${w.bequests.length})</summary><div class="will">${ledger(w, pick, r.role === "Recipient" ? -1 : r.idx)}</div></details>`;
+    }
+    return `<li class="entry">
+      <div class="hitline"><span class="hitname">${hl(r.name, qt)}</span><span class="pill ${pc}">${r.role === "Testator" ? "Will maker" : esc(r.role)}</span>${r.rel ? `<span class="rel">${esc(r.rel)}</span>` : ""}${inf}</div>
+      <div class="docket-line"><span class="cite">${esc(w.book)}, ${esc(w.pages)}</span> <span class="sep">&middot;</span> ${esc(w.date)}</div>
+      ${body}
+      ${rest}
+      ${w.notes ? `<div class="note"><b>Note:</b> ${esc(w.notes)}</div>` : ""}
+      <div class="srcrow"><a class="src" href="${esc(w.link)}" target="_blank" rel="noopener">View this will in the source &rarr;</a></div>
+    </li>`;
+  }).join("");
+  $("#more").hidden = shown >= total;
+  $("#more").textContent = `Show more (${total - shown} left)`;
+}
+
+function csvCell(s) { s = String(s ?? ""); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; }
+$("#copy").addEventListener("click", async () => {
+  const head = ["name","role","relationship","surname_added","testator","citation","date","notes","source_link"];
+  const lines = [head.join(",")].concat(current.map(r => [r.name, r.role, r.rel, r.inferred ? "yes" : "", r.w.testator, r.w.citation, r.w.date, r.w.notes, r.w.link].map(csvCell).join(",")));
+  const text = lines.join("\n"), btn = $("#copy");
+  try { await navigator.clipboard.writeText(text); btn.textContent = `Copied ${current.length} rows`; }
+  catch { const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); try { document.execCommand("copy"); btn.textContent = `Copied ${current.length} rows`; } catch { btn.textContent = "Copy failed. Select the results by hand."; } ta.remove(); }
+  setTimeout(() => btn.textContent = "Copy these results as CSV", 2500);
+});
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  role = b.dataset.role;
+  document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  search();
+}));
+$("#results").addEventListener("click", e => {
+  const b = e.target.closest(".namebtn, .ens"); if (!b) return;
+  $("#q").value = b.dataset.q; search(); window.scrollTo({ top: 0 });
+});
+let t; $("#q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(search, 120); });
+$("#vol").addEventListener("change", search);
+$("#fuzzy").addEventListener("change", search);
+$("#more").addEventListener("click", () => { shown += PAGE; render(toks($("#q").value.trim())); });
+
+const nT = ROWS.filter(r => r.role === "Testator").length, nR = ROWS.filter(r => r.role === "Recipient").length, nE = ROWS.filter(r => r.role === "Enslaved person named").length;
+$("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}</b> recipients</span><span><b>${nE}</b> enslaved people named</span><span>Will Books 1&ndash;4, 1755&ndash;1828</span>`;
+search();
+</script>

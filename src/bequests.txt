@@ -1,0 +1,955 @@
+# @vol|pages|testator   then: recipient | GIVES/LENDS/SOLD/FREED/HIRED | what | condition
+@1|p.1|George Huling
+John Huling (son) | GIVES | Negro fellow Jerry; Negro boy Dick |
+Elizabeth Huling (daughter) | GIVES | Negro fellow Frank (writing faded); Negro woman Agge and her child Ben |
+@1|pp.9-10|Benjamin Sherrod
+Benjamin (son) | GIVES | his choice of one Negro |
+Richard (son) | GIVES | one Negro of his choice |
+Patience (wife) and children | LENDS | rest of personal estate, rented out by executors | for the wife's use and the children's support
+@1|pp.17-18|Martha Davis
+Nathan Whithead (cousin) | GIVES | (bequest not detailed in abstract) |
+Lewis Lewis (cousin) | GIVES | tools, cart and horse (recipient unclear) |
+Sarah Whithead (cousin, living with testator) | GIVES | Negro woman Rose |
+@1|pp.28-9|Joshua Williams
+Thomas Williams (eldest son) | GIVES | Abraham, Isaac, Jenney, Betty and Judith, with their increase |
+Temperance (daughter) | GIVES | Peter and Nanny |
+Sarah (daughter) | GIVES | Cezar and Amey |
+Elisha Williams (son) | GIVES | Nan, Jacob, James and Tom; plantation |
+Martha (daughter) | GIVES | Hager |
+Sarah Williams (wife) | LENDS | London | during widowhood
+Celea Dickens | GIVES | Cezar | at age 21, hired out until then; if she dies first, to Elisha Williams
+@1|p.31|Barnaby McKinny Jnr
+Ann (wife) | LENDS | Moll, Chesser, Gibb and Juno | for life
+Isaac Ricks (wife's son) | GIVES | Gibb | after wife's death
+Patience McKinnie (sister) | GIVES | Moll | after wife's death
+Mary Ricks (wife's daughter) | GIVES | Juno | after wife's death
+Martha McKinnie (sister) | GIVES | Chesser | after wife's death
+@1|p.32|James Vaulks
+Mary (wife) | LENDS | the Negroes and stock on the land | during widowhood, if she raises the children
+Daniel (son) | GIVES | Will, Nan and Sall | after wife's death or remarriage
+daughters (unnamed) | GIVES | an unnamed Negro man, and Negro woman Cate with her increase, divided equally | after wife's death
+@1|p.41|Robert Ronard
+Barbery Ronard (mother) | LENDS | Negro woman Frank | during widowhood, then to brother James Ronard
+James Ronard (brother) | GIVES | Frank | after mother remarries or dies
+Barbery Ronard (mother) | LENDS | Negro boys Samson and Jack | during widowhood, then to brother William Ronard
+William Ronard (brother) | GIVES | Samson and Jack | after mother remarries or dies
+@1|p.43|Henry Haws
+Henry Haws Tucker | GIVES | all Negroes in general, with land, plantation and stock |
+Sarah Tucker | LENDS | labour of the Negroes and use of the plantation and stock | while she lives single
+Anne Tucker, Dianah Tucker, Mary Tucker | GIVES | 25 pounds each |
+@1|p.44|Benjamin Merrit
+Mary Merrit (mother) | LENDS | Negro man Dick and movable estate | for life; movables then divided among brothers and sisters
+Nathaniel Merrit, Ephraim Merrit, Sarah, Mary (brothers and sisters) | GIVES | movable estate, divided | after mother's death
+@1|pp.45-6|James Jackson Senr
+Lucy (daughter) | LENDS | Negro girl Sue | for life; then Sue and her increase divided among Lucy's children
+Ann Jackson (wife) | LENDS | remainder of estate, real and personal |
+Elizabeth Jackson (daughter) | GIVES | Negro boy Charles |
+Richard Jackson (son) | GIVES | Negro boy Davie |
+@1|p.47|Barnaby McKinnie
+William Coupland (nephew) | GIVES | all Negro slaves except Segar and Sarah |
+sold | SOLD | Segar and Sarah | to pay debts
+@1|p.49|William Andrews
+Catherine Andrews (wife) | LENDS | Negro man Charles | for life
+@1|p.50|John Waller
+Ann Waller (wife) | LENDS | Charles, Pocorvan Jack and Lucy | for life; then Charles to son Hardress, the others and their increase divided among the children
+Ann Waller (wife) | GIVES | Sam, Pheby, Ned and Linder, with their increase |
+Hardress (son) | GIVES | Charles | after wife's death
+Hardress (son) | GIVES | Goliah, called Long, hired to brother Robert Waller of Norfolk | unless needed to pay the debt to Robert Waller
+@1|pp.54-5|John Corlen
+Philip Corlen (son) | GIVES | Negro man Billey |
+William Corlen (son) | GIVES | Negro man Tom |
+Elizabeth Jackson (daughter) | GIVES | Negro man Paul |
+sold | SOLD | remaining goods and chattels | to pay debts
+@1|p.57|Drew Smith
+Elizabeth Smith (wife) | LENDS | Dick, Mingo, Jacob, Rose and Hannah | for life; then they and their increase divided among the four daughters
+Millea (daughter) | GIVES | land; Negro girl Lucy (recipient unclear in text) |
+Ann (daughter) | GIVES | Negro girl Olive |
+@1|pp.62-3|Thomas Matthis Senr
+Charles Matthis (grandson) | GIVES | 100 acres of land |
+Thomas Matthis (son) | GIVES | Negro fellow Peter; part of the water mill |
+Thomas Matthis (son) | GIVES | Negro fellow Cork |
+@1|p.64|Thomas Pope
+Amos Pope (son) | GIVES | the plantation where he lives, its land, and the still |
+sold | SOLD | residue of the estate, including an unnamed Negro fellow | to the highest bidder on six months credit
+@1|p.70|James Smith
+Frances Smith (wife) | LENDS | the land he lives on; Negroes Ceasar and Pris; Negro girl Aggy; mares Benny and Jenny; half the cattle, hogs and sheep; beds; brandy still | for life or widowhood
+John Smith (son of James Smith) | GIVES | Negro woman Rachel; gun; bed with silk rug |
+Mary Norwood (wife of Samuel Norwood) | GIVES | Negro girl Nan |
+James Killingsworth (son of William Killingsworth) | GIVES | Negro Pris | after wife's death or remarriage
+Sarah Spann (wife of John Spann) | GIVES | Negro man Ben |
+James Smith (son of John Smith) | GIVES | Negro man Ceasar; great looking glass | after wife's death or remarriage
+@1|p.72|William Taylor
+Thomas Teackle Taylor (son) | GIVES | Ceasar, Cudgo, Nan and her child Boatswain; Negro boy Will |
+Joshua Taylor (son) | GIVES | Negro boy Jacob |
+John Taylor (son) | GIVES | Negro boy Jeffrey |
+Elizabeth Taylor (daughter) | GIVES | Negro girl Patt and her increase; Negro boy George |
+Ester Taylor (daughter) | GIVES | Negro girl Lid and her increase |
+Catherine (daughter) | GIVES | Negro child Diner and her increase |
+Mary Taylor (daughter) | GIVES | 25 pounds sterling |
+recipient not stated | LENDS | the rest of the Negroes | text incomplete
+@1|pp.75-6|James Lovell
+James Lovell (son) | GIVES | Will, Murron, Ralph, Nan and Cato |
+William Lovell (son) | GIVES | Philip and Nathaniel |
+Elizabeth Lovell, Jane Lovell, Malachi Lovell, Ann Lovell (four youngest children) | GIVES | all remaining slaves | not divided until each marries
+@1|p.83|Barnabas Lane
+wife (unnamed) | LENDS | the plantation; labour of Negro woman Rachell | for life
+wife (unnamed) | LENDS | labour of Negro fellow Mingo | until son Martin Lane comes of age
+Martin Lane (son) and all children | GIVES | Mingo and all of Rachell's increase, divided equally | when Martin comes of age
+@1|p.85|Winefred Pope
+Jesse Pope (brother) | GIVES | Negro girl Vilate; Negro man Peter; a small chest |
+@1|p.90|Samuel Gaines
+three children (unnamed) | LENDS | labour of Negro woman Sue |
+three children (unnamed) | GIVES | plantations and cattle |
+@1|p.92|Jordan Thomas
+Ann Thomas (wife) | LENDS | use of the plantation |
+John (son) | GIVES | one Negro boy and one Negro girl | at age 21
+Nanney, Mary, Susanah (daughters) | GIVES | one Negro girl each, as the wife sees fit |
+Mingo and Patt | CHOICE | may choose the wife or a child as master or mistress |
+@1|p.98|James Bynam
+William Bynam (son) | GIVES | feather bed and furniture |
+John Bynam (grandson, son of William) | GIVES | Negro man Jacob |
+Agnes Whitney (daughter) | GIVES | five cows |
+Nicholas Bynam (son) | GIVES | feather bed and furniture |
+James Bynam (grandson, son of Nicholas) | GIVES | Negro woman Cate |
+Mary Dill (daughter) | GIVES | Negro man Samul |
+@1|pp.101-2|Joseph Bulter
+sold | SOLD | 400 acres in Cumberland County, Virginia |
+Sarah Butler (daughter) | GIVES | Negro woman Easter and her increase |
+Jude (daughter) | GIVES | Negro girl Easter and her increase |
+Annice Butler (daughter) | GIVES | Negro girl Amey and her increase |
+Mary Ann Butler (daughter) | GIVES | Negro girl Jenny and her increase |
+Elcie Butler (daughter) | GIVES | Negro girl Milley and her increase |
+Susanna Butler (daughter) | GIVES | Negro boys Daniel and James |
+Samuel Butler (son) | GIVES | Negro man Harry |
+Joseph Butler (son) | GIVES | Negro man Jack |
+Stephen Butler (son) | GIVES | Negro boy Sam |
+Dolathy Butler (wife) | LENDS | all Negroes not already given; all stock | for life
+@1|p.119|Mary Lattimore
+Ann Lattimore, Marget Lattimore (sisters) | GIVES | Negro girl Grace and her increase, divided equally |
+Jeane Crooker (friend) | GIVES | Negro girl Sue and her increase |
+@1|p.121|James Martin
+William Martin (son) | GIVES | Negro girl Nanny |
+Susannah Goodloe (daughter) | GIVES | gold ring worth 20 shillings |
+James Martin (son) | GIVES | Negro girl Winney |
+Mary Martin (daughter) | GIVES | Negro girl Violet |
+Henry Layne Martin (son) | GIVES | Negro girl Judy |
+Patrick Martin (son) | GIVES | Negro girl Rose |
+Lucy Martin (daughter) | GIVES | Negro girl Sarah |
+Toby | HIRED | Negro man Toby hired out | until the estate is divided, for the children's support and education
+sold | SOLD | tract of land in Culpeper; remainder of the estate |
+Mary Martin (wife) | LENDS | dwelling house and lot; Negro girl Lilly |
+James Martin (son) | GIVES | Negro boy Hampshire |
+@1|pp.125-6|Henry Robertson
+Peter (son) | GIVES | Negro man Tom; two cows; bed; colt; gun |
+Suckey (daughter) | GIVES | land and plantation where he lives; Negro woman Phillis |
+Henry (son) | GIVES | plantation south of Mush Island Creek; Negro boy Dick; two cows; rifle; bed |
+@1|p.129|Robert Williamson
+George Williamson (son) | GIVES | Negro boy Brutus; three pounds cash |
+Frances Williamson (daughter) | GIVES | Negroes Hannah and Judah |
+Susannah Hackett (daughter) | LENDS | Negro girl Lucy | for life; then to granddaughter Elizabeth Hacket
+Elizabeth Hacket (granddaughter) | GIVES | Lucy | after Susannah Hackett's death
+Thomas Hackett (grandson) | GIVES | Lucy's second child, if she has issue |
+John Williamson (son) | GIVES | Negro fellow Willm; Negro man Frank; Negro girl Sillah |
+@1|p.131|Jane Williams
+sold | SOLD | Negro woman Bandy | proceeds to son William Williams
+William Williams (son) | GIVES | money from the sale of Bandy |
+@1|p.136|George Goodwin
+Martha Goodwin (wife) | LENDS | one third of the plantation; Negro man Jack; 80 pounds |
+Josiah Goodwin (son) | GIVES | all his tract of land; Negroes Robert and James | Negroes hired out for his schooling and maintenance
+Molly (daughter) | GIVES | Negroes Freeman and Hagar; 20 pounds |
+@1|p.144|Henery Pope
+Tabitha Pope (wife) | GIVES | Negro Joe; household furniture; livestock; debts due |
+Burrel Pope (oldest son) | GIVES | plantation of 209 acres; Negro girl Patt |
+Willis Pope, John Pope, Henry Austin Pope, Wiley Pope (younger sons) | GIVES | all remaining lands and Negroes |
+@1|p.146|Thomas Kearny
+Sarah Kearney (wife) | GIVES | Negroes Sharper, Didchers and Fennll; ten cows; six sows; two work horses; half the household furniture |
+Edmund Kearney (son) | GIVES | Negro fellows Scipio, Cato, Pompey and Lowil(?); Negro girls Sarina and Hester | already in his possession
+Philip Kearney (son) | GIVES | Negroes Jack, Brutus, Kingall(?), Trusa(?), Cyrus and Anakil; all Negroes at the home plantation not otherwise given; cattle and hogs | already in his possession
+@1|pp.153-4|Thomas Davis
+Dioclecian Davis (nephew, son of Lewis Davis) | GIVES | Negro girl Tolar and her increase; land |
+Sally Davis (daughter) | GIVES | Negro Pink and her increase |
+wife (unnamed) | LENDS | use of Dick, David, Rose and Clary and their increase | for life
+wife and children (unnamed) | GIVES | rest of personal estate, kept together for their support |
+@1|pp.156-7|Thomas Mathis
+James Mathis (son) | GIVES | Negro fellow Will |
+Isaac Mathis (son) | GIVES | plantation |
+Benjamin Mathis (son) | GIVES | 150 acres |
+wife (unnamed) | LENDS | Cook, Rachel and Hannah | for life
+Isaac Mathis (son) | GIVES | Dinah and Daniel | after wife's death
+Benjamin Mathis (son) | GIVES | Nell and David | after wife's death
+@1|p.158|Jennings Hackney
+William Hackney (son) | GIVES | all lands; Negroes George, Cato, Lucy and Jude; cattle, hogs, furniture |
+@1|pp.159-60|Robert Hill
+Tabitha Hill (wife) | LENDS | Sambo, Sarah and Bess; six cows; household goods; two horses |
+William Hill (son) | GIVES | Negro girl Dealse |
+Green Hill (son) | GIVES | Negro Simon |
+Sion Hill (son) | GIVES | plantation; Toney and Pompey |
+Abner Hill (son) | GIVES | Negro Peter; girl Bibby |
+Tabetha Chapman (daughter) | GIVES | Negro fellow Jammy |
+Agnes Arrington (daughter) | GIVES | Negro Jack |
+Ann Steel (daughter) | GIVES | Negro girl Tuggy |
+Mary Bryant (daughter) | GIVES | Negro girl Daffeny; Negro woman Jenny |
+Milbry (daughter) | GIVES | plantation; Hannah and Barbey; cattle |
+@1|pp.162-3|William Whitehead
+Lewis Whitehead (son) | GIVES | one cow and calf |
+Sarah Mariott (daughter) | GIVES | one cow and calf |
+Abby Whitehead (wife) and children | GIVES | all Negroes, the still and rest of the estate, divided equally | executors to sell stock and divide
+@1|p.166|Joshua Tatum
+Christopher Tatum (son) | GIVES | plantation of 150 acres; Negro girls Tamar and Abigail |
+James Tatum (son) | GIVES | 230 and 400 acres; Negro boys Taby(?) and Frank |
+Joshua Tatum (son) | GIVES | Negro woman Kate; Negro girl Pegg; Negro boy Jack |
+Elizabeth Tatum (daughter) | GIVES | Negro girls Patt and Jenny; bed |
+Amey Tatum (wife) | GIVES | Negro men Jimmy and Dick; all the rest of the estate |
+@1|pp.168-9|John Heath
+sons (unnamed) | GIVES | land; horses |
+Mary Heath (daughter) | GIVES | Negro boy Jack; bed |
+Elizabeth Cureton (daughter) | GIVES | Negro boy Nedd |
+Sarah Heath (daughter) | GIVES | Negro woman Cloey and her increase |
+James Heath, Moses Heath (sons) | GIVES | Negro woman Pat and her increase, divided between them |
+Elizabeth Heath (wife) | GIVES | Negro woman Joe |
+Elizabeth Heath (wife) | LENDS | Negro woman Hannah and her increase |
+@1|pp.171-2|Joshua Tatum
+Christopher Tatum (son) | GIVES | plantation of 150 acres; Negro girls Tamar and Abigal |
+Joshua Tatum (son) | GIVES | Negro woman Kate; Negro girl Pegg; Negro boy Jack |
+Elizabeth Tatum (daughter) | GIVES | Negro girls Patt and Jenney; bed |
+Amey Tatum (wife) | GIVES | Negro men James and Dick; rest of the estate |
+@1|pp.174-5|Henry Andrews
+wife (unnamed) | GIVES | plantation; all Negroes; livestock; household furniture |
+@1|pp.179-80|Francis Williams
+Sarah (wife) | GIVES | Negro man York; riding saddle |
+Charles Williams (son) | GIVES | 200 acres |
+heirs (unnamed) | GIVES | all other goods, divided equally |
+@1|p.182|George Smith
+Ann Smith (wife) | LENDS | Negro man Joe; Negro boy Ben; bed and chest | for life
+Rachal Smith (daughter) | GIVES | Negro woman Pegg and her increase |
+George Smith (son) | GIVES | Joe and Ben | after wife's death
+@1|p.185|William Forman
+Benjamin Foreman Parker (son) | GIVES | plantation and 200 acres |
+recipients not named in abstract | GIVES | other tracts; three Negroes; horses, cows, hogs |
+@1|pp.196-7|William Duncan
+George (son) | GIVES | first child of Negro girl Lett | at the child's first birthday
+John (son) | GIVES | second child of Lett | at the child's first birthday
+James (son) | GIVES | third child of Lett | at the child's first birthday
+William (son) | GIVES | fourth child of Lett | at the child's first birthday
+Ann (daughter) | GIVES | Lett and all her other increase | after the four children are delivered
+George (son) | GIVES | Negro man Brister | after wife's death
+@1|pp.200-1|Henry Harper
+Jacob (son) | GIVES | Negro man Butcher; Negro girl Dinah |
+Samuel (son) | GIVES | Negro girl Dafney; bed |
+Isaac (son) | GIVES | land; Negro boy Ben |
+Bentin (son) | GIVES | Negro boy Bacchus |
+Joseph (son) | GIVES | Negro girl Esther; bed |
+Fanny (daughter) | GIVES | Negro girl Nell and her future increase; Dick |
+Ambrose (son) | GIVES | Sam, old Judy, young Judy and Cate | if he pays 18 pounds to the grandchildren
+Henry (son) | GIVES | Negro woman Lett; still; bed |
+@1|p.206|John Moreland
+Jane (daughter) and sons | GIVES | land |
+Mary (daughter) | GIVES | Negro fellow Dick |
+heirs (unnamed) | GIVES | remainder, divided equally |
+@1|pp.208-10|Elias Fort
+Jesse Fort (son) | GIVES | Negro man Peter; other things worth 15 pounds |
+Micajah Fort (son) | GIVES | home plantation; Negro man Tom; rest of the estate |
+@1|pp.221-2|Rhoderick Easley
+Elizabeth Easley (wife) | LENDS | Sambo, Peter, Jack, Bess and Nan | for life
+James Easley (son) | GIVES | 430 acres; Negro man Buck; Negro woman Briget; mare; cattle; bed; five pounds |
+James Easley (son) | GIVES | Negro man Sambo | after wife's death
+Daniel Weldon Easley (son) | GIVES | plantation; Negro man Joe; Negro girl Frank; mare; cattle; bed; five pounds |
+Daniel Weldon Easley (son) | GIVES | Negro man Peter | after wife's death
+Samuel Easley (son) | GIVES | Negro man Sampson; Negro boys Sam and Jubo; Negro girl Bett; cattle; bed; five pounds |
+Rhoderick Easley (son) | GIVES | Negro woman Moll; Negro girl Tamer; Negro boys Dick and Robin; cattle; bed; five pounds |
+Benjamin Easley (son) | GIVES | Negro girl Nanney; 35 pounds; cattle; bed |
+@1|p.225|Isaac Mathis
+sons | GIVES | land |
+Robert Matthis (son) | GIVES | Negro girl Patt; Negro boy Toney |
+Peter Mathis (son) | GIVES | Negro girl Phillis |
+Samuel Matthis (son) | GIVES | Negro girl Liddy |
+Mary Matthis (wife) | LENDS | Negro woman Cube and her increase | for life
+nine children (unnamed) | GIVES | Cube and her increase, divided equally | after wife's death
+@1|p.227|Joshua Nelms Junr
+Sarah (wife) | GIVES | land and plantation; all other estate | except James, Jude and the Bute County land
+unborn child (unnamed) | GIVES | James and Jude |
+@1|p.232|George Crudup
+Josiah Grudip (brother) | GIVES | plantation of 250 acres; livestock; Jack, Bett, Joe, Ishmael and Fereby |
+@1|p.249|Joshua Nelms
+Sarah Nelms (wife) | LENDS | plantation; all perishable estate and Negroes | for life
+Parismus Nelms (son) | GIVES | plantation | after wife's death
+Jeremiah Nelms, William Nelms, Parismus Nelms, Milly Nelms | GIVES | all Negroes and perishable estate, divided equally | after wife's death
+@1|pp.250-2|Blake Baker
+sold | SOLD | Negroes (not named) | may be sold on credit
+@1|pp.256-7|Thomas Davis
+Sarah Davis (wife) | GIVES | twelve Negroes: Lisbuon and her four children, Lesof(?), Mingo(?), Cary, Harry, Jewno, Cudger, Hogfilding(?), Mingo, Bobb, Harry and little Daniel; beds; cattle; hogs; corn; pork; horses |
+@1|pp.259-60|Thomas Staton
+children (unnamed) | GIVES | land; his right to Negroes in Pennsylvania and land in Maryland, divided equally |
+sold | SOLD | rest of his land |
+@1|p.262|John Pryor
+sold | SOLD | Negro Peter and the corn crop | to pay debts
+@1|pp.264-6|Walter Pitts
+Hard Pitts (son) | GIVES | 320 acres; Negro Bobb; mare; bed; cattle; tools; ten pounds |
+Mark Pitts (son) | GIVES | 400 acres; Negroes Sam and Philis; bed; mare; cattle; ten pounds |
+Lewis Pitts (son) | GIVES | 309 acres; Negro Tom; money |
+Henry Pitts (son) | GIVES | remaining land; Negroes Peter and Rachel |
+John Pitts (son) | GIVES | Negro Ben; the still |
+Tamer Pitts (daughter) | GIVES | Negroes Lidd and old Lidd; mare; saddle; bed; cattle; ten pounds |
+Silvia Pitts (daughter) | GIVES | Negroes Aggy and Mol(?); horse; saddle; bed; cattle; ten pounds |
+Celia Pitts (daughter) | GIVES | Negroes Titus and Deannee; ten pounds |
+Patience Pitts (daughter) | GIVES | Negro Barbary; ten pounds |
+unborn child (unnamed) | GIVES | Negro Beck; ten pounds |
+Martha Pitts (wife) | LENDS | manor plantation; Negroes Amey, Jenney, Jack, Nan, Sip and Badlam |
+@1|p.268|Joshua Joyner
+Patience Joyner (wife) | GIVES | manor plantation of 100 acres; Negro girl Jude; livestock; tools | for life
+Mary Joyner (daughter) | GIVES | Negro girl Jude with her increase |
+children (unnamed) | GIVES | rest of the estate | after wife's death
+@1|p.269|Nathan Jasper
+Joshua Joyner (son) | GIVES | Negro girl Jude |
+Ann Joyner (wife) | GIVES | half the manor plantation; use of all Negroes, livestock and tools | for life
+@1|pp.271-2|Solomon Powell
+Rebacker Powell (wife) | GIVES | Negro fellow Dick; bay mare; bed; half the cattle and hogs |
+@1|pp.273-4|John Joyner
+Henry Joyner (son) | GIVES | plantation; Negroes Tudy(?), Jack, Willis and Lucy; bed; saddle; gun | after wife's death
+Martha Joyner (daughter) | GIVES | Negroes Rachel, Duches, Anssy, Vilit and Cmmbrig; bed |
+Martha Joyner (wife) | GIVES | Negroes Nancy, Padan, Hagar and Ramoth |
+@1|p.276|John Taylor
+Ann Taylor (wife) | GIVES | Negroes Hannah and Charles; all personal estate |
+@1|p.277|Solomon Williams
+Charles Williams (son) | GIVES | home plantation; Negroes Dick and Jude; horse Jack |
+Elisha Williams (son) | GIVES | 486 acres; Negroes Jim and Adam; mare Polley |
+Lydia Williams (daughter) | GIVES | Negroes Ben and Venus |
+Menia (daughter) | GIVES | Negro Eve |
+sold | SOLD | Negro woman Cate | to pay debts
+Lynea Barrow (daughter) | LENDS | Negro girl Venus |
+@1|p.282|William Purkins
+Sarah Purkins (wife) | GIVES | Negro fellow Joe; bed |
+Sarah Purkins (wife) | GIVES | Negro fellow Benjamin | during widowhood, if she can pay the debts; otherwise sold
+@1|p.284|Thomas Steel
+Elizabeth Steel (daughter) | GIVES | Phill, Juner, Nann, Hannah, Will, Poll, George, Jacob, Limus and Penny with their increase; bed; horse |
+sold | SOLD | Bob, Rose, Patt, Lisbon, Davy, Ben, Aggy, Jean and Pink; crop; stock; furniture | to pay debts
+@1|pp.291-2|Michael Wallace Senior
+sold | SOLD | Negro woman Dinah | when the youngest children come of age; money divided among all the children
+@1|p.294|Hening Tembty
+Pegg Reddick (granddaughter) | GIVES | land in Nancimond; Negro girl Edey; a dozen silver table spoons |
+@1|p.296|William Robinson
+sold | SOLD | Negro fellow Sip, for ready money; rest of the estate on twelve months credit |
+@1|p.299|John Williams
+Mary (wife) | GIVES | the home plantation |
+Mary (wife) | LENDS | Negro girl Winnie and her increase |
+Micajah Mayo (friend) | GIVES | the home plantation; first girl child born to Vinor | after wife's death
+Julin Mayo ("my Doctor") | GIVES | Negro girl Vinor and the rest of her increase |
+@1|pp.301-2|Thomas Green
+James Green (son) | GIVES | Negro girl Agey; Negro boy Bob Shepard |
+sold | SOLD | Negro woman Kisisah | to pay debts
+@1|pp.309-11|William Cox
+John Cox (son) | GIVES | Negro boys James and Daniel |
+Presley Cox (son) | GIVES | Negro Moll; Negro boy Pete |
+sold | SOLD | Negro woman Nell | at the wife's death; money divided among three children
+@1|p.317|William Harris
+Prudence Pope (daughter, living in Virginia) | LENDS | Negro girl Jeney | for life; then Jeney and her increase divided among the other children
+@1|pp.320-1|William Pope
+Martha Pope (wife) | LENDS | home plantation; Negroes Jack and Edy; bed; desk; table; chest |
+John Pope (son) | GIVES | plantation he lives on; Negroes Jack and Edy | his mother keeps the use for her life
+William Pope (son) | GIVES | 370 acres; Negro boy Beter |
+Benjamin Pope (son) | GIVES | plantation; Negroes Ned and Mille; bed |
+Ann Pope (daughter) | GIVES | Negroes Jude and Grace; bed; 50 pounds |
+sold | SOLD | residue of the estate |
+@1|p.322|Hezekiah Spears
+Joseph Spears (son) | GIVES | Negro boy Adam | at age 21
+wife (unnamed) | LENDS | Negro girl Hannah and any increase | for life
+two children (unnamed) | GIVES | Hannah and her increase, divided equally | after wife's death
+@1|p.324|John Smith
+John Miles Smith (son) | GIVES | Negro girl Rose; buccaneer gun |
+Betsey Smith (daughter) | GIVES | Negro girl Jewd(?) |
+two youngest children (unnamed) | GIVES | equal part of the estate |
+@1|p.325|Ann Bell
+Sarah Blunt (daughter) | GIVES | Negro fellow Robin; household goods; rest of the estate |
+@1|p.327|William Walker
+Joel Walker (son) | GIVES | horse Dove; Negroes Qursh and Bet |
+William Walker (son) | GIVES | Negroes Lucy, Ned and Frank; plantation and still; desk; Negro girl Dafney; horses |
+Siceley Walker (daughter) | GIVES | Negroes Morear and Benor; mare |
+Winnefred Walker (daughter) | GIVES | Negroes Dick, Pat, Isaac and Sarah; filly |
+William Hackney (grandson) | GIVES | Negro woman Len |
+@1|p.330|Lydia Williams
+Elizabeth Williams (mother) | LENDS | Negro boy Ben |
+Lucy Williams (sister) | GIVES | a chest |
+sold | SOLD | Negro girl Venus | after debts, proceeds to sister Jemima Williams
+Jemima Williams (sister) | GIVES | remaining proceeds from the sale of Venus |
+@1|pp.331-2|Thomas Heath
+Richard Heath (son) | GIVES | Negro boy Sam |
+recipient unclear | GIVES | Negro fellow Minick; bed; two cows |
+Ann Heath (daughter) | GIVES | Negro girls Lidia and Fanne; bed |
+Mary (daughter) | GIVES | Negro boy Will; Negro girl Beck; bed; trunk |
+Adam Heath (son) | GIVES | Negro boy Ned; plantation; still; horses; gun; bed; Negro fellow Jack; Negro boy Jimmey; Negro women Old Hannah and Hannah |
+@1|pp.334-5|Tobias Whitehead
+wife (unnamed) | GIVES | Negro fellow Simon; Negro women Dinah and Nan; a third of the furniture; mare and saddle; horse; five cows |
+Mary Whitehead (daughter) | GIVES | Negro woman Beck and her increase |
+Elizabeth Whitehead (daughter) | GIVES | Negro fellow Sam; Negro girl Fereby and her increase |
+Sarah Whitehead (daughter) | GIVES | Negro boy Bray; girl Jude and her increase |
+Penelope Whitehead (daughter) | GIVES | Negro fellow Jack; woman Lucy and her increase |
+Ann Whitehead (daughter) | GIVES | Negro boy Jim; Negro girl Molley and her increase |
+Catherine Whitehead (daughter) | GIVES | Negro woman Linder; Negro girl Linder |
+@1|pp.343-4|John Ellis
+Mary (wife) | GIVES | land and plantation; the mill; Negro woman Peg; livestock; household goods |
+James Ellis (son) | GIVES | Negro fellow Buster |
+Sarah Mills (daughter) | LENDS | Negro woman Tamer | for life; then Tamer and her increase to Sarah Mills's children
+Elizabeth Fenell (granddaughter) | GIVES | the first live child born to Tamer |
+Mary Doyel (daughter) | GIVES | Negro boy Jack |
+Ann Clake (daughter) | GIVES | Negro girl Phillis |
+Susanna Elmore (daughter) | LENDS | Negro girl Selve | for life; then to her children
+Frances Ellis (daughter) | GIVES | Negro girl Suck; bed; cow and calf |
+Jane Ellis (daughter) | GIVES | Negro woman Pegg; bed; cow and calf |
+John Ellis (son) | GIVES | Negro boy George; 250 acres |
+@1|pp.345-8|John Hardy
+Dinah Hardy (wife) | GIVES | Joe, Pink, Peg, Lucy, Sarah Alice, Dick, Jim and Haustn with their increase; livestock |
+grandchildren (unnamed) | GIVES | half the furniture and livestock; all Negroes not given to the wife |
+Benjamin Greebs (brother-in-law) | LENDS | Negro woman Patience | for the lives of Greebs and his wife; then sold
+@1|p.356|Lewis Robertson
+wife (unnamed) | GIVES | plantation; labour of his Negroes |
+children (unnamed) | GIVES | money |
+@1|pp.359-60|Jacob Williams
+John Williams (son) | GIVES | 120 pounds; Negro boy Lewis; Negro girl Cloe; land in Southampton County, Virginia |
+Sarah Williams (daughter) | GIVES | Negro woman Hanah; 40 pounds |
+wife (unnamed) | GIVES | horse; cows; Negro man Mingo; Negro woman Hanah | text conflicts with the other gifts of Mingo and Hanah
+sold | SOLD | Negro man Mingo | after wife's death; money to Sarah Williams
+@1|p.361|John Ivey
+Sarah Ivey (wife) | GIVES | Negro Nick; mare; cows; beds |
+children (unnamed) | GIVES | land |
+@1|p.366|Wilson Williams
+Mary Hill | GIVES | Negro boy Ben; best bed; weaving loom | after the death of his wife Anne
+children (unnamed) | GIVES | rest of the estate, in equal shares |
+@1|pp.369-70|Joseph Joyner
+sold | SOLD | Negro woman Beck | only if she ever gets well
+@1|p.371|Richard Freear
+Margaret Haynes (daughter) | GIVES | Negro girl Lydda; bay mare |
+Winnifred Freear (wife) | GIVES | residue of the estate |
+inventory | LISTED | Joseph, Jinney, Liddy, Sarah and Tom named in the 22 Nov 1774 inventory (not a bequest) |
+@2|pp.1-2|James Mathews
+Susannah Mathews (daughter) | GIVES | Negro fellow Pompey; Negro woman Sall; Negro girl Sarh |
+Richard Mathews (son) | GIVES | Negro fellow Ceasar; Negro woman Joan |
+Delilah Mathews (granddaughter) | GIVES | Negro girl Patt |
+@2|p.4|Frederick Knight
+John (son) | GIVES | Negro boy Ned | when he comes of age
+@3|p.1|Joseph Whitehead
+Martha Whitehead (daughter) | GIVES | Negro woman Beck | at age 18
+Elizabeth Whitehead (daughter) | GIVES | a Negro girl and her increase; Negro girl Avey (recipient unclear) |
+unborn child (unnamed) | GIVES | a Negro girl and her increase |
+John, Tobias (sons) | GIVES | whole estate divided equally | when they come of age
+Phereby (wife) | GIVES | a share of the estate |
+@3|p.3|James Leslie
+Mary Leslie (wife) | GIVES | Colerain, Halifax, Liverpool, James, Sucky, Julias and Clarinda; furniture; plantation in Northampton; livestock |
+@3|pp.5-6|Richd Merritt
+Sarah Merritt (wife) | GIVES | all the estate; Negro girl Jane | until the children come of age
+Ephraim Merritt (son) | GIVES | piney woods land; Negroes Kate and Sam; bed |
+Mary Merritt (daughter) | GIVES | Negro woman Jude | or her worth if not recovered
+Amy Merritt (daughter) | GIVES | Negro woman Easter |
+Sarah Merritt (daughter) | GIVES | Negro boy Robert | or his worth if not recovered
+Uradice Merritt (daughter) | GIVES | Negro boy Jack | or his worth if not recovered
+Anne Merritt (daughter) | GIVES | Negro boy Peter | or his worth if not recovered; also a girl to be bought for her
+@3|pp.6-8|James Allin
+James Allin (son) | GIVES | land in Prince George County, Virginia; 266 acres in Halifax County |
+William Allin (son) | GIVES | 230 acres |
+Taylor Allin (son) | GIVES | a tract of land |
+John Allin (son) | GIVES | home land, 300 acres |
+Mary Allin (daughter) | GIVES | 201 acres |
+William Allin, Taylor Allin, John Allin, Mary Allin | GIVES | four Negroes to be bought, each equal in value to Negro man Watt (who belongs to son James) |
+@3|p.8|William Watson
+Charles Watson (son), wife and children | GIVES | land, Negroes and the rest of the estate sold and the money divided | when Charles turns 21 or marries
+@3|pp.10-15|Joseph John Alston
+John Alston (son) | GIVES | land on Fishing Creek and in Chatham County; slaves already given; Negro men Luvey and Joseph |
+Philip Alston (son) | GIVES | slaves already in his possession |
+Patty Merony (daughter) | GIVES | slaves already given for her portion |
+William Alston (son) | GIVES | slaves in his possession; Ban and his wife Pris |
+William Alston (son) | LENDS | Hanah, Hagar, Silva, Nancy, Pris, Boatswain, Musery, Rose, Rachel and Sam | until his children come of age, then to them
+Willis Alston (son) | GIVES | slaves already held; Simon, Pocoson and Frank |
+Jos John Alston (grandson) | GIVES | Negro boy Jim (son of Pegg); Negro girl Jude (daughter of Penny) |
+Henry (son) | GIVES | slaves already held; Hester; Jacob; boy Boccorall; Dyner and her increase; Subiner; Davy |
+Mary Palmer (daughter) | GIVES | slaves already given to her |
+Uphan Wilson Cooper (daughter) | LENDS | Sall, Toby, Will, Roger, Anne and Sall's children; Creas, Beck, Nan, Adam and Creas's children; Cate's children Charles and Edie; Pegg's children Jubiter and Abraham | for her life
+Lucey | FREED | freedom for 35 years, paying the executors one shilling a year; then to be sold, money to son Jos John | after the testator's death
+Jos John Alston (son) | GIVES | all remaining slaves and estate |
+@3|p.15|Mary Read
+James Read (son-in-law) | GIVES | cows; Bible; wheat riddle and sifter |
+John Windom | GIVES | Negro man Mingo; bed; chest |
+Amy Harrison | GIVES | Negro woman Pegg; bed; chest; cows |
+Lydia Barker (daughter) | GIVES | Negro boy Fed; a horse |
+@3|pp.16-17|Francis Davis
+Ann Davis (daughter) | GIVES | Negro boy Essix |
+Frances Davis (daughter) | GIVES | Negro boy Phil |
+Sarah Davis (daughter) | GIVES | Negro boy Sam |
+Mary Davis (daughter) | GIVES | Negro girl Clarissa |
+Rebecca Davis (daughter) | GIVES | Negro woman Hannah and her future increase |
+@3|p.18|John Young
+Thomas Young (son) | GIVES | the plantation he lives on; Negro man Ben; Negro woman Jude |
+Elizabeth House (daughter) | GIVES | Negro woman Lucy; Negro boy Allen |
+Sarah Land (daughter) | GIVES | Negro girls Little Amy and Sylvia |
+William Young (grandson) | GIVES | Negro girl Nanny; 20 pounds |
+sold | SOLD | 623 acres and Negro Peter | to pay the legacy to son Marmaduke
+Marmaduke Young (son) | GIVES | 200 pounds from the sale |
+@3|p.20|James Hogun
+Ruth Hogun (wife) | GIVES | Negro man Ceaser; boy Sam; Negro woman Hanah; old Bridg; half the stock; furniture | for her life, then to son Lemuel
+Lemuel Hogun (son) | GIVES | the Negroes above and all remaining Negroes, stock and furniture | after Ruth's death
+@3|p.24|James Hinton
+Robert Hinton (son) | GIVES | Negroes Lucy and Dick; bed; mare; livestock; iron pot |
+Sally Jones Hinton (daughter) | GIVES | Negro girl Nancy; bed |
+sold | SOLD | all remaining estate |
+@3|p.30|Rapes Matthias
+Salley Matthias (wife) | GIVES | Negro fellow Willa; Negro woman Pink; three horses; livestock |
+@3|p.31|John Rorie Senr
+William Rorie (son) | GIVES | 200 acres; Negroes Peter and Dinah | only if he is a friend to the United States; if not, to grandson Zachariah Rorie
+Zachariah Rorie (grandson) | GIVES | William's share | if William is not a friend to the United States
+Sarah Brantly (daughter) | GIVES | Negro fellow Cato; Negro woman Pat | if she claims title to them
+James Brantly, Nancy Brantly, John Brantly (grandchildren, heirs of Mary Brantly) | GIVES | money from the sale of Negro fellow Edom, divided equally |
+Jane Hood (daughter), Edward Hood (son-in-law) | LENDS | Negro woman Dol and her increase |
+John Womack (son-in-law) | GIVES | Negro woman Lydda and her increase |
+John Rorie (son) | GIVES | remainder of the land; Negroes Cato and Jane |
+@3|p.35|Lucy Williams
+Lawrence Williams (brother) | GIVES | Negro woman Silvia; bed; chest |
+Elisha Williams (brother) | GIVES | horse Spark |
+Charles Williams (brother) | GIVES | Negro woman Doll |
+@3|pp.38-9|John Hobgood
+Frances Hobgood (wife) | GIVES | dwelling house; mill; four acres; half the orchard fruit |
+Frances Hobgood (wife) | LENDS | Negro woman Jude |
+@3|p.40|Tabitha Steel
+Jesse Goodwin (son) | GIVES | Agg, David, Laury and Mingo; movables |
+Sarah Goodwin (daughter) | GIVES | Ginney, Sley(?) and Lisbon |
+George Goodwin (son) | GIVES | Zack |
+Sookey Ann Pulliam (daughter) | GIVES | Bob and Rose | if she applies for them in person
+Samuel Goodwin (son) | GIVES | charge of Bob and Rose | if Sookey Ann Pulliam does not apply in person
+@3|p.42|Nathan Turner
+Susanna Turner (daughter) | GIVES | Negro girl Rachel |
+wife, four sons, one daughter (unnamed) | GIVES | all movable estate, divided equally |
+@3|p.43|Temperance Harris
+Pheraby Harriss (daughter-in-law) | GIVES | Negro boy Isaac; horse; bed |
+Mary Harriss (daughter) | GIVES | Negro boy John; horse and saddle; bed |
+Sally Harriss (daughter) | GIVES | Negro girl Esther; horse and saddle; bed |
+Elizabeth Harris (daughter) | GIVES | Negro girl Chaney; horse and saddle; bed |
+James Harriss (son) | GIVES | all the rest of the estate |
+@3|p.46|Lucy Trougton
+Lucy Martin (daughter) | GIVES | Negroes Violet, Jacob, Bash(?) and Sue; bed; desk; china; silver; Bible; horse Dobbin |
+Lewcy (daughter) | GIVES | Negro boy Joe | if son Henry Line Martin never returns to the state
+Susanah Bullock (daughter) | GIVES | Negro girl Clo; calico; gold ring |
+Mary Martin (granddaughter, daughter of son James) | GIVES | small Negro girl Judah |
+James Martin | GIVES | four head of cattle |
+Patrick Martin (son) | GIVES | residue of the estate |
+@3|pp.50-1|Ignatius Hall
+Ignatius Hall (son) | GIVES | Negro woman Barbary, her children to go to his siblings by birth order; Negro fellow Frank; bed |
+Mary Hall (daughter) | GIVES | Barbary's first-born child, Elizabeth; one Negro (name cut off) |
+Eleanor Rawlings (daughter) | GIVES | Barbary's second-born child, Barbary; Negro woman Filliss; bed |
+Thomas Lane Hall (son) | GIVES | Barbary's third-born child |
+Rebeckah Hines (daughter) | GIVES | Barbary's fourth-born child |
+Elizabeth Cox (daughter) | GIVES | Barbary's fifth-born child |
+Robert Hall (son) | GIVES | all his land |
+@3|pp.52-3|Peter Morgan
+wife (unnamed) | GIVES | mare; bed; cows; pot; Negro woman Hannah | Hannah for her life, then to son Peter
+Ann Huson (daughter) | GIVES | Negro girl Sook; mare; ewes |
+Peter Morgan (son) | GIVES | Hannah after his mother's death; all the rest of the estate |
+@3|p.54|William Merritt
+Richard Merritt (son) | GIVES | Negroes Jude, Jeen(?), Rodger and Jack |
+Thomas Merritt (son) | GIVES | Negroes Mingo, Sippio and Abram |
+Absalom Merritt (son) | GIVES | the home plantation and its land |
+Thos Turner (grandson) | GIVES | Negro Hannah |
+@3|p.55|Amy Smith
+Sarah Rollins (daughter) | GIVES | Negro girl Lillie |
+Howell Tatum (son) | GIVES | Negro woman Kate; half the bed furniture |
+Mary Smith (daughter) | GIVES | Negro boy Anthony; bed furniture; chest of drawers; saddle |
+James Tatum (son) | GIVES | Negro fellow Jemmey |
+@3|pp.57-9|Jno Whitaker
+Oaron Whitaker (wife) | GIVES | Negroes Rodger and Judah; beds; mares; a third of the stock; desk; Bible |
+Jordan Whitaker (grandson, son of Hudson Whitaker) | GIVES | Negro boy Jacob |
+Olive Taylor Josey (granddaughter, daughter of Peggy Josey) | GIVES | Negro girl Lucy |
+Joseph John Williams (grandson, son of Olive Chambers Williams) | GIVES | Negro boy Deemers |
+Samuel Whitaker (son) | GIVES | Negroes Gunney, Selah and Figures |
+Thos Whitaker (son) | GIVES | Negroes Little Rodger, Bett and Scotland |
+Martha Whitaker (daughter) | GIVES | Negroes Madge, Peter and Jinney |
+Martha Whitaker (daughter) | GIVES | Negro girl Judah | after wife's death
+Samuel Whitaker, Thos Whitaker (sons) | GIVES | Negro fellow Rodger; desk; Bible; rest of the estate | after wife's death
+Bess | FREED | liberty for thirty years, under the executors' direction |
+@3|pp.59-60|Joshua Bell
+Elisha Bell (brother) | GIVES | Negroes Jacob, Cate and Phillis |
+Shadrack Bell (brother) | GIVES | Negroes Frank, Hannah and Nancy; 200 acres; 1000 pounds |
+Lucy Bell (sister) | GIVES | Negroes Mingo, Siller and Lucy |
+Penelopy Atherton (sister-in-law) | GIVES | Negroes Luke and Clem |
+@3|p.61|John Cone
+Winney Cone (wife) | GIVES | all lands, furniture and livestock |
+Winney Cone (wife) | LENDS | Negro man Dick | for life; then divided equally among heirs
+@3|p.62|Thomas Jackson
+Mary Jackson (wife) | GIVES | Negro girl Chery; everything she owned when they married |
+three children (unnamed) | GIVES | rest of the estate, divided equally |
+@3|pp.63-4|Joseph Taylor
+wife (unnamed) | LENDS | Negroes Tom and Jeney; cows; mare; tools | for life
+Siros Taylor (son) | GIVES | Negro Tom | after wife's death
+Mary Taylor (daughter) | GIVES | Negro woman Jeney | after wife's death
+@3|p.66|Thomas Smith
+Phebe Smith (wife) | LENDS | the home land | for life
+Burrill Smith (son) | GIVES | the home land | after wife's death
+recipient unclear | GIVES | Negro men James and Arthur; Negro woman Kate; stock; furniture | passage truncated
+@3|pp.67-9|John Alston
+Ann Hunt Alston (wife) | LENDS | 400 acres | for life
+Ann Hunt Alston (wife) | GIVES | Old Gibb, Hardey, Fredrick, Isom, Crees, Hagar, Amey and their increase; Old Judah |
+Robert West Alston (son) | GIVES | land | after wife's death
+Jos John Alston (son) | GIVES | 1200 acres; Lucy, Davy, Darby, Stephen, Anneca, Little Hagar, Little Amey and Benbuck; mare; bed; stock; horses |
+Gideon Alston (son) | GIVES | 800 acres south of Fishing Creek; Nead, Little Lewcy, Mathew, Lydia, Little Siller, Beck and their increase; bed; cattle; horses |
+Willis Alston (son) | GIVES | home tract north of Fishing Creek; Joe, Jobian, Bob, Hannah, Ben, Dinah and their increase; bed; horses; cows; the overplus of the estate |
+Robert (son) | GIVES | 600 acres; Jude, Ned, Lucey, Fanny, Little Aggay, Ferrey and Peter; bed; mare and colt |
+Priscilla Jones Alston (daughter) | GIVES | Patt, Redick, Charity and Bettey; bed |
+Anne Hunt Alston (daughter) | GIVES | Sukey, Penney, Jeney and Chaney; bed |
+sold | SOLD | land in Chatham County | to pay debts
+Elizabeth Chancey Seawell | GIVES | 50 pounds to buy her a Negro |
+@3|pp.71-2|William Bennett
+Frances (wife) | LENDS | home plantation; Negro boy Peter; Negro girl Judah; horses; furniture; beds | for life
+Susannah (daughter) | GIVES | remainder of the land; Negro woman Hannah; Negro girl Sillah; rest of the estate | after her mother's death
+@3|pp.72-3|Peter Bird
+Charity Bird (wife) | GIVES | home land and plantation; Negro fellow James; bed; livestock; mare | land to son Peter after her death
+Peter Bird (son) | GIVES | the home land | after wife's death
+Allen Bird (son) | GIVES | land; Negroes Pleasent and Pollepus; bed; mare; livestock |
+Mary Bird (daughter) | GIVES | Negroes Grace and Mannaca; bed; horse; livestock |
+Nancy Bird (daughter) | GIVES | Negroes Prymas, Nell and Keziah; bed; 20 pounds; livestock |
+@3|pp.74-5|John Cox
+Elizabeth Cox (wife) | LENDS | the whole estate; Negro woman Elinor | for life
+Charles (son) | GIVES | 250 acres; Negro man Daniel; colt |
+Joseph Cox (son) | GIVES | manor plantation; Negro boy Moses; colt |
+Mary Cox (daughter) | GIVES | Negro woman Lidda; mare; saddle |
+Ann Cox (daughter) | GIVES | Negro Dorcas; mare; saddle |
+Phebe Cox (daughter) | GIVES | Negro boy Sharper; mare; saddle |
+@3|p.75|Patience Joyner
+John Joyner (son) | GIVES | Negro girl Jude |
+@3|p.80|William Jarviss
+Martha Joyner | GIVES | Negro Jack; 20 pounds for a horse; saddle; 10 pounds |
+Eaton Haynes (son of Mary Haynes) | GIVES | Negro girl Jude; land |
+Mary Young (daughter of Dice Young) | GIVES | Negro girl Hannah; land; horse and saddle |
+William Doles (son of Sarah Doles) | GIVES | Negro girl Fanney; fellow Old Sam; 100 acres |
+Lucy Williams (daughter of Mary Williams) | GIVES | the home plantation |
+@3|p.81|Stephen Barker
+Mary Barker (wife) | GIVES | Negro woman Nan and all her increase |
+three children (unnamed) | GIVES | the remainder | after wife's death
+@3|p.83|Henry Eelbeck
+Montfort Eelbeck (father) | GIVES | land |
+Montfort Eelbeck (son) | GIVES | home land in Northampton County |
+Jane (wife) and three children | GIVES | residue: goods, Negroes, stock and money, divided equally |
+@3|pp.84-5|William Sumner
+Luke Sumner Junr (son of Josiah Sumner) | GIVES | Roanoak Plantation in Halifax County |
+James Sumner Junr (son of Josiah Sumner) | GIVES | land in Nancemond County |
+Jethro Sumner | GIVES | Negro fellow Jim; his wife Peg and all her children |
+Seth Sumner Senr | GIVES | Negro woman Jude and all her children |
+James Sumner Senr | GIVES | Negro woman Poll; boy Solomon |
+Nathaniel Griffin | GIVES | Negro fellow Benn; horse Ball |
+James Sumner Junr, Luke Sumner Junr, David Sumner Junr, Ball(?) Brown alias Sumner | GIVES | all remaining slaves, divided equally |
+@3|pp.89-90|Needham Bryant
+Nancy Bryant, Nicholas Bryant (children) | GIVES | remainder of the estate; one Negro man to be bought for them |
+@3|pp.90-1|Henry Cotton
+Elizabeth Cotton (daughter) | GIVES | Negro girl Darcase; Negro woman Amie |
+Sarah Cotton (wife) | GIVES | Negro woman Rose |
+@3|pp.92-4|William Pass
+Samuel Pass (son) | GIVES | Negro girl Dilcy |
+William Pass (son) | GIVES | Negro woman Dafney |
+Willis Pass (son) | GIVES | Negro girl Pender | sold with her increase if he dies without children
+Nelson Pass (son) | GIVES | Negro boy Isaac | sold if he dies without children
+Nancy (daughter) | GIVES | Negro girls Fann and Lydia; Negro boy Sie; bed; table; looking glass; china bowl |
+@3|pp.102-3|Thomas Moye
+Willie Waller | GIVES | Negro boy Reddick |
+recipient unclear | GIVES | Negro woman Eve |
+William Waller | GIVES | Dinah and her son Jimmy |
+Penny Waller | GIVES | Negro girls Jude and Easter |
+Rebeckah Waller | GIVES | horse Ranson |
+Elizabeth Moye (daughter) | GIVES | home land and plantation; the remainder of the estate |
+@3|pp.103-4|William Edmonds
+Elizabeth Edmonds (wife) | LENDS | all Negro slaves | no division until she or a child marries or a child comes of age
+@3|pp.106-7|William Lane
+wife (unnamed) | LENDS | Negro men Tom, Jack and Mingo; Negro woman Jude; girl Africa; mare; cattle; hogs; a quarter of the furniture | for life
+Jane Eelbeck (daughter) | GIVES | Negro boy Worldly |
+Patty Battle (daughter) | GIVES | all previously given to her, and their increase |
+Ann Flewellen (daughter) | GIVES | all previously given to her, and their increase |
+Elizabeth Hill (daughter) | GIVES | Negroes Harkless, Herod, Ramouth and Easter; cows; mare |
+William Lane, Joseph Lane, Tabitha Lane | GIVES | remaining Negroes, and those his father Benjamin Lane holds at his death, divided equally |
+@3|p.108|James Bryan
+Lucy Bryan (wife) | LENDS | Rachel, Philis(?), Phebe(?), Pompy(?), Jacob and Jack | until son James comes of age
+Sarah Bryan, Mary Bryan (daughters) | GIVES | Rachel, Philis(?), Phebe(?), Pompy(?) and their increase, divided equally; the other unnamed Negroes | after wife's death
+James Bryan (son) | GIVES | Jacob, Jim, Isam, Fan and Stephen |
+Jim | HIRED | Jim and two others (names illegible) hired out | for four years
+@3|pp.112-3|William Fluellen
+Alexander Fluellen (son) | GIVES | boy Scott; girl Silvia; horse; bed; chest; cows |
+Abram Fluellen (son) | GIVES | the plantation he lives on; boy Levay(?) |
+Nancy Fluellen (daughter) | GIVES | woman Lucy; boy Bromfield(?); girl Sarah; bed; chest; cows |
+Shadrick Fluellen (son) | GIVES | home land and plantation; man Richmond; saddle; bed; desk | Richmond after wife's death
+Betty Fluellen (wife) | LENDS | Cald, Winne and Richmond | for life
+@3|pp.116-7|John Bass
+Ann Bass (wife) | GIVES | land and plantation; Tom, his wife Nan, their child Little Tom, and Feby; beds; livestock |
+Isaac Bass (brother) | GIVES | land |
+Jacob Bass (brother) | GIVES | land |
+sold | SOLD | remaining estate | divided among brothers and sisters
+@3|pp.118-9|William Barrow
+Olive Barrow (wife) | LENDS | labour of six Negroes of her choice; stock; furniture; tools | for life; then divided among seven children
+Mary Barrow (daughter) | GIVES | Negro girl Chancy; Eclipse colt |
+Sarah Barrow (daughter) | GIVES | Negro girl Charity; Chatham colt |
+@3|pp.120-1|Thomas Thrower
+Desdemona Thrower (daughter) | GIVES | bed; two cows |
+Cattey Etheridge | GIVES | bed; two cows |
+Benjamin Thrower (son) | GIVES | land where the testator lives; Negro Amos |
+Baxten Thrower (son) | GIVES | 20 specie |
+Henry Thrower (son) | GIVES | Negro Shade |
+Jesse Thrower (son) | GIVES | land next to Mason Thrower; Negro Green |
+Leon Thrower (son) | GIVES | land and plantation; Negro Luke |
+Elizabeth Thrower (wife) | GIVES | Negroes Jack, Bet and Patience; furniture; stock |
+@3|pp.122-3|Ambrose Pitman
+Selah Pitman | GIVES | 20 shillings; two cows |
+Miller Pitman (daughter) | GIVES | Negro girl Grace; bed; cows; chest |
+Zilpha Pitman (daughter) | GIVES | Negro girl Junior; bed; cows |
+John Pitman (son) | GIVES | 320 acres; still; tools; bed; Chelse and Agg; cart |
+@3|p.124|Margaret Hilliard
+John Hilliard (son) | GIVES | Negro man Tom |
+Christian Gudge (daughter) | GIVES | one cow |
+Sarah Thrower (daughter) | GIVES | one bed |
+William Hilliard (son) | GIVES | all other property: land, Negroes, furniture, stock | after buying a hunting saddle for Charlotte Thrower
+Charlotte Thrower | GIVES | a hunting saddle (bought from the estate) |
+@3|pp.125-6|Esbell Griffin
+James Griffin (son) | GIVES | horse; second choice of beds |
+Mary (daughter) | GIVES | woman Luce; girl Phillis; loom |
+Winnifred (daughter) | GIVES | Negro girl Rose and her increase; first choice of beds; cows |
+Michael (son) | GIVES | Negro girl Nancy and her increase |
+Brinkley (son) | GIVES | Negro woman Sabinah |
+Eli (son) | GIVES | Negro man Dick |
+@3|p.127|George Wallace
+Seley Wallice (wife) | GIVES | a third of the land; a child's part of the movable estate |
+Viley Wallice (daughter) | GIVES | 200 acres at Jumping Run; bed |
+Mary Wallis (daughter) | GIVES | Negro girl Lucy |
+Elizabeth Wallis, Ann Wallis, Sarah Wallis, Enoch Wallis, Elijah Wallis | GIVES | the remaining estate, divided equally |
+@3|pp.127-9|Christopher Haynes
+Lucy Haynes (wife) | GIVES | mare; colt; saddle; Negro woman Nancy; Negro girl Chowie(?); debts due; horse Jack |
+Lucy Haynes (wife) | LENDS | plantation and land; Negro woman Milley and her child Lewcy; beds; cow; sows |
+recipient not stated | GIVES | Negro boy Peter |
+@3|p.129|James Wyatt
+Sarah Wyatt (wife) | LENDS | home plantation; Harry, James and Dilsey; a horse |
+James Wyatt (son) | GIVES | Negro man James; bed; mare | after wife's death
+Christian Wyatt (daughter) | GIVES | Negro woman Dilsey and her increase; filly; bed | after wife's death
+Sarah Wyatt (daughter) | GIVES | Negro man Harry; mare; bed | after wife's death
+Elizabeth Wyatt (daughter) | GIVES | money from selling 200 acres in Nash County, to buy her a Negro |
+@3|pp.134-5|James Josey
+Peggy Josey (wife) | LENDS | Zeana, Roger and Toney; furniture; stock |
+Robert Josey (son) | GIVES | home plantation; Negro boy Frank |
+James Josey (son) | GIVES | land over the mill (shared with John); Negro boy Dick |
+John Josey (son) | GIVES | land over the mill (shared with James); Negro boy Jacob |
+Olive Josey (daughter) | GIVES | Negro girl Annaca |
+Sarah Josey (daughter) | GIVES | Negro girl Millea |
+Mary Josey (daughter) | GIVES | Negro girl Betty |
+Peggy Josey (daughter) | GIVES | Negro girl Molly |
+sold | SOLD | Negro woman Fillis | to pay debts
+@3|pp.136-7|James West Green
+Martha Cobb Green (wife) | GIVES | house and lot in Halifax; carriage and horses; half of all slaves |
+Allen Jones Green (son) | GIVES | half of all slaves |
+Furnifold Green (brother) | GIVES | remaining slaves | if the son dies before 21 or marriage
+@3|pp.140-2|John Bradford
+Elizabeth Bradford (wife) | LENDS | Guss, Phillis, Nann and their increase; Agnes | for life; then to son William
+William (son) | GIVES | Guss, Phillis, Nann and their increase | after his mother's death
+Elizabeth (daughter) | GIVES | Chester, Pender and Anneca; bed; mare and colt; loom |
+Tabitha Crowell (daughter) | GIVES | Kitt and her children Cloe and Warwick |
+Francis Wootten (daughter) | GIVES | Lenis; 40 pounds |
+Thomas Bradford (son) | GIVES | 350 acres on Fishing Creek; blacksmith tools; silver spoons; one Negro (name illegible) |
+Joseph John Bradford (son) | GIVES | land on Burncoat Swamp; Ploughman, Jacob and Winney; bed; still; watch; mare |
+Richard Henry Bradford (son) | GIVES | land and plantation; Wilks, Tom and Ned; horse; silver |
+Miriam Crowell (daughter) | GIVES | Lucy, Darcus and Maryan; cows; books; horse |
+Henry John Burgess (guardian) | POWER | may sell Richard Henry's land or Negroes for his education | until Richard Henry comes of age
+@3|pp.143-4|John Ricks
+Elizabeth Ricks (wife) | LENDS | land and plantation; use of Hercules, Bess and Jenny; bed; horses; livestock |
+Elizabeth Ricks (wife) | GIVES | Seney and Creecy |
+Abraham Ricks (son) | GIVES | half the land; Carney, Desdimoney, Jacob and Ben; livestock; bed |
+Robert Ricks (son) | GIVES | other half of the land; Cletion, Cleone and little Hercules; 50 pounds; livestock; bed |
+Sarah Ricks (daughter) | GIVES | Minerin(?), Sley, Joe and the youngest boy Mingo; livestock |
+Elizabeth Ricks (daughter) | GIVES | Diogenes, Shina, Annecca and the oldest boy Mingo; livestock; bed |
+Mary Ricks (daughter) | GIVES | Lathan, Hannah, Arnald and China; bed |
+sold | SOLD | remaining Negroes; horses; guns | to pay debts
+@3|pp.145-6|Gideon Harris
+Warren (son) | GIVES | horse and saddle; 100 pounds |
+Benjamin (son) | GIVES | horse and saddle; 100 pounds |
+Henrietta (wife) | GIVES | Esther and Jacob; bed; mare | in place of dower
+@3|pp.147-9|William Martin
+wife (unnamed) | LENDS | plantation in Granville called Mitchell's; six Negroes of her choice; livestock; furniture | for life, in place of dower
+Susanna (daughter) | GIVES | land in Halifax; Sally; bed |
+Lucy (daughter) | GIVES | land in Warren County; Sebina; bed |
+Ann Maria (daughter) | GIVES | the lot where he lives; Fanny |
+all children | HIRED | all other Negroes hired out for the children's support and education |
+@3|pp.152-3|Joseph Burt
+John (son) | GIVES | Diler |
+Joseph (son) | GIVES | 200 acres; Simon; mare; livestock |
+Stephen (son) | GIVES | David; horse; bed |
+William (son) | GIVES | Ned; colt |
+Jesse (son) | GIVES | Sam; colt |
+Zacheus (son) | GIVES | Lewis |
+sold | SOLD | Jude | money used to buy a young Negro for son James
+James (son) | GIVES | a young Negro bought with the money from selling Jude |
+Richard (son) | GIVES | Millia |
+Sally Fluellen (daughter) | GIVES | Millia and her child Essex |
+Elizabeth (daughter) | GIVES | Hannah; mare |
+Mary (daughter) | GIVES | Kitz |
+Elizabeth (wife) | LENDS | Syd and Surprisor; home land | for life; then divided among nine children
+@3|pp.154-5|Thomas Gill
+Judah Vinson | GIVES | bed; horse and saddle; Negro woman Let (entry cut off) |
+@3|pp.158-9|Martha Applewhite
+Martha Whitehead (daughter of Joseph Whitehead, decd) | GIVES | Sall and Hannah; bed; chest; horse; saddle; wheels |
+Tobias Whitehead | GIVES | Freeman; pot; pewter; table; horse |
+Betsy Whitehead | GIVES | Nan; wheels; chest; pewter; bed; chairs |
+Joseph Whitehead | GIVES | Demey; gun; horse; pot |
+Martha Gainer | GIVES | Molly |
+@3|pp.165-6|Lacy Simmons
+Barsha Young (daughter) | GIVES | two cows; three shoats |
+Ann Simmons (daughter) | GIVES | mare; saddle; bed; flat irons |
+Martha Joyner (daughter) | GIVES | a sorrel mare |
+Mary (daughter) | GIVES | Negro fellow Arthur; bed; desk |
+Sarah (daughter) | GIVES | the bed and things in her possession |
+@3|pp.166-7|Israel West
+Pricilla W. West (wife) | GIVES | Tom, Silva, Jesse, Tim, Tom the younger, Rose, Stephen, Nell, Arthur, Chane, Lodwick and their increase |
+Pricilla W. West (wife) | LENDS | Dianna, Winna, Davie and Amy; all lands |
+@3|pp.167-8|John Brickell
+Nancy (wife) | LENDS | land and plantation, 422 acres |
+Parcimus Tillery (son-in-law) | GIVES | one prime Negro chosen from the stock | at age 21
+@3|pp.168-9|James Moore
+Ann (wife) | GIVES | Peter, Jinney and Chance; beds; livestock; furniture; tools |
+Richard (son) | GIVES | Pleasant and Willie |
+@3|pp.169-71|Arthur Smith
+Ann Smith (wife) | GIVES | Simon, Rachel, old Beck, Ishmael, Quash and Buck; home plantation; livestock; corn |
+Molly Hogun (daughter) | GIVES | Old Jack, Jeney, Clary, Peter, Burt(?), Charity, Bob, Sid, Rody and Nan |
+Drew Smith (son) | GIVES | land; old Will, Neroe, Ben, Sue, Edny, Forman, John, Jo, Jone, Sarah and Anneky |
+Arthur Smith (son) | GIVES | part of the land; Abraham, little Will, Sarah, Hannah, Pink, Charity, Dial, Cofe and Rose |
+Martha Smith (daughter) | GIVES | young Jack, Tiller, Hagar, Ishmael, Isaac, Quash, Tom, Fanny, Pat, Cate and their increase |
+Robert Ruffin Smith (son) | GIVES | part of the plantation; Moses, Charles, Kit, old Beck, Aggy, young Beck, Moll, Pey and Isakiah(?) |
+Ann Bennit Smith (daughter) | GIVES | Guy, Simon, Rachel, Savory, Luke, Joel, Lijah, Druce and Bo |
+William Ruffian Smith (son) | GIVES | the home plantation; Lewis, Hannah, Luce, Zilfrah, Davy, Daniel, George, Lazarus, Jacob, Demce, Trece, Rhoda and young Jeny |
+@3|p.172|Robert Hulme
+Ann Hulm (daughter) | GIVES | Daniel, Virgil, Sylvia, Appa, Jack, Amey, Edith and Dulsey |
+Mary Hulme (wife) | GIVES | Jery(?), Sam, Arthur, Sam (bought of Hance Bond), Nan, Hager and Pat |
+@3|p.173|James Daniel
+West (son) | GIVES | 200 acres in Nash County |
+Patsey Daniel (daughter) | GIVES | Cherry; filly |
+Elizth Daniel (wife) | LENDS | Phill, Priss, Duke and Jeffery; all the remaining estate | for life
+@4|p.1|Rebecca B. Mooring
+Robert Smith (father) | GIVES | Negro fellow Will; horse; silver watch; walnut table |
+@4|p.2|William Adams
+Sally Higgs (mother) | GIVES | Grace, Nathan and Justin |
+@4|p.3|Arthur Arrington
+wife (unnamed) | LENDS | all property, for her and the children |
+children (unnamed) | GIVES | $500 each in Negroes or cash | at lawful age
+@4|p.3|Rutha Shelton
+grandchildren (unnamed) | GIVES | Leivy, Peggy, Cloe, Kinchen, Hardy, Harwood, Nelson and Jerry with their increase, divided equally | when they come of age
+@4|p.4|Elizabeth Moore
+John Bishop (son of Bolin Bishop) | GIVES | the plantation where she lives; Negro girl Siller |
+Elizabeth Bishop | GIVES | Negro woman Annakah |
+@4|pp.4-5|Martha Bustin
+Martha Jones | GIVES | Beck and Nancy with their increase |
+Thomas (son) | GIVES | Mourning, her child Bill, and Mary, with their increase |
+Mary Jones (daughter) | GIVES | Amos and Judith with their increase |
+Sarah Turner (daughter) | GIVES | Fanny and her increase |
+children | GIVES | all remaining estate, Negroes and land, divided equally |
+@4|p.7|Thomas Hudson
+Martha (wife) | LENDS | land on Marsh Swamp; Negro man Ben; Negro girl Eliza (called Eliza Fails), in trust | Eliza and her children freed at the wife's death
+Mary Shine (wife of Wm E. Shine) | GIVES | the tract where he lives; Negro man Ben |
+Billy alias Hannibal | FREED | freedom | after the testator's death
+@4|pp.9-10|Isaac Bass
+John (son) | GIVES | 487 acres; Tom, Temp, Guilford, Burkett and Bena with their increase |
+Turner (son) | GIVES | 387 acres; Charles, Jenny, Harry, Joe and Mary with their increase |
+wife (unnamed) | LENDS | Atimore(?), Rhoda, George and Alston | for life; then divided equally
+Susanna (daughter) | GIVES | Caroline, Peter, Bashaba, Fanny, Edny and Cynthia with their increase |
+@4|p.11|James Whitaker
+Nancy B. Simmons (daughter) | GIVES | Sibby and her increase; Cato |
+Elizabeth (daughter) | GIVES | Ned, his wife Esther, and their son Luke |
+three sons | GIVES | old Bob, long Bob, old Sam, Sarah and Jeny |
+Eli B. (son) | GIVES | horse Barry |
+John (son) | GIVES | sorrel horse |
+James (son) | GIVES | horse Jack |
+five sons | GIVES | old Amey, Jenny, her daughter Malissa, her son David, and Sam son of old Venus |
+daughters | GIVES | old Venus, her son Mingo, Judah, her daughter Young Viney, young Ammy, and Caroline daughter of old Amey |
+@4|p.12|William Taylor
+Sally, Rebeccah (sisters) | LENDS | Pherebe, Billy and Phillis | for their lives
+@4|p.13|Thomas Jones
+no recipient named | HIRED | Virginia lands rented out; North Carolina Negroes hired out |
+@4|p.14|Robert Blick
+Mary K. Blick (wife) | GIVES | the whole estate: lands, Negroes, stock |
+@4|p.16|Archibald Green
+Mary Green (wife) | GIVES | all lands; Betty and Harry with their increase; livestock |
+Mary Green (daughter) | GIVES | Sandy |
+Rhody Green (daughter) | GIVES | Leucreasy and her increase |
+@4|p.19|Penelope Bloss
+Fanny Duberry | LENDS | Mary | for her life
+Elisabeth Duberry | LENDS | Elisabeth |
+Fanny Duberry | GIVES | Dinah and her child Eliza |
+sold | SOLD | the rest of the property | to pay debts
+@4|p.20|John Patrick
+Elisabeth M. Gee (daughter) | LENDS | Lucy and Sucky |
+sold | SOLD | all other property |
+@4|p.20|Thomas Pitts
+Henry Pitts (brother) | GIVES | his share of their father's land; Dilce and her children Mourning and Handy; Ned; mare and colt; desk; bed |
+@4|p.22|Williams Pritchett
+Jeptha Pritchett (brother) | HIRED | blacksmith James, until James has worked out $1,400, then James is free | payments recorded 1819 to 1824
+@4|p.22|Williams Pritchett
+Jeptha Pritchett (brother) | GIVES | Negro man Jim | Jim freed once he earns the sum named in the earlier instrument
+Mourning (sister) | GIVES | Israel, Beck, Dilsey, Abner, Mary and Mariah |
+Polly Pritchett (sister) | GIVES | Dave, Aggy and Alfred |
+@4|p.25|Joseph Ward
+Delpha Ward (wife) | LENDS | land and plantation; Negro woman Lucy; mare Fan; beds; cows |
+heirs (unnamed) | GIVES | the rest of the estate, divided equally |
+@4|p.26|Cannon Jenkins
+Rebecca Jenkins (daughter) | GIVES | small girl Patsey |
+William Simpson Jenkins (son) | GIVES | small girl Polly |
+Sarah Jenkins (wife) | GIVES | Negro woman Peggy |
+Sarah Jenkins (wife) | LENDS | Susanna and Sam; home land; stock |
+@4|p.27|Charles King
+William King (son) | GIVES | bed; chest; 100 acres; Negro girl Lezeth and her increase |
+Micajah King (son) | GIVES | $220; bed; desk; Negro boy Hardy |
+Drew King (son) | GIVES | 227 acres; bed; chest; Negro boy Nathan; colt |
+Ruamouth King (wife) | GIVES | land; beds; Negro man Joe; Negro woman Jenney; Negro boy Eley; saddle; horses; livestock |
+@4|p.28|William Crowell
+Elizabeth (wife) | GIVES | Negroes Clara, Prissey and Eliza; bureau; dressing table; beds |
+@4|p.29|Mary W. Slatter
+Ann K. Slatter (sister) | GIVES | Lucy, Chloe, Virgil, Eady, Henry and Demcy; furniture; clothing |
+John B. Slatter (brother) | GIVES | Reuben, Penny, Clarissa, David, and Liddy with her increase |
+@4|p.31|Edward Crowell
+Nancy Pittman (daughter) | GIVES | Messia and Fanny; the Negroes already lent to her |
+Thomas Crowell (son) | GIVES | all other Negroes, lands, household goods and stock |
+@4|p.33|Benjamin Ward
+Sally Matthias | GIVES | Nancy, Cherry and Cary with their increase; riding chair; horse Chanticleer; silver spoons |
+James Avent | GIVES | Dublin and Big Charles; land |
+Thomas Avent | GIVES | David and Allen; the Parrum tract |
+Benjamin Avent | GIVES | Isaac and Bob; his plantation |
+Priscilla Kimbell | GIVES | Eady and Mourning with their increase; mare |
+Elizabeth Hazelwood | GIVES | Chany and her child; Sarah; Juda and her child; Isaac |
+Nancy Wright | GIVES | Penny and her children Warren and Charity; Abby and her child Lucy |
+Francis Avent | GIVES | Patience and Little Charles; land |
+Fanny Avent | GIVES | Billy, Polly and Ned |
+John Ward | GIVES | Negro man Harry; his interest in the mill |
+Polly Avent | GIVES | Silvey |
+Benjamin Avent (son of Polly Avent) | GIVES | Negro boy Joe |
+Nancy Jones | GIVES | Negro boy Abner |
+@4|p.36|Richard Eppes
+Mar Eliza Williams (daughter) | GIVES | $350 with interest, in place of Negro woman Betty (given her by Mrs. Mary Davis and sold by the testator) |
+@4|p.37|Dorothea M. Ellbeck
+Anna Maria Jane Penton (daughter of M.T. Penton) | GIVES | Davy, Peggy, Sally, Hannah and Hannah's children; furniture; clothing; watch; guitar; diamond ring |
+William Penton | GIVES | Mary and her increase |
+Thomas Burgess Penton | GIVES | Charity and her increase |
+John Henson Penton | GIVES | William and Mand, children of Peggy |
+Mungo T. Penton (nephew) | GIVES | Patty; the land she lived on |
+@4|p.38|Thomas Watson Senr
+William W. Watson (son) | GIVES | two tracts (110 acres) bought of Mark Murry and David Winborun |
+John Watson (son) | GIVES | land already given; Negro man Lemuel; gun; bed |
+Easter Alsobrook (daughter) | GIVES | Negro woman Cherry and all her children |
+Polly Manning | GIVES | Negro girl Runsey, already in her possession |
+Dolly Watson (daughter) | GIVES | Negro girl Charlotte; bed |
+Temperance Watson (daughter) | GIVES | Negro woman Cherry and her child Mary; bed |
+Jean Caroline Watson (daughter) | GIVES | Negro girl Sarah; bed |
+Henry H. Watson (son) | GIVES | Negro boy Luke; bed |
+Sophia E. Walker (wife) | GIVES | Negro woman Penny |
+@4|p.39|Sherrod Bobbitt
+Sally Bobbitt (wife) | LENDS | land and plantation; Stephen and Beca(?); furniture; horse; livestock; all other property |
+Mary Browning (daughter) | GIVES | Arca(?) |
+@4|p.41|David Crawley
+sold | SOLD | Rose and her children Gilley, Clayton and Marthenia, together, on six months credit | to pay debts
+Sandy Crawley (son) | GIVES | Negro man Ransom |
+Marion Sandy Crawley (grandson) | GIVES | Negro girl Peggy |
+@4|p.42|John Baker
+James Baker (grandson) | GIVES | Negro woman Holley; Negro boys Stephen and Peter; land; livestock |
+@4|p.43|Benjamin Crowell
+Richard H. Crowell (son) | GIVES | big Tom; Ginny with her children and grandchildren; Harriet and her child Lucinda; Henry, Willie, Jordan, Joshua and Emmaline; bed |
+John Crowell (son) | GIVES | Jo; Dorcas with her children and grandchildren; Jone and her children; Dina, Cherry, Sam, Martha, Bethiah and Jacob; small still; bed |
+William Crowell (son) | GIVES | little Tom, Gilford, Annaca and her children, Bethea, Delah and her child; bed; large still; tools |
+Dorothea Miriam Alston (daughter) | GIVES | Polly and her children, Harry, Penelopy, Rosetty(?), Lasurus, Zacharia, Addeline, Louisa, Mary and her children, Chany, Dusty, Sterling, Lucy, China and Levena; $500; bed |
+Anna Maria Crowell (daughter) | GIVES | Willis, Allen, Dick, Scillar and her children, Phillis and her children; beds; gig; horses |
+@4|p.46|Willis Daniel
+Harriette (daughter) | GIVES | Negro boy Hark; Negro girl Liza |
+Judith Daniel (wife) | GIVES | all lands and Negroes; tools; stock; a horse | during widowhood; the children take their parts as they come of age
+@4|pp.47-8|James Harris
+W.W. Harris (wife) | GIVES | Israel, Great Fanny, old Ned and great Lucy; carriage and horses |
+each child | GIVES | a share of the estate | at age 21

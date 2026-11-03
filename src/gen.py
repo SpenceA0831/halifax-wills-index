@@ -1,0 +1,145 @@
+import csv, json, re, sys, urllib.parse, os
+
+SRC = "https://freeafricanamericans.com/halifax.htm"
+BOOKS = {"1": "Will Book Vol. 1 (1758-1774)", "2": "Will Book Vol. 2 (1775-1779)",
+         "3": "Will Book Vol. 3 (1781-1824)", "4": "Will Book Vol. 4 (1825-1854)"}
+FAMILY = re.compile(r"\b(son|daughter|wife|brother|sister|grandson|granddaughter|grandchild|mother|father|nephew|child)\b", re.I)
+SUFFIX = {"senr", "jnr", "junr", "senior", "sr", "jr", "junior"}
+
+here = os.path.dirname(os.path.abspath(__file__))
+wills, names = [], []
+
+def surname(full):
+    toks = [t for t in re.split(r"\s+", full.strip()) if t.strip(".").lower() not in SUFFIX]
+    return toks[-1] if toks else ""
+
+for line in open(os.path.join(here, "wills.txt"), encoding="utf-8"):
+    line = line.rstrip("\n")
+    if not line or line.startswith("#"):
+        continue
+    parts = line.split("|")
+    assert len(parts) == 7, line
+    vol, pages, date, testator, recips, ens, notes = [p.strip() for p in parts]
+    wid = len(wills) + 1
+    cite = f"Halifax Co., NC, {BOOKS[vol]}, {pages}"
+    q = testator.replace("...", "").strip()
+    link = SRC + "#:~:text=" + urllib.parse.quote(q)
+    w = dict(id=wid, vol=int(vol), book=BOOKS[vol], pages=pages, citation=cite, date=date,
+             testator=testator, notes=notes, link=link, recipients=[], unnamed=[], enslaved=[])
+    tsur = surname(testator)
+    names.append(dict(will=wid, name=testator, written=testator, role="Testator", rel="", inferred=False))
+    for r in [x.strip() for x in recips.split(";") if x.strip()]:
+        if r.startswith("~"):
+            w["unnamed"].append(r[1:].strip())
+            continue
+        m = re.match(r"^(.*?)\s*\(([^()]*)\)\s*$", r)
+        nm, rel = (m.group(1).strip(), m.group(2).strip()) if m else (r, "")
+        full, inferred = nm, False
+        if len(nm.split()) == 1 and rel and FAMILY.search(rel) and "not stated" not in rel and tsur:
+            full, inferred = f"{nm} {tsur}", True
+        w["recipients"].append(dict(name=full, written=nm, rel=rel, inferred=inferred))
+        names.append(dict(will=wid, name=full, written=nm, role="Recipient", rel=rel, inferred=inferred))
+    for e in [x.strip() for x in ens.split(";") if x.strip()]:
+        w["enslaved"].append(e)
+        names.append(dict(will=wid, name=e, written=e, role="Enslaved person named", rel="", inferred=False))
+    wills.append(w)
+
+# ---- bequests ----
+from collections import defaultdict, deque
+keyq = defaultdict(deque)
+for w in wills:
+    w["bequests"] = []
+    keyq[(str(w["vol"]), w["pages"], w["testator"])].append(w)
+cur = None
+unmatched = []
+for line in open(os.path.join(here, "bequests.txt"), encoding="utf-8"):
+    line = line.rstrip("\n")
+    if not line.strip() or line.startswith("#"):
+        continue
+    if line.startswith("@"):
+        k = tuple(x.strip() for x in line[1:].split("|"))
+        cur = keyq[k].popleft() if keyq[k] else None
+        if cur is None: unmatched.append(k)
+        continue
+    if cur is None: continue
+    parts = [x.strip() for x in line.split("|")]
+    while len(parts) < 4: parts.append("")
+    who, verb, what, cond = parts[:4]
+    verb = verb.upper()
+    # link enslaved names appearing in "what" (longest first, consume spans)
+    text = what; linked = []
+    for i, e in sorted(enumerate(cur["enslaved"]), key=lambda t: -len(t[1])):
+        base = e
+        pat = re.compile(r"(?<![A-Za-z])" + "[" + base[0].upper() + base[0].lower() + "]" + re.escape(base[1:]) + r"(?![A-Za-z])")
+        m = pat.search(text)
+        if m:
+            linked.append(i)
+            text = text[:m.start()] + "#" * (m.end() - m.start()) + text[m.end():]
+    # also "who" may itself be an enslaved person (FREED/HIRED/CHOICE)
+    if verb in ("FREED", "HIRED", "CHOICE"):
+        for i, e in enumerate(cur["enslaved"]):
+            if re.search(r"(?<![A-Za-z])" + re.escape(e) + r"(?![A-Za-z])", who) and i not in linked:
+                linked.append(i)
+    # link recipients by written name in "who"
+    whoname = re.sub(r"\([^)]*\)", "", who.replace("(?)", ""))
+    whorel = " ".join(re.findall(r"\(([^)]*)\)", who)).lower()
+    cands = []
+    for i, r in enumerate(cur["recipients"]):
+        if re.search(r"(?<![A-Za-z])" + re.escape(r["written"].replace("(?)", "")) + r"(?![A-Za-z])", whoname):
+            cands.append(i)
+    if len(cands) > 1 and whorel:
+        relfit = [i for i in cands if cur["recipients"][i]["rel"] and cur["recipients"][i]["rel"].split(",")[0].split()[0].lower() in whorel]
+        if relfit: cands = relfit
+    # drop shorter names contained in a longer matched name (e.g. "Mary" inside "Mary Ann Butler")
+    cnames = [cur["recipients"][i]["written"] for i in cands]
+    cands = [i for i in cands if not any(cur["recipients"][i]["written"] != n and re.search(r"(?<![A-Za-z])" + re.escape(cur["recipients"][i]["written"]) + r"(?![A-Za-z])", n) for n in cnames)]
+    cur["bequests"].append(dict(who=who, verb=verb, what=what, cond=cond, ens=sorted(linked), rec=cands))
+missing = [w for w in wills if not w["bequests"]]
+print("unmatched bequest headers:", unmatched)
+print("wills without bequests:", [(w["vol"], w["pages"], w["testator"]) for w in missing])
+
+out = sys.argv[1]
+os.makedirs(out, exist_ok=True)
+byid = {w["id"]: w for w in wills}
+with open(os.path.join(out, "halifax-wills-names.csv"), "w", newline="", encoding="utf-8") as f:
+    cw = csv.writer(f)
+    cw.writerow(["name", "name_as_written", "role", "relationship_as_stated", "surname_inferred_from_testator",
+                 "testator", "citation", "will_book", "pages", "date", "will_notes", "source_link"])
+    for n in names:
+        w = byid[n["will"]]
+        cw.writerow([n["name"], n["written"], n["role"], n["rel"], "yes" if n["inferred"] else "",
+                     w["testator"], w["citation"], w["book"], w["pages"], w["date"], w["notes"], w["link"]])
+with open(os.path.join(out, "halifax-wills.csv"), "w", newline="", encoding="utf-8") as f:
+    cw = csv.writer(f)
+    cw.writerow(["testator", "citation", "will_book", "pages", "date", "recipients", "unnamed_recipients",
+                 "enslaved_people_named", "notes", "source_link"])
+    for w in wills:
+        cw.writerow([w["testator"], w["citation"], w["book"], w["pages"], w["date"],
+                     "; ".join(f'{r["name"]} ({r["rel"]})' if r["rel"] else r["name"] for r in w["recipients"]),
+                     "; ".join(w["unnamed"]), "; ".join(w["enslaved"]), w["notes"], w["link"]])
+with open(os.path.join(out, "halifax-wills-bequests.csv"), "w", newline="", encoding="utf-8") as f:
+    cw = csv.writer(f)
+    cw.writerow(["testator", "action", "recipient", "what", "condition", "enslaved_people_named", "citation", "date", "source_link"])
+    for w in wills:
+        for b in w["bequests"]:
+            cw.writerow([w["testator"], b["verb"].lower(), b["who"], b["what"], b["cond"],
+                         "; ".join(w["enslaved"][i] for i in b["ens"]), w["citation"], w["date"], w["link"]])
+json.dump(wills, open(os.path.join(out, "wills.json"), "w"), ensure_ascii=False, separators=(",", ":"))
+
+tpl = open(os.path.join(here, "page.html"), encoding="utf-8").read()
+page = tpl.replace("/*__DATA__*/[]", json.dumps(wills, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/"))
+open(os.path.join(out, "halifax-wills-index.html"), "w", encoding="utf-8").write(page)
+# standalone version (full document) for static hosting
+head_end = page.index("</style>") + len("</style>")
+standalone = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+              '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
+              + page[:head_end] + "\n</head>\n<body>\n" + page[head_end:].replace("<!--DOWNLOADS-->", '<p>Download the data: <a href="halifax-wills-names.csv">every name (CSV)</a>, <a href="halifax-wills-bequests.csv">every bequest (CSV)</a>, <a href="halifax-wills.csv">every will (CSV)</a>.</p>') + "\n</body>\n</html>\n")
+open(os.path.join(out, "index.html"), "w", encoding="utf-8").write(standalone)
+print(len(wills), "wills;", len(names), "name entries;",
+      sum(1 for n in names if n["role"] == "Recipient"), "recipients;",
+      sum(1 for n in names if n["role"] == "Enslaved person named"), "enslaved;",
+      sum(1 for n in names if n["inferred"]), "inferred surnames")
+nr = [(w["testator"], w["pages"], r["name"]) for w in wills for i, r in enumerate(w["recipients"]) if not any(i in b["rec"] for b in w["bequests"])]
+ne = [(w["testator"], w["pages"], e) for w in wills for i, e in enumerate(w["enslaved"]) if not any(i in b["ens"] for b in w["bequests"])]
+print("recipients with no bequest:", len(nr)); print(nr[:60])
+print("enslaved with no bequest:", len(ne)); print(ne[:80])
