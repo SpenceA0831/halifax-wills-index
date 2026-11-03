@@ -1,8 +1,14 @@
 import csv, json, re, sys, urllib.parse, os
 
 SRC = "https://freeafricanamericans.com/halifax.htm"
-BOOKS = {"1": "Will Book Vol. 1 (1758-1774)", "2": "Will Book Vol. 2 (1775-1779)",
-         "3": "Will Book Vol. 3 (1781-1824)", "4": "Will Book Vol. 4 (1825-1854)"}
+HAL = "Halifax Co., NC, "; KG = "King George Co., VA, "
+BOOKS = {"1": HAL + "Will Book Vol. 1 (1758-1774)", "2": HAL + "Will Book Vol. 2 (1775-1779)",
+         "3": HAL + "Will Book Vol. 3 (1781-1824)", "4": HAL + "Will Book Vol. 4 (1825-1854)",
+         "KGA": KG + "Will Book A-1 (1721-1752)", "KG1": KG + "Will Book 1 (1752-1780)",
+         "KG2": KG + "Will Book 2 (1780-1804)", "KG3": KG + "Will Book 3 (1804-1846)",
+         "KG4": KG + "Will Book 4 (1847-1901)"}
+ORDER = list(BOOKS)
+import json as _j
 FAMILY = re.compile(r"\b(son|daughter|wife|brother|sister|grandson|granddaughter|grandchild|mother|father|nephew|child)\b", re.I)
 SUFFIX = {"senr", "jnr", "junr", "senior", "sr", "jr", "junior"}
 
@@ -13,21 +19,39 @@ def surname(full):
     toks = [t for t in re.split(r"\s+", full.strip()) if t.strip(".").lower() not in SUFFIX]
     return toks[-1] if toks else ""
 
-for line in open(os.path.join(here, "wills.txt"), encoding="utf-8"):
-    line = line.rstrip("\n")
-    if not line or line.startswith("#"):
-        continue
-    parts = line.split("|")
-    assert len(parts) == 7, line
-    vol, pages, date, testator, recips, ens, notes = [p.strip() for p in parts]
-    wid = len(wills) + 1
-    cite = f"Halifax Co., NC, {BOOKS[vol]}, {pages}"
-    q = testator.replace("...", "").strip()
-    link = SRC + "#:~:text=" + urllib.parse.quote(q)
-    w = dict(id=wid, vol=int(vol), book=BOOKS[vol], pages=pages, citation=cite, date=date,
-             testator=testator, notes=notes, link=link, recipients=[], unnamed=[], enslaved=[])
-    tsur = surname(testator)
-    names.append(dict(will=wid, name=testator, written=testator, role="Testator", rel="", inferred=False))
+def load(fname, origs, auto):
+    k = 0
+    for line in open(os.path.join(here, fname), encoding="utf-8"):
+        line = line.rstrip("\n")
+        if not line or line.startswith("#"):
+            continue
+        parts = line.split("|")
+        assert len(parts) == 7, line
+        vol, pages, date, testator, recips, ens, notes = [p.strip() for p in parts]
+        orig = origs[k]; k += 1
+        wid = len(wills) + 1
+        cite = f"{BOOKS[vol]}, {pages}"
+        q = (testator if not auto else orig.split("...")[0][:60]).replace("...", "").strip()
+        link = SRC + "#:~:text=" + urllib.parse.quote(q)
+        w = dict(id=wid, vol=vol, county=("King George County, VA" if vol.startswith("KG") else "Halifax County, NC"),
+                 book=BOOKS[vol], pages=pages, citation=cite, date=date,
+                 testator=testator, notes=notes, link=link, orig=orig, auto=auto, recipients=[], unnamed=[], enslaved=[])
+        wills.append(w)
+        yield w, recips, ens
+
+def firstpage(p):
+    m = re.search(r"\d+", p); return int(m.group()) if m else 0
+raw = []
+raw += list(load("wills.txt", _j.load(open(os.path.join(here, "orig_curated.json"), encoding="utf-8")), False))
+raw += list(load("auto_wills.txt", _j.load(open(os.path.join(here, "orig_auto.json"), encoding="utf-8")), True))
+# order by book, then page, then file order (stable); renumber ids
+order = sorted(range(len(raw)), key=lambda i: (ORDER.index(raw[i][0]["vol"]), firstpage(raw[i][0]["pages"]), i))
+raw = [raw[i] for i in order]; wills[:] = [r[0] for r in raw]
+for n, w in enumerate(wills, 1): w["id"] = n
+for w, recips, ens in raw:
+    wid = w["id"]
+    tsur = surname(w["testator"])
+    names.append(dict(will=wid, name=w["testator"], written=w["testator"], role="Testator", rel="", inferred=False))
     for r in [x.strip() for x in recips.split(";") if x.strip()]:
         if r.startswith("~"):
             w["unnamed"].append(r[1:].strip())
@@ -42,17 +66,19 @@ for line in open(os.path.join(here, "wills.txt"), encoding="utf-8"):
     for e in [x.strip() for x in ens.split(";") if x.strip()]:
         w["enslaved"].append(e)
         names.append(dict(will=wid, name=e, written=e, role="Enslaved person named", rel="", inferred=False))
-    wills.append(w)
 
 # ---- bequests ----
 from collections import defaultdict, deque
 keyq = defaultdict(deque)
 for w in wills:
     w["bequests"] = []
-    keyq[(str(w["vol"]), w["pages"], w["testator"])].append(w)
+    keyq[(w["vol"], w["pages"], w["testator"])].append(w)
 cur = None
 unmatched = []
-for line in open(os.path.join(here, "bequests.txt"), encoding="utf-8"):
+def _lines():
+    for fn in ("bequests.txt", "auto_bequests.txt"):
+        yield from open(os.path.join(here, fn), encoding="utf-8")
+for line in _lines():
     line = line.rstrip("\n")
     if not line.strip() or line.startswith("#"):
         continue
@@ -104,26 +130,26 @@ byid = {w["id"]: w for w in wills}
 with open(os.path.join(out, "halifax-wills-names.csv"), "w", newline="", encoding="utf-8") as f:
     cw = csv.writer(f)
     cw.writerow(["name", "name_as_written", "role", "relationship_as_stated", "surname_inferred_from_testator",
-                 "testator", "citation", "will_book", "pages", "date", "will_notes", "source_link"])
+                 "testator", "county", "citation", "will_book", "pages", "date", "extraction", "will_notes", "source_link"])
     for n in names:
         w = byid[n["will"]]
         cw.writerow([n["name"], n["written"], n["role"], n["rel"], "yes" if n["inferred"] else "",
-                     w["testator"], w["citation"], w["book"], w["pages"], w["date"], w["notes"], w["link"]])
+                     w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "automatic" if w["auto"] else "checked by hand", w["notes"], w["link"]])
 with open(os.path.join(out, "halifax-wills.csv"), "w", newline="", encoding="utf-8") as f:
     cw = csv.writer(f)
-    cw.writerow(["testator", "citation", "will_book", "pages", "date", "recipients", "unnamed_recipients",
-                 "enslaved_people_named", "notes", "source_link"])
+    cw.writerow(["testator", "county", "citation", "will_book", "pages", "date", "extraction", "recipients", "unnamed_recipients",
+                 "enslaved_people_named", "notes", "original_text", "source_link"])
     for w in wills:
-        cw.writerow([w["testator"], w["citation"], w["book"], w["pages"], w["date"],
+        cw.writerow([w["testator"], w["county"], w["citation"], w["book"], w["pages"], w["date"], "automatic" if w["auto"] else "checked by hand",
                      "; ".join(f'{r["name"]} ({r["rel"]})' if r["rel"] else r["name"] for r in w["recipients"]),
-                     "; ".join(w["unnamed"]), "; ".join(w["enslaved"]), w["notes"], w["link"]])
+                     "; ".join(w["unnamed"]), "; ".join(w["enslaved"]), w["notes"], w["orig"], w["link"]])
 with open(os.path.join(out, "halifax-wills-bequests.csv"), "w", newline="", encoding="utf-8") as f:
     cw = csv.writer(f)
-    cw.writerow(["testator", "action", "recipient", "what", "condition", "enslaved_people_named", "citation", "date", "source_link"])
+    cw.writerow(["testator", "county", "action", "recipient", "what", "condition", "enslaved_people_named", "citation", "date", "extraction", "source_link"])
     for w in wills:
         for b in w["bequests"]:
-            cw.writerow([w["testator"], b["verb"].lower(), b["who"], b["what"], b["cond"],
-                         "; ".join(w["enslaved"][i] for i in b["ens"]), w["citation"], w["date"], w["link"]])
+            cw.writerow([w["testator"], w["county"], b["verb"].lower(), b["who"], b["what"], b["cond"],
+                         "; ".join(w["enslaved"][i] for i in b["ens"]), w["citation"], w["date"], "automatic" if w["auto"] else "checked by hand", w["link"]])
 json.dump(wills, open(os.path.join(out, "wills.json"), "w"), ensure_ascii=False, separators=(",", ":"))
 
 tpl = open(os.path.join(here, "page.html"), encoding="utf-8").read()

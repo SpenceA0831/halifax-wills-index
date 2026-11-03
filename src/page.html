@@ -1,6 +1,6 @@
-<title>Halifax Will Book Index</title>
+<title>Halifax and King George Wills Index</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Searchable name index of testators, recipients and enslaved people named in Halifax County, North Carolina will abstracts, 1755-1828.">
+<meta name="description" content="Searchable name index of will makers, recipients and enslaved people named in Halifax County, North Carolina and King George County, Virginia will abstracts, 1721-1901.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap">
@@ -109,6 +109,10 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 .verb.SOLD { background: #f6e3e1; color: #8a2e24; }
 .verb.FREED { background: var(--t-enslaved-bg); color: var(--t-enslaved); }
 .ledger-h { font-family: var(--f-ui); font-size: 14px; font-weight: 600; color: var(--ink-soft); margin: 4px 0 2px; }
+.autonote { background: #fbf6e3; border-radius: 6px; padding: 8px 12px; }
+.orig summary { cursor: pointer; font-family: var(--f-ui); font-size: 14.5px; color: var(--ink-soft); margin-top: 6px; }
+.origtext { margin-top: 6px; padding: 10px 14px; background: #f6f4ee; border-left: 3px solid #cfc8b4; border-radius: 4px; font-size: 16px; line-height: 1.6; white-space: pre-wrap; }
+.origcite { font-family: var(--f-ui); font-size: 13.5px; color: var(--ink-soft); margin-bottom: 4px; }
 .ens { font: inherit; font-weight: 600; cursor: pointer; color: var(--t-enslaved); background: var(--t-enslaved-bg); border: 1px solid #dccbe5; border-radius: 999px; padding: 0 9px; margin: 1px 0; line-height: 1.5; }
 .ens:hover { background: #e5d6ed; border-color: var(--t-enslaved); }
 .ens.hit { background: var(--t-enslaved); color: #fff; border-color: var(--t-enslaved); }
@@ -117,11 +121,11 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
 
 <div class="wrap">
   <header>
-    <h1>Halifax County Wills <em>name index</em></h1>
-    <p class="lede">Search everyone named in the Halifax County, North Carolina will abstracts on
+    <h1>Halifax &amp; King George Wills <em>name index</em></h1>
+    <p class="lede">Search everyone named in the Halifax County, North Carolina and King George County, Virginia will abstracts on
       <a href="https://freeafricanamericans.com/halifax.htm" target="_blank" rel="noopener">freeafricanamericans.com</a>:
       the person making each will, every person given or lent something, and the enslaved people the wills name.
-      Each result shows its will book, page and date, with a link back to the entry in the source.</p>
+      Each result shows its will book, page and date, the original wording of the entry, and a link back to the entry in the source.</p>
     <div class="stats" id="stats"></div>
   </header>
 
@@ -137,12 +141,23 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
         <button class="chip" data-role="Recipient" aria-pressed="false">Recipients</button>
         <button class="chip" data-role="Enslaved person named" aria-pressed="false">Enslaved people named</button>
       </div>
-      <select id="vol" aria-label="Will book">
-        <option value="0">All will books</option>
-        <option value="1">Vol. 1 (1758-1774)</option>
-        <option value="2">Vol. 2 (1775-1779)</option>
-        <option value="3">Vol. 3 (1781-1824)</option>
-        <option value="4">Vol. 4 (1825-1854)</option>
+      <select id="vol" aria-label="County or will book">
+        <option value="all">All counties and will books</option>
+        <optgroup label="Halifax County, NC">
+          <option value="H">All Halifax County books</option>
+          <option value="1">Vol. 1 (1758-1774)</option>
+          <option value="2">Vol. 2 (1775-1779)</option>
+          <option value="3">Vol. 3 (1781-1824)</option>
+          <option value="4">Vol. 4 (1825-1854)</option>
+        </optgroup>
+        <optgroup label="King George County, VA">
+          <option value="KG">All King George County books</option>
+          <option value="KGA">Book A-1 (1721-1752)</option>
+          <option value="KG1">Book 1 (1752-1780)</option>
+          <option value="KG2">Book 2 (1780-1804)</option>
+          <option value="KG3">Book 3 (1804-1846)</option>
+          <option value="KG4">Book 4 (1847-1901)</option>
+        </optgroup>
       </select>
       <label class="tog"><input type="checkbox" id="fuzzy" checked> Include spelling variants</label>
     </div>
@@ -158,8 +173,8 @@ mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3
       <li>Every will entry on the source page was read and broken into the will maker, each person given or lent something (with the relationship as the will states it), and each enslaved person named. The citation is the will book volume and page from the abstract; dates show when the will was written and when it was proved in court.</li>
       <li>When a will names a child or wife by first name only (for example "my son Benjamin"), the index adds the will maker's surname so the person can be found by family name. These are marked "surname added".</li>
       <li>"Include spelling variants" matches names that sound alike or differ only by doubled letters, so Mathis finds Matthis, Wallace finds Wallis and Wallice, and Bynam finds Bynum.</li>
-      <li>Unclear readings are kept with the source's own question marks, and anything ambiguous is listed under each will's notes. The abstracts were parsed automatically, so check the original entry before relying on a detail. The "View in source" link opens the source page at that will.</li>
-      <li><b>Coverage so far:</b> the source page has two sections, Halifax County, North Carolina (1758-1854) and King George County, Virginia (1721-1804). This index covers Halifax County Will Books 1 to 4 up to Will Book 4, page 47. The rest of Will Book 4 and the whole King George County section are not indexed yet.</li>
+      <li>Unclear readings are kept with the source's own question marks, and anything ambiguous is listed under each will's notes. Open "Original text of this entry" under any result to see exactly what the source says. The "View in source" link opens the source page at that will.</li>
+      <li><b>Coverage:</b> every will entry on the source page: Halifax County, North Carolina, Will Books 1 to 4, and King George County, Virginia, Will Books A-1 and 1 to 4. The first 200 Halifax wills (Vol. 1 to Vol. 4 page 47) were read and checked by hand against the original text. The other wills were read by a program, so those entries carry a yellow "names picked out automatically" note and an exact copy of the original text, and gifts may be incomplete.</li>
     </ul>
     <!--DOWNLOADS-->
   </section>
@@ -208,11 +223,11 @@ function tokenMatch(qn, qsx, row, fuzzy) {
 }
 function search() {
   $("#clear").hidden = !$("#q").value;
-  const qRaw = $("#q").value.trim(), fuzzy = $("#fuzzy").checked, vol = +$("#vol").value;
+  const qRaw = $("#q").value.trim(), fuzzy = $("#fuzzy").checked, vol = $("#vol").value;
   const qt = toks(qRaw), qn = qt.map(norm), qsx = qt.map(soundex);
   current = ROWS.filter(r => {
     if (role !== "all" && r.role !== role) return false;
-    if (vol && r.w.vol !== vol) return false;
+    if (vol !== "all" && !(vol === "H" ? !r.w.vol.startsWith("KG") : vol === "KG" ? r.w.vol.startsWith("KG") : r.w.vol === vol)) return false;
     if (!qt.length) return role !== "all" || r.role === "Testator";
     return qn.every((q, i) => q && tokenMatch(q, qsx[i], r, fuzzy));
   });
@@ -296,7 +311,8 @@ function render(qt) {
       <div class="docket-line"><span class="cite">${esc(w.book)}, ${esc(w.pages)}</span> <span class="sep">&middot;</span> ${esc(w.date)}</div>
       ${body}
       ${rest}
-      ${w.notes ? `<div class="note"><b>Note:</b> ${esc(w.notes)}</div>` : ""}
+      ${w.auto ? `<div class="note autonote"><b>Names picked out automatically.</b> This will was read by a program rather than by hand, so some names or gifts may be missing or wrong. Check the original text below.</div>` : (w.notes ? `<div class="note"><b>Note:</b> ${esc(w.notes)}</div>` : "")}
+      <details class="orig"><summary>Original text of this entry</summary><div class="origtext"><div class="origcite">${esc(w.citation)}</div>${esc(w.orig)}</div></details>
       <div class="srcrow"><a class="src" href="${esc(w.link)}" target="_blank" rel="noopener">View this will in the source &rarr;</a></div>
     </li>`;
   }).join("");
@@ -329,6 +345,6 @@ $("#fuzzy").addEventListener("change", search);
 $("#more").addEventListener("click", () => { shown += PAGE; render(toks($("#q").value.trim())); });
 
 const nT = ROWS.filter(r => r.role === "Testator").length, nR = ROWS.filter(r => r.role === "Recipient").length, nE = ROWS.filter(r => r.role === "Enslaved person named").length;
-$("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}</b> recipients</span><span><b>${nE}</b> enslaved people named</span><span>Will Books 1&ndash;4, 1755&ndash;1828</span>`;
+$("#stats").innerHTML = `<span><b>${WILLS.length}</b> wills</span><span><b>${nR}</b> recipients</span><span><b>${nE}</b> enslaved people named</span><span>${new Set(WILLS.map(w => w.county)).size} counties, 1721&ndash;1901</span>`;
 search();
 </script>
