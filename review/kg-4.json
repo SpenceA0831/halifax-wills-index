@@ -1,0 +1,2319 @@
+{
+ "about": "King George Co., VA, Will Book 4: hand review of all 42 entries. Hand-reviewed records, one per will, checked against the original abstract text (orig). Match an existing will by key [vol, pages, auto_testator] as in src/auto_wills.txt. Records with new_will=true are wills the automatic pass had merged into the entry named by split_from; add them as new wills and move the names out of that parent entry. recipients use 'Name (relationship)'; a leading ~ marks an unnamed group. bequests.recipient matches a recipients entry (without ~), an enslaved name (FREED/HIRED rows), or 'sold'. verb is GIVES, LENDS, SOLD, FREED or HIRED.",
+ "records": [
+  {
+   "vol": "KG4",
+   "pages": "pp.1-2",
+   "auto_testator": "(name not captured)",
+   "testator": "Ann B. Bradley",
+   "date": "7 May 1847; proved 3 June 1847",
+   "recipients": [
+    "Gideon F. Bradley (son of Dixon Bradley)",
+    "Venus (enslaved woman)",
+    "Ann E. Bradley (relationship not stated)",
+    "Sarah White (relationship not stated)",
+    "Nancy Jane Ryals (relationship not stated)",
+    "Nancy Jane Bradley (relationship not stated)"
+   ],
+   "enslaved": [
+    "John",
+    "Milly",
+    "William",
+    "Venus",
+    "Ben",
+    "Polly",
+    "Maria",
+    "Sharlott",
+    "Charles",
+    "Mary",
+    "Lucy"
+   ],
+   "bequests": [
+    {
+     "recipient": "Gideon F. Bradley (son of Dixon Bradley)",
+     "verb": "GIVES",
+     "what": "the entire tract of land she lives on",
+     "condition": ""
+    },
+    {
+     "recipient": "Gideon F. Bradley (son of Dixon Bradley)",
+     "verb": "GIVES",
+     "what": "probably boy John, girl Milly and boy William",
+     "condition": "recipient uncertain: the abstract is cut just before these names"
+    },
+    {
+     "recipient": "Venus (enslaved woman)",
+     "verb": "GIVES",
+     "what": "loom and gear",
+     "condition": "for her life; then the loom to Ann E. Bradley"
+    },
+    {
+     "recipient": "Venus (enslaved woman)",
+     "verb": "GIVES",
+     "what": "use of her house and garden",
+     "condition": "for life; Venus to remain on the place with Ann E. Bradley as her mistress"
+    },
+    {
+     "recipient": "Ann E. Bradley (relationship not stated)",
+     "verb": "GIVES",
+     "what": "the loom",
+     "condition": "after Venus's death"
+    },
+    {
+     "recipient": "Ann E. Bradley (relationship not stated)",
+     "verb": "GIVES",
+     "what": "Ben",
+     "condition": "Ben to wait on his mother during her life, then Ann's forever"
+    },
+    {
+     "recipient": "Ann E. Bradley (relationship not stated)",
+     "verb": "GIVES",
+     "what": "Lucy, Venus's daughter",
+     "condition": "after Venus's death; Lucy stays with her mother until then"
+    },
+    {
+     "recipient": "Ann E. Bradley (relationship not stated)",
+     "verb": "GIVES",
+     "what": "household and kitchen furniture, plantation utensils, horses, stock, gig and harness",
+     "condition": "recipient read from context"
+    },
+    {
+     "recipient": "Sarah White (relationship not stated)",
+     "verb": "GIVES",
+     "what": "girls Polly and her daughter Maria",
+     "condition": ""
+    },
+    {
+     "recipient": "Nancy Jane Ryals (relationship not stated)",
+     "verb": "GIVES",
+     "what": "Sharlott and Charles",
+     "condition": ""
+    },
+    {
+     "recipient": "Nancy Jane Bradley (relationship not stated)",
+     "verb": "GIVES",
+     "what": "girl Mary",
+     "condition": ""
+    }
+   ],
+   "notes": "Will maker named only in the signature, Ann B. Bradley (her mark). Nancy Jane Ryals and Nancy Jane Bradley may be the same person. Ben's mother is probably Venus.",
+   "orig": "I gave unto Dixon Bradley's son Gideon F. Bradley the entire tract of land which I reside on...my Boy John & Girl Milly and Boy William, I Gave unto my woman Venus my Loom & Gear and after her death I gave the said Loom unto Ann E. Bradley. I gave Ben unto Ann E. Bradley with the understanding that he is to wait on his mother during her life and then Ann E. Bradley is entitled to him forever. I Gave unto Sarah White my two Girls Polly and her daughter Maria. I Gave to Nancy Jane Ryals Sharlott & Charles. I also gave unto Nancy Jane Bradley my Girl Mary. Venus is to remain here & Ann E. Bradley to stand her mistress, she is entitled to her house & Garden & Lucy her Daughter is to remain with her during her Life and then I gave the said Lucy unto Ann E. Bradley, also all of my Household & Kitchen Furniture with Plantation Utensils...Horses, stock of every description with Gig and Harness...7 May 1847. Ann B. Bradley (her mark). 3 June 1847.",
+   "key": [
+    "KG4",
+    "pp.1-2",
+    "(name not captured)"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.1-2"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.3-4",
+   "auto_testator": "Mary Underwood",
+   "testator": "Mary Underwood",
+   "date": "29 July 1847; proved 4 November 1847",
+   "recipients": [
+    "Edward O. Greenlaw (grandson)",
+    "Sarah Anne Greenlaw (granddaughter)"
+   ],
+   "enslaved": [
+    "Edward"
+   ],
+   "bequests": [
+    {
+     "recipient": "Edward O. Greenlaw (grandson)",
+     "verb": "GIVES",
+     "what": "Negro man Edward, commonly called Ned",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Anne Greenlaw (granddaughter)",
+     "verb": "GIVES",
+     "what": "all the residue of her property",
+     "condition": ""
+    }
+   ],
+   "notes": "Edward was commonly called Ned.",
+   "orig": "I Mary Underwood...my Grandson Edward O. Greenlaw my Negro man Edward commonly called Ned... all the residue of my property to Grand Daughter Sarah Anne Greenlaw...29 July 1847. (signed). 4 November 1847.",
+   "key": [
+    "KG4",
+    "pp.3-4",
+    "Mary Underwood"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.3-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.5-10",
+   "auto_testator": "Charles Taylor",
+   "testator": "Charles Taylor",
+   "date": "11 January 1847; proved 2 December 1847",
+   "recipients": [
+    "Virginia Anne (wife)",
+    "Charles Ogle (son)",
+    "~daughters (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Virginia Anne (wife)",
+     "verb": "LENDS",
+     "what": "Oaken Brow estate where he lives, with all the slaves, horses, stock, carriages, implements and goods on it",
+     "condition": "while she remains a widow"
+    },
+    {
+     "recipient": "Charles Ogle (son)",
+     "verb": "GIVES",
+     "what": "Oaken Brow estate with all the slaves and stock",
+     "condition": "at his mother's death or remarriage"
+    },
+    {
+     "recipient": "Charles Ogle (son)",
+     "verb": "GIVES",
+     "what": "all the slaves and personal property on the Brick Quarter plantation",
+     "condition": "once the Brick Quarter estate is sold"
+    },
+    {
+     "recipient": "daughters (unnamed)",
+     "verb": "GIVES",
+     "what": "a servant girl each, chosen by the executors from all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "any slaves who are disorderly or difficult to manage",
+     "condition": "at the executors' discretion"
+    }
+   ],
+   "notes": "No enslaved person is named. The will says 'given' to the wife for her widowhood; recorded as lent.",
+   "orig": "I Charles Taylor...wife Virginia Anne my estate called Oaken Brow (on which I now reside) and all the slaves, horses, stock of every description, carriages, agricultural implements and goods used upon said estate...as long as she remains a widow...son Charles Ogle at the death or marriage of his mother my Oaken Brow estate with all the slaves, stock...also as soon as the Brick Quarter estate is sold, as herein directed, all the slaves and other personal property on that plantation...each of my daughters a servant girl to be selected by my executors from all my slaves...I authorize my executors to sell any of my slaves that may be disorderly or difficult to manage...11 January 1847. (signed). 2 December 1847.",
+   "key": [
+    "KG4",
+    "pp.5-10",
+    "Charles Taylor"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.5-10"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.11-16",
+   "auto_testator": "Younger Johnson",
+   "testator": "Younger Johnson",
+   "date": "2 November 1747 [sic, probably 1847]; proved 2 December 1847",
+   "recipients": [
+    "Amanda Fitzhugh (daughter)"
+   ],
+   "enslaved": [
+    "Tom",
+    "Anthony",
+    "Magnus",
+    "Millford",
+    "Charlott"
+   ],
+   "bequests": [
+    {
+     "recipient": "Amanda Fitzhugh (daughter)",
+     "verb": "GIVES",
+     "what": "tract of land he lives on, furniture, carriage and horses, mules, cattle, plantation utensils, and slaves Tom, Anthony, Magnus, Millford and Charlott",
+     "condition": "held for her use"
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "all the rest of his estate, including the remaining slaves",
+     "condition": "families kept together where possible; slaves allowed to choose their masters unless that causes great loss"
+    }
+   ],
+   "notes": "Written date reads 1747 in the abstract, almost certainly 1847. Caroline, sold by his executors, appears in William Greenlaw's will (pp.50-2).",
+   "orig": "I Younger Johnson...give the following property: the tract of land on which I now reside...household furniture, pair of carriage horses, the carriage and harness, two of my best mules, six cows, one yoke of oxen, one ox cart, my small horse-waggon and gear for two horses, and such of my plantation utensils and stock of sheep and hogs on the farm sufficient for such a farm; also the following slaves Tom, Anthony, Magnus, Millford and Charlott all of which property...for the use of my daughter Amanda Fitzhugh...executors to sell all the rest of my estate...in making sale of my slaves my executors shall, as far as possible, keep families together; and that the slaves shall be permitted to select their masters, unless such indulgence shall in the opinion of my executors be the occasion of great sacrifices...2 November 1747. (signed). 2 December 1847.",
+   "key": [
+    "KG4",
+    "pp.11-16",
+    "Younger Johnson"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.11-16"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.19",
+   "auto_testator": "Laurence Ashton",
+   "testator": "Laurence Ashton",
+   "date": "22 October 1843; proved 2 March 1848",
+   "recipients": [
+    "Mary (servant, enslaved)",
+    "Caroline (servant, enslaved)",
+    "Horace Ashton (nephew)"
+   ],
+   "enslaved": [
+    "Mary",
+    "Caroline"
+   ],
+   "bequests": [
+    {
+     "recipient": "Mary (servant, enslaved)",
+     "verb": "GIVES",
+     "what": "twenty dollars a year",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "Caroline (servant, enslaved)",
+     "verb": "GIVES",
+     "what": "twenty dollars a year",
+     "condition": ""
+    },
+    {
+     "recipient": "Horace Ashton (nephew)",
+     "verb": "GIVES",
+     "what": "the residue of his estate",
+     "condition": ""
+    }
+   ],
+   "notes": "Mary and Caroline are called 'my servant', which in these wills usually means enslaved.",
+   "orig": "I Laurence Ashton...executors pay to my servant Mary during her life the annual sum of twenty dollars...to my servant Caroline the sum of twenty dollars annually...residue of my estate to my nephew Horace Ashton...22 October 1843. (signed). 2 March 1848.",
+   "key": [
+    "KG4",
+    "p.19",
+    "Laurence Ashton"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.19"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.21-4",
+   "auto_testator": "Hezekiah Potts",
+   "testator": "Hezekiah Potts",
+   "date": "16 July 1846; codicil 11 March 1847; proved 6 April 1848",
+   "recipients": [
+    "~wife (unnamed)",
+    "Ann (daughter)",
+    "Fanny (daughter)",
+    "Sarah Buckner (daughter)",
+    "Julia (daughter)"
+   ],
+   "enslaved": [
+    "Mary",
+    "Sophia",
+    "Rose",
+    "Winny Ann",
+    "Lettie",
+    "Big Henry",
+    "Emma",
+    "Susan",
+    "Margaret",
+    "Beverly Roy"
+   ],
+   "bequests": [
+    {
+     "recipient": "wife (unnamed)",
+     "verb": "GIVES",
+     "what": "the tract of land he lives on and one third in value of all his slaves, chosen as she wishes where practicable",
+     "condition": ""
+    },
+    {
+     "recipient": "Ann (daughter)",
+     "verb": "GIVES",
+     "what": "Negro girl Mary, daughter of Sophia, and her increase",
+     "condition": "replaced in the codicil"
+    },
+    {
+     "recipient": "Fanny (daughter)",
+     "verb": "GIVES",
+     "what": "Negro girl Rose, daughter of Sophia",
+     "condition": "for her use; replaced in the codicil"
+    },
+    {
+     "recipient": "Sarah Buckner (daughter)",
+     "verb": "GIVES",
+     "what": "Negro girl Winny Ann, daughter of Lettie",
+     "condition": "for her use; replaced in the codicil"
+    },
+    {
+     "recipient": "Julia (daughter)",
+     "verb": "GIVES",
+     "what": "a boy called Big Henry and a girl called Emma, daughter of Susan",
+     "condition": "for her use; Big Henry later sold"
+    },
+    {
+     "recipient": "Ann (daughter)",
+     "verb": "GIVES",
+     "what": "first choice of three Negro girls Rose, Margaret and Winney Ann",
+     "condition": "codicil, to replace slaves already disposed of"
+    },
+    {
+     "recipient": "Fanny (daughter)",
+     "verb": "GIVES",
+     "what": "second choice of Rose, Margaret and Winney Ann",
+     "condition": "codicil"
+    },
+    {
+     "recipient": "Sarah Buckner (daughter)",
+     "verb": "GIVES",
+     "what": "third choice of Rose, Margaret and Winney Ann",
+     "condition": "codicil"
+    },
+    {
+     "recipient": "Julia (daughter)",
+     "verb": "GIVES",
+     "what": "Negro man or boy called Beverly Roy, in place of Big Henry, who was sold",
+     "condition": "codicil"
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "as many slaves as needed; the balance of the slaves hired out",
+     "condition": ""
+    }
+   ],
+   "notes": "Daughter Sarah is called Sarah Buckner in the codicil. Winny Ann (will) and Winney Ann (codicil) are taken to be the same girl.",
+   "orig": "I Hezekiah Potts...wife the tract of land on which I now reside and one third in value of all the negors I may own. In allotting said slaves to my wife I desire that her wishes shall be regarded as far as practicable, excluding from such selection those slaves hereinafter specifically devised...the following slaves and their future increase to my daughter Ann: negro girl Mary, daughter of Sophia. For the use of my daughter Fanny: negro girl Rose, daughter of Sophia. For the use of my daughter Sarah: negro girl Winny Ann, daughter of Lettie and for the use of my daughter Julia a boy called Big Henry and a girl called Emma, daughter of Susan...my executors shall sell as many slaves as may be necessary...balance of my slaves...executors hire out...16 July 1846. (signed). Codicil: Having disposed of some of the negrors I gave my daughters in the above will, I make the following disposition to supply their places. I give to my daughters Ann, Fanny & Sarah Buckner three negro girls Rose, Margaret and Winney Ann, my daughter Ann to have first, Fanny second and Sarah Buckner third choice...youngest daughter Julia one negro man or boy called Beverly Roy to supply the place of Big Henry sold...11 March 1847 (signed). 6 April 1848.",
+   "key": [
+    "KG4",
+    "pp.21-4",
+    "Hezekiah Potts"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.21-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.27",
+   "auto_testator": "Benjamin Elkins",
+   "testator": "Benjamin Elkins",
+   "date": "20 September 1847; proved 7 December 1848",
+   "recipients": [
+    "Nathaniel (son)",
+    "Margaret (daughter)"
+   ],
+   "enslaved": [
+    "George"
+   ],
+   "bequests": [
+    {
+     "recipient": "Nathaniel (son)",
+     "verb": "GIVES",
+     "what": "the plantation he lives on, with Negro boy George",
+     "condition": "at his wife's death"
+    },
+    {
+     "recipient": "Margaret (daughter)",
+     "verb": "GIVES",
+     "what": "his Negro girl (name not given) and her future increase",
+     "condition": "at his wife's death"
+    }
+   ],
+   "notes": "Wife mentioned but not named. Margaret's girl is probably Ann, whom Margaret B. Elkins (p.42) says came to her by her father's will.",
+   "orig": "I Benjamin Elkins...at the death of my wife...the plantation on which I reside to my son Nathaniel together with my negro boy George, my negro girl and her future increase to my daughter Margaret...20 September 1847. (signed). 7 December 1848.",
+   "key": [
+    "KG4",
+    "p.27",
+    "Benjamin Elkins"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.27"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.32-3",
+   "auto_testator": "Stephen Wilkerson",
+   "testator": "Stephen Wilkerson",
+   "date": "3 March 1849; codicil 3 March 1849; proved 1 November 1849",
+   "recipients": [
+    "Joseph Fletcher Jones (nephew, son of Stephen Jones)",
+    "Stephen Jones (nephew)",
+    "Addison (servant, enslaved)"
+   ],
+   "enslaved": [
+    "Addison"
+   ],
+   "bequests": [
+    {
+     "recipient": "Joseph Fletcher Jones (nephew, son of Stephen Jones)",
+     "verb": "GIVES",
+     "what": "all his land, 175 acres, except fifteen acres",
+     "condition": ""
+    },
+    {
+     "recipient": "Stephen Jones (nephew)",
+     "verb": "GIVES",
+     "what": "fifteen acres, in trust for his servant Addison for his faithful service",
+     "condition": ""
+    },
+    {
+     "recipient": "Stephen Jones (nephew)",
+     "verb": "GIVES",
+     "what": "his servant Addison",
+     "condition": "to be treated with humanity and given every privilege the law allows; not to be made to leave the county without his consent"
+    },
+    {
+     "recipient": "Addison (servant, enslaved)",
+     "verb": "GIVES",
+     "what": "timber to build a house, a year's corn and meat, two hogs, a bed, a cart and oxen, a milch cow and plowing utensils",
+     "condition": ""
+    },
+    {
+     "recipient": "Addison (servant, enslaved)",
+     "verb": "FREED",
+     "what": "choice to go to Liberia or anywhere he can enjoy his freedom",
+     "condition": "codicil: if Stephen Jones dies before Addison"
+    }
+   ],
+   "notes": "Signed with his mark.",
+   "orig": "I Stephen Wilkerson...nephew Joseph Fletcher Jones, son of Stephen Jones, all my land...175 acres except fifteen acres to my nephew Stephen Jones in trust for my servant Addison on account of his faithful services to me...nephew Stephen my servant Addison with a particular request that he be treated with humanity and allowed all the advantages and privileges which the laws of our state will allow...he shall not be compelled to leave the county without his consent. As much timber be taken from any part of my land as will be necessary to build a suitable house for my servant Addison to live in, and that he be furnished with one years allowance of corn and meat, two hogs, also one bed...a cart and oxen, one milch cow and all the plowing utensils...3 March 1849. (his mark). Codicil: In case my nephew Stephen Jones should die before my servant Addison...have his choice to go to Liberia or any other place where he can enjoy his freedom should he not choose to remain in this state...3 March 1849. (his mark). 1 November 1849.",
+   "key": [
+    "KG4",
+    "pp.32-3",
+    "Stephen Wilkerson"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.32-3"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.35",
+   "auto_testator": "Charles Henry Ashton Sr",
+   "testator": "Charles Henry Ashton Sr",
+   "date": "2 June 1846; proved 1 November 1849",
+   "recipients": [
+    "Charles H. Ashton Jnr (son, by Drusilla Johnson)",
+    "Elizabeth Jackson Ashton (granddaughter, daughter of Charles H. Ashton Jnr)",
+    "John Thomas Ashton (son, by Julia Ann Micon)"
+   ],
+   "enslaved": [
+    "Frances",
+    "John"
+   ],
+   "bequests": [
+    {
+     "recipient": "Charles H. Ashton Jnr (son, by Drusilla Johnson)",
+     "verb": "GIVES",
+     "what": "all his land in King George, the personal property on it, and all his slaves except Frances and John",
+     "condition": ""
+    },
+    {
+     "recipient": "Elizabeth Jackson Ashton (granddaughter, daughter of Charles H. Ashton Jnr)",
+     "verb": "GIVES",
+     "what": "a Negro girl called Frances",
+     "condition": ""
+    },
+    {
+     "recipient": "John Thomas Ashton (son, by Julia Ann Micon)",
+     "verb": "GIVES",
+     "what": "all his land in Fairfax County and a Negro boy called John",
+     "condition": ""
+    }
+   ],
+   "notes": "Names two mothers of his sons: Drusilla Johnson and Julia Ann Micon (not recipients).",
+   "orig": "I Charles Henry Ashton Sr...to Charles H. Ashton Jnr my son by Drusilla Johnson all the land which I hold in King George and the personal property on said land and all my slaves, except the two slaves hereinafter mentioned...Elizabeth Jackson Ashton daughter of my said son Chas a negro girl called Frances...to John Thomas Ashton my son by Julia Ann Micon all my land in the county of Fairfax and a negro boy called John...2 June 1846. (signed). 1 November 1849.",
+   "key": [
+    "KG4",
+    "p.35",
+    "Charles Henry Ashton Sr"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.35"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.39",
+   "auto_testator": "William F. Grymes",
+   "testator": "William F. Grymes",
+   "date": "30 July 1848; proved 7 April 1850",
+   "recipients": [
+    "Thomas J. (brother)",
+    "Roberta Washington (niece)"
+   ],
+   "enslaved": [
+    "Julia",
+    "Henriette"
+   ],
+   "bequests": [
+    {
+     "recipient": "Thomas J. (brother)",
+     "verb": "GIVES",
+     "what": "tract called Eagles Nest and the residue of his property, except Julia",
+     "condition": ""
+    },
+    {
+     "recipient": "Roberta Washington (niece)",
+     "verb": "GIVES",
+     "what": "Negro girl Julia, Henriette's daughter",
+     "condition": ""
+    }
+   ],
+   "notes": "",
+   "orig": "I William F. Grymes...brother Thomas J. my tract of land called Eagles Nest together with the residue of my property of every description except one negroe girl named Julia, Henriette's daughter, who I give to my niece Roberta Washington...30 July 1848. (signed). 7 April 1850.",
+   "key": [
+    "KG4",
+    "p.39",
+    "William F. Grymes"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.39"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.42",
+   "auto_testator": "Margaret B. Elkins",
+   "testator": "Margaret B. Elkins",
+   "date": "22 December 1849; proved 1 August 1850",
+   "recipients": [
+    "Nathaniel Elkins (brother)"
+   ],
+   "enslaved": [
+    "Ann"
+   ],
+   "bequests": [
+    {
+     "recipient": "Nathaniel Elkins (brother)",
+     "verb": "GIVES",
+     "what": "Negro girl Ann and her future increase, left to her by her father's will",
+     "condition": ""
+    }
+   ],
+   "notes": "Her father is probably Benjamin Elkins (p.27).",
+   "orig": "I Margaret B. Elkins...give my negro girl Ann and her future increase devised to my by the will of my father...to my brother Nathaniel Elkins...22 December 1849. (signed). 1 August 1850.",
+   "key": [
+    "KG4",
+    "p.42",
+    "Margaret B. Elkins"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.42"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.43-5",
+   "auto_testator": "Addison Hanford",
+   "testator": "Addison Hanford",
+   "date": "25 January 1842; proved 3 October 1850",
+   "recipients": [
+    "Stephen (son)",
+    "Addison (son)",
+    "~wife and daughters (unnamed)"
+   ],
+   "enslaved": [
+    "Daniel",
+    "Milly"
+   ],
+   "bequests": [
+    {
+     "recipient": "Stephen (son)",
+     "verb": "GIVES",
+     "what": "the slave Daniel and his wife Milly, with all Milly's present and future children",
+     "condition": ""
+    },
+    {
+     "recipient": "Addison (son)",
+     "verb": "GIVES",
+     "what": "slaves equal in value and number to Stephen's",
+     "condition": ""
+    },
+    {
+     "recipient": "wife and daughters (unnamed)",
+     "verb": "LENDS",
+     "what": "residence Green Height with stock, furniture, utensils, carriage and the slaves not otherwise left, kept together for their support",
+     "condition": ""
+    },
+    {
+     "recipient": "wife and daughters (unnamed)",
+     "verb": "GIVES",
+     "what": "a married daughter's share, from the slaves, the place called Midway, his Stafford lands or other property",
+     "condition": "if a daughter marries"
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "any slaves who prove refractory or disobedient, to be replaced with others",
+     "condition": ""
+    }
+   ],
+   "notes": "",
+   "orig": "I Addison Hanford...son Stephen the slave called Daniel and his wife Milly with all the children of the said Milly and those he may hereafter have...son Addison slaves in value and number equal to said bequest to Stephen...my residence called Green Height with all the stock, furniture, plantation utensils, riding carriage &c thereunto belonging, together with my slaves not otherwise devised, be kept together for the support of my wife & daughters...should any of my daughters marry then any property, equal to their share, may be allotted to them from the slaves, the place called Midway, my lands in Stafford or any other property I may leave. Should any of my slaves prove refractory or disobedient it is my will that they be sold and their places supplied with others...25 January 1842. (signed). 3 October 1850.",
+   "key": [
+    "KG4",
+    "pp.43-5",
+    "Addison Hanford"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.43-5"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.46",
+   "auto_testator": "Sarah A. Broocke",
+   "testator": "Sarah A. Broocke",
+   "date": "9 February 1850; proved 3 October 1850",
+   "recipients": [
+    "Winter B. Broocke (husband)"
+   ],
+   "enslaved": [
+    "Horace",
+    "John",
+    "Reuben",
+    "George",
+    "Jane"
+   ],
+   "bequests": [
+    {
+     "recipient": "Winter B. Broocke (husband)",
+     "verb": "GIVES",
+     "what": "all her real estate, 125 acres",
+     "condition": ""
+    },
+    {
+     "recipient": "Winter B. Broocke (husband)",
+     "verb": "GIVES",
+     "what": "all her personal estate: Negro men Horace, John, Reuben and George, woman Jane and four children",
+     "condition": ""
+    }
+   ],
+   "notes": "Jane's four children are not named.",
+   "orig": "I Sarah A. Broocke...husband Winter B. Broocke all my real estate...125 acres...all my personal estate consisting of the following negroes: Horace, John, Reuben & George (four men), woman Jane and four children...9 February 1850. (signed). 3 October 1850.",
+   "key": [
+    "KG4",
+    "p.46",
+    "Sarah A. Broocke"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.46"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.50-2",
+   "auto_testator": "William Greenlaw",
+   "testator": "William Greenlaw",
+   "date": "15 June 1851; proved 4 September 1851",
+   "recipients": [
+    "~children (unnamed)",
+    "~daughters (unnamed)",
+    "Hunter (son)"
+   ],
+   "enslaved": [
+    "Caroline"
+   ],
+   "bequests": [
+    {
+     "recipient": "children (unnamed)",
+     "verb": "GIVES",
+     "what": "residue of the estate, divided as equally as possible",
+     "condition": ""
+    },
+    {
+     "recipient": "daughters (unnamed)",
+     "verb": "GIVES",
+     "what": "each the maid servant she has already chosen",
+     "condition": ""
+    },
+    {
+     "recipient": "Hunter (son)",
+     "verb": "GIVES",
+     "what": "Negro woman Caroline, bought from the executors of Younger Johnson",
+     "condition": "in addition to his share"
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "his disorderly slaves",
+     "condition": ""
+    }
+   ],
+   "notes": "Caroline came from the estate of Younger Johnson (pp.11-16).",
+   "orig": "I William Greenlaw...debts to be paid out of money...Executors sell a portion of my personal or real estate...residue to my children to be divided as equally as possible...to each of my surviving daughters the maid servant which has been selected by each of them...to my son Hunter in addition to his portion, my negro woman Caroline whom I purchased of the Executors of Younger Johnson decd...I authorize my Executors to sell my disorderly slaves...15 June 1851. (signed). 4 September 1851.",
+   "key": [
+    "KG4",
+    "pp.50-2",
+    "William Greenlaw"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.50-2"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.54",
+   "auto_testator": "Gustavus Adol Fitzhugh",
+   "testator": "Gustavus Adol Fitzhugh",
+   "date": "29 July 1851; proved 2 October 1851",
+   "recipients": [
+    "Johnson Fitzhugh (brother)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Johnson Fitzhugh (brother)",
+     "verb": "GIVES",
+     "what": "all his property, including his servants",
+     "condition": "not to sell the servants if it can possibly be avoided"
+    }
+   ],
+   "notes": "No enslaved person is named.",
+   "orig": "I Gustavus Adol Fitzhugh...all my property may go to my brother Johnson Fitzhugh. It is my will that my Brother Johnson not sell my servants if it can by any possibility be avoided... 29 July 1851. (signed). 2 October 1851.",
+   "key": [
+    "KG4",
+    "p.54",
+    "Gustavus Adol Fitzhugh"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.54"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.55-6",
+   "auto_testator": "Thomas James",
+   "testator": "Thomas James",
+   "date": "20 April 1850; proved 6 November 1851",
+   "recipients": [
+    "Ann (wife)",
+    "Mary Jane Dishman (daughter)"
+   ],
+   "enslaved": [
+    "Rachel",
+    "John",
+    "Patty",
+    "Davy",
+    "Rhody",
+    "Charlotte",
+    "Sarah",
+    "Matilda",
+    "Mary"
+   ],
+   "bequests": [
+    {
+     "recipient": "Ann (wife)",
+     "verb": "LENDS",
+     "what": "the farm he lives on, on the Rappahannock, with slaves Rachel and her family, John and Patty, furniture, stock and utensils",
+     "condition": "for her life"
+    },
+    {
+     "recipient": "Mary Jane Dishman (daughter)",
+     "verb": "GIVES",
+     "what": "the farm he formerly lived on (from Chas Hidgdon), 150 acres recently bought, and slaves Davy, Rhody, Charlotte, Sarah, Matilda and Mary",
+     "condition": ""
+    }
+   ],
+   "notes": "Rachel's family is not named.",
+   "orig": "I Thomas James...my beloved wife Ann during the term of her natural life the Farm on which I reside on the Rapph & the following slaves: Rachel, & her family, John & Patty, Household & Kitchen furniture, stock of every kind & farming utensils...daughter Mary Jane Dishman the farm I formerly lived on given to me by Chas Hidgdon & 150 acres recently purchased & the following slaves: Davy, Rhody, Charlotte, Sarah, Matilda & Mary...20 April 1850. (signed). 6 November 1851.",
+   "key": [
+    "KG4",
+    "pp.55-6",
+    "Thomas James"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.55-6"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.57-61",
+   "auto_testator": "James Lee Senr",
+   "testator": "James Lee Senr",
+   "date": "n.d.; proved 6 November 1851",
+   "recipients": [
+    "Mary (wife)"
+   ],
+   "enslaved": [
+    "Anthony"
+   ],
+   "bequests": [
+    {
+     "recipient": "Mary (wife)",
+     "verb": "LENDS",
+     "what": "use of his lands, houses, furniture, crops and stock, and the use of Negro boy Anthony",
+     "condition": ""
+    }
+   ],
+   "notes": "Signed with his mark. The abstract is cut before any later bequests.",
+   "orig": "I James Lee Senr...beloved wife Mary the exclusive use of my lands, houses and tenements and all of my household and kitchen furniture and all of my crops, also all my stock of Horses, Oxen, Cows and Calves and Hogs of every species...use and benefit of my negro boy Anthony...(his mark). Proved November 6, 1851.",
+   "key": [
+    "KG4",
+    "pp.57-61",
+    "James Lee Senr"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.57-61"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.62-4",
+   "auto_testator": "St Leger Landen Carter",
+   "testator": "St Leger Landen Carter",
+   "date": "30 March 1850; codicils 22 July 1850 and 17 July 1851; proved 5 February 1852",
+   "recipients": [
+    "Henry Clarke (freed)",
+    "Betty Reed (freed)",
+    "Andrew (freed, son of Jenny Terry)",
+    "Moses (freed, son of Jenny Terry)",
+    "Johnson (freed, son of Jenny Terry)",
+    "Charles (freed, son of Jenny Terry)",
+    "Helen (freed, daughter of Jenny Terry)",
+    "Judy (freed, daughter of Patsey Tebbs)",
+    "Patsy (freed, daughter of Patsey Tebbs)",
+    "Patsey Tebbs (freed)",
+    "Jenny Terry (freed)"
+   ],
+   "enslaved": [
+    "Harry Clarke",
+    "Betty Reed",
+    "Jenny Terry",
+    "Andrew",
+    "Moses",
+    "Johnson",
+    "Charles",
+    "Helen",
+    "Lee",
+    "Barbara",
+    "Patsey Tebbs",
+    "Judy",
+    "Kitty",
+    "William",
+    "Rachel",
+    "Amanda",
+    "Patsy",
+    "Harriett"
+   ],
+   "bequests": [
+    {
+     "recipient": "Henry Clarke (freed)",
+     "verb": "FREED",
+     "what": "freedom for Harry, commonly called Harry Clarke, living in Philadelphia but still enslaved",
+     "condition": ""
+    },
+    {
+     "recipient": "Betty Reed (freed)",
+     "verb": "FREED",
+     "what": "freedom; living in Philadelphia but still enslaved",
+     "condition": ""
+    },
+    {
+     "recipient": "Jenny Terry (freed)",
+     "verb": "FREED",
+     "what": "freedom for Jenny Terry and her children Andrew, Moses, Johnson, Charles, Helen, Lee and Barbara",
+     "condition": ""
+    },
+    {
+     "recipient": "Patsey Tebbs (freed)",
+     "verb": "FREED",
+     "what": "freedom for his dining room servant Patsey Tebbs and her children Judy, Kitty, William, Rachel, Amanda and Patsy",
+     "condition": ""
+    },
+    {
+     "recipient": "Harriett",
+     "verb": "FREED",
+     "what": "freedom for Harriett, a mulatto girl, sister to Henry Clarke",
+     "condition": ""
+    },
+    {
+     "recipient": "Henry Clarke (freed)",
+     "verb": "GIVES",
+     "what": "$1000, and a share of the proceeds of about 40 to 50 acres sold at auction",
+     "condition": "on removal from the state; plus $500 and $225 by the first codicil (later paid and revoked)"
+    },
+    {
+     "recipient": "Betty Reed (freed)",
+     "verb": "GIVES",
+     "what": "$1000 (less $200 already advanced) and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Andrew (freed, son of Jenny Terry)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Moses (freed, son of Jenny Terry)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Johnson (freed, son of Jenny Terry)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Charles (freed, son of Jenny Terry)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Helen (freed, daughter of Jenny Terry)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Judy (freed, daughter of Patsey Tebbs)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds",
+     "condition": ""
+    },
+    {
+     "recipient": "Patsy (freed, daughter of Patsey Tebbs)",
+     "verb": "GIVES",
+     "what": "$1000 and a share of the land sale proceeds; raised to $1200 by the second codicil",
+     "condition": ""
+    },
+    {
+     "recipient": "Patsey Tebbs (freed)",
+     "verb": "GIVES",
+     "what": "$200",
+     "condition": "on removal from the state"
+    },
+    {
+     "recipient": "Jenny Terry (freed)",
+     "verb": "GIVES",
+     "what": "$200",
+     "condition": "on removal from the state"
+    }
+   ],
+   "notes": "Freed people are not to be sent to Liberia or out of the United States without consent; executor to move them to Pennsylvania or another state they prefer. Harry Clarke is also written Henry Clarke. 'Jenny, Terry and her children' is read as Jenny Terry, as the money clauses name her that way.",
+   "orig": "I St Leger Landen Carter...liberate and set free Harry, commonly called Harry Clarke, and Betty Reed both residing at this time in Philadelphia, but still slaves, not having been emancipated though removed to that City...liberate also & set free the following slaves: Jenny, Terry and her children, Andrew, Moses, Johnson, Charles, Helen, Lee and Barbara and my dining room servant Patsey Tebbs and her children Judy, Kitty, William, Rachel, Amanda, and Patsy and lastly Harriett, a mulatto girl, sister to Henry Clarke...to the above named Henry Clarke, Betty Reed, Andrew, Moses, Johnson, Charles & Helen children of Jenny Terry and to Judy & Patsy, daughters of Patsey Tebbs one thousand dollars each...likewise to Patsy Tebbs & Jenny Terry two hundred dollars each to be paid to the several parties at the time of their removal from the State and to such of them as are already removed. I direct that the above named liberated slaves shall under no pretext whatever be removed to Liberia or any other place beyond the United States without their consent. My executor must remove them to Pennsylvania where Henry, Betty, Judy & Harriett are now living or to some other state if they prefer it...executor to sell at public auction the small parcel of some forty or fifty acres...and to divide the proceeds of sale equally between the above named Henry, Betty, Judy & her sisters Patsey, Andrew, Moses, Johnson, Charles & Helen in addition to the monies I have ordered paid to each...30 March 1850. (signed). Codicil: having engaged to pay to Henry Clarke $500 on the 1 October 1850 and three months thereafter $225, I hereby subject my Estate to the payment of these sums over and above what I have left in the body of my will...22 July 1850. Codicil: 17 July 1851. Having now at this date paid the several sums in Codicil first, I revoke sd Codicil and having advanced to Betty Reed $200 of her portion, that sum must be deducted from her portion of the $1000 and I hereby direct that my Executor pay sd $200 to Patsy the daughter of Patsy Tebbs so as to increase her portion to $1200...(signed). 5 February 1852.",
+   "key": [
+    "KG4",
+    "pp.62-4",
+    "St Leger Landen Carter"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.62-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.67-8",
+   "auto_testator": "Lewis Cross",
+   "testator": "Lewis Cross",
+   "date": "20 September 1849; proved 3 February 1852",
+   "recipients": [
+    "Elizabeth Cross (sister)"
+   ],
+   "enslaved": [
+    "Thornton",
+    "Gusty",
+    "Kitty",
+    "Mariah",
+    "Hannah",
+    "William",
+    "Henry",
+    "Mary",
+    "Tulip",
+    "Barbary",
+    "Alfred",
+    "Anne",
+    "James",
+    "Cornelius",
+    "Sidney",
+    "Adison"
+   ],
+   "bequests": [
+    {
+     "recipient": "Thornton",
+     "verb": "FREED",
+     "what": "freedom at his death for Thornton, Gusty, Kitty, Mariah, Hannah, William, Henry, Mary, Tulip, Barbary, Alfred, Anne, James, Cornelius, Sidney and Adison, and the future increase of the females",
+     "condition": ""
+    },
+    {
+     "recipient": "Thornton",
+     "verb": "HIRED",
+     "what": "those able to work hired out for two years; the hire (made up to $500) used for their benefit, to settle them in Liberia or buy land for them in a free state; balance divided among them",
+     "condition": ""
+    },
+    {
+     "recipient": "Elizabeth Cross (sister)",
+     "verb": "GIVES",
+     "what": "the residue of his property",
+     "condition": ""
+    }
+   ],
+   "notes": "'Thornton Gusty Kitty Mariah' has no commas in the abstract and is read as four people. The executor refused to serve; Elizabeth Cross gave bond of $10,000. Second date 4 March 1852 also recorded.",
+   "orig": "I Lewis Cross...all my negroes: Thornton Gusty Kitty Mariah, Hannah, William, Henry, Mary, Tulip, Barbary, Alfred, Anne, James, Cornelius, Sidney & Adison with their future increase of the females be emancipated or set free at my death and that my Exors hire out such of them as may be in a state to be hired for two years & that the amount accumulated therefrom be appropriated to their benefit in the way herein after mentioned: if the hires in the two years amount not to $500 the balance to be raised out of the sale of some of my other property. Should the said negroes consent to be sent to Liberia or any other Colony in Africa, my Exors see them safely delivd on board of the vessel provided for their transportation. Or if the said negroes prefer being located in any of the free States in this Country, go with them and purchase for them a quantity of land sufficient to give them a comfortable & permanent home...the balance of the $500 to be divided amongst the said negroes...residue of my property to my sister Elizabeth Cross...20 September 1849. (signed). 3 February 1852. 4 March 1852. Executor refused to take upon himself the burthen of the execution...Elizabeth Cross entered into bond of $10,000.",
+   "key": [
+    "KG4",
+    "pp.67-8",
+    "Lewis Cross"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.67-8"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.73",
+   "auto_testator": "Martha Rollins",
+   "testator": "Martha Rollins",
+   "date": "6 August 1852; proved 7 October 1852",
+   "recipients": [
+    "~three nephews, sons of her brother James F. Rollins (unnamed)",
+    "Ann Cleft (sister)"
+   ],
+   "enslaved": [
+    "Ellen",
+    "Caroline",
+    "Frank"
+   ],
+   "bequests": [
+    {
+     "recipient": "three nephews, sons of her brother James F. Rollins (unnamed)",
+     "verb": "GIVES",
+     "what": "her interest in the land inherited from her father's estate",
+     "condition": ""
+    },
+    {
+     "recipient": "Ann Cleft (sister)",
+     "verb": "GIVES",
+     "what": "her interest in Negro girl Ellen, her woman Caroline and Caroline's child Frank, and the balance of her estate",
+     "condition": ""
+    }
+   ],
+   "notes": "Signed with her mark. The abstract runs the clauses together; Ann Cleft is read as receiving Ellen, Caroline, Frank and the balance.",
+   "orig": "I Martha Rollins...my three nephews sons of my brother James F. Rollins, decd, my interest in the land which I heired from my father's estate sister Ann Cleft my interest in a negro girl named Ellen also my woman Caroline and her child Frank also the balance of my estate...6 August 1852. (her mark). 7 October 1852.",
+   "key": [
+    "KG4",
+    "p.73",
+    "Martha Rollins"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.73"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.75-6",
+   "auto_testator": "William J. Dishman",
+   "testator": "William J. Dishman",
+   "date": "7 November 1845; proved 4 November 1852",
+   "recipients": [
+    "Elizabeth (wife)",
+    "~her six children (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Elizabeth (wife)",
+     "verb": "LENDS",
+     "what": "the estate, kept together and cultivated, shared with her six children",
+     "condition": ""
+    }
+   ],
+   "notes": "",
+   "orig": "I William J. Dishman...Executors keep my estate together and have it cultivated for the mutual benefit of my wife Elizabeth and her six children...7 November 1845. (signed). 4 November 1852.",
+   "key": [
+    "KG4",
+    "pp.75-6",
+    "William J. Dishman"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.75-6"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.79-81",
+   "auto_testator": "Susan Fawke",
+   "testator": "Susan Fawke",
+   "date": "19 March 1853; proved 7 April 1853",
+   "recipients": [
+    "William J. Chiles (nephew)",
+    "Virgin (enslaved)",
+    "Maria (enslaved)",
+    "Solomon (enslaved)",
+    "William (enslaved)",
+    "Mason (enslaved, 'old Mason')",
+    "Sarah Virginia (enslaved, daughter of Maria)",
+    "~all her servants (unnamed)"
+   ],
+   "enslaved": [
+    "Solomon",
+    "William",
+    "Virgin",
+    "Maria",
+    "Sarah Virginia",
+    "Mason"
+   ],
+   "bequests": [
+    {
+     "recipient": "William J. Chiles (nephew)",
+     "verb": "GIVES",
+     "what": "all her slaves: Solomon, William, Virgin, Maria and her child Sarah Virginia",
+     "condition": "expecting him to let them enjoy their freedom as far as the law allows"
+    },
+    {
+     "recipient": "William J. Chiles (nephew)",
+     "verb": "GIVES",
+     "what": "about 80 acres she lives on, in trust for her slaves",
+     "condition": "if they must leave the state, the land is sold and the proceeds divided among them"
+    },
+    {
+     "recipient": "Virgin (enslaved)",
+     "verb": "GIVES",
+     "what": "$130 for her wants, through William J. Chiles; a bed, bedstead and furniture, her eating table and a cow",
+     "condition": ""
+    },
+    {
+     "recipient": "Maria (enslaved)",
+     "verb": "GIVES",
+     "what": "$70 for her use",
+     "condition": ""
+    },
+    {
+     "recipient": "Solomon (enslaved)",
+     "verb": "GIVES",
+     "what": "$70 for his use",
+     "condition": ""
+    },
+    {
+     "recipient": "William (enslaved)",
+     "verb": "GIVES",
+     "what": "$70 for his use",
+     "condition": ""
+    },
+    {
+     "recipient": "Mason (enslaved, 'old Mason')",
+     "verb": "GIVES",
+     "what": "$10",
+     "condition": ""
+    },
+    {
+     "recipient": "Virgin (enslaved)",
+     "verb": "GIVES",
+     "what": "a third share of the cellar and kitchen furniture, with William and Maria",
+     "condition": ""
+    },
+    {
+     "recipient": "William (enslaved)",
+     "verb": "GIVES",
+     "what": "a third share of the cellar and kitchen furniture",
+     "condition": ""
+    },
+    {
+     "recipient": "Maria (enslaved)",
+     "verb": "GIVES",
+     "what": "a third share of the cellar and kitchen furniture",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Virginia (enslaved, daughter of Maria)",
+     "verb": "GIVES",
+     "what": "$75",
+     "condition": ""
+    },
+    {
+     "recipient": "all her servants (unnamed)",
+     "verb": "GIVES",
+     "what": "the provisions on hand and the money left after legacies, divided equally",
+     "condition": ""
+    }
+   ],
+   "notes": "Maria is also written Mariah. 'Old Mason' is not in the list of slaves left to Chiles but is treated as one of her servants.",
+   "orig": "I Susan Fawke...all my slaves: Solomon, William, Virgin, Maria and her child Sarah Virginia, to my nephew William J. Chiles with the earnest expectation that he will permit them to enjoy their freedom as far as the laws of this state will permit. I devise the tract of land wherein I now reside containing about 80 acres to William J. Chiles, in truth for the benefit of my slaves...in the event any thing should compel the removal from this state of my said slaves...the land be sold and the proceeds equally divided among them...to William J. Chiles for the use of Virgin $130 as her wants may require...$70 for the use of Mariah...$70 for the use of Solomon...$70 for the use of William, $10 to old Mason...to Virgin the bed, bedstead and bed furniture up stairs and the table on which I usually take my meals and also a cow. To Virgin, William and Maria in equal parts all the cellar and kitchen furniture...to Sarah Virginia the daughter of Maria $75...the provisions on hand and also the money after the payment of the legacies mentioned be equally divided among all my servants...19 March 1853. (signed). 7 April 1853.",
+   "key": [
+    "KG4",
+    "pp.79-81",
+    "Susan Fawke"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.79-81"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.87",
+   "auto_testator": "Edwin S. Suttles",
+   "testator": "Edwin S. Suttles",
+   "date": "n.d.; proved 2 March 1854",
+   "recipients": [
+    "~wife (unnamed)",
+    "~mother (unnamed)",
+    "~child (unnamed)"
+   ],
+   "enslaved": [
+    "George",
+    "Sally"
+   ],
+   "bequests": [
+    {
+     "recipient": "wife (unnamed)",
+     "verb": "LENDS",
+     "what": "the farm and its operations, with his mother, if they agree to live together",
+     "condition": ""
+    },
+    {
+     "recipient": "George",
+     "verb": "HIRED",
+     "what": "Negroes George and Sally kept, not sold; hired out annually if wife and mother cannot agree",
+     "condition": "until his child turns 21"
+    }
+   ],
+   "notes": "The abstract is fragmentary.",
+   "orig": "I Edwin S. Suttles...any of my personal property not needed in carrying on my farming operations shall be sold and if necessary for either or both of my negroes George and Sally. If my wife and Mother can agree to reside together and carry on my farming operations. But if they cannot agree to do so...neither my land nor negroes shall be sold but the land shall be rented and the negro or negroes hired out annually until my child shall attain the age of twenty one...(signed). Proved 2 March 1854.",
+   "key": [
+    "KG4",
+    "p.87",
+    "Edwin S. Suttles"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.87"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.89-91",
+   "auto_testator": "Susan Arnold",
+   "testator": "Susan Arnold",
+   "date": "22 June 1854; proved 2 November 1854",
+   "recipients": [
+    "~children (unnamed)"
+   ],
+   "enslaved": [
+    "Lenn",
+    "Lucinda"
+   ],
+   "bequests": [
+    {
+     "recipient": "Lenn",
+     "verb": "HIRED",
+     "what": "her three servants Lenn, Lucinda and Lucinda's child, and Lucinda's future increase, hired out privately",
+     "condition": "until her youngest child turns 21, then sold"
+    }
+   ],
+   "notes": "Lucinda's child is not named.",
+   "orig": "I Susan Arnold...Executor hire out privately my three Servants Lenn & Lucinda & the child of the latter and the future increase of Lucinda until my youngest child attains the age of 21 years...until the sale of my said slaves...22 June 1854. (signed). 2 November 1854.",
+   "key": [
+    "KG4",
+    "pp.89-91",
+    "Susan Arnold"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.89-91"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.92-3",
+   "auto_testator": "John A. Edwards",
+   "testator": "John A. Edwards",
+   "date": "1 October 1832; proved 1 March 1853",
+   "recipients": [
+    "William B. (son)",
+    "John (son)",
+    "Joseph (son)",
+    "Lawrence (son)",
+    "Francis (son)",
+    "Betty (daughter)",
+    "~children of his deceased daughter Mary Jane Green (unnamed)"
+   ],
+   "enslaved": [
+    "Sharlotte"
+   ],
+   "bequests": [
+    {
+     "recipient": "William B. (son)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves, by valuation, with his brothers and sister Betty",
+     "condition": ""
+    },
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "Joseph (son)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "Lawrence (son)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "Francis (son)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "Betty (daughter)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    },
+    {
+     "recipient": "children of his deceased daughter Mary Jane Green (unnamed)",
+     "verb": "GIVES",
+     "what": "Sharlotte and all her children, and half of his stock sold for their benefit",
+     "condition": ""
+    }
+   ],
+   "notes": "",
+   "orig": "I John A. Edwards...sons William B., John, Joseph, Lawrence & Francis & my daughter Betty all my slaves whether in my possession or in the possession of them or either of them at my death to be equally divided amongst them according to valuation...the children of my decd daughter Mary Jane Green, Sharlotte & all her children and one half of all my stock of every kind to be sold for their benefit...1 October 1832. (signed). 1 March 1853.",
+   "key": [
+    "KG4",
+    "pp.92-3",
+    "John A. Edwards"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.92-3"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.94-6",
+   "auto_testator": "Jane Stuart Park",
+   "testator": "Jane Stuart Park",
+   "date": "14 July 1852; proved 6 October 1853",
+   "recipients": [
+    "Caroline (servant maid, freed)",
+    "James William Park (son of Caroline, freed)",
+    "Julia Calvert Stuart (cousin, daughter of Richard H. Stuart)"
+   ],
+   "enslaved": [
+    "Caroline",
+    "James William Park"
+   ],
+   "bequests": [
+    {
+     "recipient": "Caroline (servant maid, freed)",
+     "verb": "FREED",
+     "what": "freedom for Caroline and her child James William Park; executor to settle them outside Virginia where Caroline chooses",
+     "condition": ""
+    },
+    {
+     "recipient": "Caroline (servant maid, freed)",
+     "verb": "GIVES",
+     "what": "$100",
+     "condition": ""
+    },
+    {
+     "recipient": "James William Park (son of Caroline, freed)",
+     "verb": "GIVES",
+     "what": "$50 a year until he turns 21",
+     "condition": "if Caroline dies before then"
+    },
+    {
+     "recipient": "Julia Calvert Stuart (cousin, daughter of Richard H. Stuart)",
+     "verb": "GIVES",
+     "what": "all the rest of her estate",
+     "condition": ""
+    }
+   ],
+   "notes": "The son is called James William Park and later William Park.",
+   "orig": "I Jane Stuart Park...in consideration of the fidelity, affection and faithful services of my servant maid Caroline, I do hereby manumit and set free from slavery the said negro woman Caroline and her child called James William Park. As I know said slaves when liberated cannot remain in Virginia I request my executor see that they are carried out of the state and settled in such place either in the United States or elsewhere as Caroline may select...to my servant maid Caroline $100...should Caroline die before her son attains the age of twenty one years, then I give the said William Park the annual sum of $50 until he arrives to the age of twenty one...cousin Julia Calvert Stuart daughter of my cousin Richard H. Stuart all the rest of my estate...14 July 1852. (signed). 6 October 1853.",
+   "key": [
+    "KG4",
+    "pp.94-6",
+    "Jane Stuart Park"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.94-6"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.97-8",
+   "auto_testator": "Elizabeth Pemberton",
+   "testator": "Elizabeth Pemberton",
+   "date": "22 February 1855; proved 3 May 1855",
+   "recipients": [
+    "Elizabeth Pemberton (granddaughter)",
+    "~grandchildren (unnamed)"
+   ],
+   "enslaved": [
+    "Ann Lee",
+    "Letty",
+    "Celea Lee",
+    "Anthony",
+    "Judy",
+    "Eliza"
+   ],
+   "bequests": [
+    {
+     "recipient": "Elizabeth Pemberton (granddaughter)",
+     "verb": "GIVES",
+     "what": "her servant Ann Lee",
+     "condition": ""
+    },
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "Letty and Celea Lee, and her interest in Anthony, Judy and Eliza",
+     "condition": "proceeds divided equally among her grandchildren"
+    },
+    {
+     "recipient": "grandchildren (unnamed)",
+     "verb": "GIVES",
+     "what": "proceeds of the sale of Letty, Celea Lee and her interest in Anthony, Judy and Eliza, with her other personal estate, divided equally",
+     "condition": ""
+    }
+   ],
+   "notes": "Signed with her mark. 'Letty & Celea Lee' could be Letty Lee and Celea Lee.",
+   "orig": "I Elizabeth Pemberton...direct that my servant Ann Lee given to my granddaughter Elizabeth Pemberton...the balance of my slaves Letty & Celea Lee sold with any further interest I may have in the other slaves now subject to me: Anthony, Judy & Eliza and the proceeds equally divided with any other personal estate of mine between my grand children...22 February 1855. (her mark). 3 May 1855.",
+   "key": [
+    "KG4",
+    "pp.97-8",
+    "Elizabeth Pemberton"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.97-8"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.102-4",
+   "auto_testator": "John M. Carpenter",
+   "testator": "John M. Carpenter",
+   "date": "21 December 1852; proved 5 June 1856",
+   "recipients": [
+    "~children (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "children (unnamed)",
+     "verb": "GIVES",
+     "what": "his property divided in full equality of value",
+     "condition": ""
+    }
+   ],
+   "notes": "Debts to be paid from debts owed him before 'the negro property is troubled'. No enslaved person is named.",
+   "orig": "I John M. Carpenter...all my just debts to be paid as promptly as the assets of my estate will justify from my personal property but the debts due me to be exhausted before the negro property is troubled...a full & perfect equality be maintained in the division of my property between my children as to value &c...21 December 1852. (signed). 5 June 1856.",
+   "key": [
+    "KG4",
+    "pp.102-4",
+    "John M. Carpenter"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.102-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.103-8",
+   "auto_testator": "John Parker",
+   "testator": "John Parker",
+   "date": "3 August 1856; proved 4 September 1856",
+   "recipients": [
+    "~his slaves (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "his slaves (unnamed)",
+     "verb": "FREED",
+     "what": "freedom on 1 April 1862 for all his slaves and their increase (except those held for the life of Mrs. A. Braxton), each to get $25, a new suit with hat and shoes, and a pair of blankets",
+     "condition": "only if they behave until then; any may choose a master instead; the aged or infirm to be provided for"
+    }
+   ],
+   "notes": "No enslaved person is named. Mrs. A. Braxton holds a life interest in some slaves.",
+   "orig": "I John Parker...the whole of my slaves and their future increase, except those held by me for the life of Mrs. A. Braxton, be emancipated and forever set free on the first day of April 1862 at which time my executors are to execute them deeds of emancipation and pay and deliver to each out of the assets of my estate $25, a suit of new clothes including hat and shoes and a pair of blankets. But this bequest of freedom is made to each of my slaves upon the following express condition: that he will conduct himself during the continuance of his servitude orderly and properly and if either of them shall behave in such a manner as in the opinion of my wife and executors (they concuring) merits such treatment he shall be sold by my executors...When the period for the emancipation of my slaves arrives, should either one or more of them prefer a state of slavery to freedom he may select a master or mistress to whom my executors are directed to convey him...without regard to price...and should any one or more of my slaves from age or infirmity be incapable of taking care of himself...be not emancipated but be proved for...3 August 1856. (signed). 4 September 1856.",
+   "key": [
+    "KG4",
+    "pp.103-8",
+    "John Parker"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.103-8"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.109-11",
+   "auto_testator": "Sarah Scott",
+   "testator": "Sarah Scott",
+   "date": "September 1852; proved 6 November 1856",
+   "recipients": [],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "sold",
+     "verb": "SOLD",
+     "what": "her real and personal estate, including her slaves, sold in families or otherwise at the executor's discretion",
+     "condition": "proceeds (about $18,000) to various persons not named in the abstract"
+    }
+   ],
+   "notes": "Recipients are not named in the abstract.",
+   "orig": "I Sarah Scott...executors sell my real and personal estate...In the sale of my slaves I authorize my executor to exercise his discretion as to selling them in families or otherwise and to provide good masters for such as are meritorious...and apply the proceeds to the use and purposes hereinafter mentioned...(gives about $18,000 to various persons)...September 1852. 6 November 1856.",
+   "key": [
+    "KG4",
+    "pp.109-11",
+    "Sarah Scott"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.109-11"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.113-4",
+   "auto_testator": "William King",
+   "testator": "William King",
+   "date": "17 November 1856; proved 5 February 1857",
+   "recipients": [
+    "John T. King (nephew)",
+    "William A. King (nephew)"
+   ],
+   "enslaved": [
+    "George",
+    "Henry"
+   ],
+   "bequests": [
+    {
+     "recipient": "John T. King (nephew)",
+     "verb": "GIVES",
+     "what": "Negro boy George and his brown mare",
+     "condition": ""
+    },
+    {
+     "recipient": "William A. King (nephew)",
+     "verb": "GIVES",
+     "what": "Negro boy Henry and his brown horse Lepanto",
+     "condition": ""
+    }
+   ],
+   "notes": "Balance of the estate equally divided; who shares it is not stated. Lepanto is a horse.",
+   "orig": "I William King...nephew John T. King my negro boy George and my brown mare to him forever...nephew William A. King my negro boy Henry and my brown horse Lepanto forever...balance of estate equally divided...17 November 1856. (signed). 5 February 1857.",
+   "key": [
+    "KG4",
+    "pp.113-4",
+    "William King"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.113-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.115-6",
+   "auto_testator": "Francis C. Fitzhugh",
+   "testator": "Francis C. Fitzhugh",
+   "date": "1 December 1857; proved 1 December 1857",
+   "recipients": [
+    "William Carter (son)",
+    "Francis C. (son)",
+    "Drury B. Fitzhugh (brother)",
+    "~his slaves (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "William Carter (son)",
+     "verb": "GIVES",
+     "what": "all his estate, shared with his brother Francis C.",
+     "condition": ""
+    },
+    {
+     "recipient": "Francis C. (son)",
+     "verb": "GIVES",
+     "what": "all his estate, shared with his brother William Carter",
+     "condition": ""
+    },
+    {
+     "recipient": "Drury B. Fitzhugh (brother)",
+     "verb": "LENDS",
+     "what": "all his property",
+     "condition": "for life, if both sons die before 21"
+    },
+    {
+     "recipient": "his slaves (unnamed)",
+     "verb": "FREED",
+     "what": "freedom and passage to Liberia",
+     "condition": "at Drury B. Fitzhugh's death, if both sons died before 21"
+    }
+   ],
+   "notes": "No enslaved person is named.",
+   "orig": "I Francis C. Fitzhugh...sons William Carter and Francis C. all my estate of every kind. In the event of the death of both my sons before they attain the age of twenty one I hereby land all my property to my brother Drury B. Fitzhugh to be enjoyed by him during his natural life and at his death I desire that all my slaves shall be liberated and sent to Liberia...1 December 1857. (signed). 1 December 1857.",
+   "key": [
+    "KG4",
+    "pp.115-6",
+    "Francis C. Fitzhugh"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.115-6"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.117-21",
+   "auto_testator": "John B. Burchell",
+   "testator": "John B. Burchell",
+   "date": "23 February 1858; proved 1 April 1858",
+   "recipients": [
+    "Jane (wife)",
+    "Sarah Jane Weaver (daughter)",
+    "Oella (enslaved, child of Letty)",
+    "Susan (enslaved, child of Letty)",
+    "George (enslaved, child of Letty)"
+   ],
+   "enslaved": [
+    "James",
+    "Mary",
+    "Seymour",
+    "George",
+    "Anna",
+    "Sarah Frances",
+    "Catherine",
+    "Joshua",
+    "Charles Henry",
+    "Joe",
+    "Edward",
+    "Albert",
+    "Eliza",
+    "Peyton",
+    "Lucy",
+    "William",
+    "Emily",
+    "Maria",
+    "Simeon",
+    "Letty",
+    "Oella",
+    "Susan"
+   ],
+   "bequests": [
+    {
+     "recipient": "Jane (wife)",
+     "verb": "LENDS",
+     "what": "Peach Hill (200 acres) with furniture, implements and stock, and slaves James, Mary, Seymour, George, Anna, Sarah Frances, Catherine, Joshua and Charles Henry, with the females' increase",
+     "condition": "for her life; executors may sell, rent or hire it all for her benefit"
+    },
+    {
+     "recipient": "Sarah Jane Weaver (daughter)",
+     "verb": "GIVES",
+     "what": "in trust through the executors: 486 acres near the court house, houses and lots there, implements and stock, and Negroes Joe, Edward, Albert, Eliza and her child Peyton, Lucy, William, Emily, Maria and Simeon, with the females' increase",
+     "condition": ""
+    },
+    {
+     "recipient": "Letty",
+     "verb": "HIRED",
+     "what": "his servant woman Letty and her three children Oella, Susan and George held by the executors in trust; Letty hired out yearly to someone who will house her and her children well and treat them kindly; the hire spent on her support, any shortfall paid by the estate",
+     "condition": "children stay with her until 14, then hired out until 21, when they may choose to be sold to a kind owner or keep being hired out"
+    },
+    {
+     "recipient": "Oella (enslaved, child of Letty)",
+     "verb": "GIVES",
+     "what": "ten dollars a year",
+     "condition": "for life"
+    },
+    {
+     "recipient": "Susan (enslaved, child of Letty)",
+     "verb": "GIVES",
+     "what": "ten dollars a year",
+     "condition": "for life"
+    },
+    {
+     "recipient": "George (enslaved, child of Letty)",
+     "verb": "GIVES",
+     "what": "ten dollars a year",
+     "condition": "for life"
+    }
+   ],
+   "notes": "Two different enslaved boys named George: one left to the wife, one Letty's son. Seymour and Simeon may be names or misreadings.",
+   "orig": "I John B. Burchell...the following property: the tract of land called Peach Hill (200 acres) with all the household and kitchen furniture, farming implements and stock of every description now on it also the following slaves: James, Mary , Seymour, George, Anna, Sarah Frances, Catherine, and Joshua and Charles Henry with the future increase of the females to my wife Jane during her natural life...but my Executors are authorized to sell, rent, lease out or hire all the property hereby devised to my wife and loan out or invest the proceeds for the benefit of my said wife...unto my executors the following property: the tract of land lying near the court house (486 acres) and also the houses and lots lying at the Court house with the farming implements and stock of every description on the said farm and also the following negroes: Joe, Edward, Albert, Eliza and her child Peyton, Lucy, William, Emily and Maria and Simeon with the future increase of the females in trust for my daughter Sarah Jane Weaver...Executors authorized to sell, rent, lease out or hire all the property for the benefit of my daughter...to my Executors my servant woman Letty and her three children Oella, Susan and George upon trust that they shall annually during the life of Letty hire her out to some person who will provide her with a good and comfortable house for herself and children...and will treat them in a kind manner and may apply such of the proceeds of the hire of herself and children as may be necessary for her support and maintenance and should such hires be insufficient for that purpose, I direct that such deficiency be made up by my estate...children remain with their mother until they attain the age of fourteen years when they are to be hired out at good homes to their arrival to the ages of twenty one years at which time they shall be allowed the privilege of choosing whether to be sold to some person who will treat them kindly or continue to be hired out...Executors pay to Oella, Susan and George ten dollars each during their lives...23 February 1858. (signed). 1 April 1858.",
+   "key": [
+    "KG4",
+    "pp.117-21",
+    "John B. Burchell"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.117-21"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.123-6",
+   "auto_testator": "Mary Massey",
+   "testator": "Mary Massey",
+   "date": "27 December 1847; codicil 29 December 1856; proved 2 September 1858",
+   "recipients": [
+    "Nancy Jane Payne (granddaughter)",
+    "James M. Edwards (grandson)",
+    "Mary Susan Redman (granddaughter)",
+    "Willy Ann Edwards (granddaughter)",
+    "Sarah Frances Edwards (granddaughter)",
+    "Rose Emma Edwards (granddaughter)",
+    "Lucy Elizabeth Edwards (granddaughter)",
+    "Ann M. Edwards (relationship not stated)"
+   ],
+   "enslaved": [
+    "Milly",
+    "John",
+    "Harriet",
+    "Frederick",
+    "Steward",
+    "Winney Ann",
+    "Bob",
+    "Emma",
+    "Helen",
+    "Lucy",
+    "Amanda",
+    "Peyton",
+    "Mary Elizabeth",
+    "Winny"
+   ],
+   "bequests": [
+    {
+     "recipient": "Nancy Jane Payne (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro woman Milly and her child John, with her increase",
+     "condition": ""
+    },
+    {
+     "recipient": "James M. Edwards (grandson)",
+     "verb": "GIVES",
+     "what": "Negro woman Harriet and her children Frederick and Steward, with her increase",
+     "condition": "codicil moves Steward (Stewart) to Lucy Elizabeth Edwards"
+    },
+    {
+     "recipient": "Mary Susan Redman (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro girl Winney Ann",
+     "condition": ""
+    },
+    {
+     "recipient": "Willy Ann Edwards (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro boy Bob and Negro girl Emma",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Frances Edwards (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro woman Helen and her child Lucy",
+     "condition": ""
+    },
+    {
+     "recipient": "Rose Emma Edwards (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro woman Amanda and her child Peyton",
+     "condition": ""
+    },
+    {
+     "recipient": "Lucy Elizabeth Edwards (granddaughter)",
+     "verb": "GIVES",
+     "what": "Negro girl Mary Elizabeth and Negro woman Winny",
+     "condition": "codicil gives Winny instead to Ann M. Edwards"
+    },
+    {
+     "recipient": "Lucy Elizabeth Edwards (granddaughter)",
+     "verb": "GIVES",
+     "what": "Harriet's son Steward, called Stewart",
+     "condition": "codicil"
+    },
+    {
+     "recipient": "Ann M. Edwards (relationship not stated)",
+     "verb": "GIVES",
+     "what": "Negro woman Winny",
+     "condition": "codicil"
+    }
+   ],
+   "notes": "Steward is spelled Stewart in the codicil. The codicil reads 'my Ann M. Edwards', relationship word missing.",
+   "orig": "I Mary Massey...grand daughter Nancy Jane Payne one negro woman Milly and her child John with her future increase...Grand son James M. Edwards one negro woman Harriet and her children Frederick and Steward with all her future increase...grand daughter Mary susan Redman one negro girl named Winney Ann...grand daughter Willy Ann Edwards one negro boy Bob and a negro girl Emma...grand daughter Sarah Frances Edwards one negro woman named Helen and her child named Lucy...grand daughter Rose Emma Edwards one negro woman Amanda and her child Peyton...grand daughter Lucy Elizabeth Edwards one negro girl Mary Elizabeth and a negro woman Winny...27 December 1847. (signed). Codicil: Grand daughter Lucy Elizabeth Edwards have one of Harriet's children, the boy called Stewart, and that the negro woman Winny devised to her I now give to my Ann M. Edwards...29 December 1856. (signed). 2 September 1858.",
+   "key": [
+    "KG4",
+    "pp.123-6",
+    "Mary Massey"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.123-6"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.139-42",
+   "auto_testator": "Gustavus B. Alexander",
+   "testator": "Gustavus B. Alexander",
+   "date": "5 December 1855; proved 1 November 1860",
+   "recipients": [
+    "Judith B. (wife)",
+    "Charles G. (son)",
+    "Marion Stuart Alexander (daughter)",
+    "Richard H. Stuart (friend, doctor, trustee)",
+    "Rosena Moore Swann (daughter)",
+    "Mariette Heber (daughter)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Judith B. (wife)",
+     "verb": "GIVES",
+     "what": "$600 repaying money he had from her",
+     "condition": ""
+    },
+    {
+     "recipient": "Judith B. (wife)",
+     "verb": "LENDS",
+     "what": "the land he lives on, a third of his Alexandria real estate, a third of his slaves, a third of his stock, utensils, four mules or horses, and all house and kitchen furniture",
+     "condition": "for her life (read from context)"
+    },
+    {
+     "recipient": "Charles G. (son)",
+     "verb": "GIVES",
+     "what": "one fourth of his estate",
+     "condition": "subject to the wife's life estate"
+    },
+    {
+     "recipient": "Marion Stuart Alexander (daughter)",
+     "verb": "GIVES",
+     "what": "one fourth of his estate",
+     "condition": "subject to the wife's life estate"
+    },
+    {
+     "recipient": "Richard H. Stuart (friend, doctor, trustee)",
+     "verb": "GIVES",
+     "what": "one fourth of his estate in trust for daughter Rosena Moore Swann, and one fourth in trust for daughter Mariette Heber",
+     "condition": "subject to the wife's life estate"
+    },
+    {
+     "recipient": "Rosena Moore Swann (daughter)",
+     "verb": "GIVES",
+     "what": "one fourth of his estate, held in trust by Dr. Richard H. Stuart",
+     "condition": ""
+    },
+    {
+     "recipient": "Mariette Heber (daughter)",
+     "verb": "GIVES",
+     "what": "one fourth of his estate, held in trust by Dr. Richard H. Stuart",
+     "condition": ""
+    }
+   ],
+   "notes": "No enslaved person is named. The parenthetical summary in the abstract lists the four quarter shares.",
+   "orig": "I Gustavus B. Alexander...wife Judith B. $600 being for money received from her and used by me...one third part of my stock of hogs, sheep, horned Cattle, and plantation utensils and four mules or horses...tract of land on which I reside...one third of my real estate in the County and Town of Alexandria, also one third of my slaves and all my house and kitchen furniture...one fourth part of all my estate real and personal subject to the estate therein, already given to my wife for her life (to each of four persons: son Charles G., daughter Marion Stuart Alexander, friend Doctor Richard H. Stuart in trust for daughter Rosena Moore Swann and one fourth Doctor Stuart in trust for daughter Mariette Heber...5 December 1855. (signed). 1 November 1860.",
+   "key": [
+    "KG4",
+    "pp.139-42",
+    "Gustavus B. Alexander"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.139-42"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.149-52",
+   "auto_testator": "Thomas E. Payne",
+   "testator": "Thomas E. Payne",
+   "date": "13 August 1861; proved 5 December 1861",
+   "recipients": [
+    "~children (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "children (unnamed)",
+     "verb": "GIVES",
+     "what": "the whole estate, including the farm (190 acres) and his servants, kept together until the oldest surviving child comes of age, then divided when all are married or of age",
+     "condition": "servants may be otherwise disposed of for bad conduct"
+    }
+   ],
+   "notes": "No enslaved person is named.",
+   "orig": "I Thomas E. Payne...whole estate kept together until my oldest surviving child shall become of age, farm on which I reside (190 acres)...my servants also I desire shall be kept on the farm for its cultivation and for service upon my family unless bad conduct should render some other disposition of them necessary which in that event I hereby authorize in the judgment of my executor...so soon as my children are all married or become of age my remaining estate shall be finally disposed of and divided...13 August 1861. (signed). 5 December 1861.",
+   "key": [
+    "KG4",
+    "pp.149-52",
+    "Thomas E. Payne"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.149-52"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.153-7",
+   "auto_testator": "S",
+   "testator": "S.J.S. Brown",
+   "date": "26 April 1860; codicil n.d.; proved 2 October 1862",
+   "recipients": [
+    "William S. (son)",
+    "Edwin D. (son)",
+    "Maria Louisa Ninde (daughter)",
+    "Martha A. Ashton (daughter)",
+    "Lucy W. Donnally (daughter)",
+    "Sarah Virginia (daughter)",
+    "C. Letitia (daughter)"
+   ],
+   "enslaved": [
+    "Mary Ann",
+    "Fielding",
+    "Anna",
+    "Evelina",
+    "Horace",
+    "Willis",
+    "Joe",
+    "Walter",
+    "Frances",
+    "Betsey",
+    "Matilda",
+    "Eliza",
+    "Milly",
+    "Beverley",
+    "Rose",
+    "Lizzy",
+    "Robert",
+    "John",
+    "Charlotte",
+    "Abram",
+    "Maria",
+    "Nedham",
+    "Polly",
+    "Thomas",
+    "William",
+    "George",
+    "Winnay Ann",
+    "Pratt",
+    "Hannah",
+    "Charles",
+    "Gecinie or Sarah",
+    "Ben",
+    "Aggy",
+    "Mary"
+   ],
+   "bequests": [
+    {
+     "recipient": "William S. (son)",
+     "verb": "GIVES",
+     "what": "Mary Ann and her two children Fielding and Anna ($1200), with Evelina, Horace, Willis, Joe and Walter given earlier; $3,500 in all",
+     "condition": "he pays his sisters Sarah Virginia and C. Letitia $50 each"
+    },
+    {
+     "recipient": "Edwin D. (son)",
+     "verb": "GIVES",
+     "what": "the 300 acres he lives on, a girl named Frances, and other property; $4,600 in all",
+     "condition": "he must give up the other slaves he holds, except Frances"
+    },
+    {
+     "recipient": "Maria Louisa Ninde (daughter)",
+     "verb": "GIVES",
+     "what": "Betsey, Matilda, Eliza, Milly and Beverley, Rose, Lizzy, Robert and John, given earlier ($4,000)",
+     "condition": "counted in the division"
+    },
+    {
+     "recipient": "Martha A. Ashton (daughter)",
+     "verb": "GIVES",
+     "what": "Charlotte, Abram and Maria, given earlier ($1,000)",
+     "condition": ""
+    },
+    {
+     "recipient": "Lucy W. Donnally (daughter)",
+     "verb": "GIVES",
+     "what": "Nedham, John (son of Polly), Thomas, William, George and Winnay Ann, and Pratt given earlier ($4,000)",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Virginia (daughter)",
+     "verb": "GIVES",
+     "what": "Negro man George and his wife Hannah, a man named Charles, a girl named Gecinie or Sarah, a piano, a bed and furniture, and $50 from William S.",
+     "condition": ""
+    },
+    {
+     "recipient": "C. Letitia (daughter)",
+     "verb": "GIVES",
+     "what": "Negro man Ben (Aggy's son), a girl named Mary, a boy named Ben (Hannah's son), a melodeon, a bed and furniture, and $50 from William S.",
+     "condition": ""
+    },
+    {
+     "recipient": "Sarah Virginia (daughter)",
+     "verb": "GIVES",
+     "what": "the four wheel carriage, shared with C. Letitia",
+     "condition": ""
+    },
+    {
+     "recipient": "C. Letitia (daughter)",
+     "verb": "GIVES",
+     "what": "the four wheel carriage, shared with Sarah Virginia",
+     "condition": ""
+    }
+   ],
+   "notes": "Will maker written only as S.J.S. Brown. Two enslaved men named George, two named John and two named Ben (Aggy's son and Hannah's son). 'Gecinie or Sarah' is one girl, name uncertain. Codicil sets values: a man $1,200, a woman or girl $1,000.",
+   "orig": "I S.J.S. Brown...son William S. the following slaves: Mary Ann & her two children Fielding and Anna, valued at $1200 the slaves heretofore given him: Evelina, Horace, Willis, Joe and Walter valued heretofore at $___ making the whole $3,500 he paying my daughters Sarah Virginia and C. Letitia $50 each...I have given my son Edwin D. the track of land on which he resides (300 acres) worth $3,600 and a girl named Frances and other property including negro hires(?) &c, worth $1000 all together say $4,600, he to surrender the slaves in his possession except Frances...daughter Maria Louisa Ninde the following slaves: Betsey, Matilda, Eliza, Milly & Beverley, Rose, Lizzy, Robert and John supposed value when given $4,000 to be accounted for upon a division...I have heretofore given to my daughter Martha A. Ashton the following slaves Charlotte, Abram & Maria, worth when delivered $1,000...daughter Lucy W. Donnally slaves Nedham, John (son of Polly), Thomas, William, George & Winnay Ann also Pratt heretofore given, value $4,000...daughter Sarah Virginia a negro man George & his wife Hannah and a man named Charles worth at this time $3,000, a pianno & one bed and furniture also a girl named Gecinie or Sarah worth $800...daughter C. Letitia one negro man Ben (Aggy's son) a girl named Mary & a boy named Ben (Hannah's son), a melodicem & one bed and furniture worth $3,000...daughters Virginia & Letitia my four wheel carriage...26 April 1860. (signed). Codicil: In the division of my estate it is my wish that the standard value of a negro man no. 1 be fixed at $1,200 and a woman or girl at $1,000...(signed). 2 October 1862.",
+   "key": [
+    "KG4",
+    "pp.153-7",
+    "S"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.153-7"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.158-62",
+   "auto_testator": "Dangerfield Lewis",
+   "testator": "Dangerfield Lewis",
+   "date": "25 March 1861; proved 2 October 1862",
+   "recipients": [
+    "Mary (daughter)",
+    "Attaway (daughter)",
+    "~children of his deceased daughters Jane and Betty (unnamed)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Mary (daughter)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves, held by the executors for her sole benefit",
+     "condition": ""
+    },
+    {
+     "recipient": "Attaway (daughter)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves, held by the executors for her sole benefit",
+     "condition": ""
+    },
+    {
+     "recipient": "children of his deceased daughters Jane and Betty (unnamed)",
+     "verb": "GIVES",
+     "what": "an equal share of all his slaves",
+     "condition": ""
+    }
+   ],
+   "notes": "No enslaved person is named. Executors may sell or exchange slaves.",
+   "orig": "I Dangerfield Lewis...all my slaves to my daughters Mary and Attaway and the children of my deceased daughters Jane and Betty to be equally divided...all the slaves, money and other property that may fall in the division of my estate to my executors for the sole and exclusive benefit of my said daughters...should it become necessary for my executors in the management of the slaves and other property to sell or exchange the same or any part thereof, I empower them to sell or exchange the same...25 March 1861. (signed). 2 October 1862.",
+   "key": [
+    "KG4",
+    "pp.158-62",
+    "Dangerfield Lewis"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.158-62"
+  },
+  {
+   "vol": "KG4",
+   "pages": "p.166",
+   "auto_testator": "John Baker",
+   "testator": "John Baker",
+   "date": "27 November 1856; proved 2 October 1862",
+   "recipients": [
+    "Eliz. A. Baker (wife)"
+   ],
+   "enslaved": [],
+   "bequests": [
+    {
+     "recipient": "Eliz. A. Baker (wife)",
+     "verb": "GIVES",
+     "what": "his interest (as heir of his deceased children) in slaves and land left to her by the will of James Edwards, deceased; furniture, carriage, buggy, horses and cattle",
+     "condition": ""
+    }
+   ],
+   "notes": "No enslaved person is named.",
+   "orig": "I John Baker...wife Eliz. A. Baker all my interest (devised as heir at law of my deceased children) in certain slaves & a tract of land bequeathed to her by the will of James Edwards decd also my household and kitchen furniture, one carriage & Buggy, horses, cattle &c...27 November 1856. (signed). 2 October 1862.",
+   "key": [
+    "KG4",
+    "p.166",
+    "John Baker"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), p.166"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.168-70",
+   "auto_testator": "Margaret R. S. Lomax",
+   "testator": "Margaret R. S. Lomax",
+   "date": "27 January 1862; proved 6 August 1863",
+   "recipients": [
+    "Stuart (son)",
+    "Thomas (son)",
+    "Willie (son)"
+   ],
+   "enslaved": [
+    "Sally",
+    "Jane",
+    "Daniel",
+    "Bee",
+    "Betsy",
+    "Matty",
+    "Arthur Bumbry"
+   ],
+   "bequests": [
+    {
+     "recipient": "Stuart (son)",
+     "verb": "GIVES",
+     "what": "the furniture in his room",
+     "condition": ""
+    },
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "the furniture in his room, the black ebony desk, his sister's portrait, a girl named Sally, and Jane's son Daniel called Page in place of Bee, who was sold",
+     "condition": ""
+    },
+    {
+     "recipient": "Willie (son)",
+     "verb": "GIVES",
+     "what": "the furniture in her room, his wardrobe, her seamstress Betsy, his nurse Matty, and a boy named Arthur Bumbry",
+     "condition": ""
+    },
+    {
+     "recipient": "Stuart (son)",
+     "verb": "GIVES",
+     "what": "a third of the rest of her estate",
+     "condition": ""
+    },
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "a third of the rest of her estate",
+     "condition": ""
+    },
+    {
+     "recipient": "Willie (son)",
+     "verb": "GIVES",
+     "what": "a third of the rest of her estate",
+     "condition": ""
+    }
+   ],
+   "notes": "The abstract reads 'Sally Janes's Son Daniel called Page'; read as Sally, and Jane's son Daniel (called Page). Daniel is also called Page.",
+   "orig": "I Margaret R. S. Lomax...son Stuart all the furniture in his room...soon Thomas all the furniture in his room,k the black ebony desk, his sister's portrait, a girl named Sally Janes's Son Daniel called Page in the place of Bee who was sold...son Willie all the furniture in my room and his own wardrobe, my seamstress Betsy, his nurse Matty and a boy named Arthur Bumbry...rest of my estate of every description and all property to my three sons Stuart, Thomas and Willie...27 January 1862. (signed). 6 August 1863.",
+   "key": [
+    "KG4",
+    "pp.168-70",
+    "Margaret R. S. Lomax"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.168-70"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.172-4",
+   "auto_testator": "Isaac Wilkerson",
+   "testator": "Isaac Wilkerson",
+   "date": "27 January 1859; proved 1 October 1863",
+   "recipients": [
+    "Sarah Ann Noel (daughter)",
+    "Joseph Harvey (friend, trustee)",
+    "Joseph (son)",
+    "Mary Elizabeth Frank (daughter)"
+   ],
+   "enslaved": [
+    "Charlotte",
+    "Lewis",
+    "Melton",
+    "Ellen",
+    "Keziah",
+    "Anderson",
+    "Washington",
+    "Wallace",
+    "Emily",
+    "Gusty",
+    "Louisa",
+    "Frances",
+    "Simon",
+    "Charles"
+   ],
+   "bequests": [
+    {
+     "recipient": "Sarah Ann Noel (daughter)",
+     "verb": "GIVES",
+     "what": "Negroes Charlotte, Lewis, Melton and Ellen",
+     "condition": ""
+    },
+    {
+     "recipient": "Joseph Harvey (friend, trustee)",
+     "verb": "GIVES",
+     "what": "in trust for son Joseph and his family: Negroes Keziah, Anderson, Washington, Wallace, Emily and Gusty with their increase, the land he lives on, two best horses and a wagon",
+     "condition": ""
+    },
+    {
+     "recipient": "Joseph (son)",
+     "verb": "GIVES",
+     "what": "use of Keziah, Anderson, Washington, Wallace, Emily and Gusty, the home tract, horses and wagon, held in trust by Joseph Harvey for him, his wife and children",
+     "condition": ""
+    },
+    {
+     "recipient": "Mary Elizabeth Frank (daughter)",
+     "verb": "GIVES",
+     "what": "Negroes Louisa, Frances, Simon and Charles and the land she lives on",
+     "condition": ""
+    }
+   ],
+   "notes": "",
+   "orig": "I Isaac Wilkerson...daughter Sarah Ann Noel negroes Charlotte, Lewis, Melton & Ellen...friend Joseph Harvey in trust for my son Joseph and his wife and children the following property: six negroes Keziah, Anderson, Washington, Wallace, Emily & Gusty with their future increase, the tract of land on which I now live....two best horses and a waggon ...daughter Mary Elizabeth Frank four negroes Louisa, Frances, Simon & Charles and the land she now lives on...27 January 1859. (signed). 1 October 1863.",
+   "key": [
+    "KG4",
+    "pp.172-4",
+    "Isaac Wilkerson"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.172-4"
+  },
+  {
+   "vol": "KG4",
+   "pages": "pp.175-83",
+   "auto_testator": "John Arnold",
+   "testator": "John Arnold",
+   "date": "22 February 1861; codicils 9 September 1862 and 7 January 1863; proved 6 August 1863",
+   "recipients": [
+    "William (son)",
+    "John (son)",
+    "James (son)",
+    "Jane Massey (daughter)",
+    "Mark Arnold (son)",
+    "Jemima Mountjay (daughter)",
+    "Mary F. Rice (daughter)",
+    "Jane (wife)",
+    "Thomas (son)",
+    "Philip (son)"
+   ],
+   "enslaved": [
+    "Jim",
+    "Catherine",
+    "Martha",
+    "Lucy",
+    "George",
+    "Susan",
+    "Sarah Ann",
+    "Jacob",
+    "Peter",
+    "George Anna",
+    "Battle"
+   ],
+   "bequests": [
+    {
+     "recipient": "William (son)",
+     "verb": "GIVES",
+     "what": "$400 paid by son Thomas and a bond for $600",
+     "condition": ""
+    },
+    {
+     "recipient": "John (son)",
+     "verb": "GIVES",
+     "what": "his bond for the hire of Jim (a slave) for 1854 to 1856, a $100 bond, $100 in place of a Negro boy, and the silver watch",
+     "condition": ""
+    },
+    {
+     "recipient": "James (son)",
+     "verb": "GIVES",
+     "what": "$500",
+     "condition": ""
+    },
+    {
+     "recipient": "Jane Massey (daughter)",
+     "verb": "GIVES",
+     "what": "half of a tract of about 300 acres, Negro girl Catherine (already in her possession), and $500",
+     "condition": ""
+    },
+    {
+     "recipient": "Mark Arnold (son)",
+     "verb": "GIVES",
+     "what": "Negro girl Martha and $2000, in trust for daughter Jemima Mountjay",
+     "condition": ""
+    },
+    {
+     "recipient": "Jemima Mountjay (daughter)",
+     "verb": "GIVES",
+     "what": "use of Martha and her increase, and the yearly interest on $2000",
+     "condition": "for life, held in trust by Mark Arnold"
+    },
+    {
+     "recipient": "Mark Arnold (son)",
+     "verb": "GIVES",
+     "what": "Negro woman Lucy, her child George and her increase, and $2000, in trust for daughter Mary F. Rice",
+     "condition": ""
+    },
+    {
+     "recipient": "Mary F. Rice (daughter)",
+     "verb": "GIVES",
+     "what": "use of Lucy and the yearly interest on $2000",
+     "condition": "held in trust by Mark Arnold"
+    },
+    {
+     "recipient": "Jane (wife)",
+     "verb": "GIVES",
+     "what": "Negro girl Susan and her increase, and Negro girl Sarah Ann and her increase",
+     "condition": "Susan hired out if the wife remarries"
+    },
+    {
+     "recipient": "Jane (wife)",
+     "verb": "LENDS",
+     "what": "the slave Jacob, the carriage and horses",
+     "condition": "while she stays at Willow Hill; then carriage and horses sold, and Jacob appraised so Mark, Thomas or Philip can take him at valuation"
+    },
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "350 acres and a Negro boy named Peter, to equal a boy given Mark",
+     "condition": ""
+    },
+    {
+     "recipient": "Philip (son)",
+     "verb": "GIVES",
+     "what": "600 acres and Negro woman George Anna and her increase, to equal a boy given Mark",
+     "condition": "codicil 1: Philip has died, his share goes equally to Mark and Thomas"
+    },
+    {
+     "recipient": "Mark Arnold (son)",
+     "verb": "GIVES",
+     "what": "a third of his remaining slaves",
+     "condition": "plus half of Philip's share by codicil 1"
+    },
+    {
+     "recipient": "Thomas (son)",
+     "verb": "GIVES",
+     "what": "a third of his remaining slaves, including the slave Battle and his wife",
+     "condition": "plus half of Philip's share by codicil 1"
+    },
+    {
+     "recipient": "Philip (son)",
+     "verb": "GIVES",
+     "what": "a third of his remaining slaves",
+     "condition": "revoked by codicil 1"
+    }
+   ],
+   "notes": "Second codicil: the war had taken nearly all his slaves, so legacies are paid in proportion. Battle's wife is not named. His home was Willow Hill.",
+   "orig": "I John Arnold...son William $400 to be paid by my son Thomas also a bond for $600...son John his bond for the hire of Jim (a slave) for the years 1854, 55 & 56, a bond for $100 and $100 to make up the value of a negro boy not given him and I give him my silver watch...son James $500...daughter Jane Massey one half of tract of land about 300 acres also a negro girl Catherine which she now has in her possession and $500...executors deliver to my son Mark a negro girl named Martha and $2000 in trust for my daughter Jemima Mountjay to have the use of said slave and increase and shall pay the interest that annually accrues on the said $2000 to my said Jemima during her life...executors deliver to my son Mark Arnold a negro woman Lucy and her child George and her future increase and shall pay $2000 in trust for my daughter Mary F. Rice to have the use of the slave and shall pay the interest that annually accrues on the said $2000...beloved wife Jane a negro girl called Susan and her future increase, should my wife marry said slave to be hired out...also a negro girl called Sarah Ann and her increase...the slave Jacob and the carriage and horses shall be kept for her use as long as she remains tat Willow Hill...but when my wife leaves Willow Hill the carriage and horses to be sold and Jacob is to be appraised and either of my sons Mark, Thomas or Philip can take him at valuation...son Thomas 350 acres and a negro boy named Peter to make equal with a boy given Mark...son Philip 600 acres, a negro woman named George Anna and her future increase to make equal with a boy given Mark...all my remaining slaves to my sons Mark, Thomas & Philip to be equally divided and in said division my slave Battle and his wife be allotted in the share of my son Thomas...22 February 1861. (signed). Codicil: All the property of every kind which I have devised to my son Philip (now deceased) I devise in equal parts to my sons Mark and Thomas...9 September 1862. (signed). Codicil: Inasmuch as the circumstances of the war has deprived me of nearly all my slaves and may still reduce it lower I will that my executors pay the several legacies in proportion...7 January 1863. (signed). 6 August 1863.",
+   "key": [
+    "KG4",
+    "pp.175-83",
+    "John Arnold"
+   ],
+   "citation": "King George Co., VA, Will Book 4 (1847-1901), pp.175-83"
+  }
+ ]
+}
