@@ -1652,3 +1652,117 @@ OK
 OK
 @KGA|pp.203-4|James Hackley
 +R Francis (son)
+@KGA|p.205|John Glendining Senr
++R Elinor (daughter)
++E Frank
++E Judy
++E Caesar
++E Jerry
+@KGA|p.206|Thomas Bartlett
+OK
+@KGA|p.207|Mary Jennings
+T Mary Jennings
+D written 16 July 1745; proved 7 October 1748
+-R Charles Willis
+-R Frederick Coghill
+-R Junr
+-B Junr (cousins) |
++R John Willis (son of Charles Willis)
++R Frederick Coghill, Junr (cousin)
++R Frederick Coghill (brother)
+@KGA|p.209|Margaret Richards
+OK
+@KGA|pp.210-11|Edmond Donahoe
+N Timothy Fenully is described as a servant man. The will does not say whether he was enslaved.
+-E Timothy
+-E Fenully
++E Timothy Fenully
+@KGA|pp.212-3|William Marshall, Senr
++R William (son)
+@KGA|pp.215-7|Daniel
+T Daniel White
+D written 21 November 1748; proved 3 February 1748/9
++R Daniel (son)
++R William (son)
++E Will
++E Brister
+@KGA|p.218|Arthur Spicer
+-R Wm
+-R Ausine Brockenbrough
++R Wm (brother)
++R Ausine Brockenbrough (godson, son of Wm)
+@KGA|pp.224-5|Charles Holdsworth
+N The will says his servant Richard Morris may be free if he behaves well.
+-E Richard
+-E Morris
++E Richard Morris
++R James Kay
++R Robert Strother
+@KGA|pp.226-7|Joshua Ferguson
++R William Pitman (grandson)
++E Jack
++E Sue
++E Dick
+@KGA|pp.227-8|Stephen Bowen
+-E Women
++R William (son)
+@KGA|pp.228-9|Jeremiah Bronaugh
+D written 14 April 1736; codicil 29 February 1747/8; proved 5 January 1749/50
+@KGA|pp.236-7|(name not captured)
+T Abraham Kenyon
+D written 5 January 1749; proved 2 March 1749/50
+-E Men
++E Will
++E James
+@KGA|pp.241-2|Edward Hoyle
+OK
+@KGA|p.242|Daniel
+T Daniel White
+@KGA|pp.243-5|(name not captured)
+T Henry Berry
+D written 16 May 1748; proved 8 September 1750
+N The source notes that pp.247-8 are missing.
+-E Bronaugh
+-E Daughter
+-E Eliz
++E Cesar
++R William Berry
++R Eliz Bronaugh (daughter of Ann Berry)
+@KGA|p.249|(name not captured)
+T (testator's name not given)
+N The abstract begins partway into the will, so the testator's name is not given.
++R Thomas Wren
++R Kibbee Wren
++R William Wren (son)
+@KGA|p.250|Henry Ware
++E Dick
++E Neaton
++E Betty
++E James
+@KGA|p.251|(name not captured)
+T John Berkley
+D written 20 October 1750; proved 1 March 1750/1
++R William (son)
+@KGA|pp.256-7|John Payne
++E Sam
++E Nan
++E Joe
++E Lucy
++E Judy
++E Milly
++E Charles
+@KGA|pp.260-1|Benjamin Stribling
+N The source gives the date as 1850, probably a misprint for 1750.
+-R Mary
+-B Mary (grandchildren) |
++R Mary Baxter (grandchild)
++R Ann Baxter (grandchild)
++R Elizabeth Baxter (grandchild)
++R Thomas Baxter
++R John Baxter, Junr (grandson)
++B Mary Baxter, Ann Baxter & Elizabeth Baxter (grandchild) | GIVES | each of them a Negro out of my estate |
+@KGA|pp.264-5|(name not captured)
+T Elizabeth Thornton
+D written 2 September 1748; proved 5 September 1751
++E Caesar
++E Bess
